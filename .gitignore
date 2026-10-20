@@ -18,10 +18,12 @@ catboost_info/
 # --- Foreign cloned tutorial repositories (separate upstream repos) ----------
 # These are cloned reference material with their own git history. They are
 # analyzed by Understand-Anything via .understandignore, but not versioned here.
-notebooks/
-mast_notebooks/
-gaia-jupyter-notebooks/
-AstroInteractives/
+# NOTE: leading slash anchors these to the repo root — without it, the pattern
+# would also ignore research/*/notebooks/ (the project's own notebooks).
+/notebooks/
+/mast_notebooks/
+/gaia-jupyter-notebooks/
+/AstroInteractives/
 
 # --- Nested standalone research repository -----------------------------------
 # exotic-compact-objects has its own git remote and history.
