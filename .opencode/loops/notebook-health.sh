@@ -16,12 +16,13 @@ TIMEOUT="${NOTEBOOK_TIMEOUT:-900}"
 
 echo "[notebook-health] started $(date -Is)"
 
-"$PY" - "$ROOT" "$TIMEOUT" <<'PYEOF'
+"$PY" - "$ROOT" "$TIMEOUT" "$LOG_DIR/notebook-health-latest.json" <<'PYEOF'
 import json, os, subprocess, sys, time
 from pathlib import Path
 
 root = Path(sys.argv[1])
 timeout = int(sys.argv[2])
+report_path = Path(sys.argv[3])
 
 projects = [
     root / "research/projects/exotic-compact-objects/notebooks",
@@ -38,7 +39,7 @@ for pdir in projects:
         t0 = time.time()
         try:
             proc = subprocess.run(
-                ["jupyter", "nbconvert", "--to", "notebook", "--execute",
+                [sys.executable, "-m", "nbconvert", "--to", "notebook", "--execute",
                  "--ExecutePreprocessor.timeout=%d" % timeout,
                  "--output", out.name, str(nb)],
                 cwd=str(nb.parent), capture_output=True, text=True,
@@ -67,6 +68,12 @@ report = {
     "results": results,
 }
 print(json.dumps(report, indent=2))
+report_path.write_text(json.dumps(report, indent=2) + "\n")
+failures = report["failed"] + report["timeout"] + report["error"]
+print("[notebook-health] %d/%d ok, %d not ok" % (report["ok"], report["total"], failures))
+sys.exit(0 if failures == 0 else 1)
 PYEOF
+STATUS=$?
 
 echo "[notebook-health] finished $(date -Is)"
+exit "$STATUS"
