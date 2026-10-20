@@ -1339,6 +1339,23 @@
         "degeneracy"
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "article:Remnant Energetics",
+      "type": "article",
+      "name": "Remnant Energetics",
+      "filePath": "Remnant Energetics.md",
+      "summary": "How much rotational energy survives a binary black-hole merger, and what radiative efficiency does the remnant spin imply? This page records the population-level answer for the GWTC catalogue and t...",
+      "tags": [
+        "black holes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [],
+        "category": "Black Holes",
+        "content": "# Remnant Energetics\n\nHow much rotational energy survives a binary black-hole merger, and what\nradiative efficiency does the remnant spin imply? This page records the\npopulation-level answer for the GWTC catalogue and the assumptions behind it.\n\n## Definitions\n\nFor a Kerr black hole of mass $M$ and dimensionless spin\n$a_* = Jc/(GM^2)$, the prograde innermost stable circular orbit is given by the\nBardeen\u2013Press\u2013Teukolsky solution:\n\n$$r_{\\rm ISCO} = \\frac{GM}{c^2}\\left[3 + Z_2 - \\sqrt{(3-Z_1)(3+Z_1+2Z_2)}\\right],$$\n\nwith\n\n$$Z_1 = 1 + (1-a_*^2)^{1/3}\\left[(1+a_*)^{1/3}+(1-a_*)^{1/3}\\right],\n\\qquad Z_2 = \\sqrt{3a_*^2+Z_1^2}.$$\n\nThe specific orbital energy at the ISCO defines the thin-disc efficiency\n\n$$\\eta = 1 - E_{\\rm ISCO}(a_*),$$\n\nwhich rises from $\\eta = 0.0572$ for Schwarzschild to\n$\\eta = 1-1/\\sqrt{3} = 0.4226$ as $a_* \\to 1$. The value $0.4226$ is a hard\nupper bound for a Kerr horizon.\n\nThe irreducible mass follows from Christodoulou's relation,\n\n$$\\frac{M_{\\rm irr}}{M} = \\sqrt{\\frac{1+\\sqrt{1-a_*^2}}{2}},$$\n\nso the rotational reservoir is $E_{\\rm rot} = (M-M_{\\rm irr})c^2$.\n\n## Population estimate\n\nThe catalogue supplies component masses and the effective inspiral spin\n$\\chi_{\\rm eff}$, but not the final spin. We estimate it with the aligned-spin\nfit of Rezzolla et al. (2008), setting $\\chi_1=\\chi_2=\\chi_{\\rm eff}$:\n\n$$a_f = \\frac{(1+q^2)\\chi_{\\rm eff} + q\\,\\ell}{(1+q)^2},\n\\qquad \\ell = 2\\sqrt{3} + t_2\\eta + t_3\\eta^2,$$\n\nwhere $q=m_1/m_2 \\ge 1$, $\\eta=q/(1+q)^2$, $t_2=-3.517$ and $t_3=2.576$.\n\nFor 270 GWTC events with complete masses and spins:\n\n| quantity | value |\n|---|---|\n| median inferred spin | $a_* = 0.690$ |\n| 90th percentile spin | $0.774$ |\n| maximum spin | $0.930$ |\n| median efficiency | $\\eta = 0.102$ |\n| 10\u201390% efficiency range | $0.092$\u2013$0.116$ |\n| fraction with $a_*>0.9$ | 1.1% |\n| median rotational energy | $3.9\\,M_\\odot c^2$ |\n| total rotational reservoir | $\\approx 1140\\,M_\\odot c^2$ |\n| mean Schwarzschild/Kerr ISCO ratio | $1.76$ |\n\n## Interpretation\n\n1. The population is **modestly spinning**. The median efficiency is about\n   twice the Schwarzschild value but far below the Kerr bound; the data do not\n   support a population of routinely near-extremal remnants.\n2. Using the Schwarzschild ISCO $6GM/c^2$ for every remnant **overestimates**\n   the true radius by 1.76\u00d7 on average and by up to 2.85\u00d7 for the fastest\n   remnants. Any accretion or ringdown calculation that assumes $a_*=0$ is\n   therefore biased.\n3. The rotational reservoir is **large compared with the gravitational-wave\n   output**: the median remnant retains several $M_\\odot c^2$ of rotational\n   energy, so spin-down channels have substantial energy available.\n4. No event **requires** $\\eta>0.4226$ under the adopted spin fit. This is a\n   null result: it is consistent with Kerr, not evidence for it.\n\n## Caveats\n\nThe final spin is a point estimate from $\\chi_{\\rm eff}$, not a posterior\nsample; individual spins and precession are ignored. The efficiency is the\nthi",
+        "backlinks": []
+      }
     }
   ],
   "edges": [
@@ -2570,6 +2587,13 @@
       "direction": "forward",
       "weight": 0.6,
       "description": "Hawking's calculation yields the thermal emission named after him."
+    },
+    {
+      "source": "article:Remnant Energetics",
+      "target": "topic:Black Holes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 1
     }
   ],
   "layers": [
@@ -2603,7 +2627,8 @@
         "claim:Kerr-Newman Metric:christodoulou-ruffini-mass-split",
         "claim:Black Hole Accretion:eddington-limit-value",
         "claim:Black Hole Accretion:spin-range-a0620-to-grs1915",
-        "claim:Black Hole Accretion:isco-efficiency-5-7-to-42"
+        "claim:Black Hole Accretion:isco-efficiency-5-7-to-42",
+        "article:Remnant Energetics"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "ebabf779d0b3d637d55fa38432fbd8638e4e7b6b",
-  "generatedAt": "2026-10-20T19:55:12.104Z",
+  "gitCommitHash": "c23f985c1ffb7ab7a2f0d3c7b4ae565574d1e472",
+  "generatedAt": "2026-10-20T22:24:39.804Z",
   "files": {
     ".opencode/agent/astro-data-engineer.md": {
       "filePath": ".opencode/agent/astro-data-engineer.md",
@@ -85,32 +85,32 @@
     },
     ".opencode/loops/README.md": {
       "filePath": ".opencode/loops/README.md",
-      "contentHash": "30258462bc1be009053f1abbfa917357b4eb468774151652b6fd0b231b744afa",
+      "contentHash": "a0c9ec7509431eedb7f0446c40a893a4c7f535e36bf43c63a3bc492d3c9acb1c",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 55,
+      "totalLines": 57,
       "hasStructuralAnalysis": false
     },
     ".opencode/loops/notebook-health.sh": {
       "filePath": ".opencode/loops/notebook-health.sh",
-      "contentHash": "caca53a33ae3c7e43b78cb37a26740d8a0c5287ceb6c4aa2485c691c5fc6b202",
+      "contentHash": "d211254830c754eb8a3cef65c352986e7322c03f03d7d9316cd92790b1f8adff",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 73,
+      "totalLines": 80,
       "hasStructuralAnalysis": false
     },
     ".opencode/loops/orchestrator.sh": {
       "filePath": ".opencode/loops/orchestrator.sh",
-      "contentHash": "570ba68e785909e99ede76131741d88d852c0164f8ca7a1e9b40f6c7a17c5db5",
+      "contentHash": "a87120ff26cfc64baae6095b1c8471cc6fe27d25ee3bb2759153e1b84e559474",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 70,
+      "totalLines": 72,
       "hasStructuralAnalysis": false
     },
     ".opencode/loops/refresh-data.sh": {
@@ -135,7 +135,7 @@
     },
     ".opencode/skill/astro-graphs.md": {
       "filePath": ".opencode/skill/astro-graphs.md",
-      "contentHash": "fb9158f56e345089bc202f074fcac591de824fc2329d83015c470feabfcde2dc",
+      "contentHash": "ea25e66611ba08d5e20615ea1f427ec83229a969776537ab5eae0370033c3929",
       "functions": [],
       "classes": [],
       "imports": [],
@@ -145,12 +145,12 @@
     },
     ".opencode/skill/astro-loops.md": {
       "filePath": ".opencode/skill/astro-loops.md",
-      "contentHash": "aa924011627390788f4178137a9c73eecfd27f6d05917f013b470661d36e400b",
+      "contentHash": "25515bd8bb7b13ee34d7bf47c057104e20fe47e01199d0de5bd7dcd544373ad5",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 53,
+      "totalLines": 66,
       "hasStructuralAnalysis": false
     },
     ".opencode/skill/astro-science.md": {
@@ -175,12 +175,12 @@
     },
     "CONTEXT.md": {
       "filePath": "CONTEXT.md",
-      "contentHash": "b6cde0b2bd2b29dca207b922a7dce110d4a00eac24bc4bf7c3d0f7e75607d61f",
+      "contentHash": "1d89737621382bea8080cd2ea3e6efb12d62e20ed186a58bc32c6073dc66949a",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 294,
+      "totalLines": 300,
       "hasStructuralAnalysis": false
     },
     "FINAL_REPORT.md": {
@@ -215,12 +215,12 @@
     },
     "README.md": {
       "filePath": "README.md",
-      "contentHash": "a5fe2a22caa645b57be7f675d6c6924cb8be220d06116ffccd3907679674c7e2",
+      "contentHash": "aed20f22761edf3c9aab26ea75ee80d7603230b5b0f90ec1fb258e489bc7bea5",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 414,
+      "totalLines": 427,
       "hasStructuralAnalysis": false
     },
     "SETUP_GUIDE.md": {
@@ -457,17 +457,17 @@
     },
     "docs/AUTOMATION.md": {
       "filePath": "docs/AUTOMATION.md",
-      "contentHash": "1c5b12cf14c6f8ccf1588166cd5cd8a0f38e544f12c5dd25f4dc73f4515050b6",
+      "contentHash": "bf085a4ec999278a563528c5735d991e6e10d7e089a303ec73b01fd65d1baab3",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 149,
+      "totalLines": 152,
       "hasStructuralAnalysis": false
     },
     "docs/GRAPHS.md": {
       "filePath": "docs/GRAPHS.md",
-      "contentHash": "f113478c21db3b8756705833318710d636d64f46b098522054f5a5c817c219b9",
+      "contentHash": "994065bf6e911e71198e8a2a6ead46ef6289e88b19c18f8cfbdc67061a6acec8",
       "functions": [],
       "classes": [],
       "imports": [],
@@ -527,12 +527,12 @@
     },
     "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb": {
       "filePath": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "contentHash": "9a9bbbf1f2dbb3db77b82c9d28e2c4d9eeaf59f617e2032a13bd174c00f5ba39",
+      "contentHash": "5c3687799d7c74dfd33aee99867f2a20ed5a9e31584d49ae345fd842ad714ac7",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 280,
+      "totalLines": 268,
       "hasStructuralAnalysis": false
     },
     "research/projects/black-holes/README.md": {
@@ -547,17 +547,17 @@
     },
     "research/projects/black-holes/data/black_holes.sqlite": {
       "filePath": "research/projects/black-holes/data/black_holes.sqlite",
-      "contentHash": "2f0f72763d80bccbb05a9cb12e86da52a827a044c10491c03cd144bb5904e868",
+      "contentHash": "6ff4e442ea4bf4578f86be869a10f93c33cfd26de3cec361e7eed87142c59916",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 542,
+      "totalLines": 805,
       "hasStructuralAnalysis": false
     },
     "research/projects/black-holes/reports/latest.md": {
       "filePath": "research/projects/black-holes/reports/latest.md",
-      "contentHash": "4577e53d5f0ee6e354c102828bd0cefdda674703d66063f28374dccec338750e",
+      "contentHash": "0ff670bc340c1dd74ef7276768e8d7f995829fc2c25d1600b461297cf31f2f23",
       "functions": [],
       "classes": [],
       "imports": [],
@@ -786,12 +786,12 @@
     },
     "research/wiki/Kerr Metric.md": {
       "filePath": "research/wiki/Kerr Metric.md",
-      "contentHash": "13d60e580ca6d6da48e590e71a7adb57938f190745a3f3a9c3defd7df8903f05",
+      "contentHash": "b67df4dcd8cd02f1bc9f7919dcc7851e37089b80c44e15047be69281293c27b1",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 53,
+      "totalLines": 59,
       "hasStructuralAnalysis": false
     },
     "research/wiki/Kerr-Newman Metric.md": {
@@ -824,8 +824,8 @@
       "totalLines": 47,
       "hasStructuralAnalysis": false
     },
-    "research/wiki/Reissner-Nordström Metric.md": {
-      "filePath": "research/wiki/Reissner-Nordström Metric.md",
+    "research/wiki/Reissner-Nordstr\u00f6m Metric.md": {
+      "filePath": "research/wiki/Reissner-Nordstr\u00f6m Metric.md",
       "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489",
       "functions": [],
       "classes": [],
@@ -866,12 +866,12 @@
     },
     "research/wiki/index.md": {
       "filePath": "research/wiki/index.md",
-      "contentHash": "f641030ef14400ac5e2c4b56f65cc573d844be755ae52a0301affa2cf8a14b8c",
+      "contentHash": "dc108fbafed359e258d19ef5331144e351e424b5ef0d80b0fa69382dbf070b96",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 46,
+      "totalLines": 47,
       "hasStructuralAnalysis": false
     },
     "simulations/gw_strain.fits": {
@@ -942,6 +942,288 @@
       "imports": [],
       "exports": [],
       "totalLines": 157,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/publish-site.sh": {
+      "filePath": ".opencode/loops/publish-site.sh",
+      "contentHash": "76dd7f9eb928edd58f97f9df280bb7a4a5be818e4781956ce21cca49985c70ed",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 25,
+      "hasStructuralAnalysis": false
+    },
+    "docs/ASTRONOMICAL.md": {
+      "filePath": "docs/ASTRONOMICAL.md",
+      "contentHash": "9976c2c6eefde181c3824f8e98ca40d28ea5d2fda192145b261630c6d71b32f0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 310,
+      "hasStructuralAnalysis": false
+    },
+    "docs/GITHUB_TOOLS.md": {
+      "filePath": "docs/GITHUB_TOOLS.md",
+      "contentHash": "8fcdc52754dbbc59ee3287bdac884e784819db63bdcd73906aa8e60963e5f8cd",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 106,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes-wormholes/reports/isco_validation.md": {
+      "filePath": "research/projects/black-holes-wormholes/reports/isco_validation.md",
+      "contentHash": "dee0ef3908469448c6051c38a30299be4c64e9d437139a227f40a76aebe9670a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 213,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes-wormholes/results/isco_error_table.csv": {
+      "filePath": "research/projects/black-holes-wormholes/results/isco_error_table.csv",
+      "contentHash": "f97ec2599cf84a2da48bae40a622ba96fe83ff402355c0717b1b614bc3113c40",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 6,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py": {
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "contentHash": "0a0da30223ef5118ae7dfa70430245f7134b93423678ec4b97ef407900ba9f14",
+      "functions": [
+        {
+          "name": "_check_spin",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 5
+        },
+        {
+          "name": "z1",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "z2",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "isco_radius_over_M",
+          "params": [
+            "a",
+            "prograde"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "isco_radius_over_M_array",
+          "params": [
+            "a",
+            "prograde"
+          ],
+          "exported": true,
+          "lineCount": 9
+        },
+        {
+          "name": "isco_radius_si",
+          "params": [
+            "mass",
+            "a",
+            "prograde"
+          ],
+          "exported": true,
+          "lineCount": 19
+        },
+        {
+          "name": "horizon_radius_over_M",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "notebook_isco_radius_over_M",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 8
+        },
+        {
+          "name": "notebook_isco_radius_si",
+          "params": [
+            "mass",
+            "a"
+          ],
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "chord_isco_radius_over_M",
+          "params": [
+            "a"
+          ],
+          "returnType": "float",
+          "exported": true,
+          "lineCount": 4
+        },
+        {
+          "name": "percent_error",
+          "params": [
+            "approx",
+            "exact"
+          ],
+          "exported": true,
+          "lineCount": 3
+        },
+        {
+          "name": "validate",
+          "params": [
+            "verbose"
+          ],
+          "returnType": "dict",
+          "exported": true,
+          "lineCount": 76
+        },
+        {
+          "name": "error_budget",
+          "params": [
+            "a_max",
+            "n"
+          ],
+          "returnType": "dict",
+          "exported": true,
+          "lineCount": 34
+        },
+        {
+          "name": "print_table",
+          "params": [
+            "mass_msun"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 47
+        },
+        {
+          "name": "make_figure",
+          "params": [
+            "budget",
+            "output_png"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 135
+        },
+        {
+          "name": "write_csv",
+          "params": [
+            "rows",
+            "path"
+          ],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 6
+        },
+        {
+          "name": "main",
+          "params": [],
+          "returnType": "None",
+          "exported": true,
+          "lineCount": 65
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "argparse",
+          "specifiers": [
+            "argparse"
+          ]
+        },
+        {
+          "source": "csv",
+          "specifiers": [
+            "csv"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "astropy",
+          "specifiers": [
+            "const"
+          ]
+        },
+        {
+          "source": "astropy",
+          "specifiers": [
+            "u"
+          ]
+        }
+      ],
+      "exports": [
+        "_check_spin",
+        "z1",
+        "z2",
+        "isco_radius_over_M",
+        "isco_radius_over_M_array",
+        "isco_radius_si",
+        "horizon_radius_over_M",
+        "notebook_isco_radius_over_M",
+        "notebook_isco_radius_si",
+        "chord_isco_radius_over_M",
+        "percent_error",
+        "validate",
+        "error_budget",
+        "print_table",
+        "make_figure",
+        "write_csv",
+        "main"
+      ],
+      "totalLines": 571,
+      "hasStructuralAnalysis": true
+    },
+    "research/wiki/Remnant Energetics.md": {
+      "filePath": "research/wiki/Remnant Energetics.md",
+      "contentHash": "d6ace6a98ba7995f9f6ac0a639b932239f519f2c171145e741a60bef083291a2",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 96,
       "hasStructuralAnalysis": false
     }
   }

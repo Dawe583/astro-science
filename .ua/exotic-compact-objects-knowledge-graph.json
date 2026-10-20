@@ -9,7 +9,7 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Flagship research project: black holes, wormholes, and white holes — symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science.",
+    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science.",
     "analyzedAt": "2026-10-20T20:47:10+02:00",
     "gitCommitHash": "91483a5f707f09a8b48c0011d9665703ab6658e8"
   },
@@ -289,7 +289,7 @@
       "type": "file",
       "name": "formulas.py",
       "filePath": "models/formulas.py",
-      "summary": "Extended numeric formulas with astropy units: exact Kerr ISCO, ISCO orbital frequency, Eddington luminosity and accretion rate, and GW chirp mass / symmetric mass ratio / delta — each function cites the symbolic derivation that backs it.",
+      "summary": "Extended numeric formulas with astropy units: exact Kerr ISCO, ISCO orbital frequency, Eddington luminosity and accretion rate, and GW chirp mass / symmetric mass ratio / delta \u2014 each function cites the symbolic derivation that backs it.",
       "tags": [
         "physics",
         "astropy",
@@ -1571,7 +1571,7 @@
     {
       "id": "layer:theory-library",
       "name": "Theory Library",
-      "description": "The 13 premium LaTeX theory documents (black holes, charged/rotating solutions, Christoffel symbols, geodesics, Raychaudhuri, Fisher matrix, perturbation theory, wormholes, white holes, early SMBH growth, quantum gravity) plus THEORY.md and theory.tex — the derivations backbone of the project.",
+      "description": "The 13 premium LaTeX theory documents (black holes, charged/rotating solutions, Christoffel symbols, geodesics, Raychaudhuri, Fisher matrix, perturbation theory, wormholes, white holes, early SMBH growth, quantum gravity) plus THEORY.md and theory.tex \u2014 the derivations backbone of the project.",
       "nodeIds": [
         "document:premium/early_smbh_growth.md",
         "document:premium/quantum_gravity.md",
@@ -1616,7 +1616,7 @@
     {
       "id": "layer:computational-notebooks",
       "name": "Computational Notebooks",
-      "description": "24 execution notebooks: fundamentals through complete theory (01-13), fast scientific-profile notebooks (REBOUND, EinsteinPy, yt, GW, ML, strain — 14-19), and catalog/analysis notebooks (GWTC remnants, AGN masses, BlackCAT, early SMBH growth, quantum gravity — 20-24).",
+      "description": "24 execution notebooks: fundamentals through complete theory (01-13), fast scientific-profile notebooks (REBOUND, EinsteinPy, yt, GW, ML, strain \u2014 14-19), and catalog/analysis notebooks (GWTC remnants, AGN masses, BlackCAT, early SMBH growth, quantum gravity \u2014 20-24).",
       "nodeIds": [
         "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
         "file:notebooks/02_extended_models.ipynb",

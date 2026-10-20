@@ -1,8 +1,9 @@
 {
   "version": "1.0.0",
   "project": {
-    "name": "astro-science",
+    "name": "exotic-compact-objects",
     "languages": [
+      "csv",
       "fits",
       "ipynb",
       "markdown",
@@ -13,9 +14,9 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Scientific research workspace for astrophysics: exotic compact objects, gravitational waves, quantum gravity, and observational catalogs. Produces a portfolio of theory documents, interactive notebooks, dashboards, catalogs, and a published site. | Flagship research project: black holes, wormholes, and white holes — symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Flagship research project: black holes, wormholes, and white holes — symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Flagship research project: black holes, wormholes, and white holes — symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science.",
-    "analyzedAt": "2026-10-20T21:56:16+02:00",
-    "gitCommitHash": "ebabf779d0b3d637d55fa38432fbd8638e4e7b6b"
+    "description": "Scientific research workspace for astrophysics: exotic compact objects, gravitational waves, quantum gravity, and observational catalogs. Produces a portfolio of theory documents, interactive notebooks, dashboards, catalogs, and a published site. | Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science.",
+    "analyzedAt": "2026-10-20T22:24:39.775Z",
+    "gitCommitHash": "c23f985c1ffb7ab7a2f0d3c7b4ae565574d1e472"
   },
   "nodes": [
     {
@@ -123,19 +124,6 @@
       "complexity": "simple"
     },
     {
-      "id": "file:.opencode/loops/notebook-health.sh",
-      "type": "file",
-      "name": "notebook-health.sh",
-      "filePath": ".opencode/loops/notebook-health.sh",
-      "summary": "Notebook-health loop: executes every project notebook with a timeout, collects pass/fail/timeout results, and writes a JSON report.",
-      "tags": [
-        "automation",
-        "shell",
-        "loops"
-      ],
-      "complexity": "moderate"
-    },
-    {
       "id": "file:.opencode/loops/refresh-data.sh",
       "type": "file",
       "name": "refresh-data.sh",
@@ -174,19 +162,6 @@
         "automation",
         "shell",
         "loops"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "document:.opencode/skill/astro-loops.md",
-      "type": "document",
-      "name": "astro-loops.md",
-      "filePath": ".opencode/skill/astro-loops.md",
-      "summary": "Skill describing the data-refresh, notebook-health, and research automation loops.",
-      "tags": [
-        "documentation",
-        "skill",
-        "opencode"
       ],
       "complexity": "simple"
     },
@@ -233,18 +208,6 @@
       "name": "NEW_TOOLS_SUMMARY.md",
       "filePath": "NEW_TOOLS_SUMMARY.md",
       "summary": "Inventory of newly added tools and capabilities in the astro-science environment.",
-      "tags": [
-        "documentation",
-        "workspace"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "document:README.md",
-      "type": "document",
-      "name": "README.md",
-      "filePath": "README.md",
-      "summary": "Project overview and quick-start guide for the astro-science research environment, listing the installed scientific Python stack, simulation tools, and astronomy data-access components.",
       "tags": [
         "documentation",
         "workspace"
@@ -343,7 +306,7 @@
       "type": "document",
       "name": "Black Hole Accretion.md",
       "filePath": "research/wiki/Black Hole Accretion.md",
-      "summary": "Black Hole Accretion: Accretion converts gravitational energy into radiation and is the main way black holes are observed. The Eddington limit, the ISCO, and radiative efficiency set the luminosity and growth rate. Balancing radiation …",
+      "summary": "Black Hole Accretion: Accretion converts gravitational energy into radiation and is the main way black holes are observed. The Eddington limit, the ISCO, and radiative efficiency set the luminosity and growth rate. Balancing radiation \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -357,7 +320,7 @@
       "type": "document",
       "name": "Christoffel Symbols.md",
       "filePath": "research/wiki/Christoffel Symbols.md",
-      "summary": "Christoffel Symbols: Christoffel symbols encode the affine connection of a spacetime and are the first step in computing geodesics, curvature, and tidal forces. Given a metric $g_{\\mu\\nu}$ with inverse $g^{\\mu\\nu}$, …",
+      "summary": "Christoffel Symbols: Christoffel symbols encode the affine connection of a spacetime and are the first step in computing geodesics, curvature, and tidal forces. Given a metric $g_{\\mu\\nu}$ with inverse $g^{\\mu\\nu}$, \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -371,7 +334,7 @@
       "type": "document",
       "name": "Early Supermassive Black Hole Growth.md",
       "filePath": "research/wiki/Early Supermassive Black Hole Growth.md",
-      "summary": "Early Supermassive Black Hole Growth: How supermassive black holes reached billions of solar masses within the first billion years is an open problem. Observations of high-redshift quasars and AGN set the growth budget; accretion physics supplies the clock. …",
+      "summary": "Early Supermassive Black Hole Growth: How supermassive black holes reached billions of solar masses within the first billion years is an open problem. Observations of high-redshift quasars and AGN set the growth budget; accretion physics supplies the clock. \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -385,7 +348,7 @@
       "type": "document",
       "name": "Fisher Information Matrix.md",
       "filePath": "research/wiki/Fisher Information Matrix.md",
-      "summary": "Fisher Information Matrix: The Fisher information matrix (FIM) estimates parameter uncertainties for gravitational-wave signals. In the high signal-to-noise limit the posterior is approximately Gaussian with covariance equal to the inverse Fisher …",
+      "summary": "Fisher Information Matrix: The Fisher information matrix (FIM) estimates parameter uncertainties for gravitational-wave signals. In the high signal-to-noise limit the posterior is approximately Gaussian with covariance equal to the inverse Fisher \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -399,7 +362,7 @@
       "type": "document",
       "name": "Geodesic Equations.md",
       "filePath": "research/wiki/Geodesic Equations.md",
-      "summary": "Geodesic Equations: The motion of test particles and light in a black-hole spacetime is governed by the geodesic equation $$\\frac{d^2 x^\\mu}{d\\lambda^2} + \\Gamma^\\mu_{\\nu\\rho}\\frac{dx^\\nu}{d\\lambda}\\frac{dx^\\rho}{d\\lambda}=0,$$ where …",
+      "summary": "Geodesic Equations: The motion of test particles and light in a black-hole spacetime is governed by the geodesic equation $$\\frac{d^2 x^\\mu}{d\\lambda^2} + \\Gamma^\\mu_{\\nu\\rho}\\frac{dx^\\nu}{d\\lambda}\\frac{dx^\\rho}{d\\lambda}=0,$$ where \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -413,7 +376,7 @@
       "type": "document",
       "name": "Gravitational Wave Analysis.md",
       "filePath": "research/wiki/Gravitational Wave Analysis.md",
-      "summary": "Gravitational Wave Analysis: Gravitational waves from compact binaries are the primary observational window onto black holes. The waveform has three phases, each carrying different information about the source. During inspiral the chirp mass …",
+      "summary": "Gravitational Wave Analysis: Gravitational waves from compact binaries are the primary observational window onto black holes. The waveform has three phases, each carrying different information about the source. During inspiral the chirp mass \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -427,7 +390,7 @@
       "type": "document",
       "name": "Gravitational-Wave Catalogs.md",
       "filePath": "research/wiki/Gravitational-Wave Catalogs.md",
-      "summary": "Gravitational-Wave Catalogs: The LIGO/Virgo/KAGRA collaborations publish compact-binary merger events in the Gravitational-Wave Transient Catalog (GWTC), served through the Gravitational Wave Open Science Center (GWOSC). Each event records …",
+      "summary": "Gravitational-Wave Catalogs: The LIGO/Virgo/KAGRA collaborations publish compact-binary merger events in the Gravitational-Wave Transient Catalog (GWTC), served through the Gravitational Wave Open Science Center (GWOSC). Each event records \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -441,7 +404,7 @@
       "type": "document",
       "name": "Hawking Radiation.md",
       "filePath": "research/wiki/Hawking Radiation.md",
-      "summary": "Hawking Radiation: Hawking radiation is the thermal emission predicted for black holes by quantum field theory on a curved background. It makes black holes behave like black bodies with a temperature set by their surface gravity. The …",
+      "summary": "Hawking Radiation: Hawking radiation is the thermal emission predicted for black holes by quantum field theory on a curved background. It makes black holes behave like black bodies with a temperature set by their surface gravity. The \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -451,25 +414,11 @@
       "complexity": "simple"
     },
     {
-      "id": "document:research/wiki/Kerr Metric.md",
-      "type": "document",
-      "name": "Kerr Metric.md",
-      "filePath": "research/wiki/Kerr Metric.md",
-      "summary": "Kerr Metric: The Kerr metric is the unique stationary, axisymmetric vacuum solution of Einstein's equations: a rotating black hole of mass $M$ and angular momentum $J=acM$. It is the geometry that real astrophysical black holes are …",
-      "tags": [
-        "documentation",
-        "wiki",
-        "black-holes",
-        "rotation"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "document:research/wiki/Kerr-Newman Metric.md",
       "type": "document",
       "name": "Kerr-Newman Metric.md",
       "filePath": "research/wiki/Kerr-Newman Metric.md",
-      "summary": "Kerr-Newman Metric: The Kerr–Newman metric is the most general stationary, axisymmetric, asymptotically flat solution of the Einstein–Maxwell equations: a black hole with mass $M$, spin $a=J/M$, and charge $Q$. In Boyer–Lindquist …",
+      "summary": "Kerr-Newman Metric: The Kerr\u2013Newman metric is the most general stationary, axisymmetric, asymptotically flat solution of the Einstein\u2013Maxwell equations: a black hole with mass $M$, spin $a=J/M$, and charge $Q$. In Boyer\u2013Lindquist \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -483,7 +432,7 @@
       "type": "document",
       "name": "Quantum Gravity.md",
       "filePath": "research/wiki/Quantum Gravity.md",
-      "summary": "Quantum Gravity: Quantum gravity is the attempt to describe spacetime and gravity quantum mechanically. No complete theory is experimentally confirmed, but the motivations and candidate frameworks are well mapped. General relativity …",
+      "summary": "Quantum Gravity: Quantum gravity is the attempt to describe spacetime and gravity quantum mechanically. No complete theory is experimentally confirmed, but the motivations and candidate frameworks are well mapped. General relativity \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -497,7 +446,7 @@
       "type": "document",
       "name": "Raychaudhuri Equation.md",
       "filePath": "research/wiki/Raychaudhuri Equation.md",
-      "summary": "Raychaudhuri Equation: The Raychaudhuri equation describes how a congruence of geodesics expands, shears, and rotates. It is the geometric heart of the focusing theorem and the singularity theorems. For a timelike congruence with $u^\\mu …",
+      "summary": "Raychaudhuri Equation: The Raychaudhuri equation describes how a congruence of geodesics expands, shears, and rotates. It is the geometric heart of the focusing theorem and the singularity theorems. For a timelike congruence with $u^\\mu \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -507,11 +456,11 @@
       "complexity": "simple"
     },
     {
-      "id": "document:research/wiki/Reissner-Nordström Metric.md",
+      "id": "document:research/wiki/Reissner-Nordstr\u00f6m Metric.md",
       "type": "document",
-      "name": "Reissner-Nordström Metric.md",
-      "filePath": "research/wiki/Reissner-Nordström Metric.md",
-      "summary": "Reissner-Nordström Metric: The Reissner–Nordström solution describes a static, spherically symmetric black hole with mass $M$ and electric charge $Q$. It is the charged generalization of the Schwarzschild metric. Starting from the …",
+      "name": "Reissner-Nordstr\u00f6m Metric.md",
+      "filePath": "research/wiki/Reissner-Nordstr\u00f6m Metric.md",
+      "summary": "Reissner-Nordstr\u00f6m Metric: The Reissner\u2013Nordstr\u00f6m solution describes a static, spherically symmetric black hole with mass $M$ and electric charge $Q$. It is the charged generalization of the Schwarzschild metric. Starting from the \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -525,7 +474,7 @@
       "type": "document",
       "name": "Schwarzschild Metric.md",
       "filePath": "research/wiki/Schwarzschild Metric.md",
-      "summary": "Schwarzschild Metric: The Schwarzschild metric is the unique spherically symmetric vacuum solution of Einstein's field equations (Birkhoff's theorem). It describes the exterior spacetime of any non-rotating, uncharged mass and is the …",
+      "summary": "Schwarzschild Metric: The Schwarzschild metric is the unique spherically symmetric vacuum solution of Einstein's field equations (Birkhoff's theorem). It describes the exterior spacetime of any non-rotating, uncharged mass and is the \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -539,7 +488,7 @@
       "type": "document",
       "name": "White Holes.md",
       "filePath": "research/wiki/White Holes.md",
-      "summary": "White Holes: A white hole is the time-reversed Schwarzschild solution: a region of spacetime from which matter and light can only emerge. It appears as region IV of the maximal Kruskal–Szekeres extension. Under $t\\to-t$ the …",
+      "summary": "White Holes: A white hole is the time-reversed Schwarzschild solution: a region of spacetime from which matter and light can only emerge. It appears as region IV of the maximal Kruskal\u2013Szekeres extension. Under $t\\to-t$ the \u2026",
       "tags": [
         "documentation",
         "wiki",
@@ -553,25 +502,12 @@
       "type": "document",
       "name": "Wormholes.md",
       "filePath": "research/wiki/Wormholes.md",
-      "summary": "Wormholes: A wormhole is a topological shortcut connecting two regions of spacetime. The modern theory of traversable wormholes begins with Morris and Thorne (1988), and it shows that such objects require exotic matter violating …",
+      "summary": "Wormholes: A wormhole is a topological shortcut connecting two regions of spacetime. The modern theory of traversable wormholes begins with Morris and Thorne (1988), and it shows that such objects require exotic matter violating \u2026",
       "tags": [
         "documentation",
         "wiki",
         "wormholes",
         "exotic-matter"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "document:research/wiki/index.md",
-      "type": "document",
-      "name": "index.md",
-      "filePath": "research/wiki/index.md",
-      "summary": "Index of the exotic-compact-objects Karpathy-pattern wiki, cataloging black-hole, wormhole, gravity, quantum-gravity, and observation articles.",
-      "tags": [
-        "documentation",
-        "wiki",
-        "physics"
       ],
       "complexity": "simple"
     },
@@ -767,49 +703,11 @@
       "complexity": "complex"
     },
     {
-      "id": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "type": "file",
-      "name": "02_geodesics_orbits.ipynb",
-      "filePath": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "summary": "Notebook covering geodesic motion and orbital dynamics around compact objects.",
-      "tags": [
-        "notebook",
-        "education",
-        "astronomy"
-      ],
-      "complexity": "complex"
-    },
-    {
       "id": "document:research/projects/black-holes/README.md",
       "type": "document",
       "name": "README.md",
       "filePath": "research/projects/black-holes/README.md",
       "summary": "Overview of the black-holes research project, which maintains a GWOSC/GWTC compact-binary catalog snapshot.",
-      "tags": [
-        "documentation",
-        "workspace"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:research/projects/black-holes/data/black_holes.sqlite",
-      "type": "file",
-      "name": "black_holes.sqlite",
-      "filePath": "research/projects/black-holes/data/black_holes.sqlite",
-      "summary": "SQLite database holding the GWOSC GWTC compact-binary event snapshot (gwtc_events) and fetch log.",
-      "tags": [
-        "data",
-        "database",
-        "astronomy"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "document:research/projects/black-holes/reports/latest.md",
-      "type": "document",
-      "name": "latest.md",
-      "filePath": "research/projects/black-holes/reports/latest.md",
-      "summary": "Auto-generated report from the GWOSC compact-binary catalog fetch, summarizing event counts, plots, and caveats.",
       "tags": [
         "documentation",
         "workspace"
@@ -942,11 +840,25 @@
       "complexity": "simple"
     },
     {
+      "id": "file:.opencode/loops/refresh-graphs.sh",
+      "type": "file",
+      "name": "refresh-graphs.sh",
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "summary": "Deterministic graph-drift detector: scans the root and nested subdomain, compares SHA-256 content hashes and subdomain file lists against the committed graphs, and writes .ua/refresh-requested.json naming exactly what an /understand refresh must re-analyze.",
+      "tags": [
+        "automation",
+        "shell",
+        "graphs",
+        "drift-detection"
+      ],
+      "complexity": "moderate"
+    },
+    {
       "id": "document:.opencode/loops/README.md",
       "type": "document",
       "name": "README.md",
       "filePath": ".opencode/loops/README.md",
-      "summary": "Documents the workspace's automation scripts — data refresh, notebook health, research, graph-drift detection, and the orchestrator — plus their manual, command, cron, and heartbeat trigger modes.",
+      "summary": "Documents the workspace's automation scripts \u2014 data refresh, notebook health, research, graph-drift detection, and the orchestrator \u2014 plus their manual, command, cron, and heartbeat trigger modes.",
       "tags": [
         "documentation",
         "automation",
@@ -954,6 +866,19 @@
         "graphs"
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "file:.opencode/loops/notebook-health.sh",
+      "type": "file",
+      "name": "notebook-health.sh",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "summary": "Notebook-health loop: executes every project notebook with a timeout, collects pass/fail/timeout results, and writes a JSON report.",
+      "tags": [
+        "automation",
+        "shell",
+        "loops"
+      ],
+      "complexity": "moderate"
     },
     {
       "id": "file:.opencode/loops/orchestrator.sh",
@@ -987,16 +912,13 @@
       "complexity": "simple"
     },
     {
-      "id": "file:.opencode/loops/refresh-graphs.sh",
+      "id": "file:.opencode/loops/publish-site.sh",
       "type": "file",
-      "name": "refresh-graphs.sh",
-      "filePath": ".opencode/loops/refresh-graphs.sh",
-      "summary": "Deterministic graph-drift detector: scans the root and nested subdomain, compares SHA-256 content hashes and subdomain file lists against the committed graphs, and writes .ua/refresh-requested.json naming exactly what an /understand refresh must re-analyze.",
+      "name": "publish-site.sh",
+      "filePath": ".opencode/loops/publish-site.sh",
+      "summary": "File .opencode/loops/publish-site.sh.",
       "tags": [
-        "automation",
-        "shell",
-        "graphs",
-        "drift-detection"
+        "file"
       ],
       "complexity": "moderate"
     },
@@ -1015,6 +937,19 @@
       "complexity": "moderate"
     },
     {
+      "id": "document:.opencode/skill/astro-loops.md",
+      "type": "document",
+      "name": "astro-loops.md",
+      "filePath": ".opencode/skill/astro-loops.md",
+      "summary": "Skill describing the data-refresh, notebook-health, and research automation loops.",
+      "tags": [
+        "documentation",
+        "skill",
+        "opencode"
+      ],
+      "complexity": "simple"
+    },
+    {
       "id": "document:CONTEXT.md",
       "type": "document",
       "name": "CONTEXT.md",
@@ -1027,6 +962,29 @@
         "index"
       ],
       "complexity": "complex"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Project overview and quick-start guide for the astro-science research environment, listing the installed scientific Python stack, simulation tools, and astronomy data-access components.",
+      "tags": [
+        "documentation",
+        "workspace"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:docs/ASTRONOMICAL.md",
+      "type": "document",
+      "name": "ASTRONOMICAL.md",
+      "filePath": "docs/ASTRONOMICAL.md",
+      "summary": "File docs/ASTRONOMICAL.md.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
     },
     {
       "id": "document:docs/AUTOMATION.md",
@@ -1043,6 +1001,17 @@
       "complexity": "moderate"
     },
     {
+      "id": "document:docs/GITHUB_TOOLS.md",
+      "type": "document",
+      "name": "GITHUB_TOOLS.md",
+      "filePath": "docs/GITHUB_TOOLS.md",
+      "summary": "File docs/GITHUB_TOOLS.md.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
+    },
+    {
       "id": "document:docs/GRAPHS.md",
       "type": "document",
       "name": "GRAPHS.md",
@@ -1055,6 +1024,213 @@
         "architecture"
       ],
       "complexity": "moderate"
+    },
+    {
+      "id": "document:research/wiki/Kerr Metric.md",
+      "type": "document",
+      "name": "Kerr Metric.md",
+      "filePath": "research/wiki/Kerr Metric.md",
+      "summary": "Kerr Metric: The Kerr metric is the unique stationary, axisymmetric vacuum solution of Einstein's equations: a rotating black hole of mass $M$ and angular momentum $J=acM$. It is the geometry that real astrophysical black holes are \u2026",
+      "tags": [
+        "documentation",
+        "wiki",
+        "black-holes",
+        "rotation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:research/wiki/Remnant Energetics.md",
+      "type": "document",
+      "name": "Remnant Energetics.md",
+      "filePath": "research/wiki/Remnant Energetics.md",
+      "summary": "File research/wiki/Remnant Energetics.md.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:research/wiki/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "research/wiki/index.md",
+      "summary": "Index of the exotic-compact-objects Karpathy-pattern wiki, cataloging black-hole, wormhole, gravity, quantum-gravity, and observation articles.",
+      "tags": [
+        "documentation",
+        "wiki",
+        "physics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "type": "file",
+      "name": "02_geodesics_orbits.ipynb",
+      "filePath": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "summary": "Notebook covering geodesic motion and orbital dynamics around compact objects.",
+      "tags": [
+        "notebook",
+        "education",
+        "astronomy"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:research/projects/black-holes-wormholes/reports/isco_validation.md",
+      "type": "document",
+      "name": "isco_validation.md",
+      "filePath": "research/projects/black-holes-wormholes/reports/isco_validation.md",
+      "summary": "File research/projects/black-holes-wormholes/reports/isco_validation.md.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/projects/black-holes-wormholes/results/isco_error_table.csv",
+      "type": "file",
+      "name": "isco_error_table.csv",
+      "filePath": "research/projects/black-holes-wormholes/results/isco_error_table.csv",
+      "summary": "File research/projects/black-holes-wormholes/results/isco_error_table.csv.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "type": "file",
+      "name": "kerr_isco_exact.py",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "summary": "File research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py.",
+      "tags": [
+        "file"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:isco_radius_over_M",
+      "type": "function",
+      "name": "isco_radius_over_M",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 93,
+      "endLine": 111,
+      "summary": "Compute ISCO radius in units of M for spin a.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:isco_radius_si",
+      "type": "function",
+      "name": "isco_radius_si",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 125,
+      "endLine": 143,
+      "summary": "Compute ISCO radius in SI units for mass and spin.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:validate",
+      "type": "function",
+      "name": "validate",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 185,
+      "endLine": 260,
+      "summary": "Validate ISCO radii against exact Kerr formula.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:error_budget",
+      "type": "function",
+      "name": "error_budget",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 266,
+      "endLine": 299,
+      "summary": "Compute error budget for ISCO approximation.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:print_table",
+      "type": "function",
+      "name": "print_table",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 302,
+      "endLine": 348,
+      "summary": "Print ISCO radius table.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:make_figure",
+      "type": "function",
+      "name": "make_figure",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 354,
+      "endLine": 488,
+      "summary": "Generate ISCO comparison figure.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "startLine": 502,
+      "endLine": 566,
+      "summary": "Entry point for ISCO validation script.",
+      "tags": [
+        "function",
+        "physics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:research/projects/black-holes/data/black_holes.sqlite",
+      "type": "file",
+      "name": "black_holes.sqlite",
+      "filePath": "research/projects/black-holes/data/black_holes.sqlite",
+      "summary": "SQLite database holding the GWOSC GWTC compact-binary event snapshot (gwtc_events) and fetch log.",
+      "tags": [
+        "data",
+        "database",
+        "astronomy"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:research/projects/black-holes/reports/latest.md",
+      "type": "document",
+      "name": "latest.md",
+      "filePath": "research/projects/black-holes/reports/latest.md",
+      "summary": "Auto-generated report from the GWOSC compact-binary catalog fetch, summarizing event counts, plots, and caveats.",
+      "tags": [
+        "documentation",
+        "workspace"
+      ],
+      "complexity": "simple"
     },
     {
       "id": "document:premium/theory_black_holes.md",
@@ -1331,7 +1507,7 @@
       "type": "file",
       "name": "formulas.py",
       "filePath": "models/formulas.py",
-      "summary": "Extended numeric formulas with astropy units: exact Kerr ISCO, ISCO orbital frequency, Eddington luminosity and accretion rate, and GW chirp mass / symmetric mass ratio / delta — each function cites the symbolic derivation that backs it.",
+      "summary": "Extended numeric formulas with astropy units: exact Kerr ISCO, ISCO orbital frequency, Eddington luminosity and accretion rate, and GW chirp mass / symmetric mass ratio / delta \u2014 each function cites the symbolic derivation that backs it.",
       "tags": [
         "physics",
         "astropy",
@@ -2189,41 +2365,6 @@
       "weight": 0.6
     },
     {
-      "source": "document:README.md",
-      "target": "file:start.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:README.md",
-      "target": "file:check-environment.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:README.md",
-      "target": "file:data/download_direct_data.py",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:README.md",
-      "target": "file:research/scripts/check_environment.py",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:README.md",
-      "target": "file:data/download_sample_data.py",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
       "source": "document:.opencode/skill/astro-science.md",
       "target": "file:research/scripts/check_environment.py",
       "type": "documents",
@@ -2233,27 +2374,6 @@
     {
       "source": "document:.opencode/skill/astro-science.md",
       "target": "file:data/download_direct_data.py",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-loops.md",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-loops.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-loops.md",
-      "target": "file:.opencode/loops/research-loop.sh",
       "type": "documents",
       "direction": "forward",
       "weight": 0.5
@@ -2262,27 +2382,6 @@
       "source": "document:research/projects/black-holes/README.md",
       "target": "file:research/projects/black-holes/scripts/update_gwosc.py",
       "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:research/projects/black-holes/README.md",
-      "target": "file:research/projects/black-holes/data/black_holes.sqlite",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "file:research/projects/black-holes/scripts/update_gwosc.py",
-      "target": "file:research/projects/black-holes/data/black_holes.sqlite",
-      "type": "writes_to",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "file:research/projects/black-holes/scripts/update_gwosc.py",
-      "target": "document:research/projects/black-holes/reports/latest.md",
-      "type": "related",
       "direction": "forward",
       "weight": 0.5
     },
@@ -2334,22 +2433,6 @@
       "type": "exports",
       "direction": "forward",
       "weight": 0.8
-    },
-    {
-      "source": "file:.opencode/loops/notebook-health.sh",
-      "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
-      "type": "depends_on",
-      "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
-      "weight": 0.6,
-      "direction": "forward"
-    },
-    {
-      "source": "file:.opencode/loops/notebook-health.sh",
-      "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "type": "depends_on",
-      "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
-      "weight": 0.6,
-      "direction": "forward"
     },
     {
       "source": "document:.opencode/agent/astro-data-engineer.md",
@@ -2456,134 +2539,6 @@
       "direction": "forward"
     },
     {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Black Hole Accretion.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Black Hole Accretion]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Christoffel Symbols.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Christoffel Symbols]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Early Supermassive Black Hole Growth.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Early Supermassive Black Hole Growth]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Fisher Information Matrix.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Fisher Information Matrix]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Geodesic Equations.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Geodesic Equations]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Gravitational Wave Analysis.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Gravitational Wave Analysis]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Gravitational-Wave Catalogs.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Gravitational-Wave Catalogs]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Hawking Radiation.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Hawking Radiation]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Kerr Metric.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Kerr Metric]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Kerr-Newman Metric.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Kerr-Newman Metric]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Quantum Gravity.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Quantum Gravity]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Raychaudhuri Equation.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Raychaudhuri Equation]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Reissner-Nordström Metric.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Reissner-Nordström Metric]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Schwarzschild Metric.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Schwarzschild Metric]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/White Holes.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[White Holes]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "document:research/wiki/index.md",
-      "target": "document:research/wiki/Wormholes.md",
-      "type": "documents",
-      "description": "index.md lists this article as a wiki entry ('[[Wormholes]]').",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
       "source": "file:.opencode/loops/research-loop.sh",
       "target": "document:.opencode/skill/astro-science.md",
       "type": "documents",
@@ -2592,26 +2547,10 @@
       "direction": "forward"
     },
     {
-      "source": "document:.opencode/agent/astro-validator.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "related",
-      "description": "the agent names .opencode/loops/notebook-health.sh as the notebook suite runner",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
       "source": "document:research/projects/README.md",
       "target": "document:research/projects/black-holes/README.md",
       "type": "related",
       "description": "project README lives directly under the research/projects/ folder described by that README",
-      "weight": 0.5,
-      "direction": "forward"
-    },
-    {
-      "source": "file:.opencode/loops/research-loop.sh",
-      "target": "document:research/wiki/index.md",
-      "type": "related",
-      "description": "loop's final step updates research/wiki/ (index is the wiki root)",
       "weight": 0.5,
       "direction": "forward"
     },
@@ -2628,14 +2567,6 @@
       "target": "document:.opencode/agent/astro-validator.md",
       "type": "triggers",
       "description": "this command's frontmatter pins agent: astro-validator",
-      "weight": 0.6,
-      "direction": "forward"
-    },
-    {
-      "source": "document:.opencode/command/astro-notebook-health.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "triggers",
-      "description": "this command's instructions execute .opencode/loops/notebook-health.sh",
       "weight": 0.6,
       "direction": "forward"
     },
@@ -2745,21 +2676,7 @@
     },
     {
       "source": "document:.opencode/command/astro-refresh-graphs.md",
-      "target": "document:.opencode/skill/astro-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/command/astro-refresh-graphs.md",
       "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/command/astro-refresh-graphs.md",
-      "target": "document:docs/GRAPHS.md",
       "type": "documents",
       "direction": "forward",
       "weight": 0.5
@@ -2767,55 +2684,6 @@
     {
       "source": "document:.opencode/command/astro-refresh-graphs.md",
       "target": "config:.ua/config.json",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "file:.opencode/loops/research-loop.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "file:.opencode/loops/orchestrator.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "document:.opencode/command/astro-refresh-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/loops/README.md",
-      "target": "document:.opencode/command/astro-graphs.md",
       "type": "documents",
       "direction": "forward",
       "weight": 0.5
@@ -2828,361 +2696,53 @@
       "weight": 1
     },
     {
-      "source": "file:.opencode/loops/orchestrator.sh",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "depends_on",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:isco_radius_over_M",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.6
+      "weight": 1
     },
     {
-      "source": "file:.opencode/loops/orchestrator.sh",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "depends_on",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:isco_radius_si",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.6
+      "weight": 1
     },
     {
-      "source": "file:.opencode/loops/orchestrator.sh",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "depends_on",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:validate",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.6
+      "weight": 1
     },
     {
-      "source": "file:.opencode/loops/refresh-graphs.sh",
-      "target": "document:docs/GRAPHS.md",
-      "type": "related",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:error_budget",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.5
+      "weight": 1
     },
     {
-      "source": "file:.opencode/loops/refresh-graphs.sh",
-      "target": "document:.opencode/skill/astro-graphs.md",
-      "type": "related",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:print_table",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.5
+      "weight": 1
     },
     {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "config:.ua/config.json",
-      "type": "documents",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:make_figure",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.5
+      "weight": 1
     },
     {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "document:docs/GRAPHS.md",
-      "type": "related",
+      "source": "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "target": "function:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py:main",
+      "type": "contains",
       "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "document:.opencode/command/astro-refresh-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:.opencode/skill/astro-graphs.md",
-      "target": "file:.opencode/loops/orchestrator.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/skill/astro-science.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/skill/astro-loops.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/skill/astro-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:docs/AUTOMATION.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:docs/GRAPHS.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/command/astro-refresh-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:.opencode/loops/research-loop.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:.opencode/loops/orchestrator.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "config:.ua/config.json",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/agent/astro-data-engineer.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/agent/astro-theoretician.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/agent/astro-validator.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:.opencode/agent/astro-reviewer.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "document:research/projects/black-holes/reports/latest.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:CONTEXT.md",
-      "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "file:.opencode/loops/refresh-data.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "file:.opencode/loops/notebook-health.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "file:.opencode/loops/research-loop.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "file:.opencode/loops/orchestrator.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/command/astro-refresh-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/command/astro-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/command/astro-refresh-data.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/command/astro-notebook-health.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/command/astro-research.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/skill/astro-science.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/skill/astro-loops.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:.opencode/skill/astro-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/AUTOMATION.md",
-      "target": "document:docs/GRAPHS.md",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "config:.ua/config.json",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "file:.opencode/loops/refresh-graphs.sh",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "document:.opencode/command/astro-refresh-graphs.md",
-      "type": "documents",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "document:research/wiki/index.md",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "document:.opencode/skill/astro-graphs.md",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "document:docs/GRAPHS.md",
-      "target": "document:CONTEXT.md",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5
+      "weight": 1
     },
     {
       "source": "document:premium/theory_black_holes.md",
@@ -3787,6 +3347,20 @@
       "weight": 0.6
     },
     {
+      "source": "file:.opencode/loops/notebook-health.sh",
+      "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+      "type": "depends_on",
+      "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
+      "weight": 0.6
+    },
+    {
+      "source": "file:.opencode/loops/notebook-health.sh",
+      "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "type": "depends_on",
+      "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
+      "weight": 0.6
+    },
+    {
       "source": "file:.opencode/loops/refresh-data.sh",
       "target": "file:scripts/add_bh_derived_quantities.py",
       "type": "depends_on",
@@ -3843,6 +3417,20 @@
       "weight": 0.6
     },
     {
+      "source": "document:.opencode/agent/astro-data-engineer.md",
+      "target": "document:.opencode/skill/astro-graphs.md",
+      "type": "documents",
+      "description": "the agent's gates re-run the knowledge graphs via the astro-graphs skill",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/agent/astro-data-engineer.md",
+      "target": "document:CONTEXT.md",
+      "type": "documents",
+      "description": "the agent's workflow step 1 says 'Read CONTEXT.md'",
+      "weight": 0.5
+    },
+    {
       "source": "document:.opencode/agent/astro-reviewer.md",
       "target": "document:reports/summary.md",
       "type": "documents",
@@ -3868,6 +3456,13 @@
       "target": "document:CONTEXT.md",
       "type": "documents",
       "description": "this command's instructions say to read CONTEXT.md",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/skill/astro-graphs.md",
+      "target": "config:.ua/config.json",
+      "type": "documents",
+      "description": "skill configuration section names .ua/config.json (outputLanguage en)",
       "weight": 0.5
     },
     {
@@ -3956,9 +3551,58 @@
     },
     {
       "source": "document:CONTEXT.md",
+      "target": "document:.opencode/skill/astro-science.md",
+      "type": "documents",
+      "description": "CONTEXT.md header: use the project skill astro-science for path-level detail",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CONTEXT.md",
+      "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+      "type": "documents",
+      "description": "CONTEXT.md section 4.3 names 01_black_hole_fundamentals.ipynb",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CONTEXT.md",
+      "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "type": "documents",
+      "description": "CONTEXT.md section 4.3 names 02_geodesics_orbits.ipynb",
+      "weight": 0.5
+    },
+    {
+      "source": "document:CONTEXT.md",
       "target": "file:start-research.sh",
       "type": "documents",
       "description": "CONTEXT.md directory map lists start-research.sh at the root",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/AUTOMATION.md",
+      "target": "file:.opencode/loops/notebook-health.sh",
+      "type": "documents",
+      "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/AUTOMATION.md",
+      "target": "file:.opencode/loops/orchestrator.sh",
+      "type": "documents",
+      "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/AUTOMATION.md",
+      "target": "file:.opencode/loops/refresh-data.sh",
+      "type": "documents",
+      "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/AUTOMATION.md",
+      "target": "file:.opencode/loops/research-loop.sh",
+      "type": "documents",
+      "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
       "weight": 0.5
     },
     {
@@ -4004,10 +3648,143 @@
       "weight": 0.5
     },
     {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Black Hole Accretion.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Black Hole Accretion]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Christoffel Symbols.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Christoffel Symbols]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Early Supermassive Black Hole Growth.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Early Supermassive Black Hole Growth]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Fisher Information Matrix.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Fisher Information Matrix]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Geodesic Equations.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Geodesic Equations]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Gravitational Wave Analysis.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Gravitational Wave Analysis]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Gravitational-Wave Catalogs.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Gravitational-Wave Catalogs]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Hawking Radiation.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Hawking Radiation]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Kerr Metric.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Kerr Metric]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Kerr-Newman Metric.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Kerr-Newman Metric]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Quantum Gravity.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Quantum Gravity]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Raychaudhuri Equation.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Raychaudhuri Equation]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Reissner-Nordstr\u00f6m Metric.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Reissner-Nordstr\u00f6m Metric]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Remnant Energetics.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Remnant Energetics]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Schwarzschild Metric.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Schwarzschild Metric]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/White Holes.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[White Holes]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "document:research/wiki/index.md",
+      "target": "document:research/wiki/Wormholes.md",
+      "type": "documents",
+      "description": "index.md lists this article as a wiki entry ('[[Wormholes]]').",
+      "weight": 0.5
+    },
+    {
+      "source": "file:.opencode/loops/research-loop.sh",
+      "target": "document:CONTEXT.md",
+      "type": "documents",
+      "description": "loop output says 'Read CONTEXT.md and the astro-science skill'",
+      "weight": 0.5
+    },
+    {
       "source": "document:.opencode/agent/astro-theoretician.md",
       "target": "file:scripts/verify_formulas.py",
       "type": "related",
       "description": "the agent's step 4 sanity-checks formulas via verify_formulas.py",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/agent/astro-validator.md",
+      "target": "file:.opencode/loops/notebook-health.sh",
+      "type": "related",
+      "description": "the agent names .opencode/loops/notebook-health.sh as the notebook suite runner",
       "weight": 0.5
     },
     {
@@ -4022,6 +3799,27 @@
       "target": "document:.opencode/skill/astro-graphs.md",
       "type": "related",
       "description": "this command's step 1 reads the astro-graphs skill",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/command/astro-refresh-graphs.md",
+      "target": "document:docs/GRAPHS.md",
+      "type": "related",
+      "description": "domain flow 'graph-drift-check' chains .opencode/command/astro-refresh-graphs.md through docs/GRAPHS.md.",
+      "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/skill/astro-graphs.md",
+      "target": "document:docs/GRAPHS.md",
+      "type": "related",
+      "description": "the skill and GRAPHS.md document the same three graph commands",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/GRAPHS.md",
+      "target": "document:research/wiki/index.md",
+      "type": "related",
+      "description": "domain flow 'domain-wiki-graph-refresh' chains docs/GRAPHS.md through research/wiki/index.md.",
       "weight": 0.5
     },
     {
@@ -4071,6 +3869,13 @@
       "target": "document:premium/theory_black_holes.md",
       "type": "related",
       "description": "loop's final step updates premium/theory_*.md (representative doc from the domain-graph flow)",
+      "weight": 0.5
+    },
+    {
+      "source": "file:.opencode/loops/research-loop.sh",
+      "target": "document:research/wiki/index.md",
+      "type": "related",
+      "description": "loop's final step updates research/wiki/ (index is the wiki root)",
       "weight": 0.5
     },
     {
@@ -4198,6 +4003,13 @@
       "type": "related",
       "description": "domain flow 'research-loop' chains scripts/verify_formulas.py through scripts/make_premium_figures.py.",
       "weight": 0.5
+    },
+    {
+      "source": "document:.opencode/command/astro-notebook-health.md",
+      "target": "file:.opencode/loops/notebook-health.sh",
+      "type": "triggers",
+      "description": "this command's instructions execute .opencode/loops/notebook-health.sh",
+      "weight": 0.6
     }
   ],
   "layers": [
@@ -4234,7 +4046,7 @@
         "document:research/wiki/Kerr-Newman Metric.md",
         "document:research/wiki/Quantum Gravity.md",
         "document:research/wiki/Raychaudhuri Equation.md",
-        "document:research/wiki/Reissner-Nordström Metric.md",
+        "document:research/wiki/Reissner-Nordstr\u00f6m Metric.md",
         "document:research/wiki/Schwarzschild Metric.md",
         "document:research/wiki/White Holes.md",
         "document:research/wiki/Wormholes.md",
@@ -4242,7 +4054,10 @@
         "document:research/notes/README.md",
         "document:research/projects/README.md",
         "document:docs/GRAPHS.md",
-        "document:docs/AUTOMATION.md"
+        "document:docs/AUTOMATION.md",
+        "document:docs/ASTRONOMICAL.md",
+        "document:docs/GITHUB_TOOLS.md",
+        "document:research/wiki/Remnant Energetics.md"
       ]
     },
     {
@@ -4270,7 +4085,8 @@
         "file:start-research.sh",
         "file:check-environment.sh",
         "document:.opencode/command/astro-refresh-graphs.md",
-        "file:.opencode/loops/refresh-graphs.sh"
+        "file:.opencode/loops/refresh-graphs.sh",
+        "file:.opencode/loops/publish-site.sh"
       ]
     },
     {
@@ -4299,7 +4115,10 @@
         "file:fits/synthetic_galaxy.fits",
         "file:simulations/gw_strain.fits",
         "file:simulations/nbody_snapshot.fits",
-        "file:simulations/xray_spectrum.fits"
+        "file:simulations/xray_spectrum.fits",
+        "document:research/projects/black-holes-wormholes/reports/isco_validation.md",
+        "file:research/projects/black-holes-wormholes/results/isco_error_table.csv",
+        "file:research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py"
       ]
     },
     {
@@ -4313,7 +4132,7 @@
     {
       "id": "layer:theory-library",
       "name": "Theory Library",
-      "description": "The 13 premium LaTeX theory documents (black holes, charged/rotating solutions, Christoffel symbols, geodesics, Raychaudhuri, Fisher matrix, perturbation theory, wormholes, white holes, early SMBH growth, quantum gravity) plus THEORY.md and theory.tex — the derivations backbone of the project.",
+      "description": "The 13 premium LaTeX theory documents (black holes, charged/rotating solutions, Christoffel symbols, geodesics, Raychaudhuri, Fisher matrix, perturbation theory, wormholes, white holes, early SMBH growth, quantum gravity) plus THEORY.md and theory.tex \u2014 the derivations backbone of the project.",
       "nodeIds": [
         "document:premium/early_smbh_growth.md",
         "document:premium/quantum_gravity.md",
@@ -4358,7 +4177,7 @@
     {
       "id": "layer:computational-notebooks",
       "name": "Computational Notebooks",
-      "description": "24 execution notebooks: fundamentals through complete theory (01-13), fast scientific-profile notebooks (REBOUND, EinsteinPy, yt, GW, ML, strain — 14-19), and catalog/analysis notebooks (GWTC remnants, AGN masses, BlackCAT, early SMBH growth, quantum gravity — 20-24).",
+      "description": "24 execution notebooks: fundamentals through complete theory (01-13), fast scientific-profile notebooks (REBOUND, EinsteinPy, yt, GW, ML, strain \u2014 14-19), and catalog/analysis notebooks (GWTC remnants, AGN masses, BlackCAT, early SMBH growth, quantum gravity \u2014 20-24).",
       "nodeIds": [
         "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
         "file:notebooks/02_extended_models.ipynb",
@@ -4434,7 +4253,7 @@
     {
       "order": 1,
       "title": "Project Overview",
-      "description": "Start with the README to understand what the astro-science workspace is: a scientific research portfolio for exotic compact objects, gravitational waves, quantum gravity, and observational catalogs (not a web app). Then read CONTEXT.md, the single source of truth for every future session — repository layout, research projects, data sources, and conventions.",
+      "description": "Start with the README to understand what the astro-science workspace is: a scientific research portfolio for exotic compact objects, gravitational waves, quantum gravity, and observational catalogs (not a web app). Then read CONTEXT.md, the single source of truth for every future session \u2014 repository layout, research projects, data sources, and conventions.",
       "nodeIds": [
         "document:README.md",
         "document:CONTEXT.md",
@@ -4468,7 +4287,7 @@
     {
       "order": 4,
       "title": "Research Loop Automation",
-      "description": "Three loops power the portfolio: refresh-data.sh (download → process → rebuild dashboards), notebook-health.sh (execute all notebooks → fix → report), and research-loop.sh (hypothesis → derivation → figure → report → theory doc), coordinated by orchestrator.sh. The .opencode/loops README explains triggers, and the agent definitions (data engineer, validator, theoretician, reviewer) divide the work.",
+      "description": "Three loops power the portfolio: refresh-data.sh (download \u2192 process \u2192 rebuild dashboards), notebook-health.sh (execute all notebooks \u2192 fix \u2192 report), and research-loop.sh (hypothesis \u2192 derivation \u2192 figure \u2192 report \u2192 theory doc), coordinated by orchestrator.sh. The .opencode/loops README explains triggers, and the agent definitions (data engineer, validator, theoretician, reviewer) divide the work.",
       "nodeIds": [
         "document:.opencode/loops/README.md",
         "file:.opencode/loops/orchestrator.sh",
@@ -4538,7 +4357,7 @@
     {
       "order": 9,
       "title": "black-holes-wormholes: Pedagogical Notebooks",
-      "description": "Fundamentals-first notebooks: 01_black_hole_fundamentals.ipynb walks through Schwarzschild horizons and causal structure; 02_geodesics_orbits.ipynb derives geodesic motion and orbit stability — the teaching layer under the research projects.",
+      "description": "Fundamentals-first notebooks: 01_black_hole_fundamentals.ipynb walks through Schwarzschild horizons and causal structure; 02_geodesics_orbits.ipynb derives geodesic motion and orbit stability \u2014 the teaching layer under the research projects.",
       "nodeIds": [
         "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
         "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb"
@@ -4547,7 +4366,7 @@
     {
       "order": 10,
       "title": "The Karpathy-Pattern Wiki",
-      "description": "research/wiki/ holds 17 hand-written reference pages (Schwarzschild, Kerr, Kerr-Newman, Reissner-Nordström, geodesics, Raychaudhuri, Fisher matrix, Hawking radiation, wormholes, white holes, quantum gravity, GW catalogs…), dense with 144 wikilinks — the conceptual backbone that the wiki knowledge graph will map.",
+      "description": "research/wiki/ holds 17 hand-written reference pages (Schwarzschild, Kerr, Kerr-Newman, Reissner-Nordstr\u00f6m, geodesics, Raychaudhuri, Fisher matrix, Hawking radiation, wormholes, white holes, quantum gravity, GW catalogs\u2026), dense with 144 wikilinks \u2014 the conceptual backbone that the wiki knowledge graph will map.",
       "nodeIds": [
         "document:research/wiki/index.md",
         "document:research/wiki/Schwarzschild Metric.md",

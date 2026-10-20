@@ -177,9 +177,9 @@ Understand-Anything is installed globally (`~/.understand-anything/repo`, skills
 
 | Graph | Command | Output | Size (2026-10-20 build) |
 |---|---|---|---|
-| Code graph (root + subdomain merge) | `/understand` | `.ua/knowledge-graph.json` | 170 nodes / 282 edges / 10 layers / 18 tour steps |
+| Code graph (root + subdomain merge) | `/understand` | `.ua/knowledge-graph.json` | 184 nodes / 233 edges / 10 layers / 18 tour steps |
 | Domain flows | `/understand-domain` | `.ua/domain-graph.json` | 58 nodes (4 domains, 10 flows, 44 steps) / 59 edges |
-| Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 81 nodes (16 articles, 7 topics, 24 entities, 34 claims) / 175 edges |
+| Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 82 nodes (17 articles, 7 topics, 24 entities, 34 claims) / 176 edges |
 
 Transient merge inputs (recreated on refresh, safe to restage):
 

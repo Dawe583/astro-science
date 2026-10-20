@@ -43,7 +43,13 @@ $$r_{\rm ISCO} = \frac{GM}{c^2}\left[3+Z_2\mp\sqrt{(3-Z_1)(3+Z_1+2Z_2)}\right],$
 
 with $Z_1 = 1+(1-a_*^2)^{1/3}[(1+a_*)^{1/3}+(1-a_*)^{1/3}]$ and
 $Z_2=\sqrt{3a_*^2+Z_1^2}$. The upper sign is prograde. For $a_*=0$ this gives
-$6GM/c^2$; for $a_*=1$ prograde, $GM/c^2$. Rotational energy can be extracted
+$6GM/c^2$; for $a_*=1$ prograde, $GM/c^2$.
+
+> **Approximation warning.** A straight-line chord between $6M$ and $1M$ (the common
+> $6-5a$ form) is wrong by up to ~36% near $a_*\approx0.93$, because the exact curve is
+> concave; and quoting the ISCO in units of the Schwarzschild radius $r_s=2M$ instead of
+> $M=GM/c^2$ doubles the result. Use the exact BPT form for quantitative work.
+> (Verified numerically; see `research/projects/black-holes-wormholes/reports/isco_validation.md`.) Rotational energy can be extracted
 through the Penrose process and through superradiance, $\omega < m\Omega_H$
 with $\Omega_H = a_*c^3/[2GM(1+\sqrt{1-a_*^2})]$.
 

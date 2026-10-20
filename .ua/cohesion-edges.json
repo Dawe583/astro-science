@@ -168,6 +168,20 @@
     "weight": 0.6
   },
   {
+    "source": "file:.opencode/loops/notebook-health.sh",
+    "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+    "type": "depends_on",
+    "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
+    "weight": 0.6
+  },
+  {
+    "source": "file:.opencode/loops/notebook-health.sh",
+    "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+    "type": "depends_on",
+    "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
+    "weight": 0.6
+  },
+  {
     "source": "file:.opencode/loops/refresh-data.sh",
     "target": "file:scripts/add_bh_derived_quantities.py",
     "type": "depends_on",
@@ -224,6 +238,20 @@
     "weight": 0.6
   },
   {
+    "source": "document:.opencode/agent/astro-data-engineer.md",
+    "target": "document:.opencode/skill/astro-graphs.md",
+    "type": "documents",
+    "description": "the agent's gates re-run the knowledge graphs via the astro-graphs skill",
+    "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/agent/astro-data-engineer.md",
+    "target": "document:CONTEXT.md",
+    "type": "documents",
+    "description": "the agent's workflow step 1 says 'Read CONTEXT.md'",
+    "weight": 0.5
+  },
+  {
     "source": "document:.opencode/agent/astro-reviewer.md",
     "target": "document:reports/summary.md",
     "type": "documents",
@@ -249,6 +277,13 @@
     "target": "document:CONTEXT.md",
     "type": "documents",
     "description": "this command's instructions say to read CONTEXT.md",
+    "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/skill/astro-graphs.md",
+    "target": "config:.ua/config.json",
+    "type": "documents",
+    "description": "skill configuration section names .ua/config.json (outputLanguage en)",
     "weight": 0.5
   },
   {
@@ -337,9 +372,58 @@
   },
   {
     "source": "document:CONTEXT.md",
+    "target": "document:.opencode/skill/astro-science.md",
+    "type": "documents",
+    "description": "CONTEXT.md header: use the project skill astro-science for path-level detail",
+    "weight": 0.5
+  },
+  {
+    "source": "document:CONTEXT.md",
+    "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+    "type": "documents",
+    "description": "CONTEXT.md section 4.3 names 01_black_hole_fundamentals.ipynb",
+    "weight": 0.5
+  },
+  {
+    "source": "document:CONTEXT.md",
+    "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+    "type": "documents",
+    "description": "CONTEXT.md section 4.3 names 02_geodesics_orbits.ipynb",
+    "weight": 0.5
+  },
+  {
+    "source": "document:CONTEXT.md",
     "target": "file:start-research.sh",
     "type": "documents",
     "description": "CONTEXT.md directory map lists start-research.sh at the root",
+    "weight": 0.5
+  },
+  {
+    "source": "document:docs/AUTOMATION.md",
+    "target": "file:.opencode/loops/notebook-health.sh",
+    "type": "documents",
+    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+    "weight": 0.5
+  },
+  {
+    "source": "document:docs/AUTOMATION.md",
+    "target": "file:.opencode/loops/orchestrator.sh",
+    "type": "documents",
+    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+    "weight": 0.5
+  },
+  {
+    "source": "document:docs/AUTOMATION.md",
+    "target": "file:.opencode/loops/refresh-data.sh",
+    "type": "documents",
+    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
+    "weight": 0.5
+  },
+  {
+    "source": "document:docs/AUTOMATION.md",
+    "target": "file:.opencode/loops/research-loop.sh",
+    "type": "documents",
+    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
     "weight": 0.5
   },
   {
@@ -385,10 +469,143 @@
     "weight": 0.5
   },
   {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Black Hole Accretion.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Black Hole Accretion]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Christoffel Symbols.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Christoffel Symbols]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Early Supermassive Black Hole Growth.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Early Supermassive Black Hole Growth]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Fisher Information Matrix.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Fisher Information Matrix]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Geodesic Equations.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Geodesic Equations]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Gravitational Wave Analysis.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Gravitational Wave Analysis]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Gravitational-Wave Catalogs.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Gravitational-Wave Catalogs]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Hawking Radiation.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Hawking Radiation]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Kerr Metric.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Kerr Metric]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Kerr-Newman Metric.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Kerr-Newman Metric]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Quantum Gravity.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Quantum Gravity]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Raychaudhuri Equation.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Raychaudhuri Equation]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Reissner-Nordstr\u00f6m Metric.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Reissner-Nordstr\u00f6m Metric]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Remnant Energetics.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Remnant Energetics]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Schwarzschild Metric.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Schwarzschild Metric]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/White Holes.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[White Holes]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "document:research/wiki/index.md",
+    "target": "document:research/wiki/Wormholes.md",
+    "type": "documents",
+    "description": "index.md lists this article as a wiki entry ('[[Wormholes]]').",
+    "weight": 0.5
+  },
+  {
+    "source": "file:.opencode/loops/research-loop.sh",
+    "target": "document:CONTEXT.md",
+    "type": "documents",
+    "description": "loop output says 'Read CONTEXT.md and the astro-science skill'",
+    "weight": 0.5
+  },
+  {
     "source": "document:.opencode/agent/astro-theoretician.md",
     "target": "file:scripts/verify_formulas.py",
     "type": "related",
     "description": "the agent's step 4 sanity-checks formulas via verify_formulas.py",
+    "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/agent/astro-validator.md",
+    "target": "file:.opencode/loops/notebook-health.sh",
+    "type": "related",
+    "description": "the agent names .opencode/loops/notebook-health.sh as the notebook suite runner",
     "weight": 0.5
   },
   {
@@ -403,6 +620,27 @@
     "target": "document:.opencode/skill/astro-graphs.md",
     "type": "related",
     "description": "this command's step 1 reads the astro-graphs skill",
+    "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/command/astro-refresh-graphs.md",
+    "target": "document:docs/GRAPHS.md",
+    "type": "related",
+    "description": "domain flow 'graph-drift-check' chains .opencode/command/astro-refresh-graphs.md through docs/GRAPHS.md.",
+    "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/skill/astro-graphs.md",
+    "target": "document:docs/GRAPHS.md",
+    "type": "related",
+    "description": "the skill and GRAPHS.md document the same three graph commands",
+    "weight": 0.5
+  },
+  {
+    "source": "document:docs/GRAPHS.md",
+    "target": "document:research/wiki/index.md",
+    "type": "related",
+    "description": "domain flow 'domain-wiki-graph-refresh' chains docs/GRAPHS.md through research/wiki/index.md.",
     "weight": 0.5
   },
   {
@@ -452,6 +690,13 @@
     "target": "document:premium/theory_black_holes.md",
     "type": "related",
     "description": "loop's final step updates premium/theory_*.md (representative doc from the domain-graph flow)",
+    "weight": 0.5
+  },
+  {
+    "source": "file:.opencode/loops/research-loop.sh",
+    "target": "document:research/wiki/index.md",
+    "type": "related",
+    "description": "loop's final step updates research/wiki/ (index is the wiki root)",
     "weight": 0.5
   },
   {
@@ -579,5 +824,12 @@
     "type": "related",
     "description": "domain flow 'research-loop' chains scripts/verify_formulas.py through scripts/make_premium_figures.py.",
     "weight": 0.5
+  },
+  {
+    "source": "document:.opencode/command/astro-notebook-health.md",
+    "target": "file:.opencode/loops/notebook-health.sh",
+    "type": "triggers",
+    "description": "this command's instructions execute .opencode/loops/notebook-health.sh",
+    "weight": 0.6
   }
 ]
