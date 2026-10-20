@@ -211,6 +211,7 @@ Klonované repozitáře:
 
 - [SETUP_GUIDE.md](SETUP_GUIDE.md) - Detailní setup instrukce
 - [TOOLS_LIST.md](TOOLS_LIST.md) - Kompletní seznam nástrojů
+- [GITHUB_TOOLS.md](GITHUB_TOOLS.md) - Curated GitHub repos (astrophysics + scientific stack, ≥4k stars where possible)
 - [NEW_TOOLS_SUMMARY.md](NEW_TOOLS_SUMMARY.md) - Nové nástroje v2/v3
 - [INSTALLATION_SUMMARY.md](INSTALLATION_SUMMARY.md) - Instalační shrnutí
 
