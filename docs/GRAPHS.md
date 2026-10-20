@@ -29,18 +29,29 @@ The code graph is split into two parts that are **merged**:
 
 ```
 .ua/
-├── config.json              # outputLanguage: en
-├── .understandignore        # scan exclusions
-├── knowledge-graph.json     # the merged code graph (committed)
-├── meta.json                # git hash + scan metadata (committed)
-├── fingerprints.json        # change detection (committed)
-├── <subdomain>-knowledge-graph.json   # subdomain inputs (transient)
-├── intermediate/            # scratch (gitignored)
-└── tmp/                     # scratch (gitignored)
+├── config.json                            # outputLanguage: en (committed)
+├── knowledge-graph.json                   # MERGED code graph — 167 nodes / 92 edges
+├── meta.json                              # git hash + scan metadata (committed)
+├── fingerprints.json                      # change detection (committed)
+├── merge-report.json                      # subdomain merge report (committed)
+├── exotic-compact-objects-knowledge-graph.json  # subdomain graph, transient input to the merge
+├── domain-graph.json                      # domain flows — 4 domains, 9 flows, 38 steps
+├── wiki-graph.json                        # wiki entity/claim graph (name intentionally avoids
+│                                          #   the *knowledge-graph*.json merge glob)
+├── intermediate/                          # scan + analysis scratch (gitignored)
+└── tmp/                                   # scratch (gitignored)
 ```
 
 `.gitignore` keeps everything in `.ua/` except `intermediate/`, `tmp/`, `.trash-*`,
-and `diff-overlay.json`.
+`diff-overlay.json`, and the plugin-generated `.ua/.understandignore`. The four
+committed graph files plus `config.json`, `meta.json`, `fingerprints.json`, and
+`merge-report.json` are enough for a viewer to render the full suite:
+
+| Graph file | Nodes | Edges | Notes |
+|---|---|---|---|
+| `knowledge-graph.json` | 167 | 92 | 10 layers, 18 tour steps; root + subdomain merge |
+| `domain-graph.json` | 51 | 52 | 4 domains, 9 flows, 38 steps, 5 cross-domain links |
+| `wiki-graph.json` | 49 | 130 | 16 articles, 128 wikilinks — 0 broken, 7 layers |
 
 ---
 

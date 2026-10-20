@@ -1,0 +1,1131 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "astro-science",
+    "languages": [
+      "python",
+      "shell",
+      "markdown"
+    ],
+    "frameworks": [],
+    "description": "Scientific research workspace producing an astrophysics portfolio; the domain graph captures its operating loops: data refresh, notebook health, research & theory, and knowledge-graph maintenance.",
+    "analyzedAt": "2026-10-20T20:47:10+02:00",
+    "gitCommitHash": "8c13fd6b8b9772b30c8ff2fd35bfcc54c8a04989"
+  },
+  "nodes": [
+    {
+      "id": "domain:observational-data-refresh",
+      "type": "domain",
+      "name": "Observational Data Refresh",
+      "summary": "Keeps every observational catalog in the workspace current: GWOSC/GWTC merger events, HEASARC compact-object catalogs (XRB, M87, Sgr A* region, ULX), BlackCAT dynamical black-hole masses, EHT/Gaia/Planck/SDSS/SXS auxiliary sources, and the derived processed CSVs the notebooks and dashboards consume.",
+      "tags": [
+        "data",
+        "catalogs",
+        "refresh"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entities": [
+          "GWTC catalog snapshot",
+          "HEASARC CSVs",
+          "BlackCAT dynamical sample",
+          "processed CSV ring folders"
+        ],
+        "businessRules": [
+          "Catalog snapshots replace rather than merge: back up before re-running update_gwosc.py",
+          "Catalog measurements carry confidence intervals and are never treated as population-unbiased samples without correction",
+          "Fetched artifacts record fetch timestamps and content hashes (fetch_log)"
+        ],
+        "crossDomainInteractions": [
+          "Consumed by research-and-theory (compute_with_data.py) and by computational notebooks"
+        ]
+      }
+    },
+    {
+      "id": "flow:refresh-loop",
+      "type": "flow",
+      "name": "Workspace Data Refresh Loop",
+      "summary": "The scheduled refresh-data.sh loop: download new catalog snapshots, process them into derived CSVs, rebuild dashboards and figures, and update the reports.",
+      "tags": [
+        "automation",
+        "data",
+        "loop"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": ".opencode/loops/refresh-data.sh",
+        "entryType": "cron"
+      }
+    },
+    {
+      "id": "step:refresh-loop:trigger-orchestrator",
+      "type": "step",
+      "name": "trigger-orchestrator",
+      "summary": "refresh-data.sh is invoked by cron/heartbeat or the /astro-refresh-data command; the orchestrator coordinates the sweep.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/refresh-data.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:refresh-gwtc-snapshot",
+      "type": "step",
+      "name": "refresh-gwtc-snapshot",
+      "summary": "update_gwosc_gwtc5.py re-downloads the full GWOSC GWTC-1..GWTC-5 catalog (391 events) writing raw JSON, tidy CSV, and catalog stats with fetch timestamps.",
+      "tags": "data",
+      "complexity": "moderate",
+      "filePath": "scripts/update_gwosc_gwtc5.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:refresh-heasarc-blackcat",
+      "type": "step",
+      "name": "refresh-heasarc-blackcat",
+      "summary": "download_heasarc.py and download_blackcat.py fetch HEASARC TAP tables and the published BlackCAT dynamical VizieR sample.",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "scripts/download_heasarc.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:process-blackcat",
+      "type": "step",
+      "name": "process-blackcat",
+      "summary": "process_blackcat.py parses and joins the VizieR tables into data/processed/blackcat_dynamical.csv, keeping limits as limits.",
+      "tags": "data-processing",
+      "complexity": "simple",
+      "filePath": "scripts/process_blackcat.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:augment-derived-quantities",
+      "type": "step",
+      "name": "augment-derived-quantities",
+      "summary": "add_bh_derived_quantities.py attaches astropy-derived SI quantities (ISCO, Hawking temperature) to the remnant/AGN catalogs without altering source values.",
+      "tags": "data-processing",
+      "complexity": "simple",
+      "filePath": "scripts/add_bh_derived_quantities.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:rebuild-dashboards",
+      "type": "step",
+      "name": "rebuild-dashboards",
+      "summary": "The three dashboard builders (build_gwtc_remnant_dashboard.py, build_agn_reverberation_dashboard.py, build_blackcat_dashboard.py) regenerate the premium Plotly HTML figures from the processed CSVs.",
+      "tags": "visualization",
+      "complexity": "simple",
+      "filePath": "scripts/build_gwtc_remnant_dashboard.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:refresh-loop:write-reports",
+      "type": "step",
+      "name": "write-reports",
+      "summary": "compute_with_data.py reconciliation and refreshed catalog status update reports/gwosc_latest.md and reports/compute_data_report.md.",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:black-hole-snapshot-update",
+      "type": "flow",
+      "name": "black-holes Project Snapshot Update",
+      "summary": "The black-holes project's own refresh: replace the SQLite catalog snapshot with the latest GWOSC GWTC and HEASARC candidate data, then regenerate the overview figures.",
+      "tags": [
+        "data",
+        "sqlite"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entryPoint": "research/projects/black-holes/scripts/update_gwosc.py",
+        "entryType": "cli"
+      }
+    },
+    {
+      "id": "step:black-hole-snapshot-update:fetch-gwtc",
+      "type": "step",
+      "name": "fetch-gwtc",
+      "summary": "update_gwosc.py downloads the current GWTC event list into data/black_holes.sqlite (replacing the snapshot table).",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "research/projects/black-holes/scripts/update_gwosc.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:black-hole-snapshot-update:fetch-candidates",
+      "type": "step",
+      "name": "fetch-candidates",
+      "summary": "update_heasarc_candidates.py refreshes HEASARC black-hole-candidate flags into the same database.",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "research/projects/black-holes/scripts/update_heasarc_candidates.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:black-hole-snapshot-update:regenerate-figures",
+      "type": "step",
+      "name": "regenerate-figures",
+      "summary": "Total-mass and SNR figures are regenerated from the refreshed catalog.",
+      "tags": "visualization",
+      "complexity": "simple",
+      "filePath": "research/projects/black-holes/scripts/update_gwosc.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:black-hole-snapshot-update:log-fetch",
+      "type": "step",
+      "name": "log-fetch",
+      "summary": "The fetch_log table records the run so historical versions can be traced (back up the DB first).",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": "research/projects/black-holes/scripts/update_gwosc.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:strain-asset-acquisition",
+      "type": "flow",
+      "name": "Strain & Waveform Acquisition",
+      "summary": "On-demand acquisition of large waveform assets: GWOSC O4 strain HDF5s, marquee-event strain files, and SXS numerical-relativity waveforms — stored out of the graph as heavy binaries.",
+      "tags": [
+        "data",
+        "waveforms"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": "scripts/download_strain_marquee.py",
+        "entryType": "manual"
+      }
+    },
+    {
+      "id": "step:strain-asset-acquisition:download-marquee-events",
+      "type": "step",
+      "name": "download-marquee-events",
+      "summary": "download_strain_marquee.py fetches 4 kHz 4096 s strain for GW170817, GW190814, GW190521 with SHA-verified filenames.",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "scripts/download_strain_marquee.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:strain-asset-acquisition:download-o4-strain",
+      "type": "step",
+      "name": "download-o4-strain",
+      "summary": "download_gwosc_o4.py filters O4 events and pulls event metadata plus strain HDF5 files from GWOSC.",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "scripts/download_gwosc_o4.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:strain-asset-acquisition:build-sxs-waveforms",
+      "type": "step",
+      "name": "build-sxs-waveforms",
+      "summary": "download_sxs.py builds the SXS waveform catalog metadata and generates synthetic NPZ waveforms where the JS-only catalog blocks direct download.",
+      "tags": "data",
+      "complexity": "simple",
+      "filePath": "scripts/download_sxs.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "domain:notebook-health",
+      "type": "domain",
+      "name": "Notebook Health",
+      "summary": "Keeps the 24 flagship notebooks executable and reproducible: executes every notebook in order on the workspace venv, collects failures, fixes the root cause (never just the symptom), and writes a health report.",
+      "tags": [
+        "notebooks",
+        "reproducibility"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entities": [
+          "notebooks/01-24",
+          "execution report"
+        ],
+        "businessRules": [
+          "Notebooks must run top-to-bottom with the workspace .venv",
+          "Fixes target root causes, not symptoms",
+          "Record environment versions for reproducibility"
+        ],
+        "crossDomainInteractions": [
+          "Notebooks consume the refreshed catalogs from Observational Data Refresh"
+        ]
+      }
+    },
+    {
+      "id": "flow:execute-all-notebooks",
+      "type": "flow",
+      "name": "Execute & Repair Notebook Suite",
+      "summary": "notebook-health.sh executes all notebooks, collects failures, and drives root-cause fixes until the suite is green.",
+      "tags": [
+        "automation",
+        "notebooks",
+        "loop"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": ".opencode/loops/notebook-health.sh",
+        "entryType": "cron"
+      }
+    },
+    {
+      "id": "step:execute-all-notebooks:discover-notebooks",
+      "type": "step",
+      "name": "discover-notebooks",
+      "summary": "notebook-health.sh enumerates every .ipynb under the project notebook directories in numbered order.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:execute-all-notebooks:execute-suite",
+      "type": "step",
+      "name": "execute-suite",
+      "summary": "Each notebook is executed end-to-end with the workspace Python venv.",
+      "tags": "execution",
+      "complexity": "moderate",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:execute-all-notebooks:collect-failures",
+      "type": "step",
+      "name": "collect-failures",
+      "summary": "Errors and outputs are collected into a failures list with the failing cell context.",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:execute-all-notebooks:fix-root-causes",
+      "type": "step",
+      "name": "fix-root-causes",
+      "summary": "The agent fixes the underlying cause (imports, data paths, API drift) and re-executes only then.",
+      "tags": "repair",
+      "complexity": "moderate",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:execute-all-notebooks:write-report",
+      "type": "step",
+      "name": "write-report",
+      "summary": "notebook_health_report is written summarizing pass/fail state per notebook.",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "domain:research-and-theory",
+      "type": "domain",
+      "name": "Research & Theory",
+      "summary": "The scientific production domain: hypothesis-driven research loops, symbolic derivation of new formulas with verification, physics computation against the refreshed catalogs, and theory documentation for the premium site.",
+      "tags": [
+        "research",
+        "theory",
+        "physics"
+      ],
+      "complexity": "complex",
+      "domainMeta": {
+        "entities": [
+          "theory documents",
+          "derivations",
+          "figures",
+          "reports"
+        ],
+        "businessRules": [
+          "Every result must state assumptions and data source",
+          "Derived quantities are labeled model-derived (e.g. Hawking temperature)",
+          "Units always stated via astropy.units"
+        ],
+        "crossDomainInteractions": [
+          "Consumes refreshed catalogs from Observational Data Refresh; outputs feed the published premium site"
+        ]
+      }
+    },
+    {
+      "id": "flow:research-loop",
+      "type": "flow",
+      "name": "Research Loop",
+      "summary": "research-loop.sh runs one hypothesis cycle: workspace directory, hypothesis template, symbolic/numeric derivation, figure, report, then a theory document.",
+      "tags": [
+        "research",
+        "theory",
+        "loop"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": ".opencode/loops/research-loop.sh",
+        "entryType": "manual"
+      }
+    },
+    {
+      "id": "step:research-loop:register-hypothesis",
+      "type": "step",
+      "name": "register-hypothesis",
+      "summary": "research-loop.sh creates a dated research work directory with a hypothesis template.",
+      "tags": "research",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/research-loop.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:research-loop:derive-symbolically",
+      "type": "step",
+      "name": "derive-symbolically",
+      "summary": "The astro-theoretician agent derives the target formula symbolically, ideally extending models/derivations.py with checked Sympy steps.",
+      "tags": "theory",
+      "complexity": "moderate",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:research-loop:validate-formulas",
+      "type": "step",
+      "name": "validate-formulas",
+      "summary": "verify_formulas.py asserts every symbolic check and performs numeric spot checks before results are trusted.",
+      "tags": "verification",
+      "complexity": "moderate",
+      "filePath": "scripts/verify_formulas.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:research-loop:produce-figure",
+      "type": "step",
+      "name": "produce-figure",
+      "summary": "A reproducible figure or dashboard summarizing the result is generated with Plotly/matplotlib.",
+      "tags": "visualization",
+      "complexity": "simple",
+      "filePath": "scripts/make_premium_figures.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:research-loop:write-theory-doc",
+      "type": "step",
+      "name": "write-theory-doc",
+      "summary": "The hypothesis, derivation, caveats, and data source are written into a premium theory markdown document.",
+      "tags": "documentation",
+      "complexity": "simple",
+      "filePath": "premium/theory_black_holes.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:formula-verification",
+      "type": "flow",
+      "name": "Formula Verification Sweep",
+      "summary": "Standalone verification sweep over the whole formula inventory: run_all() derivations plus astropy/scipy numeric checks, producing the derivation report and check JSON.",
+      "tags": [
+        "verification",
+        "sympy"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": "scripts/verify_formulas.py",
+        "entryType": "cli"
+      }
+    },
+    {
+      "id": "step:formula-verification:execute-derivations",
+      "type": "step",
+      "name": "execute-derivations",
+      "summary": "models/derivations.run_all() executes each symbolic derivation, requiring every check to reduce to an identity or true boolean.",
+      "tags": "physics",
+      "complexity": "complex",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:formula-verification:numeric-spot-checks",
+      "type": "step",
+      "name": "numeric-spot-checks",
+      "summary": "Closed forms are numerically validated against astropy/scipy precise integrals.",
+      "tags": "verification",
+      "complexity": "moderate",
+      "filePath": "scripts/verify_formulas.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:formula-verification:write-verification-report",
+      "type": "step",
+      "name": "write-verification-report",
+      "summary": "reports/derivations_report.md and results/derivation_checks.json are written with PASS per derivation.",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": "scripts/verify_formulas.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:compute-with-catalogs",
+      "type": "flow",
+      "name": "Compute Physics With Catalog Data",
+      "summary": "compute_with_data.py computes physics on real data: GWTC reconciliation (chirp masses, redshifts), remnant ISCO/Hawking physics, mass-gap candidate extraction, strain quicklooks, and SXS characterization.",
+      "tags": [
+        "physics",
+        "gwtc",
+        "validation"
+      ],
+      "complexity": "complex",
+      "domainMeta": {
+        "entryPoint": "scripts/compute_with_data.py",
+        "entryType": "cli"
+      }
+    },
+    {
+      "id": "step:compute-with-catalogs:reconcile-gwtc",
+      "type": "step",
+      "name": "reconcile-gwtc",
+      "summary": "Recomputes chirp mass from (m1,m2) and redshift from luminosity distance for 391 GWTC events, quantifying median deviation vs catalog values.",
+      "tags": "physics",
+      "complexity": "moderate",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:compute-with-catalogs:extract-mass-gap-candidates",
+      "type": "step",
+      "name": "extract-mass-gap-candidates",
+      "summary": "Flags events with 2.5 < m2 < 5 Msun into results/gwtc_mass_gap_candidates.csv.",
+      "tags": "physics",
+      "complexity": "simple",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:compute-with-catalogs:remnant-radiation-physics",
+      "type": "step",
+      "name": "remnant-radiation-physics",
+      "summary": "Computes ISCO radius and Hawking temperature for events with final mass into results/gwtc_remnant_isco_hawking.csv.",
+      "tags": "physics",
+      "complexity": "simple",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:compute-with-catalogs:strain-quicklook",
+      "type": "step",
+      "name": "strain-quicklook",
+      "summary": "Band-power chirp detection quicklooks on the three marquee strain files with per-detector peak timing.",
+      "tags": "signal-analysis",
+      "complexity": "simple",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:compute-with-catalogs:write-compute-report",
+      "type": "step",
+      "name": "write-compute-report",
+      "summary": "Summarizes all blocks into reports/compute_data_report.md with UTC generation stamps.",
+      "tags": "reporting",
+      "complexity": "simple",
+      "filePath": "scripts/compute_with_data.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "domain:knowledge-graph-maintenance",
+      "type": "domain",
+      "name": "Knowledge Graph Maintenance",
+      "summary": "Keeps the three Understand-Anything graphs current: the merged code graph (root + exotic-compact-objects subdomain), the domain flow graph, and the wiki knowledge graph over the Karpathy-pattern wiki. Refreshing graphs after every data sweep is part of the loop discipline.",
+      "tags": [
+        "automation",
+        "graph",
+        "documentation"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entities": [
+          "knowledge-graph.json",
+          "domain-graph.json",
+          "wiki knowledge graph"
+        ],
+        "businessRules": [
+          "Output language is English (stored in .ua/config.json)",
+          "The nested exotic-compact-objects repo is analyzed as its own subdomain graph and merged, never inside the root scan",
+          "Incremental updates re-analyze only changed files by default"
+        ],
+        "crossDomainInteractions": [
+          "Graphs are refreshed after each Observational Data Refresh sweep"
+        ]
+      }
+    },
+    {
+      "id": "flow:code-graph-refresh",
+      "type": "flow",
+      "name": "Code Graph Refresh & Subdomain Merge",
+      "summary": "Refresh the merged code graph: scan/analyze the workspace root, analyze the nested flagship repo as a subdomain, and merge the two graphs with the bundled merge script.",
+      "tags": [
+        "graph",
+        "automation"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": "/understand",
+        "entryType": "cli"
+      }
+    },
+    {
+      "id": "step:code-graph-refresh:scan-workspace",
+      "type": "step",
+      "name": "scan-workspace",
+      "summary": "scan-project.mjs enumerates root files under .ua/.understandignore rules, excluding the nested repo.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".ua/.understandignore",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:code-graph-refresh:analyze-nested-repo",
+      "type": "step",
+      "name": "analyze-nested-repo",
+      "summary": "The exotic-compact-objects repo is scanned separately (code without data) to produce its own nodes and edges.",
+      "tags": "graph",
+      "complexity": "moderate",
+      "filePath": "research/projects/exotic-compact-objects/scripts/update_gwosc_gwtc5.py",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:code-graph-refresh:merge-subdomain",
+      "type": "step",
+      "name": "merge-subdomain",
+      "summary": "merge-subdomain-graphs.py merges the subdomain graph into .ua/knowledge-graph.json with dedup and a merge report.",
+      "tags": "graph",
+      "complexity": "simple",
+      "filePath": "docs/GRAPHS.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:domain-wiki-graph-refresh",
+      "type": "flow",
+      "name": "Domain & Wiki Graph Refresh",
+      "summary": "Refresh the domain flow graph and the wiki knowledge graph so domain views and the Karpathy-wiki entity/claim graph track the code and prose.",
+      "tags": [
+        "graph",
+        "wiki"
+      ],
+      "complexity": "simple",
+      "domainMeta": {
+        "entryPoint": "/understand-domain",
+        "entryType": "cli"
+      }
+    },
+    {
+      "id": "step:domain-wiki-graph-refresh:derive-domain-graph",
+      "type": "step",
+      "name": "derive-domain-graph",
+      "summary": "The domain analyzer derives domains/flows/steps from the merged code graph and saves domain-graph.json.",
+      "tags": "graph",
+      "complexity": "simple",
+      "filePath": "docs/GRAPHS.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:domain-wiki-graph-refresh:parse-wiki",
+      "type": "step",
+      "name": "parse-wiki",
+      "summary": "parse-knowledge-base.py scans research/wiki (17 pages, 144 wikilinks) into a scan manifest.",
+      "tags": "wiki",
+      "complexity": "simple",
+      "filePath": "research/wiki/index.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:domain-wiki-graph-refresh:merge-wiki-graph",
+      "type": "step",
+      "name": "merge-wiki-graph",
+      "summary": "The knowledge merge assembles article/entity/topic nodes with wikilink and implicit edges and saves the wiki knowledge graph.",
+      "tags": "wiki",
+      "complexity": "simple",
+      "filePath": "research/wiki/index.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "domain:observational-data-refresh",
+      "target": "flow:refresh-loop",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:trigger-orchestrator",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.1
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:refresh-gwtc-snapshot",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:refresh-heasarc-blackcat",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.4
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:process-blackcat",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:augment-derived-quantities",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:rebuild-dashboards",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "flow:refresh-loop",
+      "target": "step:refresh-loop:write-reports",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:observational-data-refresh",
+      "target": "flow:black-hole-snapshot-update",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:black-hole-snapshot-update",
+      "target": "step:black-hole-snapshot-update:fetch-gwtc",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.2
+    },
+    {
+      "source": "flow:black-hole-snapshot-update",
+      "target": "step:black-hole-snapshot-update:fetch-candidates",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "flow:black-hole-snapshot-update",
+      "target": "step:black-hole-snapshot-update:regenerate-figures",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "flow:black-hole-snapshot-update",
+      "target": "step:black-hole-snapshot-update:log-fetch",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:observational-data-refresh",
+      "target": "flow:strain-asset-acquisition",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:strain-asset-acquisition",
+      "target": "step:strain-asset-acquisition:download-marquee-events",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:strain-asset-acquisition",
+      "target": "step:strain-asset-acquisition:download-o4-strain",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:strain-asset-acquisition",
+      "target": "step:strain-asset-acquisition:build-sxs-waveforms",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:notebook-health",
+      "target": "flow:execute-all-notebooks",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:execute-all-notebooks",
+      "target": "step:execute-all-notebooks:discover-notebooks",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.2
+    },
+    {
+      "source": "flow:execute-all-notebooks",
+      "target": "step:execute-all-notebooks:execute-suite",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.4
+    },
+    {
+      "source": "flow:execute-all-notebooks",
+      "target": "step:execute-all-notebooks:collect-failures",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "flow:execute-all-notebooks",
+      "target": "step:execute-all-notebooks:fix-root-causes",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "flow:execute-all-notebooks",
+      "target": "step:execute-all-notebooks:write-report",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:research-and-theory",
+      "target": "flow:research-loop",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:research-loop",
+      "target": "step:research-loop:register-hypothesis",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.2
+    },
+    {
+      "source": "flow:research-loop",
+      "target": "step:research-loop:derive-symbolically",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.4
+    },
+    {
+      "source": "flow:research-loop",
+      "target": "step:research-loop:validate-formulas",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "flow:research-loop",
+      "target": "step:research-loop:produce-figure",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "flow:research-loop",
+      "target": "step:research-loop:write-theory-doc",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:research-and-theory",
+      "target": "flow:formula-verification",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:formula-verification",
+      "target": "step:formula-verification:execute-derivations",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:formula-verification",
+      "target": "step:formula-verification:numeric-spot-checks",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:formula-verification",
+      "target": "step:formula-verification:write-verification-report",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:research-and-theory",
+      "target": "flow:compute-with-catalogs",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:compute-with-catalogs",
+      "target": "step:compute-with-catalogs:reconcile-gwtc",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.2
+    },
+    {
+      "source": "flow:compute-with-catalogs",
+      "target": "step:compute-with-catalogs:extract-mass-gap-candidates",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.4
+    },
+    {
+      "source": "flow:compute-with-catalogs",
+      "target": "step:compute-with-catalogs:remnant-radiation-physics",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "flow:compute-with-catalogs",
+      "target": "step:compute-with-catalogs:strain-quicklook",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "flow:compute-with-catalogs",
+      "target": "step:compute-with-catalogs:write-compute-report",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:knowledge-graph-maintenance",
+      "target": "flow:code-graph-refresh",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:code-graph-refresh",
+      "target": "step:code-graph-refresh:scan-workspace",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:code-graph-refresh",
+      "target": "step:code-graph-refresh:analyze-nested-repo",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:code-graph-refresh",
+      "target": "step:code-graph-refresh:merge-subdomain",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:knowledge-graph-maintenance",
+      "target": "flow:domain-wiki-graph-refresh",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:domain-wiki-graph-refresh",
+      "target": "step:domain-wiki-graph-refresh:derive-domain-graph",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:domain-wiki-graph-refresh",
+      "target": "step:domain-wiki-graph-refresh:parse-wiki",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:domain-wiki-graph-refresh",
+      "target": "step:domain-wiki-graph-refresh:merge-wiki-graph",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "domain:observational-data-refresh",
+      "target": "domain:research-and-theory",
+      "type": "cross_domain",
+      "direction": "forward",
+      "description": "Freshly fetched GWTC/HEASARC/BlackCAT snapshots are the input data for compute_with_data.py and the notebook analyses.",
+      "weight": 0.6
+    },
+    {
+      "source": "domain:observational-data-refresh",
+      "target": "domain:notebook-health",
+      "type": "cross_domain",
+      "direction": "forward",
+      "description": "Refreshed processed CSVs change notebook data paths; notebook health re-verifies executability after each sweep.",
+      "weight": 0.6
+    },
+    {
+      "source": "domain:knowledge-graph-maintenance",
+      "target": "domain:observational-data-refresh",
+      "type": "cross_domain",
+      "direction": "forward",
+      "description": "After each data sweep the orchestrator reminds to refresh the three graphs so they track catalog changes.",
+      "weight": 0.4
+    },
+    {
+      "source": "domain:knowledge-graph-maintenance",
+      "target": "domain:research-and-theory",
+      "type": "cross_domain",
+      "direction": "forward",
+      "description": "New theory documents and scripts from research cycles enter the code graph on the next refresh.",
+      "weight": 0.4
+    },
+    {
+      "source": "domain:notebook-health",
+      "target": "domain:research-and-theory",
+      "type": "cross_domain",
+      "direction": "forward",
+      "description": "Notebook repair often propagates import or formula changes back into the models package.",
+      "weight": 0.4
+    }
+  ],
+  "layers": [],
+  "tour": []
+}

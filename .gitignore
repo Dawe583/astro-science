@@ -46,6 +46,7 @@ research/projects/exotic-compact-objects/
 .ua/tmp/
 .ua/.trash-*/
 .ua/diff-overlay.json
+.ua/.understandignore
 .understand-anything/intermediate/
 .understand-anything/tmp/
 .understand-anything/.trash-*/

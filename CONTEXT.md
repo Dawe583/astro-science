@@ -168,15 +168,24 @@ Understand-Anything is installed globally (`~/.understand-anything/repo`, skills
 `~/.agents/skills`). The plugin is built (`packages/core/dist`).
 
 **Data directory:** `.ua/` in the project root. `.gitignore` keeps `.ua/` except
-`intermediate/`, `tmp/`, `.trash-*`, `diff-overlay.json`.
+`intermediate/`, `tmp/`, `.trash-*`, `diff-overlay.json`, and the plugin-generated
+`.ua/.understandignore`.
 
-**Three graphs are maintained:**
+**Three graphs are maintained (all committed):**
 
-| Graph | Command | Output |
-|---|---|---|
-| Code graph | `/understand` | `.ua/knowledge-graph.json` |
-| Domain flows | `/understand-domain` | domain flow graph |
-| Knowledge wiki graph | `/understand-knowledge research/wiki` | wiki entity/claim graph |
+| Graph | Command | Output | Size (2026-10-20 build) |
+|---|---|---|---|
+| Code graph (root + subdomain merge) | `/understand` | `.ua/knowledge-graph.json` | 167 nodes / 92 edges / 10 layers / 18 tour steps |
+| Domain flows | `/understand-domain` | `.ua/domain-graph.json` | 51 nodes (4 domains, 9 flows, 38 steps) / 52 edges |
+| Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 49 nodes (16 articles, 7 topics, 12 entities, 14 claims) / 130 edges |
+
+Transient merge inputs (recreated on refresh, safe to restage):
+
+- `.ua/exotic-compact-objects-knowledge-graph.json` — subdomain code graph for the
+  nested repo (92 nodes / 62 edges), merged into the root graph via
+  `merge-subdomain-graphs.py` (report: `.ua/merge-report.json`).
+- `.ua/wiki-graph.json` is deliberately **not** named `*knowledge-graph*` so the
+  subdomain-merge glob cannot ingest it as a code subdomain.
 
 - Output language: **English** (stored in `.ua/config.json`).
 - Incremental updates are the default (only changed files re-analyzed).

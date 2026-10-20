@@ -1,0 +1,1783 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "exotic-compact-objects",
+    "languages": [
+      "python",
+      "ipynb",
+      "markdown",
+      "tex"
+    ],
+    "frameworks": [],
+    "description": "Flagship research project: black holes, wormholes, and white holes — symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science.",
+    "analyzedAt": "2026-10-20T20:47:10+02:00",
+    "gitCommitHash": "91483a5f707f09a8b48c0011d9665703ab6658e8"
+  },
+  "nodes": [
+    {
+      "id": "document:premium/theory_black_holes.md",
+      "type": "document",
+      "name": "theory_black_holes.md",
+      "filePath": "premium/theory_black_holes.md",
+      "summary": "Complete self-contained derivation of black hole theory from first principles: Schwarzschild solution via Birkhoff assumptions, full LaTeX field-equation chain with explicit SI units and (-,+,+,+) signature.",
+      "tags": [
+        "theory",
+        "black-holes",
+        "derivation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_kerr_newman.md",
+      "type": "document",
+      "name": "theory_kerr_newman.md",
+      "filePath": "premium/theory_kerr_newman.md",
+      "summary": "Kerr-Newman rotating charged black hole: Einstein-Maxwell action and the full Boyer-Lindquist metric with mass M, spin a, charge Q parameters.",
+      "tags": [
+        "theory",
+        "black-holes",
+        "rotating"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_kerr_newman_adm.md",
+      "type": "document",
+      "name": "theory_kerr_newman_adm.md",
+      "filePath": "premium/theory_kerr_newman_adm.md",
+      "summary": "ADM decomposition of GR (lapse/shift) and a complete derivation of the ADM mass, angular momentum, and charge for Kerr-Newman spacetimes.",
+      "tags": [
+        "theory",
+        "adm",
+        "formalism"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_reissner_nordstrom.md",
+      "type": "document",
+      "name": "theory_reissner_nordstrom.md",
+      "filePath": "premium/theory_reissner_nordstrom.md",
+      "summary": "Reissner-Nordstrom static charged black hole: Einstein-Maxwell action, coupled field equations, and electromagnetic stress-energy derivation.",
+      "tags": [
+        "theory",
+        "black-holes",
+        "charged"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_christoffel_kerr.md",
+      "type": "document",
+      "name": "theory_christoffel_kerr.md",
+      "filePath": "premium/theory_christoffel_kerr.md",
+      "summary": "Complete derivation of all 48 non-zero Christoffel symbols of the Kerr metric in Boyer-Lindquist coordinates, computed via the inverse metric and its derivatives.",
+      "tags": [
+        "theory",
+        "kerr",
+        "christoffel"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_geodesic_equations.md",
+      "type": "document",
+      "name": "theory_geodesic_equations.md",
+      "filePath": "premium/theory_geodesic_equations.md",
+      "summary": "Geodesic equations for Schwarzschild and Kerr: Lagrangian derivation, Hamilton-Jacobi separability, Carter constant, effective potentials, orbit classification, and pericenter advance.",
+      "tags": [
+        "theory",
+        "geodesics",
+        "carter-constant"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_raychaudhuri.md",
+      "type": "document",
+      "name": "theory_raychaudhuri.md",
+      "filePath": "premium/theory_raychaudhuri.md",
+      "summary": "Raychaudhuri equation for null and timelike congruences derived from geodesic deviation; expansion/shear/vorticity terms, focusing theorem, and Penrose-Hawking singularity theorem connections.",
+      "tags": [
+        "theory",
+        "congruences",
+        "singularity-theorems"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_fisher_matrix.md",
+      "type": "document",
+      "name": "theory_fisher_matrix.md",
+      "filePath": "premium/theory_fisher_matrix.md",
+      "summary": "Fisher information matrix for gravitational-wave parameter estimation: waveform derivatives w.r.t. masses/spins, SNR inner-product integrals, covariance matrix, and BH-binary degeneracy analysis.",
+      "tags": [
+        "theory",
+        "gravitational-waves",
+        "parameter-estimation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_bh_perturbation.md",
+      "type": "document",
+      "name": "theory_bh_perturbation.md",
+      "filePath": "premium/theory_bh_perturbation.md",
+      "summary": "Black hole perturbation theory: linearized fluctuations over Schwarzschild/Kerr backgrounds separating into decoupled master equations, with the full metric setup in LaTeX.",
+      "tags": [
+        "theory",
+        "perturbation-theory",
+        "black-holes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_white_holes.md",
+      "type": "document",
+      "name": "theory_white_holes.md",
+      "filePath": "premium/theory_white_holes.md",
+      "summary": "White hole complete theoretical treatment: time-reversed Schwarzschild interpretation, the deceptive metric invariance under time reversal, maximal-extension causal structure, and observational signatures.",
+      "tags": [
+        "theory",
+        "white-holes",
+        "review"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_wormholes.md",
+      "type": "document",
+      "name": "theory_wormholes.md",
+      "filePath": "premium/theory_wormholes.md",
+      "summary": "Wormhole theory derivation: historical Einstein-Rosen bridge (1935) through Morris-Thorne traversable metrics, all in LaTeX with derivations.",
+      "tags": [
+        "theory",
+        "wormholes",
+        "morris-thorne"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/early_smbh_growth.md",
+      "type": "document",
+      "name": "early_smbh_growth.md",
+      "filePath": "premium/early_smbh_growth.md",
+      "summary": "Early supermassive black-hole growth: evidence ledger for high-z quasars and JWST AGN (J0313-1806, CEERS 1019, GN-z11, UHZ1), Eddington-limited growth algebra, seed feasibility, and explicit caveats that the selection is not a complete or statistically representative sample.",
+      "tags": [
+        "theory",
+        "early-smbh",
+        "jwst",
+        "cosmology"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/quantum_gravity.md",
+      "type": "document",
+      "name": "quantum_gravity.md",
+      "filePath": "premium/quantum_gravity.md",
+      "summary": "Quantum gravity module: why GR and QFT conflict, Planck-scale dimensional derivation, gravitational EFT as controlled low-energy theory below its cutoff, candidate UV approaches (string theory, LQG, asymptotic safety, causal sets), with strict measured/derived/illustration evidence labels.",
+      "tags": [
+        "theory",
+        "quantum-gravity",
+        "eft"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:research/projects/exotic-compact-objects/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "research/projects/exotic-compact-objects/README.md",
+      "summary": "Project overview of the exotic-compact-objects flagship: scope (black holes, wormholes, white holes), data sources (GWOSC GWTC, HEASARC, theoretical grids), and the directory structure of data/models/notebooks/premium.",
+      "tags": [
+        "readme",
+        "overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:THEORY.md",
+      "type": "document",
+      "name": "THEORY.md",
+      "filePath": "THEORY.md",
+      "summary": "Compact complete theory in LaTeX: GR foundations (metric, Christoffel, Riemann, Ricci, Einstein equations) followed by the Schwarzschild solution and companion solutions.",
+      "tags": [
+        "theory",
+        "reference",
+        "latex"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/summary.md",
+      "type": "document",
+      "name": "summary.md",
+      "filePath": "reports/summary.md",
+      "summary": "Project summary roll-up: catalog counts (391 GWTC events, HEASARC CSVs), the implemented model inventory (Schwarzschild/Kerr/Morris-Thorne/white-hole/Hawking), the notebook list, and next steps.",
+      "tags": [
+        "report",
+        "summary"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/gwosc_latest.md",
+      "type": "document",
+      "name": "gwosc_latest.md",
+      "filePath": "reports/gwosc_latest.md",
+      "summary": "GWOSC snapshot status report: 391 GWTC records from the GWOSC event API, with the explicit reminder that a merger catalog is not a black-hole census.",
+      "tags": [
+        "report",
+        "gwosc",
+        "data-status"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/compute_data_report.md",
+      "type": "document",
+      "name": "compute_data_report.md",
+      "filePath": "reports/compute_data_report.md",
+      "summary": "Report of compute_with_data.py runs: GWTC chirp-mass and redshift recomputation deviations, mass-gap candidates, ISCO/Hawking remnant physics, and detection-band strain quicklooks for GW170817/GW190814/GW190521.",
+      "tags": [
+        "report",
+        "validation",
+        "data"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/derivations_report.md",
+      "type": "document",
+      "name": "derivations_report.md",
+      "filePath": "reports/derivations_report.md",
+      "summary": "Auto-generated verification report: every symbolic derivation from models/derivations.py executed with SymPy (each check reduces to an identity or strict inequality), plus astropy/scipy numeric spot checks; one PASS entry per derivation.",
+      "tags": [
+        "report",
+        "verification",
+        "sympy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:models/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "models/__init__.py",
+      "summary": "Package init: re-exports the equations symbols so users can import from the models package directly.",
+      "tags": [
+        "package"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:models/equations.py",
+      "type": "file",
+      "name": "equations.py",
+      "filePath": "models/equations.py",
+      "summary": "Core astropy-unit equations for exotic compact objects: Schwarzschild radius, Hawking temperature, ISCO and photon-sphere radii, Kerr horizon/ergosphere, Morris-Thorne wormhole shape/redshift/metric components, and white-hole constructions.",
+      "tags": [
+        "physics",
+        "astropy",
+        "models"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:models/formulas.py",
+      "type": "file",
+      "name": "formulas.py",
+      "filePath": "models/formulas.py",
+      "summary": "Extended numeric formulas with astropy units: exact Kerr ISCO, ISCO orbital frequency, Eddington luminosity and accretion rate, and GW chirp mass / symmetric mass ratio / delta — each function cites the symbolic derivation that backs it.",
+      "tags": [
+        "physics",
+        "astropy",
+        "formulas"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:models/derivations.py",
+      "type": "file",
+      "name": "derivations.py",
+      "filePath": "models/derivations.py",
+      "summary": "Fully symbolic Sympy derivations backing every formula in the project: Christoffel symbols, Ricci tensor, photon sphere, ISCO, Hawking radiation, wormhole flare-out; each derivation carries explicit checks and entry point run_all() yields DerivationResult dicts consumed by scripts/verify_formulas.py.",
+      "tags": [
+        "physics",
+        "sympy",
+        "derivations"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:models/equations.py:schwarzschild_radius",
+      "type": "function",
+      "name": "schwarzschild_radius",
+      "filePath": "models/equations.py",
+      "summary": "Computes Rs = 2GM/c^2 in kilometers with astropy constants.",
+      "tags": [
+        "physics",
+        "schwarzschild"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/equations.py:hawking_temperature",
+      "type": "function",
+      "name": "hawking_temperature",
+      "filePath": "models/equations.py",
+      "summary": "Computes T_H = hbar c^3 / (8 pi G M kB) for a black hole.",
+      "tags": [
+        "physics",
+        "thermodynamics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/equations.py:morris_thorne_metric_components",
+      "type": "function",
+      "name": "morris_thorne_metric_components",
+      "filePath": "models/equations.py",
+      "summary": "Returns (g_tt, g_rr) for the Morris-Thorne demo wormhole metric from shape and redshift functions.",
+      "tags": [
+        "physics",
+        "wormholes"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/formulas.py:kerr_isco_radius",
+      "type": "function",
+      "name": "kerr_isco_radius",
+      "filePath": "models/formulas.py",
+      "summary": "Exact Kerr ISCO radius via the Bardeen-Press-Teukolsky 1972 Z1/Z2 formula, prograde or retrograde.",
+      "tags": [
+        "physics",
+        "kerr"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/formulas.py:eddington_luminosity",
+      "type": "function",
+      "name": "eddington_luminosity",
+      "filePath": "models/formulas.py",
+      "summary": "Computes the Eddington luminosity limit 4 pi G M m_p c / sigma_T.",
+      "tags": [
+        "physics",
+        "accretion"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/formulas.py:gw_chirp_mass",
+      "type": "function",
+      "name": "gw_chirp_mass",
+      "filePath": "models/formulas.py",
+      "summary": "Recomputes the chirp mass (m1 m2)^(3/5)/(m1+m2)^(1/5) used to cross-check GWTC catalog values.",
+      "tags": [
+        "physics",
+        "gravitational-waves"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:run_all",
+      "type": "function",
+      "name": "run_all",
+      "filePath": "models/derivations.py",
+      "summary": "Entry point returning the full list of symbolic derivation results with formula, steps, and pass/fail checks; consumed by verify_formulas.py.",
+      "tags": [
+        "sympy",
+        "verification"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+      "type": "file",
+      "name": "01_exotic_compact_objects_fundamentals.ipynb",
+      "filePath": "notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+      "summary": "First theoretical model notebook: Schwarzschild/Kerr/Morris-Thorne basics with the first-pass equations, designed around GWTC and HEASARC snapshots.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/02_extended_models.ipynb",
+      "type": "file",
+      "name": "02_extended_models.ipynb",
+      "filePath": "notebooks/02_extended_models.ipynb",
+      "summary": "Extended models notebook: Kerr ISCO vs spin, effective potentials, Morris-Thorne flare-out and embedding, Hawking radiation power/lifetime, and white-hole analogs.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/03_data_exploration.ipynb",
+      "type": "file",
+      "name": "03_data_exploration.ipynb",
+      "filePath": "notebooks/03_data_exploration.ipynb",
+      "summary": "Data exploration of downloaded catalogs: GWOSC GWTC events and HEASARC compact-object CSVs joined into mass distributions.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/04_white_hole_instability.ipynb",
+      "type": "file",
+      "name": "04_white_hole_instability.ipynb",
+      "filePath": "notebooks/04_white_hole_instability.ipynb",
+      "summary": "White hole instability notebook: conceptual notes plus a toy exponential decay model of an unstable white hole.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/05_equation_derivations.ipynb",
+      "type": "file",
+      "name": "05_equation_derivations.ipynb",
+      "filePath": "notebooks/05_equation_derivations.ipynb",
+      "summary": "Equation derivations notebook: step-by-step symbolic (SymPy) and numeric (NumPy/SciPy) verification of key equations with intermediate steps.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/06_visual_models.ipynb",
+      "type": "file",
+      "name": "06_visual_models.ipynb",
+      "filePath": "notebooks/06_visual_models.ipynb",
+      "summary": "Visual models notebook: Plotly 3D wormhole embedding and Kerr ergosphere views, exported as figures/ HTML for phone viewing.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/07_geodesics.ipynb",
+      "type": "file",
+      "name": "07_geodesics.ipynb",
+      "filePath": "notebooks/07_geodesics.ipynb",
+      "summary": "Geodesic simulation notebook: EinsteinPy timelike geodesic integration for Schwarzschild and Kerr orbits.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/08_sympy_christoffel.ipynb",
+      "type": "file",
+      "name": "08_sympy_christoffel.ipynb",
+      "filePath": "notebooks/08_sympy_christoffel.ipynb",
+      "summary": "Notebook computing Christoffel symbols of the Schwarzschild and Morris-Thorne metrics symbolically with SymPy.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/09_white_hole_extended.ipynb",
+      "type": "file",
+      "name": "09_white_hole_extended.ipynb",
+      "filePath": "notebooks/09_white_hole_extended.ipynb",
+      "summary": "White hole extended notebook: instability, a toy energy-release model, and candidate observational signatures.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/10_complete_theory.ipynb",
+      "type": "file",
+      "name": "10_complete_theory.ipynb",
+      "filePath": "notebooks/10_complete_theory.ipynb",
+      "summary": "Complete theory notebook: the full theoretical framework with derivations, explanations, and consistency checks as a readable theory document with runnable code.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/11_data_synthesis.ipynb",
+      "type": "file",
+      "name": "11_data_synthesis.ipynb",
+      "filePath": "notebooks/11_data_synthesis.ipynb",
+      "summary": "Data synthesis notebook: combining GWOSC events, AGN reverberation masses, and dynamically discovered stellar black holes into one population picture.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/12_advanced_models.ipynb",
+      "type": "file",
+      "name": "12_advanced_models.ipynb",
+      "filePath": "notebooks/12_advanced_models.ipynb",
+      "summary": "Advanced models notebook: Penrose process energy extraction, superradiance, and Kerr phenomena.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/13_white_hole_deep_dive.ipynb",
+      "type": "file",
+      "name": "13_white_hole_deep_dive.ipynb",
+      "filePath": "notebooks/13_white_hole_deep_dive.ipynb",
+      "summary": "White hole deep dive: maximal Kruskal extension geometry, instability, and possible observable signatures.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/14_rebound_nbody.ipynb",
+      "type": "file",
+      "name": "14_rebound_nbody.ipynb",
+      "filePath": "notebooks/14_rebound_nbody.ipynb",
+      "summary": "REBOUND N-body simulation notebook (fast-run profile): orbital dynamics around compact objects.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/15_einsteinpy_geodesics.ipynb",
+      "type": "file",
+      "name": "15_einsteinpy_geodesics.ipynb",
+      "filePath": "notebooks/15_einsteinpy_geodesics.ipynb",
+      "summary": "EinsteinPy geodesics notebook (fast-run profile): orbital integration around compact objects.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/16_yt_cosmology.ipynb",
+      "type": "file",
+      "name": "16_yt_cosmology.ipynb",
+      "filePath": "notebooks/16_yt_cosmology.ipynb",
+      "summary": "yt cosmological-simulation notebook (fast-run profile): volumetric cosmology visualization.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/17_gw_analysis.ipynb",
+      "type": "file",
+      "name": "17_gw_analysis.ipynb",
+      "filePath": "notebooks/17_gw_analysis.ipynb",
+      "summary": "Gravitational-wave analysis notebook (fast-run profile): waveform loading and matched-filtering basics.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/18_ml_astronomy.ipynb",
+      "type": "file",
+      "name": "18_ml_astronomy.ipynb",
+      "filePath": "notebooks/18_ml_astronomy.ipynb",
+      "summary": "Machine-learning in astronomy notebook (fast-run profile): classification/regression applied to compact-object data.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/19_gw_strain_analysis.ipynb",
+      "type": "file",
+      "name": "19_gw_strain_analysis.ipynb",
+      "filePath": "notebooks/19_gw_strain_analysis.ipynb",
+      "summary": "FITS-based gravitational-wave strain notebook: a reproducible signal-analysis workflow over downloaded strain files.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/20_gwtc_remnant_catalog.ipynb",
+      "type": "file",
+      "name": "20_gwtc_remnant_catalog.ipynb",
+      "filePath": "notebooks/20_gwtc_remnant_catalog.ipynb",
+      "summary": "GWTC remnant catalog notebook (Czech UI): builds the catalog of the 20 most recent merger remnants with derived ISCO/Hawking quantities.",
+      "tags": [
+        "notebook",
+        "catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/21_agn_mass_catalog.ipynb",
+      "type": "file",
+      "name": "21_agn_mass_catalog.ipynb",
+      "filePath": "notebooks/21_agn_mass_catalog.ipynb",
+      "summary": "AGN supermassive black-hole mass catalog notebook: literature reverberation-mass compilation with upper/lower error columns kept distinct.",
+      "tags": [
+        "notebook",
+        "catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/22_blackcat_dynamical_catalog.ipynb",
+      "type": "file",
+      "name": "22_blackcat_dynamical_catalog.ipynb",
+      "filePath": "notebooks/22_blackcat_dynamical_catalog.ipynb",
+      "summary": "Published BlackCAT dynamical black-hole systems notebook: presents the joined VizieR tables without converting limits to detections.",
+      "tags": [
+        "notebook",
+        "catalog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/23_early_smbh_growth.ipynb",
+      "type": "file",
+      "name": "23_early_smbh_growth.ipynb",
+      "filePath": "notebooks/23_early_smbh_growth.ipynb",
+      "summary": "Early supermassive black-hole evidence notebook: high-z observations, cosmic ages from Planck 2018, symbolic+numeric growth checks, and 30k-draw conditional growth scenarios (seed 20261019), with the selection explicitly labeled non-representative.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/24_quantum_gravity.ipynb",
+      "type": "file",
+      "name": "24_quantum_gravity.ipynb",
+      "filePath": "notebooks/24_quantum_gravity.ipynb",
+      "summary": "Quantum gravity notebook: Planck scales, gravitational EFT, and evidence levels with measured/derived/illustration labels.",
+      "tags": [
+        "notebook",
+        "analysis"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/add_bh_derived_quantities.py",
+      "type": "file",
+      "name": "add_bh_derived_quantities.py",
+      "filePath": "scripts/add_bh_derived_quantities.py",
+      "summary": "Adds SI/astrophysical derived quantities with astropy units to the processed catalogs while keeping source catalog values intact.",
+      "tags": [
+        "data-processing",
+        "astropy"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_agn_reverberation_dashboard.py",
+      "type": "file",
+      "name": "build_agn_reverberation_dashboard.py",
+      "filePath": "scripts/build_agn_reverberation_dashboard.py",
+      "summary": "Generates a reproducible Plotly dashboard for AGN reverberation masses from data/processed into premium/figures/.",
+      "tags": [
+        "dashboard",
+        "plotly"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_blackcat_dashboard.py",
+      "type": "file",
+      "name": "build_blackcat_dashboard.py",
+      "filePath": "scripts/build_blackcat_dashboard.py",
+      "summary": "Builds the BlackCAT dynamical-mass dashboard, plotting observed masses without converting upper/lower limits to detections.",
+      "tags": [
+        "dashboard",
+        "plotly"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_gwtc_remnant_dashboard.py",
+      "type": "file",
+      "name": "build_gwtc_remnant_dashboard.py",
+      "filePath": "scripts/build_gwtc_remnant_dashboard.py",
+      "summary": "Builds an interactive dashboard from the curated recent GWTC remnant sample into premium/figures/.",
+      "tags": [
+        "dashboard",
+        "plotly"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_theoretical_data.py",
+      "type": "file",
+      "name": "build_theoretical_data.py",
+      "filePath": "scripts/build_theoretical_data.py",
+      "summary": "Builds theoretical/synthetic datasets for black holes, wormholes, and white holes (constants, mass/throat grids) with astropy units.",
+      "tags": [
+        "synthetic-data",
+        "astropy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/compute_with_data.py",
+      "type": "file",
+      "name": "compute_with_data.py",
+      "filePath": "scripts/compute_with_data.py",
+      "summary": "Computes physics with the downloaded and synthetic data: (1) GWTC 391-event reconciliation recomputing chirp masses and redshifts vs catalog values, mass-gap candidate extraction; (2) strain quicklook band-power checks on marquee events; (3) SXS waveform characterization; writes results/*.csv/json and reports/compute_data_report.md.",
+      "tags": [
+        "physics",
+        "validation",
+        "gwtc"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:scripts/create_animations.py",
+      "type": "file",
+      "name": "create_animations.py",
+      "filePath": "scripts/create_animations.py",
+      "summary": "Creates advanced executable animations for exotic compact objects: Plotly interactive HTML and matplotlib MP4/GIF for BH particle orbits, Kerr ergosphere, wormhole embedding, white-hole decay, and CMB spectrum.",
+      "tags": [
+        "visualization",
+        "animation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:scripts/download_blackcat.py",
+      "type": "file",
+      "name": "download_blackcat.py",
+      "filePath": "scripts/download_blackcat.py",
+      "summary": "Fetches the published BlackCAT dynamical sample and related VizieR tables.",
+      "tags": [
+        "download",
+        "data-source"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/download_eht.py",
+      "type": "file",
+      "name": "download_eht.py",
+      "filePath": "scripts/download_eht.py",
+      "summary": "Downloads EHT (Event Horizon Telescope) parameters and visibility data for M87* and Sgr A*, including synthetic visibility generation and a summary.",
+      "tags": [
+        "download",
+        "eht"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_gaia_dr3.py",
+      "type": "file",
+      "name": "download_gaia_dr3.py",
+      "filePath": "scripts/download_gaia_dr3.py",
+      "summary": "Downloads Gaia DR3 black-hole candidate systems (astrometric binaries, known BH systems, wide binaries) via astroquery.",
+      "tags": [
+        "download",
+        "gaia"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_gwb.py",
+      "type": "file",
+      "name": "download_gwb.py",
+      "filePath": "scripts/download_gwb.py",
+      "summary": "Downloads gravitational-wave background datasets: NANOGrav 15-year, EPTA/PPTA/IPTA DR2 spectra, posterior samples, and Hellings-Downs correlations.",
+      "tags": [
+        "download",
+        "gwb",
+        "pulsar-timing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_gwosc.py",
+      "type": "file",
+      "name": "download_gwosc.py",
+      "filePath": "scripts/download_gwosc.py",
+      "summary": "Downloads a GWOSC GWTC compact-binary catalog snapshot into data/raw as SQLite/CSV with fetch logging and figures.",
+      "tags": [
+        "download",
+        "gwosc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_gwosc_o4.py",
+      "type": "file",
+      "name": "download_gwosc_o4.py",
+      "filePath": "scripts/download_gwosc_o4.py",
+      "summary": "Downloads LIGO/Virgo/KAGRA O4 event metadata and 4-kHz strain HDF5 files for GWTC-3/O4 events via GWOSC.",
+      "tags": [
+        "download",
+        "strain"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_heasarc.py",
+      "type": "file",
+      "name": "download_heasarc.py",
+      "filePath": "scripts/download_heasarc.py",
+      "summary": "Downloads HEASARC catalogs relevant to compact objects (XRB, M87, Sgr A* region, ULX) via TAP into CSV.",
+      "tags": [
+        "download",
+        "heasarc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_planck.py",
+      "type": "file",
+      "name": "download_planck.py",
+      "filePath": "scripts/download_planck.py",
+      "summary": "Downloads Planck PR4 CMB power spectra and lensing maps via healpy, with CAMB-generated fallback spectra and likelihood summaries.",
+      "tags": [
+        "download",
+        "cmb",
+        "planck"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_sdss.py",
+      "type": "file",
+      "name": "download_sdss.py",
+      "filePath": "scripts/download_sdss.py",
+      "summary": "Downloads SDSS DR17/DR18 quasar and SDSS black-hole-mass catalogs via astroquery SkyServer queries.",
+      "tags": [
+        "download",
+        "sdss"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_strain_marquee.py",
+      "type": "file",
+      "name": "download_strain_marquee.py",
+      "filePath": "scripts/download_strain_marquee.py",
+      "summary": "Downloads 4 kHz 4096-s strain HDF5 files for marquee events GW170817, GW190814, and GW190521 with SHA-verified filenames.",
+      "tags": [
+        "download",
+        "strain"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/download_sxs.py",
+      "type": "file",
+      "name": "download_sxs.py",
+      "filePath": "scripts/download_sxs.py",
+      "summary": "Downloads/builds the SXS numerical-relativity waveform catalog: metadata, synthetic waveform NPZ generation where the JS catalog blocks direct download, and a usage guide.",
+      "tags": [
+        "download",
+        "sxs",
+        "waveforms"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/download_xray_binaries.py",
+      "type": "file",
+      "name": "download_xray_binaries.py",
+      "filePath": "scripts/download_xray_binaries.py",
+      "summary": "Downloads X-ray binary catalog metadata and model data for MAXI, Swift/BAT, NICER surveys, noting that live HEASARC API pulls can be restricted.",
+      "tags": [
+        "download",
+        "xray-binaries"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/make_notebook.py",
+      "type": "file",
+      "name": "make_notebook.py",
+      "filePath": "scripts/make_notebook.py",
+      "summary": "Nbformat generator script that authors notebooks/01 (first theoretical model) from embedded markdown/code cells.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook2.py",
+      "type": "file",
+      "name": "make_notebook2.py",
+      "filePath": "scripts/make_notebook2.py",
+      "summary": "Extended Models notebook (02) generator: geodesics, ISCO, wormhole throat, Hawking radiation.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook3.py",
+      "type": "file",
+      "name": "make_notebook3.py",
+      "filePath": "scripts/make_notebook3.py",
+      "summary": "Data Exploration notebook (03) generator over GWOSC/HEASARC catalogs.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook4.py",
+      "type": "file",
+      "name": "make_notebook4.py",
+      "filePath": "scripts/make_notebook4.py",
+      "summary": "White Hole Instability notebook (04) generator with toy decay model.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook5.py",
+      "type": "file",
+      "name": "make_notebook5.py",
+      "filePath": "scripts/make_notebook5.py",
+      "summary": "Equation Derivations notebook (05) generator with SymPy verification.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook6.py",
+      "type": "file",
+      "name": "make_notebook6.py",
+      "filePath": "scripts/make_notebook6.py",
+      "summary": "Visual Models notebook (06) generator with Plotly 3D exports.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook7.py",
+      "type": "file",
+      "name": "make_notebook7.py",
+      "filePath": "scripts/make_notebook7.py",
+      "summary": "Geodesic Simulations notebook (07) generator using EinsteinPy.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook8.py",
+      "type": "file",
+      "name": "make_notebook8.py",
+      "filePath": "scripts/make_notebook8.py",
+      "summary": "SymPy Christoffel notebook (08) generator for Schwarzschild and Morris-Thorne metrics.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook9.py",
+      "type": "file",
+      "name": "make_notebook9.py",
+      "filePath": "scripts/make_notebook9.py",
+      "summary": "White Hole Extended notebook (09) generator.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook10.py",
+      "type": "file",
+      "name": "make_notebook10.py",
+      "filePath": "scripts/make_notebook10.py",
+      "summary": "Complete Theory notebook (10) generator; imports the models package so the notebook matches the code.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook11.py",
+      "type": "file",
+      "name": "make_notebook11.py",
+      "filePath": "scripts/make_notebook11.py",
+      "summary": "Data Synthesis notebook (11) generator combining GWTC, AGN, and stellar-BH catalogs.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook12.py",
+      "type": "file",
+      "name": "make_notebook12.py",
+      "filePath": "scripts/make_notebook12.py",
+      "summary": "Advanced Models notebook (12) generator (Penrose, superradiance, Kerr).",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_notebook13.py",
+      "type": "file",
+      "name": "make_notebook13.py",
+      "filePath": "scripts/make_notebook13.py",
+      "summary": "White Hole Deep Dive notebook (13) generator.",
+      "tags": [
+        "notebook-generator"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_premium_figures.py",
+      "type": "file",
+      "name": "make_premium_figures.py",
+      "filePath": "scripts/make_premium_figures.py",
+      "summary": "Generates the premium HTML figure set (mass distributions, ISCO, correlations) with Plotly, reading the processed catalogs.",
+      "tags": [
+        "visualization",
+        "plotly",
+        "premium"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/process_blackcat.py",
+      "type": "file",
+      "name": "process_blackcat.py",
+      "filePath": "scripts/process_blackcat.py",
+      "summary": "Parses and joins the published BlackCAT CDS/VizieR tables into a clean dynamical black-hole mass sample CSV.",
+      "tags": [
+        "data-processing",
+        "blackcat"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/update_gwosc_gwtc5.py",
+      "type": "file",
+      "name": "update_gwosc_gwtc5.py",
+      "filePath": "scripts/update_gwosc_gwtc5.py",
+      "summary": "Refreshes the full GWOSC GWTC catalog snapshot (GWTC-1..GWTC-5, 391 events): raw JSON dump, tidy per-event CSV, catalog stats with fetch timestamps and content hashes.",
+      "tags": [
+        "data-refresh",
+        "gwosc"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/verify_formulas.py",
+      "type": "file",
+      "name": "verify_formulas.py",
+      "filePath": "scripts/verify_formulas.py",
+      "summary": "Verification driver: executes models/derivations.run_all() asserting every symbolic check, runs numeric spot checks against closed forms, and writes reports/derivations_report.md plus results/derivation_checks.json.",
+      "tags": [
+        "verification",
+        "sympy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/verify_formulas.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/verify_formulas.py",
+      "summary": "Runs all symbolic derivation checks plus numeric spot checks and writes the derivation report artifacts.",
+      "tags": [
+        "verification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:theory.tex",
+      "type": "document",
+      "name": "theory.tex",
+      "filePath": "theory.tex",
+      "summary": "Standalone LaTeX theory manuscript covering the spacetime solutions and derivations used across the premium theory documents.",
+      "tags": [
+        "theory",
+        "latex",
+        "markup"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_christoffel_kerr.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_geodesic_equations.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_white_holes.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_reissner_nordstrom.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_wormholes.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_black_holes.md",
+      "target": "document:premium/theory_bh_perturbation.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_geodesic_equations.md",
+      "target": "document:premium/theory_christoffel_kerr.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_kerr_newman.md",
+      "target": "document:premium/theory_kerr_newman_adm.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_bh_perturbation.md",
+      "target": "document:premium/theory_geodesic_equations.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_raychaudhuri.md",
+      "target": "document:premium/theory_geodesic_equations.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/theory_fisher_matrix.md",
+      "target": "document:premium/theory_black_holes.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:premium/quantum_gravity.md",
+      "target": "document:premium/theory_white_holes.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:reports/summary.md",
+      "target": "document:research/projects/exotic-compact-objects/README.md",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:reports/gwosc_latest.md",
+      "target": "document:reports/summary.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:reports/compute_data_report.md",
+      "target": "document:reports/summary.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:reports/derivations_report.md",
+      "target": "document:reports/summary.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:models/__init__.py",
+      "target": "file:models/equations.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:models/formulas.py",
+      "target": "file:models/derivations.py",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:models/equations.py",
+      "target": "function:models/equations.py:schwarzschild_radius",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/equations.py",
+      "target": "function:models/equations.py:hawking_temperature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/equations.py",
+      "target": "function:models/equations.py:morris_thorne_metric_components",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/formulas.py",
+      "target": "function:models/formulas.py:kerr_isco_radius",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/formulas.py",
+      "target": "function:models/formulas.py:eddington_luminosity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/formulas.py",
+      "target": "function:models/formulas.py:gw_chirp_mass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:run_all",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+      "target": "file:models/equations.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:notebooks/02_extended_models.ipynb",
+      "target": "file:models/equations.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:notebooks/04_white_hole_instability.ipynb",
+      "target": "document:premium/theory_white_holes.md",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/05_equation_derivations.ipynb",
+      "target": "file:models/derivations.py",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/08_sympy_christoffel.ipynb",
+      "target": "file:models/derivations.py",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/10_complete_theory.ipynb",
+      "target": "document:THEORY.md",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/23_early_smbh_growth.ipynb",
+      "target": "document:premium/early_smbh_growth.md",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/24_quantum_gravity.ipynb",
+      "target": "document:premium/quantum_gravity.md",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:scripts/add_bh_derived_quantities.py",
+      "target": "file:models/equations.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/build_agn_reverberation_dashboard.py",
+      "target": "file:scripts/add_bh_derived_quantities.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/build_blackcat_dashboard.py",
+      "target": "file:scripts/process_blackcat.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:notebooks/20_gwtc_remnant_catalog.ipynb",
+      "target": "file:scripts/build_gwtc_remnant_dashboard.py",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/21_agn_mass_catalog.ipynb",
+      "target": "file:scripts/build_agn_reverberation_dashboard.py",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:notebooks/22_blackcat_dynamical_catalog.ipynb",
+      "target": "file:scripts/process_blackcat.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:notebooks/23_early_smbh_growth.ipynb",
+      "target": "file:scripts/add_bh_derived_quantities.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/compute_with_data.py",
+      "target": "file:scripts/update_gwosc_gwtc5.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/compute_with_data.py",
+      "target": "file:models/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:scripts/build_theoretical_data.py",
+      "target": "file:models/equations.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook10.py",
+      "target": "file:models/equations.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:scripts/make_premium_figures.py",
+      "target": "file:models/equations.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "file:models/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "file:models/derivations.py",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "function:scripts/verify_formulas.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/make_notebook2.py",
+      "target": "file:notebooks/02_extended_models.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook3.py",
+      "target": "file:notebooks/03_data_exploration.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook4.py",
+      "target": "file:notebooks/04_white_hole_instability.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook5.py",
+      "target": "file:notebooks/05_equation_derivations.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook6.py",
+      "target": "file:notebooks/06_visual_models.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook7.py",
+      "target": "file:notebooks/07_geodesics.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook8.py",
+      "target": "file:notebooks/08_sympy_christoffel.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook9.py",
+      "target": "file:notebooks/09_white_hole_extended.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook10.py",
+      "target": "file:notebooks/10_complete_theory.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook11.py",
+      "target": "file:notebooks/11_data_synthesis.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook12.py",
+      "target": "file:notebooks/12_advanced_models.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/make_notebook13.py",
+      "target": "file:notebooks/13_white_hole_deep_dive.ipynb",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:scripts/update_gwosc_gwtc5.py",
+      "target": "file:scripts/download_gwosc.py",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:theory.tex",
+      "target": "document:THEORY.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:theory-library",
+      "name": "Theory Library",
+      "description": "The 13 premium LaTeX theory documents (black holes, charged/rotating solutions, Christoffel symbols, geodesics, Raychaudhuri, Fisher matrix, perturbation theory, wormholes, white holes, early SMBH growth, quantum gravity) plus THEORY.md and theory.tex — the derivations backbone of the project.",
+      "nodeIds": [
+        "document:premium/early_smbh_growth.md",
+        "document:premium/quantum_gravity.md",
+        "document:premium/theory_bh_perturbation.md",
+        "document:premium/theory_black_holes.md",
+        "document:premium/theory_christoffel_kerr.md",
+        "document:premium/theory_fisher_matrix.md",
+        "document:premium/theory_geodesic_equations.md",
+        "document:premium/theory_kerr_newman.md",
+        "document:premium/theory_kerr_newman_adm.md",
+        "document:premium/theory_raychaudhuri.md",
+        "document:premium/theory_reissner_nordstrom.md",
+        "document:premium/theory_white_holes.md",
+        "document:premium/theory_wormholes.md",
+        "document:THEORY.md",
+        "document:theory.tex"
+      ]
+    },
+    {
+      "id": "layer:project-documentation",
+      "name": "Project Documentation & Reports",
+      "description": "README overview and the auto-generated reports: project summary, GWTC snapshot status, compute-with-data results, and the derivation verification report.",
+      "nodeIds": [
+        "document:research/projects/exotic-compact-objects/README.md",
+        "document:reports/compute_data_report.md",
+        "document:reports/derivations_report.md",
+        "document:reports/gwosc_latest.md",
+        "document:reports/summary.md"
+      ]
+    },
+    {
+      "id": "layer:physics-models",
+      "name": "Physics Model Package",
+      "description": "The importable models package: equations.py (astropy-unit closed forms), formulas.py (extended formulas citing derivations), derivations.py (Sympy symbolic derivations with checks), and the package init.",
+      "nodeIds": [
+        "file:models/__init__.py",
+        "file:models/derivations.py",
+        "file:models/equations.py",
+        "file:models/formulas.py"
+      ]
+    },
+    {
+      "id": "layer:computational-notebooks",
+      "name": "Computational Notebooks",
+      "description": "24 execution notebooks: fundamentals through complete theory (01-13), fast scientific-profile notebooks (REBOUND, EinsteinPy, yt, GW, ML, strain — 14-19), and catalog/analysis notebooks (GWTC remnants, AGN masses, BlackCAT, early SMBH growth, quantum gravity — 20-24).",
+      "nodeIds": [
+        "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+        "file:notebooks/02_extended_models.ipynb",
+        "file:notebooks/03_data_exploration.ipynb",
+        "file:notebooks/04_white_hole_instability.ipynb",
+        "file:notebooks/05_equation_derivations.ipynb",
+        "file:notebooks/06_visual_models.ipynb",
+        "file:notebooks/07_geodesics.ipynb",
+        "file:notebooks/08_sympy_christoffel.ipynb",
+        "file:notebooks/09_white_hole_extended.ipynb",
+        "file:notebooks/10_complete_theory.ipynb",
+        "file:notebooks/11_data_synthesis.ipynb",
+        "file:notebooks/12_advanced_models.ipynb",
+        "file:notebooks/13_white_hole_deep_dive.ipynb",
+        "file:notebooks/14_rebound_nbody.ipynb",
+        "file:notebooks/15_einsteinpy_geodesics.ipynb",
+        "file:notebooks/16_yt_cosmology.ipynb",
+        "file:notebooks/17_gw_analysis.ipynb",
+        "file:notebooks/18_ml_astronomy.ipynb",
+        "file:notebooks/19_gw_strain_analysis.ipynb",
+        "file:notebooks/20_gwtc_remnant_catalog.ipynb",
+        "file:notebooks/21_agn_mass_catalog.ipynb",
+        "file:notebooks/22_blackcat_dynamical_catalog.ipynb",
+        "file:notebooks/23_early_smbh_growth.ipynb",
+        "file:notebooks/24_quantum_gravity.ipynb"
+      ]
+    },
+    {
+      "id": "layer:data-pipelines-verification",
+      "name": "Data Pipelines & Verification",
+      "description": "36 scripts: source downloads (GWOSC, HEASARC, BlackCAT, EHT, Gaia, Planck, SDSS, SXS, strain, GWB), catalog processing, derived-quantity augmentation, dashboard builders, notebook/figure generators, GWTC refresh, and the formula verification driver.",
+      "nodeIds": [
+        "file:scripts/add_bh_derived_quantities.py",
+        "file:scripts/build_agn_reverberation_dashboard.py",
+        "file:scripts/build_blackcat_dashboard.py",
+        "file:scripts/build_gwtc_remnant_dashboard.py",
+        "file:scripts/build_theoretical_data.py",
+        "file:scripts/compute_with_data.py",
+        "file:scripts/create_animations.py",
+        "file:scripts/download_blackcat.py",
+        "file:scripts/download_eht.py",
+        "file:scripts/download_gaia_dr3.py",
+        "file:scripts/download_gwb.py",
+        "file:scripts/download_gwosc.py",
+        "file:scripts/download_gwosc_o4.py",
+        "file:scripts/download_heasarc.py",
+        "file:scripts/download_planck.py",
+        "file:scripts/download_sdss.py",
+        "file:scripts/download_strain_marquee.py",
+        "file:scripts/download_sxs.py",
+        "file:scripts/download_xray_binaries.py",
+        "file:scripts/make_notebook.py",
+        "file:scripts/make_notebook10.py",
+        "file:scripts/make_notebook11.py",
+        "file:scripts/make_notebook12.py",
+        "file:scripts/make_notebook13.py",
+        "file:scripts/make_notebook2.py",
+        "file:scripts/make_notebook3.py",
+        "file:scripts/make_notebook4.py",
+        "file:scripts/make_notebook5.py",
+        "file:scripts/make_notebook6.py",
+        "file:scripts/make_notebook7.py",
+        "file:scripts/make_notebook8.py",
+        "file:scripts/make_notebook9.py",
+        "file:scripts/make_premium_figures.py",
+        "file:scripts/process_blackcat.py",
+        "file:scripts/update_gwosc_gwtc5.py",
+        "file:scripts/verify_formulas.py"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Project Overview",
+      "description": "README defines the object catalog (black holes, wormholes, white holes), the data sources, and the layout of data/models/notebooks/premium. reports/summary.md then rolls up catalog counts (391 GWTC events), the implemented model inventory, and next steps.",
+      "nodeIds": [
+        "document:research/projects/exotic-compact-objects/README.md",
+        "document:reports/summary.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Core Physics Models",
+      "description": "models/equations.py provides the astropy-unit closed forms (Schwarzschild radius, Hawking temperature, Morris-Thorne metric); formulas.py extends with exact Kerr ISCO and Eddington limits; derivations.py derives everything symbolically in SymPy with explicit checks.",
+      "nodeIds": [
+        "file:models/__init__.py",
+        "file:models/equations.py",
+        "file:models/formulas.py",
+        "file:models/derivations.py"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Theory Library",
+      "description": "The premium theory set derives each spacetime family completely: theory_black_holes (Schwarzschild from first principles), Kerr-Newman and ADM masses, Reissner-Nordstrom, the 48 Christoffel symbols, geodesics with Carter constant, and the Raychaudhuri equation.",
+      "nodeIds": [
+        "document:premium/theory_black_holes.md",
+        "document:premium/theory_kerr_newman.md",
+        "document:premium/theory_kerr_newman_adm.md",
+        "document:premium/theory_christoffel_kerr.md",
+        "document:premium/theory_geodesic_equations.md"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Data Refresh Pipeline",
+      "description": "Scripts rebuild the observational snapshot: update_gwosc_gwtc5.py refreshes the full GWTC-1..GWTC-5 catalog (391 events), download_heasarc.py and download_blackcat.py pull REM/CV catalogs, and process_blackcat.py + add_bh_derived_quantities.py produce the processed CSVs.",
+      "nodeIds": [
+        "file:scripts/update_gwosc_gwtc5.py",
+        "file:scripts/download_heasarc.py",
+        "file:scripts/download_blackcat.py",
+        "file:scripts/process_blackcat.py",
+        "file:scripts/add_bh_derived_quantities.py"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Compute & Verify With Data",
+      "description": "compute_with_data.py reconciles the catalog (chirp-mass and redshift recomputation, mass-gap candidates) and quicklooks marquee-event strain; verify_formulas.py executes every symbolic derivation and numeric spot check, writing reports/derivations_report.md.",
+      "nodeIds": [
+        "file:scripts/compute_with_data.py",
+        "file:scripts/verify_formulas.py",
+        "document:reports/compute_data_report.md",
+        "document:reports/derivations_report.md"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Dashboards & Figures",
+      "description": "Dashboard builders turn processed CSVs into reproducible Plotly HTML: GWTC remnants, AGN reverberation masses, and BlackCAT dynamical masses (limits kept as limits); create_animations.py and make_premium_figures.py add the visual layer.",
+      "nodeIds": [
+        "file:scripts/build_gwtc_remnant_dashboard.py",
+        "file:scripts/build_agn_reverberation_dashboard.py",
+        "file:scripts/build_blackcat_dashboard.py",
+        "file:scripts/create_animations.py",
+        "file:scripts/make_premium_figures.py"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Notebook Suite",
+      "description": "The 24 notebooks carry the analysis narrative: fundamentals (01), extended models (02), derivations with SymPy (05), complete theory (10), then fast scientific-profile notebooks (14-19) and catalog notebooks (20-24) backed by the processed data.",
+      "nodeIds": [
+        "file:notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+        "file:notebooks/02_extended_models.ipynb",
+        "file:notebooks/05_equation_derivations.ipynb",
+        "file:notebooks/10_complete_theory.ipynb",
+        "file:notebooks/20_gwtc_remnant_catalog.ipynb"
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Frontier Topics",
+      "description": "The frontier modules: 23_early_smbh_growth.ipynb with its premium companion quantify the feasibility of early SMBH seeds under Eddington-limited growth with explicit selection caveats; 24_quantum_gravity.ipynb and its companion separate measured fact, derived algebra, and illustration.",
+      "nodeIds": [
+        "file:notebooks/23_early_smbh_growth.ipynb",
+        "document:premium/early_smbh_growth.md",
+        "file:notebooks/24_quantum_gravity.ipynb",
+        "document:premium/quantum_gravity.md"
+      ]
+    }
+  ]
+}

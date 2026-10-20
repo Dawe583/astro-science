@@ -1,0 +1,928 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "8c13fd6b8b9772b30c8ff2fd35bfcc54c8a04989",
+  "generatedAt": "2026-10-20T18:47:50.921Z",
+  "files": {
+    ".opencode/agent/astro-data-engineer.md": {
+      "filePath": ".opencode/agent/astro-data-engineer.md",
+      "contentHash": "fd083f2a1bf07d7aec2dcf96045658eed0df60bc09f58b0ad5321ea462650f65",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/agent/astro-reviewer.md": {
+      "filePath": ".opencode/agent/astro-reviewer.md",
+      "contentHash": "aedd4d321653ff133e5502d42ecdcb18dbf0b81e64e2a4f9fd44cbabbf770b90",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 34,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/agent/astro-theoretician.md": {
+      "filePath": ".opencode/agent/astro-theoretician.md",
+      "contentHash": "9da1b51892da8c51764c822264a258c0e75cfeaf487e6934bf4090d3369681fb",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 36,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/agent/astro-validator.md": {
+      "filePath": ".opencode/agent/astro-validator.md",
+      "contentHash": "fb93f12f2bdab27c5fb1cbfab644510347c6163810e2851b002954d9fe364646",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/command/astro-graphs.md": {
+      "filePath": ".opencode/command/astro-graphs.md",
+      "contentHash": "9d75c07e6bed71f26c82a3a68262451db19651cb6c5a9737ad48aa0bde4b490c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 20,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/command/astro-notebook-health.md": {
+      "filePath": ".opencode/command/astro-notebook-health.md",
+      "contentHash": "7d20c0ab92f1da3ddb5eb9b2fb65d2ce4afdaecb09aec22befe0d6cadae3f007",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 14,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/command/astro-refresh-data.md": {
+      "filePath": ".opencode/command/astro-refresh-data.md",
+      "contentHash": "99a0568d99fc32046b337142f15512bef6edd75d6256de16ec45cb5dad42c19d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/command/astro-research.md": {
+      "filePath": ".opencode/command/astro-research.md",
+      "contentHash": "03eea424547056a89ce07cdf46ceb576ea78a9320244cccd5337fad1b6875c03",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 18,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/README.md": {
+      "filePath": ".opencode/loops/README.md",
+      "contentHash": "ccee907e632ce98cd96c49f7c0e9e54119c4df9368dce59263f38fb5dde21b04",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/notebook-health.sh": {
+      "filePath": ".opencode/loops/notebook-health.sh",
+      "contentHash": "caca53a33ae3c7e43b78cb37a26740d8a0c5287ceb6c4aa2485c691c5fc6b202",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 73,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/orchestrator.sh": {
+      "filePath": ".opencode/loops/orchestrator.sh",
+      "contentHash": "8b1352eb8a79fd757621261339ccfbe8433ea85b652a3eaeb6e7ed3eb9e8d7e4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 30,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/refresh-data.sh": {
+      "filePath": ".opencode/loops/refresh-data.sh",
+      "contentHash": "c8cea2aa279dbefe0444ff20858b2ad8779e76cbe42256e0fd2393f0d3e4d4d1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 64,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/research-loop.sh": {
+      "filePath": ".opencode/loops/research-loop.sh",
+      "contentHash": "8bf57250602cab276cbab3716b2be643e8079662a1446644ca05239abacdfb9e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 60,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/skill/astro-graphs.md": {
+      "filePath": ".opencode/skill/astro-graphs.md",
+      "contentHash": "347af06799aed20b7462b347579a63472534da8e78451f20c903c30a188472a0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 72,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/skill/astro-loops.md": {
+      "filePath": ".opencode/skill/astro-loops.md",
+      "contentHash": "aa924011627390788f4178137a9c73eecfd27f6d05917f013b470661d36e400b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 53,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/skill/astro-science.md": {
+      "filePath": ".opencode/skill/astro-science.md",
+      "contentHash": "67953efbadc4bd624d076364ceb79ef6e301946f1367cf0946a462a5e49749b1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 65,
+      "hasStructuralAnalysis": false
+    },
+    ".ua/config.json": {
+      "filePath": ".ua/config.json",
+      "contentHash": "c3d4ed53a5453d102e321f7c8943707b29c34bad4a7038d624d2c2fe82919b2b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "CONTEXT.md": {
+      "filePath": "CONTEXT.md",
+      "contentHash": "2c1acd3129e46fda32a4693aa18457f68a43ff855a0e0a5f6bb988c75c27392d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 283,
+      "hasStructuralAnalysis": false
+    },
+    "FINAL_REPORT.md": {
+      "filePath": "FINAL_REPORT.md",
+      "contentHash": "184691bd769a743c20b273d9a146b9763481c40973aae3d486f0690c07fc8e4b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 427,
+      "hasStructuralAnalysis": false
+    },
+    "INSTALLATION_SUMMARY.md": {
+      "filePath": "INSTALLATION_SUMMARY.md",
+      "contentHash": "9a628ebfb101ef0c087c0dada95ccc48a78d9bb6e89e6a12da452625672c3e35",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 311,
+      "hasStructuralAnalysis": false
+    },
+    "NEW_TOOLS_SUMMARY.md": {
+      "filePath": "NEW_TOOLS_SUMMARY.md",
+      "contentHash": "c26d3a76a57cd078b5b5a7518fffc88874bcb594cb5defacf7696ea937b1fa9e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 672,
+      "hasStructuralAnalysis": false
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "a5fe2a22caa645b57be7f675d6c6924cb8be220d06116ffccd3907679674c7e2",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 414,
+      "hasStructuralAnalysis": false
+    },
+    "SETUP_GUIDE.md": {
+      "filePath": "SETUP_GUIDE.md",
+      "contentHash": "43b8b0fa22a8444f1302022bad6821f475cb126d2feaa11dd2374b1a4c8628ac",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 353,
+      "hasStructuralAnalysis": false
+    },
+    "SPECIALIZED_TOOLS.md": {
+      "filePath": "SPECIALIZED_TOOLS.md",
+      "contentHash": "3f2ae2629c1b7173fa7ba7cb8332f3c4c7145a4483955f7d7dcb7be0e403c92e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 326,
+      "hasStructuralAnalysis": false
+    },
+    "TOOLS_LIST.md": {
+      "filePath": "TOOLS_LIST.md",
+      "contentHash": "1f9c693e277f8391fab836f78bac2d71aa8c451e49000281675cbae4b0907dbe",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 343,
+      "hasStructuralAnalysis": false
+    },
+    "Untitled.ipynb": {
+      "filePath": "Untitled.ipynb",
+      "contentHash": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 7,
+      "hasStructuralAnalysis": false
+    },
+    "catalogs/galaxy_catalog.fits": {
+      "filePath": "catalogs/galaxy_catalog.fits",
+      "contentHash": "e9697be233c90073aa689836c564c13bd6321c1b225776f44c350641fc9ac3d1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 892,
+      "hasStructuralAnalysis": false
+    },
+    "catalogs/sample_galaxies.fits": {
+      "filePath": "catalogs/sample_galaxies.fits",
+      "contentHash": "2d43f38b0ab7ea63fb44aa0dca3d0486cf32c1259163e83487fbdd5dd8fc5847",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 84,
+      "hasStructuralAnalysis": false
+    },
+    "catalogs/star_catalog.fits": {
+      "filePath": "catalogs/star_catalog.fits",
+      "contentHash": "412a7f059addcb09a802c0071f244bac3354c7c5c21b16c0eef06de3e96abd51",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 2170,
+      "hasStructuralAnalysis": false
+    },
+    "check-environment.sh": {
+      "filePath": "check-environment.sh",
+      "contentHash": "d941c49a8e9f79d5583448ab0541c9132fbfeed3c8a03f97d2cb99fb6bfbcc23",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "cmb/cmb_map.fits": {
+      "filePath": "cmb/cmb_map.fits",
+      "contentHash": "2c4a4d3121bd7d2edc19ce496b3187d1c53177d479d0ee252f76a7bb3cd4d2b0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5451,
+      "hasStructuralAnalysis": false
+    },
+    "cmb/cmb_power_spectrum.fits": {
+      "filePath": "cmb/cmb_power_spectrum.fits",
+      "contentHash": "0803f1926b1d441c9e139efff8aa5835fe575f44397216479d94b4f485e7f127",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 12,
+      "hasStructuralAnalysis": false
+    },
+    "cmb/synthetic_cmb_map.fits": {
+      "filePath": "cmb/synthetic_cmb_map.fits",
+      "contentHash": "043db8020b8c13f8524696519af2124b59ff1c39e6466fea8c28f7eb1a77fb6d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 1189,
+      "hasStructuralAnalysis": false
+    },
+    "data/README.md": {
+      "filePath": "data/README.md",
+      "contentHash": "1e862f6e60615910ed392a78c8e41fe15fa776c6ed06050283e79027bc009ab3",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 8,
+      "hasStructuralAnalysis": false
+    },
+    "data/download_direct_data.py": {
+      "filePath": "data/download_direct_data.py",
+      "contentHash": "27c0578dffbb492525c499632cf095ad09a6704422e01986169d3bb387c37ba3",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        },
+        {
+          "source": "astropy.table",
+          "specifiers": [
+            "Table"
+          ]
+        },
+        {
+          "source": "astropy.io",
+          "specifiers": [
+            "fits"
+          ]
+        },
+        {
+          "source": "astropy.coordinates",
+          "specifiers": [
+            "SkyCoord"
+          ]
+        },
+        {
+          "source": "astropy",
+          "specifiers": [
+            "u"
+          ]
+        },
+        {
+          "source": "matplotlib.pyplot",
+          "specifiers": [
+            "plt"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 187,
+      "hasStructuralAnalysis": true
+    },
+    "data/download_sample_data.py": {
+      "filePath": "data/download_sample_data.py",
+      "contentHash": "d32d4f867b470d4d8ec1bf6c1a74a930912f3d8b69bd5770bbdf925cbbc1a581",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "os",
+          "specifiers": [
+            "os"
+          ]
+        },
+        {
+          "source": "astropy.coordinates",
+          "specifiers": [
+            "SkyCoord"
+          ]
+        },
+        {
+          "source": "astropy",
+          "specifiers": [
+            "u"
+          ]
+        },
+        {
+          "source": "astroquery.sdss",
+          "specifiers": [
+            "SDSS"
+          ]
+        },
+        {
+          "source": "astroquery.gaia",
+          "specifiers": [
+            "Gaia"
+          ]
+        },
+        {
+          "source": "astroquery.simbad",
+          "specifiers": [
+            "Simbad"
+          ]
+        },
+        {
+          "source": "astropy.io",
+          "specifiers": [
+            "fits"
+          ]
+        },
+        {
+          "source": "numpy",
+          "specifiers": [
+            "np"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 103,
+      "hasStructuralAnalysis": true
+    },
+    "docs/AUTOMATION.md": {
+      "filePath": "docs/AUTOMATION.md",
+      "contentHash": "ebc8a1d11a59d06a0f7ce9c4a9b205754189de283de63771c339acfacac5a891",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 137,
+      "hasStructuralAnalysis": false
+    },
+    "docs/GRAPHS.md": {
+      "filePath": "docs/GRAPHS.md",
+      "contentHash": "05b2aee93d914ceb3448ea276b2b9d3c8a78438fed03fc9ba73de8fcb6caf913",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 106,
+      "hasStructuralAnalysis": false
+    },
+    "fits/synthetic_galaxy.fits": {
+      "filePath": "fits/synthetic_galaxy.fits",
+      "contentHash": "713f060f7e8b2c868579cc4103cff6e4f61bdadf7124d894fa0c5379a75eca5c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 10500,
+      "hasStructuralAnalysis": false
+    },
+    "requirements.txt": {
+      "filePath": "requirements.txt",
+      "contentHash": "b9b438e691e3a4f60e769f29fda287a7afb0ff1e3508cce20ec872f9048481c2",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 171,
+      "hasStructuralAnalysis": false
+    },
+    "research/notes/README.md": {
+      "filePath": "research/notes/README.md",
+      "contentHash": "a5e62ca8db8826b62116d318aabf455a89bcec419a315ae96a779b3770b705c9",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/README.md": {
+      "filePath": "research/projects/README.md",
+      "contentHash": "5605b3499887d79599c418c76ef6c06f9bc7915bc9597f7db85386398e0fd2a6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb": {
+      "filePath": "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+      "contentHash": "f3c449ac13c6d3e40f23a6ea012618ea7817f2a9de1201bcc650f88391097731",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 294,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb": {
+      "filePath": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "contentHash": "9a9bbbf1f2dbb3db77b82c9d28e2c4d9eeaf59f617e2032a13bd174c00f5ba39",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 280,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes/README.md": {
+      "filePath": "research/projects/black-holes/README.md",
+      "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 31,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes/data/black_holes.sqlite": {
+      "filePath": "research/projects/black-holes/data/black_holes.sqlite",
+      "contentHash": "2f0f72763d80bccbb05a9cb12e86da52a827a044c10491c03cd144bb5904e868",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 542,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes/reports/latest.md": {
+      "filePath": "research/projects/black-holes/reports/latest.md",
+      "contentHash": "4577e53d5f0ee6e354c102828bd0cefdda674703d66063f28374dccec338750e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": false
+    },
+    "research/projects/black-holes/scripts/update_gwosc.py": {
+      "filePath": "research/projects/black-holes/scripts/update_gwosc.py",
+      "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02",
+      "functions": [
+        {
+          "name": "main",
+          "params": [],
+          "exported": true,
+          "lineCount": 51
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "datetime",
+          "specifiers": [
+            "datetime",
+            "timezone"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "json",
+          "specifiers": [
+            "json"
+          ]
+        },
+        {
+          "source": "sqlite3",
+          "specifiers": [
+            "sqlite3"
+          ]
+        },
+        {
+          "source": "requests",
+          "specifiers": [
+            "requests"
+          ]
+        },
+        {
+          "source": "pandas",
+          "specifiers": [
+            "pd"
+          ]
+        },
+        {
+          "source": "matplotlib",
+          "specifiers": [
+            "matplotlib"
+          ]
+        },
+        {
+          "source": "matplotlib.pyplot",
+          "specifiers": [
+            "plt"
+          ]
+        }
+      ],
+      "exports": [
+        "main"
+      ],
+      "totalLines": 70,
+      "hasStructuralAnalysis": true
+    },
+    "research/projects/black-holes/scripts/update_heasarc_candidates.py": {
+      "filePath": "research/projects/black-holes/scripts/update_heasarc_candidates.py",
+      "contentHash": "fc41918b2bb0058b03d3cf7db045ede397be2018f643e54340b04ebd9bf2dfc6",
+      "functions": [
+        {
+          "name": "tap",
+          "params": [
+            "query"
+          ],
+          "exported": true,
+          "lineCount": 4
+        }
+      ],
+      "classes": [],
+      "imports": [
+        {
+          "source": "io",
+          "specifiers": [
+            "BytesIO"
+          ]
+        },
+        {
+          "source": "requests",
+          "specifiers": [
+            "requests"
+          ]
+        },
+        {
+          "source": "astropy.table",
+          "specifiers": [
+            "Table"
+          ]
+        }
+      ],
+      "exports": [
+        "tap"
+      ],
+      "totalLines": 16,
+      "hasStructuralAnalysis": true
+    },
+    "research/scripts/check_environment.py": {
+      "filePath": "research/scripts/check_environment.py",
+      "contentHash": "abed81860b4de83685671c1468d73e6d344143d517b5e68d86a263f7cc5cf050",
+      "functions": [],
+      "classes": [],
+      "imports": [
+        {
+          "source": "importlib.metadata",
+          "specifiers": [
+            "PackageNotFoundError",
+            "version"
+          ]
+        },
+        {
+          "source": "pathlib",
+          "specifiers": [
+            "Path"
+          ]
+        },
+        {
+          "source": "sys",
+          "specifiers": [
+            "sys"
+          ]
+        }
+      ],
+      "exports": [],
+      "totalLines": 15,
+      "hasStructuralAnalysis": true
+    },
+    "research/wiki/Black Hole Accretion.md": {
+      "filePath": "research/wiki/Black Hole Accretion.md",
+      "contentHash": "1091f8bd22cdea6dfa4533abb8e91253e0a54409e3890c02e739a3ea0b7c515b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 35,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Christoffel Symbols.md": {
+      "filePath": "research/wiki/Christoffel Symbols.md",
+      "contentHash": "948e2ac024e67b6bb7faadaa2b255f007be3577131e8e41edd5d0f5e29bbd2c1",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 46,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Early Supermassive Black Hole Growth.md": {
+      "filePath": "research/wiki/Early Supermassive Black Hole Growth.md",
+      "contentHash": "fed18137c6ec2e51b4626e85163e1b279e0c0bf5ce4e7445cf0dd2086e0a30db",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 44,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Fisher Information Matrix.md": {
+      "filePath": "research/wiki/Fisher Information Matrix.md",
+      "contentHash": "08de024f8a141f3593a4bfd6a44ba94bbdd0de66f1778911d85374d3ddacea71",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 41,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Geodesic Equations.md": {
+      "filePath": "research/wiki/Geodesic Equations.md",
+      "contentHash": "a79a99b2947654a0ab1fc4774a201c5204cdda1f4a1aed09f48840c04450ae43",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 46,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Gravitational Wave Analysis.md": {
+      "filePath": "research/wiki/Gravitational Wave Analysis.md",
+      "contentHash": "8beb227e2b930752b7b645a53487454ed8ee3c5ce534330ada31634491ca819e",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 36,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Gravitational-Wave Catalogs.md": {
+      "filePath": "research/wiki/Gravitational-Wave Catalogs.md",
+      "contentHash": "6164b37bd93c15509faa489d459f4822eed0e086570c2f240a360a55a8fa834d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 37,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Hawking Radiation.md": {
+      "filePath": "research/wiki/Hawking Radiation.md",
+      "contentHash": "059a857060da5f00e51033266a4552f935810fe12a577f61f6d9d62288367aa8",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 44,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Kerr Metric.md": {
+      "filePath": "research/wiki/Kerr Metric.md",
+      "contentHash": "13d60e580ca6d6da48e590e71a7adb57938f190745a3f3a9c3defd7df8903f05",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 53,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Kerr-Newman Metric.md": {
+      "filePath": "research/wiki/Kerr-Newman Metric.md",
+      "contentHash": "0b20b13f079340ee74d3104119e223b3a01096c25f4cc19f4e49f58f19bde49c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 50,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Quantum Gravity.md": {
+      "filePath": "research/wiki/Quantum Gravity.md",
+      "contentHash": "a59642c4f9b4fcc91022982f8306db8edddef98ca6b3e8bb3884e63c936fb1b4",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 40,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Raychaudhuri Equation.md": {
+      "filePath": "research/wiki/Raychaudhuri Equation.md",
+      "contentHash": "7cb6dc20f443246d126d80988cebd0ec1422c7ab8431016db17c564f84a94133",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 47,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Reissner-Nordström Metric.md": {
+      "filePath": "research/wiki/Reissner-Nordström Metric.md",
+      "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 51,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Schwarzschild Metric.md": {
+      "filePath": "research/wiki/Schwarzschild Metric.md",
+      "contentHash": "9d61c468a5408f140f429641e12549cf7fa830c140ca3c8017ec023922694d99",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 58,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/White Holes.md": {
+      "filePath": "research/wiki/White Holes.md",
+      "contentHash": "31b1f80c60a968167320d24e8c9b4a98c791f67c94bf369294416926a66689c7",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 43,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/Wormholes.md": {
+      "filePath": "research/wiki/Wormholes.md",
+      "contentHash": "0dac8ad50911a8cdc2edc5338014da5a5888c058c07fcba595df62a4a7684dc0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 55,
+      "hasStructuralAnalysis": false
+    },
+    "research/wiki/index.md": {
+      "filePath": "research/wiki/index.md",
+      "contentHash": "f641030ef14400ac5e2c4b56f65cc573d844be755ae52a0301affa2cf8a14b8c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 46,
+      "hasStructuralAnalysis": false
+    },
+    "simulations/gw_strain.fits": {
+      "filePath": "simulations/gw_strain.fits",
+      "contentHash": "46b3258690d20fbef15caba647f0d6c6bd7b1ec5caabbf4a5773e613645706d6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 649,
+      "hasStructuralAnalysis": false
+    },
+    "simulations/nbody_snapshot.fits": {
+      "filePath": "simulations/nbody_snapshot.fits",
+      "contentHash": "af5ce56ef7129f4881514f1cf481ba2651b2f1a5bf7d631bbb516c4ea0781e5c",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 223,
+      "hasStructuralAnalysis": false
+    },
+    "simulations/xray_spectrum.fits": {
+      "filePath": "simulations/xray_spectrum.fits",
+      "contentHash": "9e2fea4c8e46948b6efdb2652cc0d037c7248928a4c4bbc07b49ed4a31eef025",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 77,
+      "hasStructuralAnalysis": false
+    },
+    "start-research.sh": {
+      "filePath": "start-research.sh",
+      "contentHash": "74fb6b0280c455e37b00e7e0fdea2f853dae09debd0f1cf63a01c83e3c7399c6",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 5,
+      "hasStructuralAnalysis": false
+    },
+    "start.sh": {
+      "filePath": "start.sh",
+      "contentHash": "ad41f2c8bf9ca68fdca65f3dd4c194ab22c9fc560a65e590ea3f008de94e65c0",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 45,
+      "hasStructuralAnalysis": false
+    }
+  }
+}
