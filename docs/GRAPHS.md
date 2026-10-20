@@ -51,7 +51,7 @@ committed graph files plus `config.json`, `meta.json`, `fingerprints.json`, and
 |---|---|---|---|
 | `knowledge-graph.json` | 167 | 92 | 10 layers, 18 tour steps; root + subdomain merge |
 | `domain-graph.json` | 51 | 52 | 4 domains, 9 flows, 38 steps, 5 cross-domain links |
-| `wiki-graph.json` | 49 | 130 | 16 articles, 128 wikilinks — 0 broken, 7 layers |
+| `wiki-graph.json` | 81 | 175 | 16 articles, 24 entities, 34 claims, 128 wikilinks — 0 broken, 7 layers |
 
 ---
 

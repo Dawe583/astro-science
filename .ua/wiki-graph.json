@@ -10,7 +10,7 @@
       "karpathy-wiki"
     ],
     "description": "Knowledge graph for Exotic Compact Objects Wiki",
-    "analyzedAt": "2026-10-20T19:06:48.544647+00:00",
+    "analyzedAt": "2026-10-20T19:07:43.254760+00:00",
     "gitCommitHash": ""
   },
   "nodes": [
@@ -648,10 +648,11 @@
       "id": "entity:karl-schwarzschild",
       "type": "entity",
       "name": "Karl Schwarzschild",
-      "summary": "Discoverer of the Schwarzschild metric, the unique spherically symmetric vacuum solution referenced throughout the wiki.",
+      "summary": "Physicist who found the first exact spherically symmetric vacuum solution of Einstein's field equations in 1915-1916; the metric, radius, and interior coordinate solutions bear his name.",
       "tags": [
-        "entity",
-        "person"
+        "person",
+        "relativity",
+        "history"
       ],
       "complexity": "simple"
     },
@@ -659,144 +660,11 @@
       "id": "entity:roy-kerr",
       "type": "entity",
       "name": "Roy Kerr",
-      "summary": "Discoverer of the Kerr metric, the unique stationary axisymmetric rotating black hole solution.",
+      "summary": "Discovered the stationary axisymmetric rotating vacuum solution (1963); the Kerr geometry is the model for real astrophysical black holes and underlies ringdown no-hair tests.",
       "tags": [
-        "entity",
-        "person"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:blackcat",
-      "type": "entity",
-      "name": "BlackCAT",
-      "summary": "Published catalog compiling black-hole X-ray binaries used to trace stellar-mass black holes via accretion.",
-      "tags": [
-        "entity",
-        "catalog"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:gwosc",
-      "type": "entity",
-      "name": "GWOSC",
-      "summary": "The Gravitational Wave Open Science Center, which serves the GWTC catalog JSON endpoint used by the workspace snapshot.",
-      "tags": [
-        "entity",
-        "data-source"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:gw150914",
-      "type": "entity",
-      "name": "GW150914",
-      "summary": "First gravitational-wave detection (m1 = 36, m2 = 29 solar masses), the anchor example of the remnant sample.",
-      "tags": [
-        "entity",
-        "event"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:bardeen-press-teukolsky-isco",
-      "type": "entity",
-      "name": "Bardeen\u2013Press\u2013Teukolsky ISCO",
-      "summary": "The exact Kerr ISCO formula cited in the Kerr Metric page.",
-      "tags": [
-        "entity",
-        "result"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:black-hole-accretion:radiative-efficiency-bounds",
-      "type": "claim",
-      "name": "ISCO efficiency sets the luminosity budget",
-      "summary": "Up to ~5.7% of rest mass is radiated at the Schwarzschild ISCO and up to ~42% for prograde orbits at the extremal Kerr ISCO \u2014 the efficiency bound connecting accretion luminosity to growth.",
-      "tags": [
-        "claim",
-        "accretion"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:hawking-radiation:solar-temp-cmb-cold",
-      "type": "claim",
-      "name": "A stellar-mass black hole is colder than the CMB",
-      "summary": "A solar-mass black hole has T_H ~ 6e-8 K, far colder than the CMB (~2.7 K), so it currently absorbs more radiation than it emits.",
-      "tags": [
-        "claim",
-        "thermodynamics"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:hawking-radiation:evaporation-timescale",
-      "type": "claim",
-      "name": "Solar-mass evaporation time is ~2e67 years",
-      "summary": "Neglecting greybody factors, a solar-mass black hole survives ~2e67 years, so evaporation matters only for microscopic remnants.",
-      "tags": [
-        "claim",
-        "thermodynamics"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:gravitational-wave-analysis:ringdown-tests-kerr-no-hair",
-      "type": "claim",
-      "name": "Ringdown tests the Kerr hypothesis",
-      "summary": "The no-hair theorem fixes the quasinormal ringdown spectrum by mass M and spin J alone, so measuring multiple ringdown modes tests whether astrophysical black holes are Kerr.",
-      "tags": [
-        "claim",
-        "gravitational-waves",
-        "no-hair"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:fisher-information-matrix:high-snr-gaussian-posterior",
-      "type": "claim",
-      "name": "High-SNR posteriors are Gaussian via the Fisher matrix",
-      "summary": "In the high signal-to-noise limit the parameter posterior is approximately multivariate Gaussian with covariance equal to the inverse Fisher matrix.",
-      "tags": [
-        "claim",
-        "statistics"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:early-supermassive-black-hole-growth:eddi-clock-50myr",
-      "type": "claim",
-      "name": "Eddington-limited e-folding time is ~50 Myr",
-      "summary": "For radiative efficiency 0.1 and continuous Eddington-limited accretion the mass e-folding time is about 50 Myr, setting the growth budget for early SMBH seeds.",
-      "tags": [
-        "claim",
-        "cosmology",
-        "growth"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:gravitational-wave-catalogs:catalog-not-a-census",
-      "type": "claim",
-      "name": "A GW catalog is not a population census",
-      "summary": "GWTC records detected (selected) merger events; it is not a complete or population-unbiased census, and missing parameters must not be read as zero.",
-      "tags": [
-        "claim",
-        "caveats"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:gravitational-wave-catalogs:snapshot-391-events",
-      "type": "claim",
-      "name": "Workspace snapshot carries 391 GWTC events",
-      "summary": "The local GWOSC snapshot holds a deduplicated 391-event GWTC table plus a 301-event O4 table.",
-      "tags": [
-        "claim",
-        "data"
+        "person",
+        "relativity",
+        "history"
       ],
       "complexity": "simple"
     },
@@ -804,10 +672,11 @@
       "id": "entity:stephen-hawking",
       "type": "entity",
       "name": "Stephen Hawking",
-      "summary": "Predicted Hawking radiation; jointly responsible (with Penrose) for the singularity theorems referenced by the Raychaudhuri page.",
+      "summary": "Predicted thermal black-hole emission from quantum field theory on a curved background; proved the area theorem and proposed the chronology protection conjecture against closed timelike curves.",
       "tags": [
-        "entity",
-        "person"
+        "person",
+        "quantum-field-theory",
+        "thermodynamics"
       ],
       "complexity": "simple"
     },
@@ -815,120 +684,659 @@
       "id": "entity:roger-penrose",
       "type": "entity",
       "name": "Roger Penrose",
-      "summary": "Proved the relativistic singularity theorems that build on the Raychaudhuri focusing result.",
+      "summary": "Proved the first singularity theorem under an energy condition using focusing of geodesic congruences; introduced the Penrose process for rotational-energy extraction.",
       "tags": [
-        "entity",
-        "person"
+        "person",
+        "singularity-theorems",
+        "relativity"
       ],
       "complexity": "simple"
     },
     {
-      "id": "entity:morris-thorne-1988",
+      "id": "entity:morris-thorne",
       "type": "entity",
       "name": "Morris & Thorne (1988)",
-      "summary": "The 1988 paper establishing the modern theory of traversable wormholes and the exotic-matter requirement.",
+      "summary": "The paper that formalized traversable wormhole geometry: redshift and shape functions, flare-out condition, and the requirement of exotic matter violating the null energy condition.",
       "tags": [
-        "entity",
-        "paper"
+        "person",
+        "paper",
+        "wormholes"
       ],
       "complexity": "simple"
     },
     {
-      "id": "entity:kruskal-szekeres-extension",
+      "id": "entity:matt-visser",
       "type": "entity",
-      "name": "Kruskal\u2013Szekeres extension",
-      "summary": "The maximal extension of the Schwarzschild geometry exposing four regions, including the white-hole interior.",
+      "name": "Matt Visser",
+      "summary": "Developed the thin-shell wormhole construction that concentrates exotic matter on a codimension-1 shell, minimizing the total amount of negative energy required.",
       "tags": [
-        "entity",
-        "concept"
+        "person",
+        "wormholes",
+        "quantum-inequalities"
       ],
       "complexity": "simple"
     },
     {
-      "id": "entity:regge-wheeler-equation",
+      "id": "entity:kruskal-szekeres",
       "type": "entity",
-      "name": "Regge\u2013Wheeler equation",
-      "summary": "Perturbation equation governing radiative instabilities of the Schwarzschild geometry, used with reversed boundary conditions for white holes.",
+      "name": "Kruskal-Szekeres coordinates",
+      "summary": "Maximally extended coordinates that remove the horizon coordinate singularity of the Schwarzschild metric and reveal four regions, including the white-hole interior.",
       "tags": [
-        "entity",
-        "concept"
+        "concept",
+        "coordinates",
+        "global-structure"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:cosmic-censorship",
+      "type": "entity",
+      "name": "Cosmic censorship conjecture",
+      "summary": "The unproven conjecture that naked singularities cannot form from generic regular initial data; in practice it bounds the Kerr and Reissner-Nordstrom parameter ranges (a*<=1, GM^2>=Q^2).",
+      "tags": [
+        "concept",
+        "conjecture",
+        "horizons"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:null-energy-condition",
+      "type": "entity",
+      "name": "Null energy condition",
+      "summary": "The requirement rho*c^2+p_r>=0 for null observers, focusing geodesic congruences in the Raychaudhuri equation and violated by all traversable wormhole throats.",
+      "tags": [
+        "concept",
+        "energy-conditions",
+        "causality"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:carter-constant",
+      "type": "entity",
+      "name": "Carter constant",
+      "summary": "The fourth conserved quantity of Kerr geodesics arising from a rank-2 Killing tensor; it makes the Hamilton-Jacobi equation separable in r and theta.",
+      "tags": [
+        "concept",
+        "integrability",
+        "geodesics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:bekenstein-hawking-entropy",
+      "type": "entity",
+      "name": "Bekenstein-Hawking entropy",
+      "summary": "S = k_B*c^3*A/(4*G*hbar) = 4*pi*k_B*G*M^2/(hbar*c) for Schwarzschild holes; a macroscopic area law that every microscopic quantum-gravity theory must reproduce.",
+      "tags": [
+        "concept",
+        "thermodynamics",
+        "quantum-gravity"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:blackcat",
+      "type": "entity",
+      "name": "BlackCAT catalog",
+      "summary": "Observational catalog of dynamically confirmed stellar-mass black holes (X-ray binaries), available as VizieR TSVs and processed in this workspace into derived quantities.",
+      "tags": [
+        "catalog",
+        "observations",
+        "data-product"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:eddington-limit",
+      "type": "entity",
+      "name": "Eddington luminosity limit",
+      "summary": "L_Edd = 4*pi*G*M*m_p*c/sigma_T ~ 1.26e38*(M/M_sun) erg/s: the balance of radiation pressure against gravity that sets the maximum steady accretion luminosity and the growth e-folding time.",
+      "tags": [
+        "concept",
+        "accretion",
+        "radiation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Schwarzschild Metric:sun-schwarzschild-radius-3km",
+      "type": "claim",
+      "name": "Solar Schwarzschild radius ~ 2.95 km",
+      "summary": "R_s = 2*G*M/c^2 evaluates to about 2.95 km for one solar mass, so a solar-mass black hole fits comfortably inside a ~3 km radius.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "metric"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Schwarzschild Metric:photon-sphere-isco-radii",
+      "type": "claim",
+      "name": "Photon sphere at 1.5 R_s and ISCO at 3 R_s",
+      "summary": "Circular photon orbits sit at r = 3GM/c^2 = 1.5 R_s and the innermost stable circular orbit at r = 6GM/c^2 = 3 R_s in the Schwarzschild geometry.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "orbits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Schwarzschild Metric:kretschmann-finite-at-horizon",
+      "type": "claim",
+      "name": "Horizon is a coordinate singularity",
+      "summary": "The Kretschmann scalar 48*G^2*M^2/(c^4*r^6) stays finite at R_s and diverges only at r=0, so the horizon singularity is removable by coordinate change (true singularity at the center).",
+      "tags": [
+        "claim",
+        "quantitative",
+        "curvature"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Kerr Metric:no-horizon-above-unit-spin",
+      "type": "claim",
+      "name": "No Kerr horizon for a* > 1",
+      "summary": "The horizon roots r_\u00b1 of Delta=0 vanish for dimensionless spin a*>1, leaving a naked singularity, which cosmic censorship forbids for physical collapse.",
+      "tags": [
+        "claim",
+        "horizons",
+        "conjecture"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Kerr Metric:bardeen-press-teukolsky-isco",
+      "type": "claim",
+      "name": "Kerr ISCO from 6GM/c^2 down to GM/c^2",
+      "summary": "The Bardeen-Press-Teukolsky prograde ISCO shrinks from 6GM/c^2 at zero spin to GM/c^2 at extremal spin a*=1, raising the binding and radiative efficiency.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "orbits"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:Reissner-Nordstr\u00f6m Metric:davies-heat-capacity-divergence",
+      "type": "claim",
+      "name": "Davies phase transition at r_+^2 = 3GQ^2",
+      "summary": "The charged hole's heat capacity C_Q diverges at r_+^2 = 3GQ^2, marking a stability phase transition between the small and large black-hole branches.",
+      "tags": [
+        "claim",
+        "thermodynamics",
+        "phase-transition"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Reissner-Nordstr\u00f6m Metric:ads2-s2-near-extremality",
+      "type": "claim",
+      "name": "Near-extremal geometry is AdS2 x S2",
+      "summary": "At extremality GM^2 = Q^2 the double horizon r_+ = r_- = GM yields a near-horizon geometry that factorizes into AdS_2 x S^2.",
+      "tags": [
+        "claim",
+        "horizons",
+        "geometry"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Kerr-Newman Metric:gyromagnetic-ratio-two",
+      "type": "claim",
+      "name": "Kerr-Newman gyromagnetic ratio g = 2",
+      "summary": "The charged rotating hole has gyromagnetic ratio g = 2, the same value as a Dirac electron, a numerical coincidence linking gravity and quantum electromagnetism.",
+      "tags": [
+        "claim",
+        "electromagnetism",
+        "quantitative"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Kerr-Newman Metric:christodoulou-ruffini-mass-split",
+      "type": "claim",
+      "name": "Christodoulou-Ruffini irreducible mass",
+      "summary": "The total mass splits into irreducible, Coulomb, and rotational parts via the Christodoulou-Ruffini formula, and ADM/Komar/Wald surface integrals all agree on M, J, Q.",
+      "tags": [
+        "claim",
+        "thermodynamics",
+        "conserved-charges"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:Black Hole Accretion:eddington-limit-value",
+      "type": "claim",
+      "name": "Eddington luminosity ~ 1.26e38 (M/M_sun) erg/s",
+      "summary": "Balancing radiation pressure against gravity on ionized hydrogen gives L_Edd ~ 1.26e38*(M/M_sun) erg/s, the ceiling for steady accretion-powered luminosity.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "accretion"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Black Hole Accretion:spin-range-a0620-to-grs1915",
+      "type": "claim",
+      "name": "Measured spins span ~0 to ~0.998",
+      "summary": "Continuum-fitting and Fe K-alpha line modeling give near-zero spins (A0620-00) up to a* ~ 0.998 (GRS 1915+105) among stellar-mass black holes.",
+      "tags": [
+        "claim",
+        "observations",
+        "spin"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Black Hole Accretion:isco-efficiency-5-7-to-42",
+      "type": "claim",
+      "name": "Radiative efficiency 5.7% to 42%",
+      "summary": "At the Schwarzschild ISCO up to ~5.7% of rest-mass energy is radiated per accreted unit mass; prograde orbits at the extremal Kerr ISCO reach ~42%.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "accretion"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Wormholes:nec-violation-magnitude-1m-throat",
+      "type": "claim",
+      "name": "NEC violation ~ 4.8e42 J/m^3 for a 1 m throat",
+      "summary": "For a 1-meter throat with b'(r_0)=0 the required negative energy density is |rho*c^2+p_r| ~ 4.8e42 J/m^3, an enormous violation of the null energy condition.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "exotic-matter"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Wormholes:half-schwarzschild-deflection",
+      "type": "claim",
+      "name": "Wormhole lensing ~ half the Schwarzschild value",
+      "summary": "In the weak field a Morris-Thorne wormhole deflects light by roughly half the Schwarzschild deflection at equal mass, one of several shadow and lensing discriminants.",
+      "tags": [
+        "claim",
+        "lensing",
+        "observations"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:White Holes:regge-wheeler-instability-timescale",
+      "type": "claim",
+      "name": "White-hole instability e-folds in ~ 2 R_s / c",
+      "summary": "Reversed-boundary-condition Regge-Wheeler perturbations and mass inflation destabilize a white hole on a timescale tau ~ 2 R_s/c, i.e. ~1e-5 s for a solar-mass hole and a few hours for 1e9 M_sun.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "stability"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:White Holes:planck-star-bounce-time",
+      "type": "claim",
+      "name": "Planck-star bounce time ~ (M/m_P)^(4/3) t_P",
+      "summary": "In loop quantum gravity the singularity resolves into a bounce and a black hole may transition to a white hole with bounce time ~ (M/m_P)^(4/3) * t_P.",
+      "tags": [
+        "claim",
+        "quantum-gravity",
+        "quantitative"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:White Holes:cmb-population-epsilon-limit",
+      "type": "claim",
+      "name": "CMB bounds white-hole density to < 1e-53 m^-3",
+      "summary": "Spectral distortions of the CMB limit any present-day white-hole population to rho_WH <~ 1e-53 m^-3, making macroscopic white holes essentially excluded.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "cosmology"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Geodesic Equations:schwarzschild-isco-6m",
+      "type": "claim",
+      "name": "Marginal stability gives ISCO at r = 6M",
+      "summary": "Requiring dV_eff/dr = 0 together with marginal stability reproduces the photon sphere at r = 3M and the ISCO at r = 6M in Schwarzschild units.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "orbits"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Geodesic Equations:carter-constant-integrability",
+      "type": "claim",
+      "name": "Kerr geodesics integrable via the Carter constant",
+      "summary": "A hidden rank-2 Killing tensor supplies the Carter constant, so the Hamilton-Jacobi equation separates in r and theta and Mino time decouples radial from polar motion.",
+      "tags": [
+        "claim",
+        "integrability",
+        "kerr"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:gwosc",
+      "type": "entity",
+      "name": "Gravitational Wave Open Science Center (GWOSC)",
+      "summary": "Public data service that serves GWTC event catalogs and strain data through a read-only JSON endpoint; the workspace snapshots its event tables locally.",
+      "tags": [
+        "catalog",
+        "data-source",
+        "observations"
       ],
       "complexity": "simple"
     },
     {
       "id": "entity:gwtc",
       "type": "entity",
-      "name": "GWTC",
-      "summary": "The Gravitational-Wave Transient Catalog of compact-binary merger events published by LIGO/Virgo/KAGRA through GWOSC.",
+      "name": "Gravitational-Wave Transient Catalog (GWTC)",
+      "summary": "The cumulative LIGO/Virgo/KAGRA catalog of compact-binary merger events with component masses, spins, distances, and remnant properties per event.",
       "tags": [
-        "entity",
+        "catalog",
+        "observations",
+        "data-product"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:ligo-virgo-kagra",
+      "type": "entity",
+      "name": "LIGO / Virgo / KAGRA",
+      "summary": "The interferometric detector network whose matched-filter searches produce the GWTC event catalog; network SNR and localization improve with each detector.",
+      "tags": [
+        "organization",
+        "instrument",
+        "observations"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:gw150914",
+      "type": "entity",
+      "name": "GW150914",
+      "summary": "First gravitational-wave detection: a ~36 + ~29 solar-mass binary black hole merger producing a ~62 solar-mass remnant with spin 0.67 and radiating ~3 M_sun*c^2.",
+      "tags": [
+        "event",
+        "gwtc",
+        "quantitative"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:gw190521",
+      "type": "entity",
+      "name": "GW190521",
+      "summary": "Merger producing a ~142 solar-mass remnant inside the pair-instability mass gap, constraining formation channels for intermediate-mass black holes.",
+      "tags": [
+        "event",
+        "gwtc",
+        "quantitative"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:gw170817-grb-170817a",
+      "type": "entity",
+      "name": "GW170817 / GRB 170817A",
+      "summary": "Binary neutron-star merger with a gamma-ray counterpart that constrains Lorentz-violating dispersion of gravitational and electromagnetic propagation to near equality.",
+      "tags": [
+        "event",
+        "multimessenger",
+        "constraints"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:event-horizon-telescope",
+      "type": "entity",
+      "name": "Event Horizon Telescope (EHT)",
+      "summary": "Global 230 GHz very-long-baseline interferometry array that imaged the shadows of M87* (~42 uas) and Sgr A* (~51.8 uas), testing photon-ring predictions.",
+      "tags": [
+        "instrument",
+        "observations",
+        "shadow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:m87-sgr-a",
+      "type": "entity",
+      "name": "M87* and Sgr A*",
+      "summary": "The two supermassive black holes imaged by the EHT: M87* at 6.5e9 solar masses (~42 uas shadow) and Sgr A* at 4.0e6 solar masses (~51.8 uas shadow).",
+      "tags": [
+        "astronomical-object",
+        "observations",
+        "shadow"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:j0313-1806",
+      "type": "entity",
+      "name": "Quasar J0313-1806",
+      "summary": "Highest-redshift quasar known at z = 7.64 with M_BH = (1.6\u00b10.4)e9 solar masses, demanding very massive seeds or sustained near-Eddington growth.",
+      "tags": [
+        "astronomical-object",
+        "observations",
+        "quantitative"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:planck-star",
+      "type": "entity",
+      "name": "Planck star",
+      "summary": "Loop-quantum-gravity remnant in which the classical singularity resolves into a quantum bounce, potentially connecting black holes to white-hole transitions.",
+      "tags": [
+        "concept",
+        "quantum-gravity",
+        "loop-quantum-gravity"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:grb-090510",
+      "type": "entity",
+      "name": "GRB 090510",
+      "summary": "Short gamma-ray burst whose photon timing bounds the scale of linear Lorentz-violating dispersion: E_QG,1 / E_P > 1.19.",
+      "tags": [
+        "event",
+        "constraints",
+        "quantitative"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Christoffel Symbols:kerr-20-independent-components",
+      "type": "claim",
+      "name": "Kerr has 20 independent nonzero Christoffel symbols",
+      "summary": "In Boyer-Lindquist coordinates the Kerr metric has 20 independent (48 with symmetry) nonzero connection components, reducing to the flat spherical-coordinate symbols as M, a -> 0.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "geometry"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Raychaudhuri Equation:focusing-under-energy-conditions",
+      "type": "claim",
+      "name": "SEC/NEC force focusing in finite affine parameter",
+      "summary": "With the strong or null energy condition and zero vorticity, an initially converging geodesic congruence focuses to a caustic in finite affine parameter \u2014 the engine of the Penrose, Hawking, and Hawking-Penrose singularity theorems and Hawking's area theorem.",
+      "tags": [
+        "claim",
+        "singularity-theorems",
+        "focusing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:Hawking Radiation:solar-mass-temperature-6e-8K",
+      "type": "claim",
+      "name": "Solar-mass Hawking temperature ~ 6e-8 K",
+      "summary": "T_H = hbar*c^3/(8*pi*G*M*k_B) gives ~6e-8 K for a solar-mass hole, far colder than the 2.7 K CMB, so present-day stellar holes absorb more than they emit.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "temperature"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Hawking Radiation:evaporation-time-2e67yr",
+      "type": "claim",
+      "name": "Solar-mass evaporation time ~ 2e67 yr",
+      "summary": "tau = 5120*pi*G^2*M_0^3/(hbar*c^4) evaluates to ~2e67 yr for a solar mass, about 1e57 times the age of the Universe.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "lifetime"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Quantum Gravity:grb-090510-dispersion-limit",
+      "type": "claim",
+      "name": "GRB 090510 bounds E_QG,1 > 1.19 E_P",
+      "summary": "The short GRB 090510 constrains first-order Lorentz-violating photon dispersion to E_QG,1/E_P > 1.19, pushing in-vacuo-dispersion effects beyond the Planck energy.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "constraints"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Quantum Gravity:gw170817-dispersion-constraint",
+      "type": "claim",
+      "name": "GW170817 equal-speed constraint",
+      "summary": "The GW170817/GRB 170817A photon arrival 1.7 s after the merger constrains graviton and photon propagation speeds to near equality at low redshift.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "multimessenger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Gravitational Wave Analysis:merger-peak-luminosity-3-6e52W",
+      "type": "claim",
+      "name": "Merger peak luminosity ~ 3.6e52 W",
+      "summary": "Binary black-hole mergers briefly reach gravitational-wave luminosity L_peak ~ c^5/G ~ 3.6e52 W, outshining the entire EM universe by orders of magnitude.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "merger"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:Gravitational Wave Analysis:eht-shadow-measurements",
+      "type": "claim",
+      "name": "EHT shadows consistent with 2.6 R_s / D",
+      "summary": "EHT measured M87* at 6.5e9 M_sun (shadow ~42 uas) and Sgr A* at 4.0e6 M_sun (~51.8 uas) at 230 GHz, consistent with the photon-ring size theta ~ 2.6 R_s/D.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "observations"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:Gravitational-Wave Catalogs:workspace-391-event-snapshot",
+      "type": "claim",
+      "name": "Workspace snapshot: 391 events + 301-event O4 table",
+      "summary": "The local GWOSC snapshot holds a deduplicated table of 391 events plus a 301-event O4 table; missing parameters must not be read as zero.",
+      "tags": [
+        "claim",
+        "data-product",
         "catalog"
       ],
       "complexity": "simple"
     },
     {
-      "id": "claim:reissner-nordstr\u00f6m-metric:superextremal-naked-singularity",
+      "id": "claim:Gravitational-Wave Catalogs:gw150914-remnant-62-solar",
       "type": "claim",
-      "name": "Superextremal charged black holes are naked singularities",
-      "summary": "For GM^2 < Q^2 no horizon remains and the singularity is naked, forbidden by cosmic censorship; only subextremal or extremal RN black holes are physical.",
+      "name": "GW150914 remnant 62\u00b14 M_sun, spin 0.67",
+      "summary": "GW150914: m1 = 36 (+5/-4) M_sun, m2 = 29\u00b14 M_sun, final mass 62\u00b14 M_sun and final spin 0.67 (+0.05/-0.07), radiating ~3 M_sun*c^2.",
       "tags": [
         "claim",
-        "black-holes"
+        "quantitative",
+        "event"
       ],
       "complexity": "simple"
     },
     {
-      "id": "claim:reissner-nordstr\u00f6m-metric:extremal-ads2-s2",
+      "id": "claim:Gravitational-Wave Catalogs:gw190521-pair-instability-gap",
       "type": "claim",
-      "name": "Extremal RN near-horizon geometry is AdS2\u00d7S2",
-      "summary": "At extremality (GM^2 = Q^2, r+ = r- = GM) the near-horizon region becomes AdS2\u00d7S2.",
+      "name": "GW190521 remnant ~142 M_sun in the pair-instability gap",
+      "summary": "GW190521 produced a ~142 solar-mass remnant inside the pair-instability mass gap, the strongest evidence yet for an intermediate-mass black hole.",
       "tags": [
         "claim",
-        "black-holes"
+        "quantitative",
+        "event"
       ],
       "complexity": "simple"
     },
     {
-      "id": "claim:wormholes:nec-violation-required",
+      "id": "claim:Early Supermassive Black Hole Growth:efolding-50-myr",
       "type": "claim",
-      "name": "Traversable wormholes require exotic matter",
-      "summary": "The Morris\u2013Thorne flare-out analysis shows a traversable throat requires violation of the null energy condition, i.e. exotic matter.",
+      "name": "Eddington e-folding time ~ 50 Myr at epsilon = 0.1",
+      "summary": "For epsilon = 0.1, continuous Eddington-limited accretion with unity duty cycle gives t_ef ~ 50 Myr, so a seed needs multiple e-folds within a billion years.",
       "tags": [
         "claim",
-        "wormholes"
+        "quantitative",
+        "accretion"
       ],
       "complexity": "simple"
     },
     {
-      "id": "claim:white-holes:catastrophic-instability",
+      "id": "claim:Early Supermassive Black Hole Growth:high-z-quasar-ledger",
       "type": "claim",
-      "name": "White holes are catastrophically unstable",
-      "summary": "Perturbations obey the Regge\u2013Wheeler equation with reversed boundary conditions; the instability e-folding time is comparable to the free-fall time (~4GM/c^3).",
+      "name": "High-z BH ledger: z > 7.6 with 1.6e9 M_sun",
+      "summary": "J0313-1806 at z = 7.64 (1.6e9 M_sun), CEERS_1019 at z = 8.68 (log M ~ 6.95), GN-z11 at z = 10.6, UHZ1 at z ~ 10.1: each has method systematics and none fixes a unique seed channel.",
       "tags": [
         "claim",
-        "white-holes"
+        "quantitative",
+        "observations"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:Fisher Information Matrix:chirp-mass-best-constrained",
+      "type": "claim",
+      "name": "Chirp mass dominates the phase derivative",
+      "summary": "The chirp mass enters the waveform phase at f^(-8/3) and is the best-measured parameter; distance and inclination degenerate for a single detector but are broken by a network.",
+      "tags": [
+        "claim",
+        "quantitative",
+        "parameter-estimation"
       ],
       "complexity": "simple"
     },
     {
-      "id": "claim:kerr-metric:real-bhs-are-kerr",
+      "id": "claim:Fisher Information Matrix:mc-eta-degeneracy-0-9",
       "type": "claim",
-      "name": "Astrophysical black holes are expected to be approximately Kerr",
-      "summary": "As the unique stationary axisymmetric vacuum solution, Kerr is the expected geometry of real rotating black holes.",
+      "name": "Chirp-mass / mass-ratio correlation 0.9-0.99",
+      "summary": "The symmetric mass ratio and effective spin enter at higher post-Newtonian order and correlate strongly with the chirp mass at rho ~ 0.9-0.99, limiting high-order parameter recovery.",
       "tags": [
         "claim",
-        "black-holes"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:quantum-gravity:no-confirmed-theory",
-      "type": "claim",
-      "name": "No complete quantum gravity is experimentally confirmed",
-      "summary": "Matter QFT on curved backgrounds is predictive and yields Hawking radiation, but a complete quantum theory of spacetime remains unconfirmed at the Planck scale.",
-      "tags": [
-        "claim",
-        "quantum-gravity"
+        "quantitative",
+        "degeneracy"
       ],
       "complexity": "simple"
     }
@@ -1579,68 +1987,557 @@
       "weight": 0.6
     },
     {
-      "source": "article:Christoffel Symbols",
-      "target": "article:Schwarzschild Metric",
-      "type": "builds_on",
+      "source": "article:Schwarzschild Metric",
+      "target": "entity:karl-schwarzschild",
+      "type": "cites",
       "direction": "forward",
-      "weight": 0.8,
-      "description": "The Christoffel page works out the non-vanishing Schwarzschild components explicitly (A = e^2\u03b1, B = e^2\u03b2)."
-    },
-    {
-      "source": "article:Geodesic Equations",
-      "target": "article:Christoffel Symbols",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "Geodesic motion is computed from the Christoffel symbols defined on the Christoffel page."
-    },
-    {
-      "source": "article:Hawking Radiation",
-      "target": "article:Schwarzschild Metric",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "Hawking temperature is derived from the surface gravity of the static (Schwarzschild) horizon."
-    },
-    {
-      "source": "article:Early Supermassive Black Hole Growth",
-      "target": "article:Black Hole Accretion",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "Early SMBH growth uses the Eddington limit and radiative efficiency established by the accretion page as its clock."
+      "weight": 0.8
     },
     {
       "source": "article:Kerr Metric",
-      "target": "article:Schwarzschild Metric",
-      "type": "builds_on",
+      "target": "entity:roy-kerr",
+      "type": "cites",
       "direction": "forward",
-      "weight": 0.7,
-      "description": "Kerr reduces to Schwarzschild at zero spin and generalizes it to stationary rotation."
+      "weight": 0.8
+    },
+    {
+      "source": "article:Kerr-Newman Metric",
+      "target": "entity:roy-kerr",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Hawking Radiation",
+      "target": "entity:stephen-hawking",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Wormholes",
+      "target": "entity:stephen-hawking",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "article:Kerr Metric",
+      "target": "entity:roger-penrose",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "article:Raychaudhuri Equation",
+      "target": "entity:roger-penrose",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Wormholes",
+      "target": "entity:morris-thorne",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Wormholes",
+      "target": "entity:matt-visser",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Schwarzschild Metric",
+      "target": "entity:kruskal-szekeres",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:White Holes",
+      "target": "entity:kruskal-szekeres",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Kerr Metric",
+      "target": "entity:cosmic-censorship",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Reissner-Nordstr\u00f6m Metric",
+      "target": "entity:cosmic-censorship",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Kerr-Newman Metric",
+      "target": "entity:cosmic-censorship",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Wormholes",
+      "target": "entity:null-energy-condition",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:Raychaudhuri Equation",
+      "target": "entity:null-energy-condition",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.9
     },
     {
       "source": "article:Geodesic Equations",
-      "target": "entity:bardeen-press-teukolsky-isco",
-      "type": "exemplifies",
+      "target": "entity:carter-constant",
+      "type": "cites",
       "direction": "forward",
-      "weight": 0.7,
-      "description": "The conserved-quantity machinery yields the exact Kerr ISCO attributed to Bardeen, Press, and Teukolsky."
+      "weight": 0.9
     },
     {
-      "source": "article:Christoffel Symbols",
-      "target": "entity:karl-schwarzschild",
-      "type": "exemplifies",
+      "source": "article:Kerr-Newman Metric",
+      "target": "entity:carter-constant",
+      "type": "cites",
       "direction": "forward",
-      "weight": 0.6,
-      "description": "The page computes the Schwarzschild Christoffel symbols after the metric's discoverer."
+      "weight": 0.5
+    },
+    {
+      "source": "article:Reissner-Nordstr\u00f6m Metric",
+      "target": "entity:bekenstein-hawking-entropy",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Hawking Radiation",
+      "target": "entity:bekenstein-hawking-entropy",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:Quantum Gravity",
+      "target": "entity:bekenstein-hawking-entropy",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
     },
     {
       "source": "article:Black Hole Accretion",
       "target": "entity:blackcat",
       "type": "cites",
       "direction": "forward",
-      "weight": 0.7,
-      "description": "The accretion page cites the BlackCAT catalog of black-hole X-ray binaries as its observational tracer."
+      "weight": 0.8
+    },
+    {
+      "source": "article:Black Hole Accretion",
+      "target": "entity:eddington-limit",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:Early Supermassive Black Hole Growth",
+      "target": "entity:eddington-limit",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "claim:Schwarzschild Metric:sun-schwarzschild-radius-3km",
+      "target": "article:Schwarzschild Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Schwarzschild Metric:photon-sphere-isco-radii",
+      "target": "article:Schwarzschild Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Schwarzschild Metric:kretschmann-finite-at-horizon",
+      "target": "article:Schwarzschild Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Kerr Metric:no-horizon-above-unit-spin",
+      "target": "article:Kerr Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Kerr Metric:bardeen-press-teukolsky-isco",
+      "target": "article:Kerr Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Reissner-Nordstr\u00f6m Metric:davies-heat-capacity-divergence",
+      "target": "article:Reissner-Nordstr\u00f6m Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Reissner-Nordstr\u00f6m Metric:ads2-s2-near-extremality",
+      "target": "article:Reissner-Nordstr\u00f6m Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Kerr-Newman Metric:gyromagnetic-ratio-two",
+      "target": "article:Kerr-Newman Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Kerr-Newman Metric:christodoulou-ruffini-mass-split",
+      "target": "article:Kerr-Newman Metric",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Black Hole Accretion:eddington-limit-value",
+      "target": "article:Black Hole Accretion",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Black Hole Accretion:spin-range-a0620-to-grs1915",
+      "target": "article:Black Hole Accretion",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Black Hole Accretion:isco-efficiency-5-7-to-42",
+      "target": "article:Black Hole Accretion",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Wormholes:nec-violation-magnitude-1m-throat",
+      "target": "article:Wormholes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Wormholes:half-schwarzschild-deflection",
+      "target": "article:Wormholes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:White Holes:regge-wheeler-instability-timescale",
+      "target": "article:White Holes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:White Holes:planck-star-bounce-time",
+      "target": "article:White Holes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:White Holes:cmb-population-epsilon-limit",
+      "target": "article:White Holes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Geodesic Equations:schwarzschild-isco-6m",
+      "target": "article:Geodesic Equations",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Geodesic Equations:carter-constant-integrability",
+      "target": "article:Geodesic Equations",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Kerr Metric:no-horizon-above-unit-spin",
+      "target": "entity:cosmic-censorship",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "claim:Wormholes:nec-violation-magnitude-1m-throat",
+      "target": "entity:null-energy-condition",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Early Supermassive Black Hole Growth",
+      "target": "article:Black Hole Accretion",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Quantum Gravity",
+      "target": "article:Hawking Radiation",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Gravitational Wave Analysis",
+      "target": "article:Geodesic Equations",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Gravitational-Wave Catalogs",
+      "target": "entity:gwosc",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Gravitational-Wave Catalogs",
+      "target": "entity:gwtc",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Gravitational-Wave Catalogs",
+      "target": "entity:ligo-virgo-kagra",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Gravitational-Wave Catalogs",
+      "target": "entity:gw150914",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Gravitational-Wave Catalogs",
+      "target": "entity:gw190521",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Quantum Gravity",
+      "target": "entity:gw170817-grb-170817a",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Quantum Gravity",
+      "target": "entity:grb-090510",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Gravitational Wave Analysis",
+      "target": "entity:event-horizon-telescope",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Gravitational Wave Analysis",
+      "target": "entity:m87-sgr-a",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:Early Supermassive Black Hole Growth",
+      "target": "entity:j0313-1806",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:White Holes",
+      "target": "entity:planck-star",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Quantum Gravity",
+      "target": "entity:planck-star",
+      "type": "cites",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "claim:Christoffel Symbols:kerr-20-independent-components",
+      "target": "article:Christoffel Symbols",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Raychaudhuri Equation:focusing-under-energy-conditions",
+      "target": "article:Raychaudhuri Equation",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Hawking Radiation:solar-mass-temperature-6e-8K",
+      "target": "article:Hawking Radiation",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Hawking Radiation:evaporation-time-2e67yr",
+      "target": "article:Hawking Radiation",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Quantum Gravity:grb-090510-dispersion-limit",
+      "target": "article:Quantum Gravity",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Quantum Gravity:gw170817-dispersion-constraint",
+      "target": "article:Quantum Gravity",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Gravitational Wave Analysis:merger-peak-luminosity-3-6e52W",
+      "target": "article:Gravitational Wave Analysis",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Gravitational Wave Analysis:eht-shadow-measurements",
+      "target": "article:Gravitational Wave Analysis",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Gravitational-Wave Catalogs:workspace-391-event-snapshot",
+      "target": "article:Gravitational-Wave Catalogs",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Gravitational-Wave Catalogs:gw150914-remnant-62-solar",
+      "target": "article:Gravitational-Wave Catalogs",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Gravitational-Wave Catalogs:gw190521-pair-instability-gap",
+      "target": "article:Gravitational-Wave Catalogs",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Early Supermassive Black Hole Growth:efolding-50-myr",
+      "target": "article:Early Supermassive Black Hole Growth",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Early Supermassive Black Hole Growth:high-z-quasar-ledger",
+      "target": "article:Early Supermassive Black Hole Growth",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Fisher Information Matrix:chirp-mass-best-constrained",
+      "target": "article:Fisher Information Matrix",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:Fisher Information Matrix:mc-eta-degeneracy-0-9",
+      "target": "article:Fisher Information Matrix",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "claim:White Holes:planck-star-bounce-time",
+      "target": "entity:planck-star",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "claim:Gravitational-Wave Catalogs:gw150914-remnant-62-solar",
+      "target": "entity:gw150914",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Raychaudhuri Equation",
+      "target": "article:Christoffel Symbols",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Fisher Information Matrix",
+      "target": "article:Gravitational-Wave Catalogs",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
     },
     {
       "source": "article:Kerr Metric",
@@ -1659,62 +2556,6 @@
       "description": "The Schwarzschild metric carries its discoverer's name."
     },
     {
-      "source": "article:Reissner-Nordstr\u00f6m Metric",
-      "target": "article:Schwarzschild Metric",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "RN is explicitly the charged generalization of the Schwarzschild metric."
-    },
-    {
-      "source": "article:Kerr-Newman Metric",
-      "target": "article:Kerr Metric",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "Kerr-Newman generalizes Kerr rotation by adding electric charge via the Einstein\u2013Maxwell equations."
-    },
-    {
-      "source": "article:Kerr-Newman Metric",
-      "target": "article:Reissner-Nordstr\u00f6m Metric",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "Kerr-Newman shares the charge parameter and horizon thermodynamics of RN."
-    },
-    {
-      "source": "article:White Holes",
-      "target": "article:Schwarzschild Metric",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.8,
-      "description": "A white hole is the time-reversed Schwarzschild region of the maximal extension."
-    },
-    {
-      "source": "article:White Holes",
-      "target": "entity:kruskal-szekeres-extension",
-      "type": "exemplifies",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "White-hole region IV is defined only within the Kruskal\u2013Szekeres maximal extension."
-    },
-    {
-      "source": "article:White Holes",
-      "target": "entity:regge-wheeler-equation",
-      "type": "cites",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "White-hole instability is formulated via the Regge\u2013Wheeler equation with reversed boundary conditions."
-    },
-    {
-      "source": "article:Wormholes",
-      "target": "entity:morris-thorne-1988",
-      "type": "cites",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "The traversable-wormhole construction is Morris and Thorne (1988)."
-    },
-    {
       "source": "article:Raychaudhuri Equation",
       "target": "entity:roger-penrose",
       "type": "authored_by",
@@ -1729,165 +2570,13 @@
       "direction": "forward",
       "weight": 0.6,
       "description": "Hawking's calculation yields the thermal emission named after him."
-    },
-    {
-      "source": "article:Quantum Gravity",
-      "target": "article:Hawking Radiation",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "Quantum gravity is motivated partly by Hawking radiation as a robust semiclassical prediction."
-    },
-    {
-      "source": "article:Gravitational-Wave Catalogs",
-      "target": "entity:gwtc",
-      "type": "cites",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "The page documents GWTC contents served through GWOSC."
-    },
-    {
-      "source": "article:Gravitational-Wave Catalogs",
-      "target": "entity:gw150914",
-      "type": "exemplifies",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "GW150914 anchors the remnant-mass discussion."
-    },
-    {
-      "source": "article:Schwarzschild Metric",
-      "target": "entity:kruskal-szekeres-extension",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Kruskal\u2013Szekeres coordinates remove the Schwarzschild horizon coordinate singularity."
-    },
-    {
-      "source": "claim:black-hole-accretion:radiative-efficiency-bounds",
-      "target": "article:Black Hole Accretion",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:hawking-radiation:solar-temp-cmb-cold",
-      "target": "article:Hawking Radiation",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:hawking-radiation:evaporation-timescale",
-      "target": "article:Hawking Radiation",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:gravitational-wave-analysis:ringdown-tests-kerr-no-hair",
-      "target": "article:Gravitational Wave Analysis",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:fisher-information-matrix:high-snr-gaussian-posterior",
-      "target": "article:Fisher Information Matrix",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:early-supermassive-black-hole-growth:eddi-clock-50myr",
-      "target": "article:Early Supermassive Black Hole Growth",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:gravitational-wave-catalogs:catalog-not-a-census",
-      "target": "article:Gravitational-Wave Catalogs",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:gravitational-wave-catalogs:snapshot-391-events",
-      "target": "article:Gravitational-Wave Catalogs",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:reissner-nordstr\u00f6m-metric:superextremal-naked-singularity",
-      "target": "article:Reissner-Nordstr\u00f6m Metric",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:reissner-nordstr\u00f6m-metric:extremal-ads2-s2",
-      "target": "article:Reissner-Nordstr\u00f6m Metric",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:wormholes:nec-violation-required",
-      "target": "article:Wormholes",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:white-holes:catastrophic-instability",
-      "target": "article:White Holes",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:kerr-metric:real-bhs-are-kerr",
-      "target": "article:Kerr Metric",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "claim:quantum-gravity:no-confirmed-theory",
-      "target": "article:Quantum Gravity",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.5,
-      "description": "Key assertion established by this article."
-    },
-    {
-      "source": "article:Gravitational-Wave Catalogs",
-      "target": "entity:gwosc",
-      "type": "cites",
-      "direction": "forward",
-      "weight": 0.7,
-      "description": "GWTC is served through the Gravitational Wave Open Science Center (GWOSC), which is where the workspace snapshot originates."
     }
   ],
   "layers": [
     {
       "id": "layer:black-holes",
       "name": "Black Holes",
-      "description": "Black Holes (12 nodes)",
+      "description": "Black Holes (26 nodes)",
       "nodeIds": [
         "article:Schwarzschild Metric",
         "article:Kerr Metric",
@@ -1895,91 +2584,123 @@
         "article:Kerr-Newman Metric",
         "article:Black Hole Accretion",
         "topic:black-holes",
-        "entity:blackcat",
+        "entity:karl-schwarzschild",
         "entity:roy-kerr",
-        "claim:black-hole-accretion:radiative-efficiency-bounds",
-        "claim:reissner-nordstr\u00f6m-metric:superextremal-naked-singularity",
-        "claim:reissner-nordstr\u00f6m-metric:extremal-ads2-s2",
-        "claim:kerr-metric:real-bhs-are-kerr"
+        "entity:roger-penrose",
+        "entity:kruskal-szekeres",
+        "entity:cosmic-censorship",
+        "entity:bekenstein-hawking-entropy",
+        "entity:blackcat",
+        "entity:eddington-limit",
+        "claim:Schwarzschild Metric:sun-schwarzschild-radius-3km",
+        "claim:Schwarzschild Metric:photon-sphere-isco-radii",
+        "claim:Schwarzschild Metric:kretschmann-finite-at-horizon",
+        "claim:Kerr Metric:no-horizon-above-unit-spin",
+        "claim:Kerr Metric:bardeen-press-teukolsky-isco",
+        "claim:Reissner-Nordstr\u00f6m Metric:davies-heat-capacity-divergence",
+        "claim:Reissner-Nordstr\u00f6m Metric:ads2-s2-near-extremality",
+        "claim:Kerr-Newman Metric:gyromagnetic-ratio-two",
+        "claim:Kerr-Newman Metric:christodoulou-ruffini-mass-split",
+        "claim:Black Hole Accretion:eddington-limit-value",
+        "claim:Black Hole Accretion:spin-range-a0620-to-grs1915",
+        "claim:Black Hole Accretion:isco-efficiency-5-7-to-42"
       ]
     },
     {
       "id": "layer:wormholes",
       "name": "Wormholes",
-      "description": "Wormholes (4 nodes)",
+      "description": "Wormholes (7 nodes)",
       "nodeIds": [
         "article:Wormholes",
         "topic:wormholes",
-        "entity:morris-thorne-1988",
-        "claim:wormholes:nec-violation-required"
+        "entity:morris-thorne",
+        "entity:matt-visser",
+        "entity:null-energy-condition",
+        "claim:Wormholes:nec-violation-magnitude-1m-throat",
+        "claim:Wormholes:half-schwarzschild-deflection"
       ]
     },
     {
       "id": "layer:white-holes",
       "name": "White Holes",
-      "description": "White Holes (5 nodes)",
+      "description": "White Holes (6 nodes)",
       "nodeIds": [
         "article:White Holes",
         "topic:white-holes",
-        "entity:kruskal-szekeres-extension",
-        "entity:regge-wheeler-equation",
-        "claim:white-holes:catastrophic-instability"
+        "claim:White Holes:regge-wheeler-instability-timescale",
+        "claim:White Holes:planck-star-bounce-time",
+        "claim:White Holes:cmb-population-epsilon-limit",
+        "entity:planck-star"
       ]
     },
     {
       "id": "layer:gravity-&-spacetime",
       "name": "Gravity & Spacetime",
-      "description": "Gravity & Spacetime (11 nodes)",
+      "description": "Gravity & Spacetime (13 nodes)",
       "nodeIds": [
         "article:Geodesic Equations",
         "article:Christoffel Symbols",
         "article:Raychaudhuri Equation",
         "article:Hawking Radiation",
         "topic:gravity-&-spacetime",
-        "entity:bardeen-press-teukolsky-isco",
-        "entity:karl-schwarzschild",
-        "entity:roger-penrose",
         "entity:stephen-hawking",
-        "claim:hawking-radiation:solar-temp-cmb-cold",
-        "claim:hawking-radiation:evaporation-timescale"
+        "entity:carter-constant",
+        "claim:Geodesic Equations:schwarzschild-isco-6m",
+        "claim:Geodesic Equations:carter-constant-integrability",
+        "claim:Christoffel Symbols:kerr-20-independent-components",
+        "claim:Raychaudhuri Equation:focusing-under-energy-conditions",
+        "claim:Hawking Radiation:solar-mass-temperature-6e-8K",
+        "claim:Hawking Radiation:evaporation-time-2e67yr"
       ]
     },
     {
       "id": "layer:quantum-gravity",
       "name": "Quantum Gravity",
-      "description": "Quantum Gravity (3 nodes)",
+      "description": "Quantum Gravity (6 nodes)",
       "nodeIds": [
         "article:Quantum Gravity",
         "topic:quantum-gravity",
-        "claim:quantum-gravity:no-confirmed-theory"
+        "entity:gw170817-grb-170817a",
+        "entity:grb-090510",
+        "claim:Quantum Gravity:grb-090510-dispersion-limit",
+        "claim:Quantum Gravity:gw170817-dispersion-constraint"
       ]
     },
     {
       "id": "layer:observations-&-catalogs",
       "name": "Observations & Catalogs",
-      "description": "Observations & Catalogs (11 nodes)",
+      "description": "Observations & Catalogs (19 nodes)",
       "nodeIds": [
         "article:Gravitational Wave Analysis",
         "article:Gravitational-Wave Catalogs",
         "article:Early Supermassive Black Hole Growth",
         "topic:observations-&-catalogs",
+        "entity:gwosc",
         "entity:gwtc",
+        "entity:ligo-virgo-kagra",
         "entity:gw150914",
-        "claim:gravitational-wave-analysis:ringdown-tests-kerr-no-hair",
-        "claim:early-supermassive-black-hole-growth:eddi-clock-50myr",
-        "claim:gravitational-wave-catalogs:catalog-not-a-census",
-        "claim:gravitational-wave-catalogs:snapshot-391-events",
-        "entity:gwosc"
+        "entity:gw190521",
+        "entity:event-horizon-telescope",
+        "entity:m87-sgr-a",
+        "entity:j0313-1806",
+        "claim:Gravitational Wave Analysis:merger-peak-luminosity-3-6e52W",
+        "claim:Gravitational Wave Analysis:eht-shadow-measurements",
+        "claim:Gravitational-Wave Catalogs:workspace-391-event-snapshot",
+        "claim:Gravitational-Wave Catalogs:gw150914-remnant-62-solar",
+        "claim:Gravitational-Wave Catalogs:gw190521-pair-instability-gap",
+        "claim:Early Supermassive Black Hole Growth:efolding-50-myr",
+        "claim:Early Supermassive Black Hole Growth:high-z-quasar-ledger"
       ]
     },
     {
       "id": "layer:methods",
       "name": "Methods",
-      "description": "Methods (3 nodes)",
+      "description": "Methods (4 nodes)",
       "nodeIds": [
         "article:Fisher Information Matrix",
         "topic:methods",
-        "claim:fisher-information-matrix:high-snr-gaussian-posterior"
+        "claim:Fisher Information Matrix:chirp-mass-best-constrained",
+        "claim:Fisher Information Matrix:mc-eta-degeneracy-0-9"
       ]
     }
   ],

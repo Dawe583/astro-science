@@ -54,7 +54,14 @@ non-zero on failure.
 | Data refresh | `refresh-data.sh` | Download → process → rebuild dashboards/figures |
 | Notebook health | `notebook-health.sh` | Execute every notebook → collect failures |
 | Research | `research-loop.sh "<topic>"` | Set up a research work dir + hypothesis template |
-| Orchestrator | `orchestrator.sh` | Runs the loops in sequence |
+| Graph refresh | `refresh-graphs.sh` | Deterministic drift check vs committed graphs → `.ua/refresh-requested.json` |
+| Orchestrator | `orchestrator.sh` | Data → notebooks → graph drift; writes `logs/latest-status.json` |
+
+The graph-refresh loop is the bridge between automation and the graphs: it never calls
+an LLM, it only enumerates what changed (root SHA-256 fingerprints + subdomain file
+list) and queues the exact `/understand` work. The orchestrator's
+`latest-status.json` exposes `graphRefreshRequested` so an agent session can pick the
+work up without re-scanning the tree itself.
 
 ### Trigger matrix
 
@@ -73,6 +80,9 @@ non-zero on failure.
 
 # notebook health nightly
 30 1 * * * cd /home/dawe/Projects/astro-science && .opencode/loops/notebook-health.sh
+
+# graph drift nightly (after notebooks)
+15 2 * * * cd /home/dawe/Projects/astro-science && .opencode/loops/refresh-graphs.sh
 ```
 
 Inside an agent session, create a recurring heartbeat:
@@ -87,7 +97,8 @@ await rlm_heartbeat.create("run the notebook health loop and report failures",
 ## 4. Graphs
 
 Three Understand-Anything graphs provide machine-readable context over the workspace.
-See `GRAPHS.md` for the architecture and refresh procedure.
+See `GRAPHS.md` for the architecture and refresh procedure, `astro-graphs` skill for
+the workflow, and `.ua/refresh-requested.json` for the current drift queue.
 
 ---
 
@@ -99,6 +110,7 @@ See `GRAPHS.md` for the architecture and refresh procedure.
 | `/astro-notebook-health` | astro-validator | Run the notebook health loop |
 | `/astro-research` | astro-theoretician | Run the theory workflow |
 | `/astro-graphs` | — | Build / refresh the knowledge graphs |
+| `/astro-refresh-graphs` | — | Drift check → incremental graph refresh → re-apply cohesion |
 
 ---
 

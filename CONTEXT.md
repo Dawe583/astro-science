@@ -177,7 +177,7 @@ Understand-Anything is installed globally (`~/.understand-anything/repo`, skills
 |---|---|---|---|
 | Code graph (root + subdomain merge) | `/understand` | `.ua/knowledge-graph.json` | 167 nodes / 92 edges / 10 layers / 18 tour steps |
 | Domain flows | `/understand-domain` | `.ua/domain-graph.json` | 51 nodes (4 domains, 9 flows, 38 steps) / 52 edges |
-| Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 49 nodes (16 articles, 7 topics, 12 entities, 14 claims) / 130 edges |
+| Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 81 nodes (16 articles, 7 topics, 24 entities, 34 claims) / 175 edges |
 
 Transient merge inputs (recreated on refresh, safe to restage):
 
@@ -227,16 +227,19 @@ Four specialized agents live in `astro-science/.opencode/agent/`:
 
 ## 9. Loops & workflows
 
-Three loops, orchestrated by `.opencode/loops/orchestrator.sh`:
+Four loops, orchestrated by `.opencode/loops/orchestrator.sh`:
 
 | Loop | Script | Purpose |
 |---|---|---|
 | Data refresh | `refresh-data.sh` | Download → process → rebuild dashboards/figures |
 | Notebook health | `notebook-health.sh` | Execute all notebooks → fix → report |
 | Research | `research-loop.sh` | Hypothesis → derivation → figure → report → theory doc |
+| Graph refresh | `refresh-graphs.sh` | Drift check vs committed graphs → `.ua/refresh-requested.json` |
 
-Trigger modes: OpenCode commands (`/astro-*`) for manual runs; the scripts are
-cron/heartbeat-ready for autonomous runs. See `astro-loops`.
+The orchestrator runs data → notebooks → graph drift and writes
+`.opencode/loops/logs/latest-status.json`; the graph loop never calls an LLM — it
+queues exact `/understand` work. Trigger modes: OpenCode commands (`/astro-*`) for
+manual runs; the scripts are cron/heartbeat-ready for autonomous runs. See `astro-loops`.
 
 ---
 
@@ -248,6 +251,7 @@ Project commands in `astro-science/.opencode/command/`:
 - `/astro-notebook-health` — run the notebook health loop
 - `/astro-research` — run the research loop
 - `/astro-graphs` — run/refresh the knowledge graphs
+- `/astro-refresh-graphs` — drift check → refresh → re-apply cohesion edges
 
 ---
 
@@ -277,10 +281,8 @@ source .venv/bin/activate
 # 2. Check notebooks
 .opencode/loops/notebook-health.sh
 
-# 3. Rebuild the knowledge graphs
-/understand
-/understand-domain
-/understand-knowledge research/wiki
+# 3. Detect graph drift (then /understand if requested)
+.opencode/loops/refresh-graphs.sh
 
 # 4. Explore the graph
 /understand-dashboard
