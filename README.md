@@ -2,6 +2,18 @@
 
 Kompletní sada nástrojů pro astrofyziku, teoretickou fyziku, matematiku, kvantovou fyziku a vědecký výzkum.
 
+## 🔭 Research portfolio
+
+The flagship research programme (black holes, wormholes, white holes, gravitational
+waves) publishes a generated research site:
+
+- **Portal / notebooks:** https://dawe583.github.io/exotic-compact-objects/
+- **Research site:** https://dawe583.github.io/exotic-compact-objects/premium/
+- Source and build script: `research/projects/exotic-compact-objects/` (`scripts/build_premium_site.py`)
+
+The site is rebuilt deterministically by `.opencode/loops/publish-site.sh` and is part
+of the orchestrator run, so catalogue counts and figures cannot go stale.
+
 ## 📋 Přehled
 
 Toto prostředí obsahuje:

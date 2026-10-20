@@ -27,7 +27,7 @@ The workspace produces a **portfolio**, not a single product:
 | Interactive notebooks | `research/projects/*/notebooks/*.ipynb` |
 | Dashboards / figures | `research/projects/*/premium/figures/`, `figures/` |
 | Catalogs / data products | `research/projects/*/data/processed/` |
-| Published site | `research/projects/exotic-compact-objects/premium/` (GitHub Pages) |
+| Published site | `research/projects/exotic-compact-objects/premium/` → `docs/` (GitHub Pages) |
 
 ---
 
@@ -82,7 +82,7 @@ astro-science/
 
 ### 4.1 `exotic-compact-objects` (flagship)
 
-The main active project. 24 notebooks, ~30 scripts, theory docs, premium HTML site.
+The main active project. 23 notebooks, ~30 scripts, theory docs, generated English research site.
 
 - **Models** (`models/`): `equations.py`, `formulas.py`, `derivations.py`
 - **Notebooks** (`notebooks/`): `01_...` through `24_quantum_gravity.ipynb`
@@ -97,8 +97,10 @@ The main active project. 24 notebooks, ~30 scripts, theory docs, premium HTML si
   - `data/processed/` — derived CSVs (`gwtc_recent_20_remnants.csv`,
     `agn_reverberation_masses.csv`, `blackcat_dynamical.csv`, ...)
 - **Reports** (`reports/`): `gwosc_latest.md`, `compute_data_report.md`,
-  `derivations_report.md`, `summary.md`
-- **Premium site** (`premium/`): static HTML (Czech UI text), Plotly figures
+  `derivations_report.md`, `summary.md`, `remnant_energetics.md`
+- **Research site** (`premium/` → `docs/`): generated English static site (dark observatory
+  design, dashboard, catalogue tables, model gallery, interactive Plotly figures, auto TOC).
+  Build + publish: `$PY scripts/build_premium_site.py --publish`.
 
 **Key rebuild commands** (from the project dir, with the workspace venv):
 
@@ -207,7 +209,7 @@ Transient merge inputs (recreated on refresh, safe to restage):
 **Project override** (`astro-science/.opencode/skill/`):
 
 - `astro-science` — this workspace's paths, projects, scripts, graph config
-- `astro-loops` — how the three loops run here and how to trigger them
+- `astro-loops` — how the five loops run here and how to trigger them
 - `astro-graphs` — how to run/refresh the three graphs
 
 ---
@@ -227,16 +229,17 @@ Four specialized agents live in `astro-science/.opencode/agent/`:
 
 ## 9. Loops & workflows
 
-Four loops, orchestrated by `.opencode/loops/orchestrator.sh`:
+Five loops, orchestrated by `.opencode/loops/orchestrator.sh`:
 
 | Loop | Script | Purpose |
 |---|---|---|
 | Data refresh | `refresh-data.sh` | Download → process → rebuild dashboards/figures |
 | Notebook health | `notebook-health.sh` | Execute all notebooks → fix → report |
+| Publish site | `publish-site.sh` | Rebuild the research site + sync `docs/` for GitHub Pages |
 | Research | `research-loop.sh` | Hypothesis → derivation → figure → report → theory doc |
 | Graph refresh | `refresh-graphs.sh` | Drift check vs committed graphs → `.ua/refresh-requested.json` |
 
-The orchestrator runs data → notebooks → graph drift and writes
+The orchestrator runs data → notebooks → site → graph drift and writes
 `.opencode/loops/logs/latest-status.json`; the graph loop never calls an LLM — it
 queues exact `/understand` work. Trigger modes: OpenCode commands (`/astro-*`) for
 manual runs; the scripts are cron/heartbeat-ready for autonomous runs. See `astro-loops`.
@@ -281,10 +284,13 @@ source .venv/bin/activate
 # 2. Check notebooks
 .opencode/loops/notebook-health.sh
 
-# 3. Detect graph drift (then /understand if requested)
+# 3. Rebuild + publish the research site
+.opencode/loops/publish-site.sh
+
+# 4. Detect graph drift (then /understand if requested)
 .opencode/loops/refresh-graphs.sh
 
-# 4. Explore the graph
+# 5. Explore the graph
 /understand-dashboard
 ```
 

@@ -71,6 +71,16 @@ read from `.venv/bin/pip list` and the system PATH.
 
 ---
 
+## Tier 4 — interactive research workspace (integrated, below 4k stars)
+
+| Repo | Stars | What it is | Status here |
+|---|---|---|---|
+| [grant-m-s/AstronomicAL](https://github.com/grant-m-s/AstronomicAL) | ~89 | Panel-based, plugin-driven platform for exploring, labelling and modelling scientific data; FITS/CSV/Parquet, catalogue plugins, ML/active learning | cloned at `~/tools/AstronomicAL`, isolated Python 3.12 venv, `astro.science.portfolio` plugin |
+| [myastroboard/myastroboard](https://github.com/myastroboard/myastroboard) | — | Self-hosted astrophotography planner/logbook | design reference only (dark sky-planning UI) |
+
+AstronomicAL is a tool, not a dependency: its own venv is isolated from the research
+`.venv` because it pins an older pandas/numpy ABI. See `docs/ASTRONOMICAL.md`.
+
 ## What is already installed (verified)
 
 `astropy`, `astroquery`, `bilby`, `camb`, `corner`, `dask`, `dynesty`, `emcee`,

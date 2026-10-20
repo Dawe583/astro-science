@@ -8,8 +8,9 @@ Automation loops for the workspace. All scripts are self-contained, log to
 | `refresh-data.sh` | Data refresh | Download → process → rebuild dashboards/figures |
 | `notebook-health.sh` | Notebook health | Execute every notebook → collect failures, write `logs/notebook-health-latest.json` |
 | `research-loop.sh "<topic>"` | Research | Set up a research work dir + hypothesis template |
+| `publish-site.sh` | Publish site | Rebuild the research site from catalogues and sync `docs/` (GitHub Pages) |
 | `refresh-graphs.sh` | Graph refresh | Detect code/doc drift vs the committed graphs, write `.ua/refresh-requested.json` |
-| `orchestrator.sh` | All | Runs data → notebooks → graph drift, writes `logs/latest-status.json` |
+| `orchestrator.sh` | All | Runs data → notebooks → site → graph drift, writes `logs/latest-status.json` |
 
 ## Run manually
 
@@ -18,6 +19,7 @@ cd /home/dawe/Projects/astro-science
 .opencode/loops/refresh-data.sh
 .opencode/loops/notebook-health.sh
 .opencode/loops/research-loop.sh "ISCO radius vs spin"
+.opencode/loops/publish-site.sh
 .opencode/loops/refresh-graphs.sh
 .opencode/loops/orchestrator.sh
 ```

@@ -32,6 +32,7 @@ run_loop() {
 
 run_loop refresh-data
 run_loop notebook-health
+run_loop publish-site
 run_loop refresh-graphs
 
 # --- graph work queue ---------------------------------------------------------
@@ -45,16 +46,17 @@ fi
 
 # --- combined status ----------------------------------------------------------
 python3 - "$STATUS" "$ORCH_LOG" "${RESULT[refresh-data]}" "${RESULT[notebook-health]}" \
-  "${RESULT[refresh-graphs]}" "$ROOT/.ua/refresh-requested.json" <<'PYEOF'
+  "${RESULT[publish-site]}" "${RESULT[refresh-graphs]}" "$ROOT/.ua/refresh-requested.json" <<'PYEOF'
 import json, os, sys, time
 
-status_path, log_path, data, notebooks, graphs, request_path = sys.argv[1:7]
+status_path, log_path, data, notebooks, site, graphs, request_path = sys.argv[1:8]
 status = {
     "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
     "log": log_path,
     "loops": {
         "refresh-data": data,
         "notebook-health": notebooks,
+        "publish-site": site,
         "refresh-graphs": graphs,
     },
     "graphRefreshRequested": os.path.exists(request_path),
