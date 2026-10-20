@@ -19,5 +19,6 @@ fi
 
 echo "[publish-site] building $(date -Is)"
 "$PY" "$PROJECT/scripts/build_premium_site.py" --publish
+"$PY" "$PROJECT/scripts/style_notebook_renders.py"
 
 echo "[publish-site] done"
