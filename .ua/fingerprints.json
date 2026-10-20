@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "8c13fd6b8b9772b30c8ff2fd35bfcc54c8a04989",
-  "generatedAt": "2026-10-20T18:47:50.921Z",
+  "gitCommitHash": "ebabf779d0b3d637d55fa38432fbd8638e4e7b6b",
+  "generatedAt": "2026-10-20T19:55:12.104Z",
   "files": {
     ".opencode/agent/astro-data-engineer.md": {
       "filePath": ".opencode/agent/astro-data-engineer.md",
@@ -85,12 +85,12 @@
     },
     ".opencode/loops/README.md": {
       "filePath": ".opencode/loops/README.md",
-      "contentHash": "ccee907e632ce98cd96c49f7c0e9e54119c4df9368dce59263f38fb5dde21b04",
+      "contentHash": "30258462bc1be009053f1abbfa917357b4eb468774151652b6fd0b231b744afa",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 43,
+      "totalLines": 55,
       "hasStructuralAnalysis": false
     },
     ".opencode/loops/notebook-health.sh": {
@@ -105,12 +105,12 @@
     },
     ".opencode/loops/orchestrator.sh": {
       "filePath": ".opencode/loops/orchestrator.sh",
-      "contentHash": "8b1352eb8a79fd757621261339ccfbe8433ea85b652a3eaeb6e7ed3eb9e8d7e4",
+      "contentHash": "570ba68e785909e99ede76131741d88d852c0164f8ca7a1e9b40f6c7a17c5db5",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 30,
+      "totalLines": 70,
       "hasStructuralAnalysis": false
     },
     ".opencode/loops/refresh-data.sh": {
@@ -135,12 +135,12 @@
     },
     ".opencode/skill/astro-graphs.md": {
       "filePath": ".opencode/skill/astro-graphs.md",
-      "contentHash": "347af06799aed20b7462b347579a63472534da8e78451f20c903c30a188472a0",
+      "contentHash": "fb9158f56e345089bc202f074fcac591de824fc2329d83015c470feabfcde2dc",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 72,
+      "totalLines": 94,
       "hasStructuralAnalysis": false
     },
     ".opencode/skill/astro-loops.md": {
@@ -175,12 +175,12 @@
     },
     "CONTEXT.md": {
       "filePath": "CONTEXT.md",
-      "contentHash": "2c1acd3129e46fda32a4693aa18457f68a43ff855a0e0a5f6bb988c75c27392d",
+      "contentHash": "b6cde0b2bd2b29dca207b922a7dce110d4a00eac24bc4bf7c3d0f7e75607d61f",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 283,
+      "totalLines": 294,
       "hasStructuralAnalysis": false
     },
     "FINAL_REPORT.md": {
@@ -457,22 +457,22 @@
     },
     "docs/AUTOMATION.md": {
       "filePath": "docs/AUTOMATION.md",
-      "contentHash": "ebc8a1d11a59d06a0f7ce9c4a9b205754189de283de63771c339acfacac5a891",
+      "contentHash": "1c5b12cf14c6f8ccf1588166cd5cd8a0f38e544f12c5dd25f4dc73f4515050b6",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 137,
+      "totalLines": 149,
       "hasStructuralAnalysis": false
     },
     "docs/GRAPHS.md": {
       "filePath": "docs/GRAPHS.md",
-      "contentHash": "05b2aee93d914ceb3448ea276b2b9d3c8a78438fed03fc9ba73de8fcb6caf913",
+      "contentHash": "f113478c21db3b8756705833318710d636d64f46b098522054f5a5c817c219b9",
       "functions": [],
       "classes": [],
       "imports": [],
       "exports": [],
-      "totalLines": 106,
+      "totalLines": 117,
       "hasStructuralAnalysis": false
     },
     "fits/synthetic_galaxy.fits": {
@@ -922,6 +922,26 @@
       "imports": [],
       "exports": [],
       "totalLines": 45,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/command/astro-refresh-graphs.md": {
+      "filePath": ".opencode/command/astro-refresh-graphs.md",
+      "contentHash": "d70a87d55becbeee9e2dee258262c2148672e8ae07c9da6f9726ca4c8b163827",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 45,
+      "hasStructuralAnalysis": false
+    },
+    ".opencode/loops/refresh-graphs.sh": {
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "contentHash": "a105bb7397edb1e1bffba4d34c8c436965cbd042e2845ee116ef669b74397b1b",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 157,
       "hasStructuralAnalysis": false
     }
   }

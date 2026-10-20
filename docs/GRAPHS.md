@@ -30,12 +30,12 @@ The code graph is split into two parts that are **merged**:
 ```
 .ua/
 ├── config.json                            # outputLanguage: en (committed)
-├── knowledge-graph.json                   # MERGED code graph — 167 nodes / 92 edges
+├── knowledge-graph.json                   # MERGED code graph — 170 nodes / 282 edges
 ├── meta.json                              # git hash + scan metadata (committed)
 ├── fingerprints.json                      # change detection (committed)
 ├── merge-report.json                      # subdomain merge report (committed)
 ├── exotic-compact-objects-knowledge-graph.json  # subdomain graph, transient input to the merge
-├── domain-graph.json                      # domain flows — 4 domains, 9 flows, 38 steps
+├── domain-graph.json                      # domain flows — 4 domains, 10 flows, 44 steps
 ├── wiki-graph.json                        # wiki entity/claim graph (name intentionally avoids
 │                                          #   the *knowledge-graph*.json merge glob)
 ├── intermediate/                          # scan + analysis scratch (gitignored)
@@ -49,8 +49,8 @@ committed graph files plus `config.json`, `meta.json`, `fingerprints.json`, and
 
 | Graph file | Nodes | Edges | Notes |
 |---|---|---|---|
-| `knowledge-graph.json` | 167 | 92 | 10 layers, 18 tour steps; root + subdomain merge |
-| `domain-graph.json` | 51 | 52 | 4 domains, 9 flows, 38 steps, 5 cross-domain links |
+| `knowledge-graph.json` | 170 | 282 | 10 layers, 18 tour steps; root + subdomain merge + cohesion |
+| `domain-graph.json` | 58 | 59 | 4 domains, 10 flows, 44 steps, 5 cross-domain links |
 | `wiki-graph.json` | 81 | 175 | 16 articles, 24 entities, 34 claims, 128 wikilinks — 0 broken, 7 layers |
 
 ---

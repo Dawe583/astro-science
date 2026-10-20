@@ -168,20 +168,6 @@
     "weight": 0.6
   },
   {
-    "source": "file:.opencode/loops/notebook-health.sh",
-    "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
-    "type": "depends_on",
-    "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
-    "weight": 0.6
-  },
-  {
-    "source": "file:.opencode/loops/notebook-health.sh",
-    "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-    "type": "depends_on",
-    "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
-    "weight": 0.6
-  },
-  {
     "source": "file:.opencode/loops/refresh-data.sh",
     "target": "file:scripts/add_bh_derived_quantities.py",
     "type": "depends_on",
@@ -238,27 +224,6 @@
     "weight": 0.6
   },
   {
-    "source": "document:.opencode/agent/astro-data-engineer.md",
-    "target": "document:.opencode/skill/astro-graphs.md",
-    "type": "documents",
-    "description": "the agent's gates re-run the knowledge graphs via the astro-graphs skill",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/agent/astro-data-engineer.md",
-    "target": "document:.opencode/skill/astro-science.md",
-    "type": "documents",
-    "description": "the agent's workflow step 1 names the project skill astro-science",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/agent/astro-data-engineer.md",
-    "target": "document:CONTEXT.md",
-    "type": "documents",
-    "description": "the agent's workflow step 1 says 'Read CONTEXT.md'",
-    "weight": 0.5
-  },
-  {
     "source": "document:.opencode/agent/astro-reviewer.md",
     "target": "document:reports/summary.md",
     "type": "documents",
@@ -274,13 +239,6 @@
   },
   {
     "source": "document:.opencode/command/astro-refresh-data.md",
-    "target": "document:.opencode/skill/astro-science.md",
-    "type": "documents",
-    "description": "this command's instructions say to read the astro-science skill",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/command/astro-refresh-data.md",
     "target": "document:CONTEXT.md",
     "type": "documents",
     "description": "this command's instructions say to read CONTEXT.md",
@@ -291,20 +249,6 @@
     "target": "document:CONTEXT.md",
     "type": "documents",
     "description": "this command's instructions say to read CONTEXT.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/skill/astro-graphs.md",
-    "target": "config:.ua/config.json",
-    "type": "documents",
-    "description": "skill configuration section names .ua/config.json (outputLanguage en)",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/skill/astro-science.md",
-    "target": "document:research/projects/black-holes/README.md",
-    "type": "documents",
-    "description": "skill project table names the black-holes project",
     "weight": 0.5
   },
   {
@@ -393,128 +337,9 @@
   },
   {
     "source": "document:CONTEXT.md",
-    "target": "document:.opencode/skill/astro-science.md",
-    "type": "documents",
-    "description": "CONTEXT.md header: use the project skill astro-science for path-level detail",
-    "weight": 0.5
-  },
-  {
-    "source": "document:CONTEXT.md",
-    "target": "file:research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
-    "type": "documents",
-    "description": "CONTEXT.md section 4.3 names 01_black_hole_fundamentals.ipynb",
-    "weight": 0.5
-  },
-  {
-    "source": "document:CONTEXT.md",
-    "target": "file:research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-    "type": "documents",
-    "description": "CONTEXT.md section 4.3 names 02_geodesics_orbits.ipynb",
-    "weight": 0.5
-  },
-  {
-    "source": "document:CONTEXT.md",
     "target": "file:start-research.sh",
     "type": "documents",
     "description": "CONTEXT.md directory map lists start-research.sh at the root",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "document:INSTALLATION_SUMMARY.md",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 5 names INSTALLATION_SUMMARY.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "document:NEW_TOOLS_SUMMARY.md",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 4 names NEW_TOOLS_SUMMARY.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "document:SETUP_GUIDE.md",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 2 names SETUP_GUIDE.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "document:TOOLS_LIST.md",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 3 names TOOLS_LIST.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "document:requirements.txt",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 6: requirements.txt - Python dependencies",
-    "weight": 0.5
-  },
-  {
-    "source": "document:FINAL_REPORT.md",
-    "target": "file:start.sh",
-    "type": "documents",
-    "description": "FINAL_REPORT doc list item 7: start.sh - start script",
-    "weight": 0.5
-  },
-  {
-    "source": "document:INSTALLATION_SUMMARY.md",
-    "target": "document:SETUP_GUIDE.md",
-    "type": "documents",
-    "description": "INSTALLATION_SUMMARY checks off SETUP_GUIDE.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:INSTALLATION_SUMMARY.md",
-    "target": "document:TOOLS_LIST.md",
-    "type": "documents",
-    "description": "INSTALLATION_SUMMARY checks off TOOLS_LIST.md",
-    "weight": 0.5
-  },
-  {
-    "source": "document:INSTALLATION_SUMMARY.md",
-    "target": "document:requirements.txt",
-    "type": "documents",
-    "description": "INSTALLATION_SUMMARY checks off requirements.txt",
-    "weight": 0.5
-  },
-  {
-    "source": "document:INSTALLATION_SUMMARY.md",
-    "target": "file:start.sh",
-    "type": "documents",
-    "description": "INSTALLATION_SUMMARY checks off start.sh",
-    "weight": 0.5
-  },
-  {
-    "source": "document:docs/AUTOMATION.md",
-    "target": "file:.opencode/loops/notebook-health.sh",
-    "type": "documents",
-    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
-    "weight": 0.5
-  },
-  {
-    "source": "document:docs/AUTOMATION.md",
-    "target": "file:.opencode/loops/orchestrator.sh",
-    "type": "documents",
-    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
-    "weight": 0.5
-  },
-  {
-    "source": "document:docs/AUTOMATION.md",
-    "target": "file:.opencode/loops/refresh-data.sh",
-    "type": "documents",
-    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
-    "weight": 0.5
-  },
-  {
-    "source": "document:docs/AUTOMATION.md",
-    "target": "file:.opencode/loops/research-loop.sh",
-    "type": "documents",
-    "description": "AUTOMATION.md documents this loop script as the operator-level entry point for one of the three Loops.",
     "weight": 0.5
   },
   {
@@ -560,143 +385,10 @@
     "weight": 0.5
   },
   {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Black Hole Accretion.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Black Hole Accretion]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Christoffel Symbols.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Christoffel Symbols]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Early Supermassive Black Hole Growth.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Early Supermassive Black Hole Growth]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Fisher Information Matrix.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Fisher Information Matrix]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Geodesic Equations.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Geodesic Equations]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Gravitational Wave Analysis.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Gravitational Wave Analysis]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Gravitational-Wave Catalogs.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Gravitational-Wave Catalogs]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Hawking Radiation.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Hawking Radiation]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Kerr Metric.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Kerr Metric]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Kerr-Newman Metric.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Kerr-Newman Metric]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Quantum Gravity.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Quantum Gravity]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Raychaudhuri Equation.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Raychaudhuri Equation]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Reissner-Nordstr\u00f6m Metric.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Reissner-Nordstr\u00f6m Metric]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Schwarzschild Metric.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Schwarzschild Metric]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/White Holes.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[White Holes]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/wiki/index.md",
-    "target": "document:research/wiki/Wormholes.md",
-    "type": "documents",
-    "description": "index.md lists this article as a wiki entry ('[[Wormholes]]').",
-    "weight": 0.5
-  },
-  {
-    "source": "file:.opencode/loops/research-loop.sh",
-    "target": "document:.opencode/skill/astro-science.md",
-    "type": "documents",
-    "description": "loop output names the astro-science skill",
-    "weight": 0.5
-  },
-  {
-    "source": "file:.opencode/loops/research-loop.sh",
-    "target": "document:CONTEXT.md",
-    "type": "documents",
-    "description": "loop output says 'Read CONTEXT.md and the astro-science skill'",
-    "weight": 0.5
-  },
-  {
     "source": "document:.opencode/agent/astro-theoretician.md",
     "target": "file:scripts/verify_formulas.py",
     "type": "related",
     "description": "the agent's step 4 sanity-checks formulas via verify_formulas.py",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/agent/astro-validator.md",
-    "target": "file:.opencode/loops/notebook-health.sh",
-    "type": "related",
-    "description": "the agent names .opencode/loops/notebook-health.sh as the notebook suite runner",
     "weight": 0.5
   },
   {
@@ -714,31 +406,10 @@
     "weight": 0.5
   },
   {
-    "source": "document:.opencode/skill/astro-graphs.md",
-    "target": "document:docs/GRAPHS.md",
-    "type": "related",
-    "description": "the skill and GRAPHS.md document the same three graph commands",
-    "weight": 0.5
-  },
-  {
-    "source": "document:docs/GRAPHS.md",
-    "target": "document:research/wiki/index.md",
-    "type": "related",
-    "description": "domain flow 'domain-wiki-graph-refresh' chains docs/GRAPHS.md through research/wiki/index.md.",
-    "weight": 0.5
-  },
-  {
     "source": "document:reports/compute_data_report.md",
     "target": "document:reports/gwosc_latest.md",
     "type": "related",
     "description": "domain flow 'refresh-loop' chains reports/compute_data_report.md through reports/gwosc_latest.md.",
-    "weight": 0.5
-  },
-  {
-    "source": "document:research/projects/README.md",
-    "target": "document:research/projects/black-holes/README.md",
-    "type": "related",
-    "description": "project README lives directly under the research/projects/ folder described by that README",
     "weight": 0.5
   },
   {
@@ -785,13 +456,6 @@
   },
   {
     "source": "file:.opencode/loops/research-loop.sh",
-    "target": "document:research/wiki/index.md",
-    "type": "related",
-    "description": "loop's final step updates research/wiki/ (index is the wiki root)",
-    "weight": 0.5
-  },
-  {
-    "source": "file:.opencode/loops/research-loop.sh",
     "target": "file:models/derivations.py",
     "type": "related",
     "description": "domain flow 'research-loop' step derive-symbolically assigns models/derivations.py",
@@ -809,13 +473,6 @@
     "target": "file:simulations/gw_strain.fits",
     "type": "related",
     "description": "notebook code reads simulations/gw_strain.fits for strain analysis",
-    "weight": 0.5
-  },
-  {
-    "source": "file:research/projects/black-holes/scripts/update_gwosc.py",
-    "target": "file:research/projects/black-holes/scripts/update_heasarc_candidates.py",
-    "type": "related",
-    "description": "domain flow 'black-hole-snapshot-update' chains research/projects/black-holes/scripts/update_gwosc.py through research/projects/black-holes/scripts/update_heasarc_candidates.py.",
     "weight": 0.5
   },
   {
@@ -921,111 +578,6 @@
     "target": "file:scripts/make_premium_figures.py",
     "type": "related",
     "description": "domain flow 'research-loop' chains scripts/verify_formulas.py through scripts/make_premium_figures.py.",
-    "weight": 0.5
-  },
-  {
-    "source": "document:.opencode/command/astro-notebook-health.md",
-    "target": "document:.opencode/agent/astro-validator.md",
-    "type": "triggers",
-    "description": "this command's frontmatter pins agent: astro-validator",
-    "weight": 0.6
-  },
-  {
-    "source": "document:.opencode/command/astro-notebook-health.md",
-    "target": "file:.opencode/loops/notebook-health.sh",
-    "type": "triggers",
-    "description": "this command's instructions execute .opencode/loops/notebook-health.sh",
-    "weight": 0.6
-  },
-  {
-    "source": "document:.opencode/command/astro-refresh-data.md",
-    "target": "document:.opencode/agent/astro-data-engineer.md",
-    "type": "triggers",
-    "description": "this command's frontmatter pins agent: astro-data-engineer",
-    "weight": 0.6
-  },
-  {
-    "source": "document:.opencode/command/astro-refresh-data.md",
-    "target": "file:.opencode/loops/refresh-data.sh",
-    "type": "triggers",
-    "description": "this command's instructions execute .opencode/loops/refresh-data.sh",
-    "weight": 0.6
-  },
-  {
-    "source": "document:.opencode/command/astro-research.md",
-    "target": "document:.opencode/agent/astro-theoretician.md",
-    "type": "triggers",
-    "description": "AUTOMATION.md maps /astro-research to the astro-theoretician agent",
-    "weight": 0.6
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:catalogs/galaxy_catalog.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes catalogs/galaxy_catalog.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:catalogs/star_catalog.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes catalogs/star_catalog.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:cmb/cmb_map.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes cmb/cmb_map.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:cmb/cmb_power_spectrum.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes cmb/cmb_power_spectrum.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:fits/synthetic_galaxy.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes fits/synthetic_galaxy.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:simulations/gw_strain.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes simulations/gw_strain.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:simulations/nbody_snapshot.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes simulations/nbody_snapshot.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_direct_data.py",
-    "target": "file:simulations/xray_spectrum.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes simulations/xray_spectrum.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_sample_data.py",
-    "target": "file:catalogs/sample_galaxies.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes catalogs/sample_galaxies.fits",
-    "weight": 0.5
-  },
-  {
-    "source": "file:data/download_sample_data.py",
-    "target": "file:cmb/synthetic_cmb_map.fits",
-    "type": "writes_to",
-    "description": "the script's output list writes cmb/synthetic_cmb_map.fits",
     "weight": 0.5
   }
 ]

@@ -12,8 +12,8 @@ Understand-Anything is installed globally (`~/.understand-anything/repo`, skills
 
 | Graph | Command | Output | Built (2026-10-20) |
 |---|---|---|---|
-| Code graph — root + subdomain merge | `/understand` | `.ua/knowledge-graph.json` | 167 nodes / 92 edges, 10 layers, 18 tour steps |
-| Domain flows | `/understand-domain` | `.ua/domain-graph.json` | 4 domains / 9 flows / 38 steps (51 nodes, 52 edges) |
+| Code graph — root + subdomain merge | `/understand` | `.ua/knowledge-graph.json` | 170 nodes / 282 edges, 10 layers, 18 tour steps |
+| Domain flows | `/understand-domain` | `.ua/domain-graph.json` | 4 domains / 10 flows / 44 steps (58 nodes, 59 edges) |
 | Knowledge wiki graph | `/understand-knowledge research/wiki` | `.ua/wiki-graph.json` | 16 articles, 24 entities, 34 claims (81 nodes, 175 edges) |
 
 Supporting files:

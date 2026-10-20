@@ -8,9 +8,9 @@
       "markdown"
     ],
     "frameworks": [],
-    "description": "Scientific research workspace producing an astrophysics portfolio; the domain graph captures its operating loops: data refresh, notebook health, research & theory, and knowledge-graph maintenance.",
-    "analyzedAt": "2026-10-20T20:47:10+02:00",
-    "gitCommitHash": "8c13fd6b8b9772b30c8ff2fd35bfcc54c8a04989"
+    "description": "Scientific research workspace producing an astrophysics portfolio; the domain graph captures its operating loops: data refresh, notebook health, research & theory, knowledge-graph maintenance, and the deterministic graph-drift check that queues refreshes.",
+    "analyzedAt": "2026-10-20T21:54:22+02:00",
+    "gitCommitHash": "ebabf779d0b3d637d55fa38432fbd8638e4e7b6b"
   },
   "nodes": [
     {
@@ -623,11 +623,12 @@
       "id": "domain:knowledge-graph-maintenance",
       "type": "domain",
       "name": "Knowledge Graph Maintenance",
-      "summary": "Keeps the three Understand-Anything graphs current: the merged code graph (root + exotic-compact-objects subdomain), the domain flow graph, and the wiki knowledge graph over the Karpathy-pattern wiki. Refreshing graphs after every data sweep is part of the loop discipline.",
+      "summary": "Keeps the three Understand-Anything graphs current: the merged code graph (root + exotic-compact-objects subdomain), the domain flow graph, and the wiki knowledge graph. A deterministic drift loop compares the working tree against committed fingerprints and queues the exact /understand work before an agent refresh.",
       "tags": [
         "automation",
         "graph",
-        "documentation"
+        "documentation",
+        "drift-detection"
       ],
       "complexity": "moderate",
       "domainMeta": {
@@ -749,6 +750,101 @@
       "tags": "wiki",
       "complexity": "simple",
       "filePath": "research/wiki/index.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "flow:graph-drift-check",
+      "type": "flow",
+      "name": "Graph Drift Check & Work Queue",
+      "summary": "The deterministic refresh-graphs.sh loop: scan the root and subdomain, compare content hashes and file lists against the committed graphs, write the exact work list to .ua/refresh-requested.json, then hand it to an agent session that runs /understand, re-applies cohesion edges, and refreshes the derived graphs.",
+      "tags": [
+        "automation",
+        "graphs",
+        "drift-detection",
+        "loop"
+      ],
+      "complexity": "moderate",
+      "domainMeta": {
+        "entryPoint": ".opencode/loops/refresh-graphs.sh",
+        "entryType": "cron"
+      }
+    },
+    {
+      "id": "step:graph-drift-check:scan-working-tree",
+      "type": "step",
+      "name": "scan-working-tree",
+      "summary": "scan-project.mjs scans the workspace root (73 files) and the nested subdomain (84 files) with the committed ignore rules, producing deterministic inventories.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:graph-drift-check:compare-root-fingerprints",
+      "type": "step",
+      "name": "compare-root-fingerprints",
+      "summary": "Each root file's SHA-256 content hash is compared with .ua/fingerprints.json to classify added, changed, and removed files.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:graph-drift-check:compare-subdomain-files",
+      "type": "step",
+      "name": "compare-subdomain-files",
+      "summary": "The subdomain scan is compared against the file paths recorded in the committed subgraph, plus mtimes newer than the graph build.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:graph-drift-check:write-refresh-request",
+      "type": "step",
+      "name": "write-refresh-request",
+      "summary": "Drift is written to .ua/refresh-requested.json with root and subdomain added/changed/removed lists and explicit agent actions; no drift removes a stale request.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/loops/refresh-graphs.sh",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:graph-drift-check:incremental-understand-refresh",
+      "type": "step",
+      "name": "incremental-understand-refresh",
+      "summary": "An agent session consumes the work list, runs /understand incrementally for the root, rebuilds and merges the subdomain graph when needed, and re-applies cohesion edges.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": ".opencode/command/astro-refresh-graphs.md",
+      "lineRange": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "step:graph-drift-check:refresh-derived-graphs",
+      "type": "step",
+      "name": "refresh-derived-graphs",
+      "summary": "When content changed, /understand-domain and /understand-knowledge research/wiki regenerate the domain and wiki graphs; the cycle ends when the loop reports no drift.",
+      "tags": "automation",
+      "complexity": "simple",
+      "filePath": "docs/GRAPHS.md",
       "lineRange": [
         0,
         0
@@ -1124,6 +1220,55 @@
       "direction": "forward",
       "description": "Notebook repair often propagates import or formula changes back into the models package.",
       "weight": 0.4
+    },
+    {
+      "source": "domain:knowledge-graph-maintenance",
+      "target": "flow:graph-drift-check",
+      "type": "contains_flow",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:scan-working-tree",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.2
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:compare-root-fingerprints",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.3
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:compare-subdomain-files",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:write-refresh-request",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:incremental-understand-refresh",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "flow:graph-drift-check",
+      "target": "step:graph-drift-check:refresh-derived-graphs",
+      "type": "flow_step",
+      "direction": "forward",
+      "weight": 1.0
     }
   ],
   "layers": [],
