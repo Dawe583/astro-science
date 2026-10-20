@@ -307,3 +307,29 @@ this is a drift indicator, not an error.
 ss -ltnp | grep 5104
 # then stop that process, or serve on another port
 ```
+
+## 7. Using the plugin in a workspace
+
+The five panels are registered under category **Astro Science** and appear in
+the platform's *Add Panel* catalogue. To build a working workspace:
+
+1. Launch AstronomicAL (section 4).
+2. Open the workspace, choose **Add Panel** and add, in order:
+   `Astro Science Portfolio: Overview`, `Catalogs`, `Figures`, `Research`,
+   `Pipeline`.
+3. Use the *Catalogs* panel to load any of the 12 bundled CSVs into the
+   platform dataset store; the *Figures* panel then renders the matching Plotly
+   document (HTML inlined, large files via `file://`).
+4. Save the workspace as a layout JSON in `~/tools/AstronomicAL/layouts/` so the
+   arrangement survives a restart (the bundled layout files in that directory
+   are the schema reference).
+
+Panels are read-only with respect to the research data: they never write into
+`/home/dawe/Projects/astro-science`.
+
+## 8. Extending
+
+To add a dataset, edit the `DATASETS` list in `panels.py` (label, relative path,
+category, description, source) and restart. Counts are computed at panel build
+time, so they cannot go stale. To add a panel, register it in `plugin.py` and
+implement a factory in `panels.py` following the existing ones.
