@@ -12,6 +12,7 @@ from any entry below.
 - [[Reissner-Nordström Metric]] — charged, static black holes
 - [[Kerr-Newman Metric]] — rotating, charged black holes
 - [[Black Hole Accretion]] — Eddington limit, ISCO efficiency, AGN, BlackCAT
+- [[Remnant Energetics]] — merger remnant spin, ISCO efficiency, rotational reservoir
 
 ## Wormholes
 
