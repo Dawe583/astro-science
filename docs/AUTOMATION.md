@@ -57,6 +57,9 @@ non-zero on failure.
 | Graph refresh | `refresh-graphs.sh` | Deterministic drift check vs committed graphs → `.ua/refresh-requested.json` |
 | Orchestrator | `orchestrator.sh` | Data → notebooks → graph drift; writes `logs/latest-status.json` |
 
+The notebook-health loop writes `.opencode/loops/logs/notebook-health-latest.json`
+and exits non-zero when any notebook fails.
+
 The graph-refresh loop is the bridge between automation and the graphs: it never calls
 an LLM, it only enumerates what changed (root SHA-256 fingerprints + subdomain file
 list) and queues the exact `/understand` work. The orchestrator's

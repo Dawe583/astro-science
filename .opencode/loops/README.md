@@ -1,12 +1,12 @@
 # astro-science loops
 
-Three automation loops for the workspace. All scripts are self-contained, log to
+Automation loops for the workspace. All scripts are self-contained, log to
 `logs/`, and exit non-zero on failure.
 
 | Script | Loop | Purpose |
 |---|---|---|
 | `refresh-data.sh` | Data refresh | Download → process → rebuild dashboards/figures |
-| `notebook-health.sh` | Notebook health | Execute every notebook → collect failures |
+| `notebook-health.sh` | Notebook health | Execute every notebook → collect failures, write `logs/notebook-health-latest.json` |
 | `research-loop.sh "<topic>"` | Research | Set up a research work dir + hypothesis template |
 | `refresh-graphs.sh` | Graph refresh | Detect code/doc drift vs the committed graphs, write `.ua/refresh-requested.json` |
 | `orchestrator.sh` | All | Runs data → notebooks → graph drift, writes `logs/latest-status.json` |
