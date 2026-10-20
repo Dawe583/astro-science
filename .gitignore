@@ -55,6 +55,10 @@ research/projects/exotic-compact-objects/
 logs/
 *.log
 
+# --- Scratch / work dirs -----------------------------------------------------
+research/work/
+.opencode/loops/logs/
+
 # --- OS / editors ------------------------------------------------------------
 .DS_Store
 Thumbs.db

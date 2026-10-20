@@ -19,11 +19,18 @@ catboost_info/
 
 # --- Foreign cloned tutorial repositories ------------------------------------
 # Reference material from upstream projects — excluded to keep the graph
-# focused on astro-science's own work.
-notebooks/
-mast_notebooks/
-gaia-jupyter-notebooks/
-AstroInteractives/
+# focused on astro-science's own work. Anchored to the repo root so they do
+# NOT also exclude the projects' own notebooks/ directories.
+/notebooks/
+/mast_notebooks/
+/gaia-jupyter-notebooks/
+/AstroInteractives/
+
+# --- Nested standalone research repository -----------------------------------
+# exotic-compact-objects is a separate git repo. It is analyzed as its own
+# subdomain graph (run /understand inside it) and merged into the root graph,
+# rather than scanned here.
+/research/projects/exotic-compact-objects/
 
 # --- Large binary data (not code) -------------------------------------------
 *.zip
