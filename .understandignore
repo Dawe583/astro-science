@@ -1,0 +1,44 @@
+# =============================================================================
+# Understand-Anything scan exclusions
+# Applies to the code/knowledge graph analysis. Keep this narrower than
+# .gitignore: we WANT to analyze the nested research repo, just not its data.
+# =============================================================================
+
+# --- Python environment & caches --------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+catboost_info/
+
+# --- Git internals ----------------------------------------------------------
+**/.git/
+
+# --- Foreign cloned tutorial repositories ------------------------------------
+# Reference material from upstream projects — excluded to keep the graph
+# focused on astro-science's own work.
+notebooks/
+mast_notebooks/
+gaia-jupyter-notebooks/
+AstroInteractives/
+
+# --- Large binary data (not code) -------------------------------------------
+*.zip
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.zarr
+
+# --- Understand-Anything scratch --------------------------------------------
+.ua/intermediate/
+.ua/tmp/
+.ua/.trash-*/
+.ua/diff-overlay.json
+
+# --- Logs --------------------------------------------------------------------
+logs/
+*.log
