@@ -29,6 +29,13 @@ from any entry below.
 - [[Raychaudhuri Equation]] — focusing, caustics, and singularity theorems
 - [[Hawking Radiation]] — black-hole temperature, entropy, and the information paradox
 
+## Exoplanets
+
+- [[Exoplanets]] — detection, orbits, habitability, atmospheres, demographics
+- [[Detection Methods]] — transit, RV, imaging, microlensing, astrometry
+- [[Habitability]] — HZ, tidal locking, atmospheric escape, biosignatures
+- [[Atmospheric Characterization]] — transmission/emission spectroscopy
+
 ## Quantum Gravity
 
 - [[Quantum Gravity]] — Planck scales, candidate approaches, observational limits
