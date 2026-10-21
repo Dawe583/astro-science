@@ -317,7 +317,7 @@ the platform's *Add Panel* catalogue. To build a working workspace:
 2. Open the workspace, choose **Add Panel** and add, in order:
    `Astro Science Portfolio: Overview`, `Catalogs`, `Figures`, `Research`,
    `Pipeline`.
-3. Use the *Catalogs* panel to load any of the 12 bundled CSVs into the
+3. Use the *Catalogs* panel to load any of the 33 bundled CSVs (all available catalogues) into the
    platform dataset store; the *Figures* panel then renders the matching Plotly
    document (HTML inlined, large files via `file://`).
 4. Save the workspace as a layout JSON in `~/tools/AstronomicAL/layouts/` so the
