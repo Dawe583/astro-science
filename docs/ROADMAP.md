@@ -12,6 +12,8 @@ aliases:
 
 # Development Roadmap — astro-science
 
+> Status (2026-10-24, autonomous pass): Phases A (mostly), B (data refresh + notebooks + formulas), D (site publish) completed. Phase C (exoplanets) partially (verify_formulas added, notebooks 11/11 pass). Phase E (Obsidian) deferred per user. Phase F/G in progress.
+
 > Detailed plan for further development, derived from a full pass over the workspace:
 > Understand-Anything graphs (code / domain / wiki), graphify (1295 nodes / 1717 edges),
 > Obsidian vault setup, and the existing loops. All outputs in **English** (project convention).
