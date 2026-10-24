@@ -7,5 +7,8 @@
     "tourSteps": 18
   },
   "recoveredStructuralEdges": 0,
-  "droppedEdges": []
+  "droppedEdges": [],
+  "nodes": 129,
+  "edges": 59,
+  "refreshedAt": "2026-10-24T21:39:50.194391Z"
 }
