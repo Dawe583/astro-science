@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Kepler period: code vs closed form (1 AU, 1 Msun)",
+    "relative_deviation": 0.0,
+    "pass": true
+  },
+  {
+    "label": "Kepler round trip a->P->a",
+    "relative_deviation": 1.4279818681603735e-15,
+    "pass": true
+  },
+  {
+    "label": "Earth/Sun transit depth ~8.4e-5",
+    "value": 8.386315626728506e-05,
+    "pass": true
+  },
+  {
+    "label": "Earth escape velocity ~11186 m/s",
+    "value": 11185.97789184991,
+    "pass": true
+  },
+  {
+    "label": "Earth equilibrium temperature ~255 K",
+    "value": 254.85041511888898,
+    "pass": true
+  },
+  {
+    "label": "Rocky radius for 1 Mearth ~1 Rearth",
+    "value": 1.0,
+    "pass": true
+  },
+  {
+    "label": "Earth Jeans lambda > 1",
+    "value": 736.8820157762219,
+    "pass": true
+  },
+  {
+    "label": "Earth N2 scale height ~8.4 km",
+    "value": 8.65467876659032,
+    "pass": true
+  },
+  {
+    "label": "Sun HZ contains 1 AU",
+    "inner": 0.9931527705488595,
+    "outer": 1.6762943904099954,
+    "pass": true
+  },
+  {
+    "label": "Earth Hill radius ~1.5e9 m",
+    "value": 1496529374.468561,
+    "pass": true
+  },
+  {
+    "label": "Earth mean density ~5515 kg/m3",
+    "value": 5513.258738589093,
+    "pass": true
+  }
+]
