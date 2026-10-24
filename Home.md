@@ -38,6 +38,7 @@ Map of content for the [[CONTEXT|Master Context]]. This folder is an **Obsidian 
 ## Plans & Docs
 
 - [[docs/ROADMAP]] — detailed development plan
+- [[docs/DATA_PROVENANCE]] — real vs. derived vs. synthetic data
 - [[CONTEXT]] — master context
 - [[README]] — environment & tool inventory
 - [[docs/GRAPHS]] — graph workflow
