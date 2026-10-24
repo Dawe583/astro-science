@@ -26,7 +26,7 @@ tags:
 | Planck PR4 (CMB spectra/maps) | PLA | `download_planck.py` | Real CMB (some fallbacks if PLA unreachable) |
 | Strain HDF5 (GW170817, GW190814, GW190521) | GWOSC 4 kHz R1 | `download_strain_marquee.py` | Real strain time series |
 | GWB (NANOGrav/EPTA/PPTA/IPTA) | Published 15-yr results | `download_gwb.py` | Published (not re-downloaded) amplitudes/indices |
-| EHT (M87*, Sgr A*) | EHT public archive | `download_eht.py` | **Metadata real**; visibility data currently **SYNTHETIC (model)** — see below |
+| EHT (M87*, Sgr A*) | EHT public archive (GitHub eventhorizontelescope/2019-D01-01) | `download_eht.py` | **REAL** — 8 calibrated M87* CSVs (no registration needed) + metadata |
 
 ## DERIVED — computed from real data or theory (labeled as derived)
 
@@ -46,14 +46,14 @@ These exist for pipeline validation only and **must not** be cited as measuremen
 |---|---|---|
 | SXS BBH waveforms (240 npz) | `download_sxs.py` (`generate_synthetic_waveforms`) | **SYNTHETIC** — `sxs_waveform_analysis.md` caveats updated |
 | SXS BBH waveforms (real subset, 5 sims) | `download_sxs.py` (sxs package) | **REAL** — real NR simulations via sxs package (metadata in `data/external/sxs_catalog/`) |
-| EHT visibility data | `download_eht.py` (`generate_synthetic_visibilities`) | **SYNTHETIC** — metadata real, visibilities model |
+| EHT visibility data | `download_eht.py` (`generate_synthetic_visibilities`) | **REAL** — now uses public calibrated CSVs from GitHub (no synthetic generation) |
 | MAXI/Swift-BAT/NICER/XRB synthetic catalogs | `download_xray_binaries.py` | **SYNTHETIC** — marked in premium site (badge "synthetic (test)") |
 | Sample FITS galaxy / CMB map | `data/download_direct_data.py`, `data/download_sample_data.py` | **SYNTHETIC** — tutorials only |
 
 ## Real-data replacement plan
 
 - **SXS:** use the `sxs` Python package to fetch real NR waveforms (Zenodo) instead of synthetic; update `download_sxs.py`.
-- **EHT:** register and download real visibility data from the EHT archive; update `download_eht.py`.
+- **EHT:** public calibrated data now downloaded via `download_eht.py` (no registration needed). ✅ Done.
 - **X-ray binaries:** rely on the real HEASARC catalogs (`download_heasarc.py`: xrbcat, ulxrbcat, …); deprecate synthetic catalogs in `download_xray_binaries.py`.
 - **Sample data:** keep synthetic (clearly labeled) for tutorials; never use in research outputs.
 
