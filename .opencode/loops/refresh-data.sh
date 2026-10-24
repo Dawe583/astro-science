@@ -41,10 +41,14 @@ run "bh-gwosc-update"  "$PY" scripts/update_gwosc.py
 cd "$EXO" || exit 1
 run "blackcat-process" "$PY" scripts/process_blackcat.py
 run "bh-derived"       "$PY" scripts/add_bh_derived_quantities.py
+
+# Exoplanet data download and processing
+run "exo-download"   "$PY" research/projects/exoplanets/scripts/download_exoplanets.py
+run "exo-process"      "$PY" research/projects/exoplanets/scripts/process_exoplanets.py
 run "theoretical-data" "$PY" scripts/build_theoretical_data.py
 
 # Exoplanet data download and processing
-run "exo-download"     "$PY" research/projects/exoplanets/scripts/download_exoplanets.py
+run "exo-download"   "$PY" research/projects/exoplanets/scripts/download_exoplanets.py
 run "exo-process"      "$PY" research/projects/exoplanets/scripts/process_exoplanets.py
 
 # --- 3. Rebuild dashboards/figures ------------------------------------------
