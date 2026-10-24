@@ -135,6 +135,41 @@ def checks():
         }
     )
 
+    # 12. Surface gravity Earth ~9.8 m/s²
+    g = E.surface_gravity(E.M_EARTH, E.R_EARTH)
+    out.append(
+        {
+            "label": "Earth surface gravity ~9.8 m/s²",
+            "value": g,
+            "pass": abs(g - 9.8) < 0.1,
+        }
+    )
+
+    # 13. Orbital period at 0.5 AU around Sun
+    P_05 = E.kepler_period(0.5 * E.AU, E.M_SUN)
+    ref_P = E.kepler_period(0.5 * E.AU, E.M_SUN)  # same function, reference value
+    rel_P = abs(P_05 - ref_P) / ref_P
+    out.append(
+        {
+            "label": "Kepler period at 0.5 AU ~0.353 yr",
+            "value": round(P_05 / (365.25 * 86400), 3),
+            "reference": 0.353,
+            "pass": abs(P_05 / (365.25 * 86400) - 0.353) < 0.01,
+        }
+    )
+
+    # 14. Jeans parameter for H2 atmosphere (T=100 K, m=2 amu)
+    m_H2 = 2 * 1.67e-27  # kg
+    vt_H2 = np.sqrt(8 * E.K_B * 100 / (np.pi * m_H2))
+    lam_H2 = E.jeans_escape_parameter(E.M_EARTH, vt_H2)
+    out.append(
+        {
+            "label": "H2 Jeans parameter Earth orbit > 1",
+            "value": lam_H2,
+            "pass": lam_H2 > 1,
+        }
+    )
+
     return out
 
 
@@ -162,7 +197,11 @@ def main():
     with open(REPORTS_DIR / "exoplanet_derivations_report.md", "w") as f:
         f.write("# Exoplanet formula verification\n\n")
         f.write(
-            "Generated: " + __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat() + "Z\n\n"
+            "Generated: "
+            + __import__("datetime")
+            .datetime.now(__import__("datetime").timezone.utc)
+            .isoformat()
+            + "Z\n\n"
         )
         f.write(f"Result: **{n_pass}/{len(res)} pass**\n\n")
         for r in res:

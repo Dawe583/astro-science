@@ -132,6 +132,10 @@ def density(M_kg: float, R_m: float) -> float:
     """Mean density (kg/m^3)."""
     return M_kg / (4.0 / 3.0 * np.pi * R_m**3)
 
+def surface_gravity(M_kg: float, R_m: float) -> float:
+    """Surface gravity (m s^-2) from mass and radius: g = G*M/R^2."""
+    return G * M_kg / R_m**2
+
 
 if __name__ == "__main__":
     # Quick sanity checks
