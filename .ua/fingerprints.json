@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "gitCommitHash": "8d7757a3e46845c0b207988f2bae0db0aa307f49",
-  "generatedAt": "2026-10-24T21:39:50.193282Z",
+  "generatedAt": "2026-10-25T00:29:41+0200",
   "files": {
     ".github/workflows/ci.yml": {
       "contentHash": "fa0f3b72cf8d2f3124df1758e1d142c1de3458e4576c021afdaeeba4c10030cc",
@@ -74,9 +74,9 @@
       "lastModified": 1792533836.8961785
     },
     ".opencode/loops/refresh-data.sh": {
-      "contentHash": "528e6ba43e036cff3218a3a599928fd72b10f1f16211350567fd20ff048205fd",
-      "size": 2559,
-      "lastModified": 1792877118.039537
+      "contentHash": "289298c510807a30fc5463b65ea6aa72ccde6aba9635e6e0da578629e0df13aa",
+      "size": 2403,
+      "lastModified": 1792880564.2103724
     },
     ".opencode/loops/refresh-graphs.sh": {
       "contentHash": "a105bb7397edb1e1bffba4d34c8c436965cbd042e2845ee116ef669b74397b1b",
@@ -102,51 +102,6 @@
       "contentHash": "c383c408de5c049bb99e3c025c0e62ae28ea1bf0b4c1401f70cc987b1cbd4d76",
       "size": 3088,
       "lastModified": 1792870954.281244
-    },
-    ".ua/cohesion-edges.json": {
-      "contentHash": "36ca0436831839f68ee78bfd375cf98bc707ac242829b5a63045cf20fd38c51c",
-      "size": 32129,
-      "lastModified": 1792535142.2259095
-    },
-    ".ua/config.json": {
-      "contentHash": "7af678ccca572447ab52d66005c3253f496450b954a15d4a2852ebbf56fc6747",
-      "size": 50,
-      "lastModified": 1792873904.0151439
-    },
-    ".ua/domain-graph.json": {
-      "contentHash": "d8d815553cea3e0fa79e221e02173ac35e6077483b35b105f8fe37404ea92c13",
-      "size": 41365,
-      "lastModified": 1792876585.490965
-    },
-    ".ua/exotic-compact-objects-knowledge-graph.json": {
-      "contentHash": "22142906e64ff83d16b98638021f81138f936654482f134be0c6e0ca5807a9b1",
-      "size": 63744,
-      "lastModified": 1792876585.490965
-    },
-    ".ua/fingerprints.json": {
-      "contentHash": "b08a9edd15c7463f28455480904ad0a4240f03a8d69cb975fb39ece24be1cf36",
-      "size": 52108,
-      "lastModified": 1792615515.2023833
-    },
-    ".ua/knowledge-graph.json": {
-      "contentHash": "936a1e0289293de9ba1786708465574a10e7ba190641466ab0ac705690b42685",
-      "size": 48792,
-      "lastModified": 1792877990.1787977
-    },
-    ".ua/merge-report.json": {
-      "contentHash": "52ce983ae5e6945f65e4b0eb9668db75ef430ce4861142faae80a4218c415624",
-      "size": 196,
-      "lastModified": 1792535140.8376765
-    },
-    ".ua/meta.json": {
-      "contentHash": "32e964f4a85ce2f0bc2961c966a2f44ff7e311fd5f55849021107de325376a84",
-      "size": 161,
-      "lastModified": 1792876585.490965
-    },
-    ".ua/wiki-graph.json": {
-      "contentHash": "e2d088d85817e9b8a0aa98a00b30e2f1ec9daf8deee84b5608f83736c32378a2",
-      "size": 122933,
-      "lastModified": 1792876585.490965
     },
     "CONTEXT.md": {
       "contentHash": "fe08fed98d618d78a653212ba9180dc9b95c40d0eaed30a4ee6d4cabb3e0a0b2",
@@ -198,35 +153,70 @@
       "size": 9708,
       "lastModified": 1792189063.5058184
     },
+    "Untitled.ipynb": {
+      "contentHash": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
+      "size": 72,
+      "lastModified": 1792098881.6707203
+    },
     "WATCHDOG.yml": {
       "contentHash": "0e57f2cf47ca2db0da4f8afefcf68cd83d7a8334a6a070dee74364ec3780a40a",
       "size": 70,
       "lastModified": 1792608726.980561
+    },
+    "catalogs/galaxy_catalog.fits": {
+      "contentHash": "e9697be233c90073aa689836c564c13bd6321c1b225776f44c350641fc9ac3d1",
+      "size": 296640,
+      "lastModified": 1792339032.777063
+    },
+    "catalogs/sample_galaxies.fits": {
+      "contentHash": "2d43f38b0ab7ea63fb44aa0dca3d0486cf32c1259163e83487fbdd5dd8fc5847",
+      "size": 40320,
+      "lastModified": 1792338997.87767
+    },
+    "catalogs/star_catalog.fits": {
+      "contentHash": "412a7f059addcb09a802c0071f244bac3354c7c5c21b16c0eef06de3e96abd51",
+      "size": 648000,
+      "lastModified": 1792339032.7855988
     },
     "check-environment.sh": {
       "contentHash": "d941c49a8e9f79d5583448ab0541c9132fbfeed3c8a03f97d2cb99fb6bfbcc23",
       "size": 125,
       "lastModified": 1792276466.8533516
     },
-    "start-research.sh": {
-      "contentHash": "74fb6b0280c455e37b00e7e0fdea2f853dae09debd0f1cf63a01c83e3c7399c6",
-      "size": 114,
-      "lastModified": 1792276466.8515272
+    "cmb/cmb_map.fits": {
+      "contentHash": "2c4a4d3121bd7d2edc19ce496b3187d1c53177d479d0ee252f76a7bb3cd4d2b0",
+      "size": 1581120,
+      "lastModified": 1792339032.8579586
     },
-    "start.sh": {
-      "contentHash": "ad41f2c8bf9ca68fdca65f3dd4c194ab22c9fc560a65e590ea3f008de94e65c0",
-      "size": 1233,
-      "lastModified": 1792190092.9615924
+    "cmb/cmb_power_spectrum.fits": {
+      "contentHash": "0803f1926b1d441c9e139efff8aa5835fe575f44397216479d94b4f485e7f127",
+      "size": 11520,
+      "lastModified": 1792339032.9854798
     },
-    "requirements-lock.txt": {
-      "contentHash": "782f4ef8dc4ce126e934e36f70e04c959023008701482688ba2b6b6976c8083a",
-      "size": 7585,
-      "lastModified": 1792872879.5099878
+    "cmb/synthetic_cmb_map.fits": {
+      "contentHash": "043db8020b8c13f8524696519af2124b59ff1c39e6466fea8c28f7eb1a77fb6d",
+      "size": 400320,
+      "lastModified": 1792338997.873459
     },
-    "requirements.txt": {
-      "contentHash": "b9b438e691e3a4f60e769f29fda287a7afb0ff1e3508cce20ec872f9048481c2",
-      "size": 1886,
-      "lastModified": 1792339307.6420646
+    "data/README.md": {
+      "contentHash": "1e862f6e60615910ed392a78c8e41fe15fa776c6ed06050283e79027bc009ab3",
+      "size": 280,
+      "lastModified": 1792276461.6464627
+    },
+    "data/download_direct_data.py": {
+      "contentHash": "27c0578dffbb492525c499632cf095ad09a6704422e01986169d3bb387c37ba3",
+      "size": 6480,
+      "lastModified": 1792339028.6991055
+    },
+    "data/download_sample_data.py": {
+      "contentHash": "d32d4f867b470d4d8ec1bf6c1a74a930912f3d8b69bd5770bbdf925cbbc1a581",
+      "size": 3366,
+      "lastModified": 1792338993.6929996
+    },
+    "data/raw/exoplanets_confirmed.csv": {
+      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
+      "size": 1598552,
+      "lastModified": 1792880763.3974683
     },
     "docs/ASTRONOMICAL.md": {
       "contentHash": "0e873ff28aed05d8e4891b6056d86e9f4f1083d9b5baab1e471ae8ab27c8e38a",
@@ -258,6 +248,166 @@
       "size": 10778,
       "lastModified": 1792876056.4479158
     },
+    "fits/synthetic_galaxy.fits": {
+      "contentHash": "713f060f7e8b2c868579cc4103cff6e4f61bdadf7124d894fa0c5379a75eca5c",
+      "size": 2102400,
+      "lastModified": 1792339032.7699456
+    },
+    "requirements-lock.txt": {
+      "contentHash": "782f4ef8dc4ce126e934e36f70e04c959023008701482688ba2b6b6976c8083a",
+      "size": 7585,
+      "lastModified": 1792872879.5099878
+    },
+    "requirements.txt": {
+      "contentHash": "b9b438e691e3a4f60e769f29fda287a7afb0ff1e3508cce20ec872f9048481c2",
+      "size": 1886,
+      "lastModified": 1792339307.6420646
+    },
+    "research/notes/README.md": {
+      "contentHash": "a5e62ca8db8826b62116d318aabf455a89bcec419a315ae96a779b3770b705c9",
+      "size": 144,
+      "lastModified": 1792276461.6464899
+    },
+    "research/projects/README.md": {
+      "contentHash": "5605b3499887d79599c418c76ef6c06f9bc7915bc9597f7db85386398e0fd2a6",
+      "size": 202,
+      "lastModified": 1792276461.6464279
+    },
+    "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb": {
+      "contentHash": "f3c449ac13c6d3e40f23a6ea012618ea7817f2a9de1201bcc650f88391097731",
+      "size": 8278,
+      "lastModified": 1792340171.4146366
+    },
+    "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb": {
+      "contentHash": "5c3687799d7c74dfd33aee99867f2a20ed5a9e31584d49ae345fd842ad714ac7",
+      "size": 7728,
+      "lastModified": 1792528762.2086565
+    },
+    "research/projects/black-holes-wormholes/reports/isco_validation.md": {
+      "contentHash": "dee0ef3908469448c6051c38a30299be4c64e9d437139a227f40a76aebe9670a",
+      "size": 10481,
+      "lastModified": 1792528818.144165
+    },
+    "research/projects/black-holes-wormholes/results/isco_error_table.csv": {
+      "contentHash": "f97ec2599cf84a2da48bae40a622ba96fe83ff402355c0717b1b614bc3113c40",
+      "size": 956,
+      "lastModified": 1792528643.3016694
+    },
+    "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py": {
+      "contentHash": "0a0da30223ef5118ae7dfa70430245f7134b93423678ec4b97ef407900ba9f14",
+      "size": 19698,
+      "lastModified": 1792527905.9527001
+    },
+    "research/projects/black-holes/README.md": {
+      "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208",
+      "size": 2445,
+      "lastModified": 1792276871.0470479
+    },
+    "research/projects/black-holes/data/black_holes.sqlite": {
+      "contentHash": "42f52bf07a52512746779208e8ecce3b27faa07071a4ad3c36b6fdc2a81ea881",
+      "size": 2600960,
+      "lastModified": 1792880759.3744664
+    },
+    "research/projects/black-holes/reports/latest.md": {
+      "contentHash": "7f724018bcddbc4aed6cf3db881715626dd2e8ebf617f21b32c2107c34cba1b3",
+      "size": 1626,
+      "lastModified": 1792880759.583933
+    },
+    "research/projects/black-holes/scripts/update_gwosc.py": {
+      "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02",
+      "size": 5583,
+      "lastModified": 1792276868.1548374
+    },
+    "research/projects/black-holes/scripts/update_heasarc_candidates.py": {
+      "contentHash": "fc41918b2bb0058b03d3cf7db045ede397be2018f643e54340b04ebd9bf2dfc6",
+      "size": 864,
+      "lastModified": 1792276852.3241098
+    },
+    "research/projects/exoplanets/data/processed/exoplanets.csv": {
+      "contentHash": "3ef73896cbbc1aa95926c2ef6dae269349ec6faa569e861d8336be17c752ab73",
+      "size": 885803,
+      "lastModified": 1792880763.6954684
+    },
+    "research/projects/exoplanets/data/raw/exoplanets_confirmed.csv": {
+      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
+      "size": 1598552,
+      "lastModified": 1792605549.5948167
+    },
+    "research/projects/exoplanets/models/derivations.py": {
+      "contentHash": "0cce66ca8d864309077dafc9828044efbf3f76033e8bf15bff082030abed9d0e",
+      "size": 5542,
+      "lastModified": 1792880213.051202
+    },
+    "research/projects/exoplanets/models/equations.py": {
+      "contentHash": "b70f19099af9eea5a626b06cdf8a5c0e37d222409d28d33b7d8a03a069fc684a",
+      "size": 6623,
+      "lastModified": 1792880192.2481918
+    },
+    "research/projects/exoplanets/notebooks/01_exoplanet_catalog.ipynb": {
+      "contentHash": "d7fd4ceb0a6607568cdfb608f180acff15679305516f5d67b9e5db0c675f6042",
+      "size": 430983,
+      "lastModified": 1792605621.7147949
+    },
+    "research/projects/exoplanets/notebooks/02_detection_methods.ipynb": {
+      "contentHash": "56f90386f2e6cd3c00d2c98c966e21311c3a544711b1b091f5983be68b73441d",
+      "size": 355966,
+      "lastModified": 1792606017.929267
+    },
+    "research/projects/exoplanets/notebooks/03_habitable_zone.ipynb": {
+      "contentHash": "bbcdd2c3fa1367323c4e5667bff6dcdebda3f1d8803aa8580599168749782ff9",
+      "size": 445961,
+      "lastModified": 1792606039.9039843
+    },
+    "research/projects/exoplanets/notebooks/04_orbital_dynamics.ipynb": {
+      "contentHash": "ebff5d63b4564550c8c4dace16c1652de89e7b50929074fa696eb308bb5e2f75",
+      "size": 63311,
+      "lastModified": 1792606060.174993
+    },
+    "research/projects/exoplanets/notebooks/05_atmospheric_escape.ipynb": {
+      "contentHash": "d3efd030bcf3aa2c4e52253e0bd0d1dd0f602c5059d21b99ed2e145e822824e8",
+      "size": 2513,
+      "lastModified": 1792872535.7768724
+    },
+    "research/projects/exoplanets/notebooks/06_atmospheric_characterization.ipynb": {
+      "contentHash": "a74fc2cdccc592d381753e936337c5a779a25782f8130df0dd29e62d2c37bb8f",
+      "size": 26233,
+      "lastModified": 1792606423.503995
+    },
+    "research/projects/exoplanets/notebooks/07_demographics.ipynb": {
+      "contentHash": "479f94ea9d86300d8fb578ebf253c2954a54ec356706f29603d9b09f184a688d",
+      "size": 189010,
+      "lastModified": 1792606426.8879156
+    },
+    "research/projects/exoplanets/notebooks/08_orbital_stability.ipynb": {
+      "contentHash": "9a93cb02bbf8bc622849aa852470fe341c5de122c4b79d995aab01175afeff73",
+      "size": 23905,
+      "lastModified": 1792606429.8822503
+    },
+    "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb": {
+      "contentHash": "8a4d10d5e1b16b404dd2be043028b7d1ccd5c96aee5afbbadf9a22441c75421a",
+      "size": 32682,
+      "lastModified": 1792606497.4958637
+    },
+    "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb": {
+      "contentHash": "257f6bf5f843afce9844790d07ecfa9460a706683d4fd99fbbf50bcde2320520",
+      "size": 293459,
+      "lastModified": 1792606590.0821922
+    },
+    "research/projects/exoplanets/notebooks/11_atmospheric_retrieval.ipynb": {
+      "contentHash": "1baa4be15967e4d4eaf74fed2326865422e074deadaee12dfec2114df9e6188c",
+      "size": 32568,
+      "lastModified": 1792606593.176924
+    },
+    "research/projects/exoplanets/premium/figures/exoplanet_hz.html": {
+      "contentHash": "931d71d2aa27a49a5e95ea686b3aaf53b60f9cbbe4473a23efd66694407cde1f",
+      "size": 334595,
+      "lastModified": 1792605636.065229
+    },
+    "research/projects/exoplanets/premium/figures/exoplanet_mass_radius.html": {
+      "contentHash": "c9efbd3157c5c3bf5e1af2f750777406fd409221bd48a666b9ff606ab8416444",
+      "size": 263817,
+      "lastModified": 1792605636.033112
+    },
     "research/projects/exoplanets/premium/theory_atmospheric_escape.md": {
       "contentHash": "b09640b7f4f5055820d08c42d0d18e35cba698b851d02ee6e81656f9480aa966",
       "size": 3784,
@@ -282,6 +432,41 @@
       "contentHash": "c32cae3e04ee40c7788e0b60e192680aa0f36081edb30996c4a8364984095895",
       "size": 2873,
       "lastModified": 1792873545.593121
+    },
+    "research/projects/exoplanets/reports/demographics.md": {
+      "contentHash": "f5475de650245653abfba226f8902a986fbbb22fb7933a09444335df95e3b630",
+      "size": 1235,
+      "lastModified": 1792606608.7812963
+    },
+    "research/projects/exoplanets/reports/exoplanet_derivations_report.md": {
+      "contentHash": "84930ef2f9a41c2d803430e313e3ddff234e806aea3bf2a24c3128b7f921a0aa",
+      "size": 3010,
+      "lastModified": 1792880218.8447847
+    },
+    "research/projects/exoplanets/results/exoplanet_derivation_checks.json": {
+      "contentHash": "63c73a1763e5101a521875ca4a61ab9244fa182563037392f4f3795e498e3f2c",
+      "size": 3849,
+      "lastModified": 1792880218.8446772
+    },
+    "research/projects/exoplanets/scripts/download_exoplanets.py": {
+      "contentHash": "1ba3af44ec8eb7591fbbf7f93f56791d43a2ca4f1fe5ad43484f5774bd692d56",
+      "size": 1359,
+      "lastModified": 1792605546.7428281
+    },
+    "research/projects/exoplanets/scripts/process_exoplanets.py": {
+      "contentHash": "279fc6c559952b12c84c4f35d4d5e0bcf8e638d4e027f9ea06db2614414c2002",
+      "size": 2090,
+      "lastModified": 1792605599.3380623
+    },
+    "research/projects/exoplanets/scripts/verify_formulas.py": {
+      "contentHash": "9888bd82f15bb41eb2f19ddeefb6cccf511dd7c45fb4bbab09c1917f39a31720",
+      "size": 9033,
+      "lastModified": 1792880142.6141677
+    },
+    "research/scripts/check_environment.py": {
+      "contentHash": "abed81860b4de83685671c1468d73e6d344143d517b5e68d86a263f7cc5cf050",
+      "size": 688,
+      "lastModified": 1792276461.6465187
     },
     "research/wiki/Atmospheric Characterization.md": {
       "contentHash": "91c5be402790ae521fae4b71f3829e8f9fe10354680d0cd7c5f94a945c79320c",
@@ -383,171 +568,6 @@
       "size": 2035,
       "lastModified": 1792519823.279728
     },
-    ".ua/tools/add-cohesion-edges.py": {
-      "contentHash": "0c42ac1d932054da6eeebdc91584de583b7357e6c88f2384243644a260b14ba5",
-      "size": 37913,
-      "lastModified": 1792525674.3849893
-    },
-    "data/README.md": {
-      "contentHash": "1e862f6e60615910ed392a78c8e41fe15fa776c6ed06050283e79027bc009ab3",
-      "size": 280,
-      "lastModified": 1792276461.6464627
-    },
-    "data/download_direct_data.py": {
-      "contentHash": "27c0578dffbb492525c499632cf095ad09a6704422e01986169d3bb387c37ba3",
-      "size": 6480,
-      "lastModified": 1792339028.6991055
-    },
-    "data/download_sample_data.py": {
-      "contentHash": "d32d4f867b470d4d8ec1bf6c1a74a930912f3d8b69bd5770bbdf925cbbc1a581",
-      "size": 3366,
-      "lastModified": 1792338993.6929996
-    },
-    "research/notes/README.md": {
-      "contentHash": "a5e62ca8db8826b62116d318aabf455a89bcec419a315ae96a779b3770b705c9",
-      "size": 144,
-      "lastModified": 1792276461.6464899
-    },
-    "research/projects/README.md": {
-      "contentHash": "5605b3499887d79599c418c76ef6c06f9bc7915bc9597f7db85386398e0fd2a6",
-      "size": 202,
-      "lastModified": 1792276461.6464279
-    },
-    "research/projects/black-holes-wormholes/reports/isco_validation.md": {
-      "contentHash": "dee0ef3908469448c6051c38a30299be4c64e9d437139a227f40a76aebe9670a",
-      "size": 10481,
-      "lastModified": 1792528818.144165
-    },
-    "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py": {
-      "contentHash": "0a0da30223ef5118ae7dfa70430245f7134b93423678ec4b97ef407900ba9f14",
-      "size": 19698,
-      "lastModified": 1792527905.9527001
-    },
-    "research/projects/black-holes/README.md": {
-      "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208",
-      "size": 2445,
-      "lastModified": 1792276871.0470479
-    },
-    "research/projects/black-holes/reports/latest.md": {
-      "contentHash": "fa493468cd3aea9949f916f77b395871f162a0651132d9e13af4da1fb51333b5",
-      "size": 1626,
-      "lastModified": 1792877912.7894711
-    },
-    "research/projects/black-holes/scripts/update_gwosc.py": {
-      "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02",
-      "size": 5583,
-      "lastModified": 1792276868.1548374
-    },
-    "research/projects/black-holes/scripts/update_heasarc_candidates.py": {
-      "contentHash": "fc41918b2bb0058b03d3cf7db045ede397be2018f643e54340b04ebd9bf2dfc6",
-      "size": 864,
-      "lastModified": 1792276852.3241098
-    },
-    "Untitled.ipynb": {
-      "contentHash": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
-      "size": 72,
-      "lastModified": 1792098881.6707203
-    },
-    "catalogs/galaxy_catalog.fits": {
-      "contentHash": "cac59411276f076bb63f57d884f3ecfc0f37c57985094ed32fd0334907e7a837",
-      "size": 296640,
-      "lastModified": 1792339032.777063
-    },
-    "catalogs/sample_galaxies.fits": {
-      "contentHash": "cbe38a1159ee3cf3b93b1cdaf504639ff63e5061018b1c7922445d7435a5e07d",
-      "size": 40320,
-      "lastModified": 1792338997.87767
-    },
-    "catalogs/star_catalog.fits": {
-      "contentHash": "11251c3e3142e61b16b4afa311cd50f2c1aa4ce94bdcf0faae92be6e91a652ce",
-      "size": 648000,
-      "lastModified": 1792339032.7855988
-    },
-    "cmb/cmb_map.fits": {
-      "contentHash": "fed4341d09697c2bcc631d131131fb3aa1cb9d367fea222ffc8cca3f5e52dfef",
-      "size": 1581120,
-      "lastModified": 1792339032.8579586
-    },
-    "cmb/cmb_power_spectrum.fits": {
-      "contentHash": "8ef583f7f1f8e48a18164d7bb1e3d0f04edaa44e5d648254ff48bea291a4c3ac",
-      "size": 11520,
-      "lastModified": 1792339032.9854798
-    },
-    "cmb/synthetic_cmb_map.fits": {
-      "contentHash": "61eb976af88b5a4715cead01b7978da2658b0b597978fd7dba35474fc58563c7",
-      "size": 400320,
-      "lastModified": 1792338997.873459
-    },
-    "data/raw/exoplanets_confirmed.csv": {
-      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
-      "size": 1598552,
-      "lastModified": 1792877462.2861428
-    },
-    "fits/synthetic_galaxy.fits": {
-      "contentHash": "bce776fa28266c62f6cd079b08bec21d9369bec3ac4a1f7253b576c489fcd79e",
-      "size": 2102400,
-      "lastModified": 1792339032.7699456
-    },
-    "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb": {
-      "contentHash": "f3c449ac13c6d3e40f23a6ea012618ea7817f2a9de1201bcc650f88391097731",
-      "size": 8278,
-      "lastModified": 1792340171.4146366
-    },
-    "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb": {
-      "contentHash": "5c3687799d7c74dfd33aee99867f2a20ed5a9e31584d49ae345fd842ad714ac7",
-      "size": 7728,
-      "lastModified": 1792528762.2086565
-    },
-    "research/projects/black-holes-wormholes/results/isco_error_table.csv": {
-      "contentHash": "f97ec2599cf84a2da48bae40a622ba96fe83ff402355c0717b1b614bc3113c40",
-      "size": 956,
-      "lastModified": 1792528643.3016694
-    },
-    "research/projects/black-holes/data/black_holes.sqlite": {
-      "contentHash": "8666c8306aeb59aec3cd5309b0dff9ffdf64e771571d8e7888fcf98cd6a26ddd",
-      "size": 1929216,
-      "lastModified": 1792877912.558704
-    },
-    "research/projects/exoplanets/models/equations.py": {
-      "contentHash": "180d9b8b62b5e29ad7a9e5806bafe51f9e4f80fbd5bcf48064dbbdc86bb8ba95",
-      "size": 5549,
-      "lastModified": 1792875516.1745014
-    },
-    "research/projects/exoplanets/reports/demographics.md": {
-      "contentHash": "f5475de650245653abfba226f8902a986fbbb22fb7933a09444335df95e3b630",
-      "size": 1235,
-      "lastModified": 1792606608.7812963
-    },
-    "research/projects/exoplanets/reports/exoplanet_derivations_report.md": {
-      "contentHash": "fdf09e73b3de35c04c1db479b5979bc093532a3fbd21cb4eb127ed910347657d",
-      "size": 678,
-      "lastModified": 1792877157.003797
-    },
-    "research/projects/exoplanets/results/exoplanet_derivation_checks.json": {
-      "contentHash": "9e1a56ad727b626585d472b4edae6938eabd8a72a191287a96548a5d755b34b5",
-      "size": 1547,
-      "lastModified": 1792877157.0036623
-    },
-    "research/projects/exoplanets/scripts/download_exoplanets.py": {
-      "contentHash": "1ba3af44ec8eb7591fbbf7f93f56791d43a2ca4f1fe5ad43484f5774bd692d56",
-      "size": 1359,
-      "lastModified": 1792605546.7428281
-    },
-    "research/projects/exoplanets/scripts/process_exoplanets.py": {
-      "contentHash": "279fc6c559952b12c84c4f35d4d5e0bcf8e638d4e027f9ea06db2614414c2002",
-      "size": 2090,
-      "lastModified": 1792605599.3380623
-    },
-    "research/projects/exoplanets/scripts/verify_formulas.py": {
-      "contentHash": "62d078addedb360546b7ba6f0acb9ff30c6c2f1f3a7e60589a260e3c4456fe57",
-      "size": 6233,
-      "lastModified": 1792875589.835975
-    },
-    "research/scripts/check_environment.py": {
-      "contentHash": "abed81860b4de83685671c1468d73e6d344143d517b5e68d86a263f7cc5cf050",
-      "size": 688,
-      "lastModified": 1792276461.6465187
-    },
     "research/wiki/Wormholes.md": {
       "contentHash": "0dac8ad50911a8cdc2edc5338014da5a5888c058c07fcba595df62a4a7684dc0",
       "size": 2340,
@@ -558,95 +578,35 @@
       "size": 2073,
       "lastModified": 1792606061.8935115
     },
-    "research/projects/exoplanets/data/processed/exoplanets.csv": {
-      "contentHash": "3ef73896cbbc1aa95926c2ef6dae269349ec6faa569e861d8336be17c752ab73",
-      "size": 885803,
-      "lastModified": 1792877464.9911432
-    },
-    "research/projects/exoplanets/data/raw/exoplanets_confirmed.csv": {
-      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
-      "size": 1598552,
-      "lastModified": 1792605549.5948167
-    },
-    "research/projects/exoplanets/notebooks/01_exoplanet_catalog.ipynb": {
-      "contentHash": "d7fd4ceb0a6607568cdfb608f180acff15679305516f5d67b9e5db0c675f6042",
-      "size": 430983,
-      "lastModified": 1792605621.7147949
-    },
-    "research/projects/exoplanets/notebooks/02_detection_methods.ipynb": {
-      "contentHash": "56f90386f2e6cd3c00d2c98c966e21311c3a544711b1b091f5983be68b73441d",
-      "size": 355966,
-      "lastModified": 1792606017.929267
-    },
-    "research/projects/exoplanets/notebooks/03_habitable_zone.ipynb": {
-      "contentHash": "bbcdd2c3fa1367323c4e5667bff6dcdebda3f1d8803aa8580599168749782ff9",
-      "size": 445961,
-      "lastModified": 1792606039.9039843
-    },
-    "research/projects/exoplanets/notebooks/04_orbital_dynamics.ipynb": {
-      "contentHash": "ebff5d63b4564550c8c4dace16c1652de89e7b50929074fa696eb308bb5e2f75",
-      "size": 63311,
-      "lastModified": 1792606060.174993
-    },
-    "research/projects/exoplanets/notebooks/05_atmospheric_escape.ipynb": {
-      "contentHash": "d3efd030bcf3aa2c4e52253e0bd0d1dd0f602c5059d21b99ed2e145e822824e8",
-      "size": 2513,
-      "lastModified": 1792872535.7768724
-    },
-    "research/projects/exoplanets/notebooks/06_atmospheric_characterization.ipynb": {
-      "contentHash": "a74fc2cdccc592d381753e936337c5a779a25782f8130df0dd29e62d2c37bb8f",
-      "size": 26233,
-      "lastModified": 1792606423.503995
-    },
-    "research/projects/exoplanets/notebooks/07_demographics.ipynb": {
-      "contentHash": "479f94ea9d86300d8fb578ebf253c2954a54ec356706f29603d9b09f184a688d",
-      "size": 189010,
-      "lastModified": 1792606426.8879156
-    },
-    "research/projects/exoplanets/notebooks/08_orbital_stability.ipynb": {
-      "contentHash": "9a93cb02bbf8bc622849aa852470fe341c5de122c4b79d995aab01175afeff73",
-      "size": 23905,
-      "lastModified": 1792606429.8822503
-    },
-    "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb": {
-      "contentHash": "8a4d10d5e1b16b404dd2be043028b7d1ccd5c96aee5afbbadf9a22441c75421a",
-      "size": 32682,
-      "lastModified": 1792606497.4958637
-    },
-    "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb": {
-      "contentHash": "257f6bf5f843afce9844790d07ecfa9460a706683d4fd99fbbf50bcde2320520",
-      "size": 293459,
-      "lastModified": 1792606590.0821922
-    },
-    "research/projects/exoplanets/notebooks/11_atmospheric_retrieval.ipynb": {
-      "contentHash": "1baa4be15967e4d4eaf74fed2326865422e074deadaee12dfec2114df9e6188c",
-      "size": 32568,
-      "lastModified": 1792606593.176924
-    },
-    "research/projects/exoplanets/premium/figures/exoplanet_hz.html": {
-      "contentHash": "931d71d2aa27a49a5e95ea686b3aaf53b60f9cbbe4473a23efd66694407cde1f",
-      "size": 334595,
-      "lastModified": 1792605636.065229
-    },
-    "research/projects/exoplanets/premium/figures/exoplanet_mass_radius.html": {
-      "contentHash": "c9efbd3157c5c3bf5e1af2f750777406fd409221bd48a666b9ff606ab8416444",
-      "size": 263817,
-      "lastModified": 1792605636.033112
-    },
     "simulations/gw_strain.fits": {
-      "contentHash": "43c12f0cab759ebdaf0306fe47ff57261bf9f8e8d67bca36389e51dd5e919fc3",
+      "contentHash": "46b3258690d20fbef15caba647f0d6c6bd7b1ec5caabbf4a5773e613645706d6",
       "size": 247680,
       "lastModified": 1792339032.995978
     },
     "simulations/nbody_snapshot.fits": {
-      "contentHash": "5fbd0af86e7cdefe0501c1a5f1a1684c3a8e5b0e1c4360549925cf04301c5507",
+      "contentHash": "af5ce56ef7129f4881514f1cf481ba2651b2f1a5bf7d631bbb516c4ea0781e5c",
       "size": 72000,
       "lastModified": 1792339032.9927576
     },
     "simulations/xray_spectrum.fits": {
-      "contentHash": "1711571e20f2b88b7aa1e305d8449d7bbd68854a96545f68dcda5380e4c41298",
+      "contentHash": "9e2fea4c8e46948b6efdb2652cc0d037c7248928a4c4bbc07b49ed4a31eef025",
       "size": 23040,
       "lastModified": 1792339032.9988596
+    },
+    "start-research.sh": {
+      "contentHash": "74fb6b0280c455e37b00e7e0fdea2f853dae09debd0f1cf63a01c83e3c7399c6",
+      "size": 114,
+      "lastModified": 1792276466.8515272
+    },
+    "start.sh": {
+      "contentHash": "ad41f2c8bf9ca68fdca65f3dd4c194ab22c9fc560a65e590ea3f008de94e65c0",
+      "size": 1233,
+      "lastModified": 1792190092.9615924
+    },
+    ".ua/exotic-compact-objects-knowledge-graph.json": {
+      "contentHash": "22142906e64ff83d16b98638021f81138f936654482f134be0c6e0ca5807a9b1",
+      "size": 63744,
+      "lastModified": 1792876585.490965
     }
   }
 }
