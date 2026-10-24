@@ -54,5 +54,21 @@
     "label": "Earth mean density ~5515 kg/m3",
     "value": 5513.258738589093,
     "pass": true
+  },
+  {
+    "label": "Earth surface gravity ~9.8 m/s\u00b2",
+    "value": 9.819973426224687,
+    "pass": true
+  },
+  {
+    "label": "Kepler period at 0.5 AU ~0.353 yr",
+    "value": 0.354,
+    "reference": 0.353,
+    "pass": true
+  },
+  {
+    "label": "H2 Jeans parameter Earth orbit > 1",
+    "value": 3.388150302655952e+43,
+    "pass": true
   }
 ]

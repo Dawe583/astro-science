@@ -1,8 +1,8 @@
 # Exoplanet formula verification
 
-Generated: 2026-10-24T20:13:43.143870+00:00Z
+Generated: 2026-10-24T21:05:03.834777+00:00Z
 
-Result: **11/11 pass**
+Result: **14/14 pass**
 
 - [PASS] Kepler period: code vs closed form (1 AU, 1 Msun)
 - [PASS] Kepler round trip a->P->a
@@ -15,3 +15,6 @@ Result: **11/11 pass**
 - [PASS] Sun HZ contains 1 AU
 - [PASS] Earth Hill radius ~1.5e9 m
 - [PASS] Earth mean density ~5515 kg/m3
+- [PASS] Earth surface gravity ~9.8 m/s²
+- [PASS] Kepler period at 0.5 AU ~0.353 yr
+- [PASS] H2 Jeans parameter Earth orbit > 1
