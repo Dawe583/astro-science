@@ -14,6 +14,13 @@ waves) publishes a generated research site:
 The site is rebuilt deterministically by `.opencode/loops/publish-site.sh` and is part
 of the orchestrator run, so catalogue counts and figures cannot go stale.
 
+## 🕸️ Knowledge graphs & Obsidian vault
+
+- **Understand-Anything** (3 graphs in `.ua/`): code graph, domain flows, knowledge wiki. Run `/understand-dashboard` to explore.
+- **graphify** (v0.9.95): full-workspace knowledge graph — `graphify-out/graph.html` (1295 nodes), `GRAPH_REPORT.md`, and an Obsidian export in `graphify-out/obsidian/` (1569 notes). Re-run: `graphify .` (full) or `graphify . --update` (incremental).
+- **Obsidian vault**: the project root is an Obsidian vault (`.obsidian/`); entry point `Home.md`. Obsidian app at `~/Applications/Obsidian-1.14.5.AppImage`.
+- **obsidian-skills** installed at `~/.opencode/skills/obsidian-skills` (6 skills).
+
 ## 📋 Přehled
 
 Toto prostředí obsahuje:
