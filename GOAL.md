@@ -13,7 +13,7 @@ per user. Phase F (research loop) ongoing. Phase G (automation) partially.
 - Understand-Anything graph refresh (`/understand` incremental/full) for 2 stale premium docs.
 - Real SXS/EHT data replacement (requires registration).
 - Exoplanets formula verification expansion + site integration.
-- Obsidian CLI registration (manual, GUI).
+- (Obsidian removed from scope per user decision 2026-10-24.)
 
 **Constraints:** All data must be real measurements (FITS/HEASARC/GWOSC/etc.) or
 clearly labeled derived/synthetic. No fabricated data.

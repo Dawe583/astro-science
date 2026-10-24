@@ -105,18 +105,24 @@ aliases:
 
 **DoD:** GitHub Pages site builds and renders all 4 projects.
 
-## 5. Phase E — Obsidian vault adoption (~1 day)
+## 5. Phase E — Obsidian vault adoption (~1 day) [OUT OF SCOPE — user decision 2026-10-24]
 
-**Goal:** make the vault the daily driver for notes.
+> Obsidian has been removed from the active scope. The `.obsidian/` vault config and
+> `Home.md` MOC remain in the tree but are no longer maintained. Knowledge-graph
+> exploration uses `graphify-out/graph.html` and the Understand-Anything dashboard
+> (`/understand-dashboard`) instead. The `obsidian-skills` package stays installed
+> for reference but is not part of the workflow.
 
-1. **Open the vault**: launch `~/Applications/Obsidian-1.14.5.AppImage`, "Open folder as vault" → `/home/dawe/Projects/astro-science`.
-2. **Enable the Obsidian CLI** (for `obsidian-cli` skill): Settings → General → Command line interface → register → restart terminal. Then `obsidian version` should work.
-3. **Open the graphify export as a separate vault**: `graphify-out/obsidian/` (1569 notes + `graph.canvas`) for the knowledge-graph view.
-4. **Adopt the MOC**: `Home.md` is the entry point; add daily notes under `research/notes/`.
-5. **Optional plugins**: Dataview (query frontmatter), Templater, Git (auto-commit notes).
-6. **Keep vault hygiene**: `.obsidian/` stays gitignored; generated `graphify-out/` stays ignored.
+**Goal:** (deferred) make the vault the daily driver for notes.
 
-**DoD:** vault opens cleanly; CLI registered; MOC links resolve.
+1. ~~Open the vault~~ (deferred)
+2. ~~Enable the Obsidian CLI~~ (deferred)
+3. ~~Open the graphify export as a separate vault~~ (deferred)
+4. ~~Adopt the MOC~~ (deferred)
+5. ~~Optional plugins~~ (deferred)
+6. ~~Keep vault hygiene~~ (deferred)
+
+**DoD:** N/A (out of scope).
 
 ## 6. Phase F — Research loop: new theory (~ongoing)
 

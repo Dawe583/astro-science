@@ -45,6 +45,7 @@ These exist for pipeline validation only and **must not** be cited as measuremen
 | Dataset | Script | Status |
 |---|---|---|
 | SXS BBH waveforms (240 npz) | `download_sxs.py` (`generate_synthetic_waveforms`) | **SYNTHETIC** — `sxs_waveform_analysis.md` caveats updated |
+| SXS BBH waveforms (real subset, 5 sims) | `download_sxs.py` (sxs package) | **REAL** — real NR simulations via sxs package (metadata in `data/external/sxs_catalog/`) |
 | EHT visibility data | `download_eht.py` (`generate_synthetic_visibilities`) | **SYNTHETIC** — metadata real, visibilities model |
 | MAXI/Swift-BAT/NICER/XRB synthetic catalogs | `download_xray_binaries.py` | **SYNTHETIC** — marked in premium site (badge "synthetic (test)") |
 | Sample FITS galaxy / CMB map | `data/download_direct_data.py`, `data/download_sample_data.py` | **SYNTHETIC** — tutorials only |
