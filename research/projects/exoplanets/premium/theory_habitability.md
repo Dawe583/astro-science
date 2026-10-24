@@ -86,3 +86,7 @@ $T = T_{\rm eff}-5780\ {\rm K}$; $d=\sqrt{L_*/L_\odot/S_{\rm eff}}$ AU.
 - Meadows et al. (2018), Astrobiology, 18, 630 — biosignatures
 - Fulton et al. (2017), AJ, 154, 109 — radius valley
 - `models/equations.py` — `habitable_zone_distances`, `jeans_escape_parameter`
+
+## Data provenance
+
+See `docs/DATA_PROVENANCE.md` (workspace root) for the real/derived/synthetic classification.

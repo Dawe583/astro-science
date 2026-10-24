@@ -97,3 +97,7 @@ with wavelength, enabling transmission spectroscopy.
 - Owen & Wu (2017), ApJ, 847, 29 — photoevaporation
 - Ginzburg et al. (2018), MNRAS, 476, 759 — core-powered mass loss
 - `models/equations.py` — `escape_velocity`, `thermal_velocity`, `scale_height`
+
+## Data provenance
+
+See `docs/DATA_PROVENANCE.md` (workspace root) for the real/derived/synthetic classification.

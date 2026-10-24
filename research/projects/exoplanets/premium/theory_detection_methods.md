@@ -32,3 +32,7 @@ Transit timing variations: gravitational perturbations from companion planets ca
 
 - Seager (2010), Exoplanet Atmospheres
 - Perryman (2018), The Exoplanet Handbook
+
+## Data provenance
+
+See `docs/DATA_PROVENANCE.md` (workspace root) for the real/derived/synthetic classification.

@@ -27,3 +27,7 @@ Rocky planet occurrence is less metallicity-dependent.
 - Fulton et al. (2017), AJ, 154, 109
 - Zeng et al. (2016), ApJ, 819, 127
 - Petigura et al. (2018), AJ, 155, 89
+
+## Data provenance
+
+See `docs/DATA_PROVENANCE.md` (workspace root) for the real/derived/synthetic classification.
