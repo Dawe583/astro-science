@@ -1,6 +1,6 @@
 # Černé díry – automatický katalogový přehled
 
-Aktualizováno UTC: 2026-10-20T19:59:59.613998+00:00
+Aktualizováno UTC: 2026-10-24T19:45:44.535748+00:00
 Zdroj: [GWOSC GWTC event API](https://gwosc.org/eventapi/json/GWTC/) (veřejná služba, bez autentizace).
 Záznamů ve snapshotu: 391.
 

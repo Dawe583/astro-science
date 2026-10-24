@@ -4,6 +4,15 @@
 # Excludes: virtualenvs, caches, foreign cloned repos, large binaries.
 # =============================================================================
 
+# --- Obsidian vault (local-only config) --------------------------------------
+.obsidian/
+
+# --- graphify outputs (large; regenerate via /graphify) -----------------------
+graphify-out/
+"<rfl:parameter name="oldString">
+graphify-out/
+"
+
 # --- Python environment & caches --------------------------------------------
 .venv/
 __pycache__/

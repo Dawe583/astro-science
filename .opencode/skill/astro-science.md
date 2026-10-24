@@ -15,6 +15,7 @@ Start with `CONTEXT.md` at the root — it is the authoritative index.
 | exotic-compact-objects | `research/projects/exotic-compact-objects/` | flagship (separate git repo, remote `Dawe583/exotic-compact-objects`) |
 | black-holes | `research/projects/black-holes/` | GWOSC/GWTC snapshot |
 | black-holes-wormholes | `research/projects/black-holes-wormholes/` | BH/WH fundamentals |
+| exoplanets | `research/projects/exoplanets/` | Exoplanet demographics/detection/habitability (NEW) |
 
 Always `cd` into the target project before running its scripts, and use the absolute
 venv python: `/home/dawe/Projects/astro-science/.venv/bin/python`.

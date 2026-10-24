@@ -142,6 +142,20 @@ cd /home/dawe/Projects/astro-science
 Pedagogical BH/WH fundamentals notebooks (`notebooks/01_black_hole_fundamentals.ipynb`,
 `02_geodesics_orbits.ipynb`). Contains a large `GW150914_28.zip` (~438 MB, gitignored).
 
+### 4.4 `exoplanets`
+
+Exoplanet demographics, detection, and habitability project (NEW — previously undocumented).
+
+- **Models** (`models/`): `equations.py` (escape velocity, equilibrium temperature, Jeans parameter, atmospheric mass loss)
+- **Scripts** (`scripts/`): `download_exoplanets.py`, `process_exoplanets.py`
+- **Notebooks** (`notebooks/`): `01_exoplanet_catalog.ipynb`
+- **Theory** (`premium/`): `theory_atmospheric_escape.md`, `theory_demographics.md`,
+  `theory_detection_methods.md`, `theory_habitability.md`, `theory_orbital_dynamics.md`
+- **Reports** (`reports/`): `demographics.md`
+
+**Status:** catch-up required (Phase C of `docs/ROADMAP.md`) — needs more notebooks,
+formula verification, and integration into the premium site.
+
 ---
 
 ## 5. Data sources
@@ -194,6 +208,19 @@ Transient merge inputs (recreated on refresh, safe to restage):
 - `.understandignore` excludes `.venv`, caches, cloned upstream repos, and large binaries.
   The nested `exotic-compact-objects` repo **is** analyzed (via its code, not its data).
 - See the project skill `astro-graphs` for exact commands.
+
+---
+
+### 6.5 Companion tools
+
+- **graphify** (installed via `uv tool`, v0.9.95): builds a queryable knowledge graph
+  of the whole workspace. Outputs in `graphify-out/`: `graph.html`, `GRAPH_REPORT.md`,
+  `graph.json`, `obsidian/` (1569 notes + `graph.canvas`), `manifest.json`.
+  Re-run: `graphify .` (full) or `graphify . --update` (incremental).
+- **Obsidian vault**: the project root is an Obsidian vault (`.obsidian/` gitignored).
+  Entry point: `Home.md` (MOC). The graphify export is also openable as its own vault
+  (`graphify-out/obsidian/`). Obsidian app: `~/Applications/Obsidian-1.14.5.AppImage`.
+- **obsidian-skills**: installed at `~/.opencode/skills/obsidian-skills` (6 skills).
 
 ---
 

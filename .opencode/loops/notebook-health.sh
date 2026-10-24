@@ -27,6 +27,7 @@ report_path = Path(sys.argv[3])
 projects = [
     root / "research/projects/exotic-compact-objects/notebooks",
     root / "research/projects/black-holes-wormholes/notebooks",
+    root / "research/projects/exoplanets/notebooks",
 ]
 results = []
 for pdir in projects:

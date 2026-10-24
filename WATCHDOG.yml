@@ -1,0 +1,3 @@
+advisors:
+  - name: default
+    model: nvidia/z-ai/glm-5.3-flash:high

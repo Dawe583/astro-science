@@ -46,6 +46,8 @@ catboost_info/
 .ua/.trash-*/
 .ua/diff-overlay.json
 
+graphify-out/
+
 # --- Logs --------------------------------------------------------------------
 logs/
 *.log
