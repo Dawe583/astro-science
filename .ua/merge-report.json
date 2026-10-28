@@ -1,8 +1,8 @@
 {
   "generatedBy": "merge-subdomain-graphs.py",
   "output": {
-    "nodes": 980,
-    "edges": 861,
+    "nodes": 1181,
+    "edges": 1102,
     "layers": 5,
     "tourSteps": 8
   },
