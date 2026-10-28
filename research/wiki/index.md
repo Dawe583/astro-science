@@ -11,8 +11,11 @@ from any entry below.
 - [[Kerr Metric]] — rotating black holes and the ergosphere
 - [[Reissner-Nordström Metric]] — charged, static black holes
 - [[Kerr-Newman Metric]] — rotating, charged black holes
+- [[Kerr-Newman ADM]] — ADM mass, angular momentum, charge, Smarr formula
+- [[Black Holes]] — overview of the four exact solutions
 - [[Black Hole Accretion]] — Eddington limit, ISCO efficiency, AGN, BlackCAT
 - [[Remnant Energetics]] — merger remnant spin, ISCO efficiency, rotational reservoir
+- [[Black Hole Perturbation Theory]] — Regge-Wheeler, Zerilli, Teukolsky, QNMs, superradiance
 
 ## Wormholes
 
