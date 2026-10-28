@@ -9,9 +9,9 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T21:46:23.462586+01:00",
-    "gitCommitHash": "159605944facc81de24111bd65ae75088badf1b4"
+    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
+    "analyzedAt": "2026-10-28T21:53:41.317433+01:00",
+    "gitCommitHash": "af6ab89e92b52531ab37fc24a1412bfcbf9ffe0c"
   },
   "nodes": [
     {
@@ -16367,6 +16367,42 @@
       "name": "theme.js",
       "filePath": "premium/js/theme.js",
       "summary": "Source file theme.js (javascript, 40 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/accordion.js",
+      "type": "file",
+      "name": "accordion.js",
+      "filePath": "premium/js/accordion.js",
+      "summary": "Source file accordion.js (javascript, 26 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/toast.js",
+      "type": "file",
+      "name": "toast.js",
+      "filePath": "premium/js/toast.js",
+      "summary": "Source file toast.js (javascript, 31 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/tooltips.js",
+      "type": "file",
+      "name": "tooltips.js",
+      "filePath": "premium/js/tooltips.js",
+      "summary": "Source file tooltips.js (javascript, 40 lines): no top-level symbols.",
       "tags": [
         "js",
         "javascript"
