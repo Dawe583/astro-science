@@ -9,9 +9,9 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T21:53:41.317433+01:00",
-    "gitCommitHash": "af6ab89e92b52531ab37fc24a1412bfcbf9ffe0c"
+    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
+    "analyzedAt": "2026-10-28T22:00:08.627573+01:00",
+    "gitCommitHash": "308b838a93951e4ebbfe1fe6c2d648dde7f7e411"
   },
   "nodes": [
     {
@@ -16408,6 +16408,82 @@
         "javascript"
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/verify_data_provenance.py",
+      "type": "file",
+      "name": "verify_data_provenance.py",
+      "filePath": "scripts/verify_data_provenance.py",
+      "summary": "Source file verify_data_provenance.py (python, 172 lines): 4 function(s).",
+      "tags": [
+        "py",
+        "python"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/verify_data_provenance.py:check_sqlite",
+      "type": "function",
+      "name": "check_sqlite",
+      "filePath": "scripts/verify_data_provenance.py",
+      "lineRange": [
+        21,
+        62
+      ],
+      "summary": "Function check_sqlite in verify_data_provenance.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/verify_data_provenance.py:check_csv",
+      "type": "function",
+      "name": "check_csv",
+      "filePath": "scripts/verify_data_provenance.py",
+      "lineRange": [
+        65,
+        85
+      ],
+      "summary": "Function check_csv in verify_data_provenance.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/verify_data_provenance.py:check_tsv",
+      "type": "function",
+      "name": "check_tsv",
+      "filePath": "scripts/verify_data_provenance.py",
+      "lineRange": [
+        88,
+        101
+      ],
+      "summary": "Function check_tsv in verify_data_provenance.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/verify_data_provenance.py:check_json",
+      "type": "function",
+      "name": "check_json",
+      "filePath": "scripts/verify_data_provenance.py",
+      "lineRange": [
+        104,
+        119
+      ],
+      "summary": "Function check_json in verify_data_provenance.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
     }
   ],
   "edges": [
@@ -23330,6 +23406,34 @@
     {
       "source": "file:tests/test_analyses.py",
       "target": "function:tests/test_analyses.py:test_site_pages_exist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_data_provenance.py",
+      "target": "function:scripts/verify_data_provenance.py:check_sqlite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_data_provenance.py",
+      "target": "function:scripts/verify_data_provenance.py:check_csv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_data_provenance.py",
+      "target": "function:scripts/verify_data_provenance.py:check_tsv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_data_provenance.py",
+      "target": "function:scripts/verify_data_provenance.py:check_json",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
