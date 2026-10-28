@@ -9,9 +9,9 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T22:00:08.627573+01:00",
-    "gitCommitHash": "f8760cc46021e761298fc3b1f14327be7c33de55"
+    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
+    "analyzedAt": "2026-10-28T23:01:27.469079+01:00",
+    "gitCommitHash": "875a7053a7e272dd58fc9d0353d1543304b459d8"
   },
   "nodes": [
     {
@@ -16484,6 +16484,17 @@
         "function"
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "file:notebooks/25_gw_real_analysis.ipynb",
+      "type": "file",
+      "name": "25_gw_real_analysis.ipynb",
+      "filePath": "notebooks/25_gw_real_analysis.ipynb",
+      "summary": "File at notebooks/25_gw_real_analysis.ipynb (skipped by extractor).",
+      "tags": [
+        "ipynb"
+      ],
+      "complexity": "simple"
     }
   ],
   "edges": [
@@ -23437,6 +23448,13 @@
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
+    },
+    {
+      "source": "file:.opencode/loops/notebook-health.sh",
+      "target": "file:notebooks/25_gw_real_analysis.ipynb",
+      "type": "depends_on",
+      "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
+      "weight": 0.6
     }
   ],
   "layers": [

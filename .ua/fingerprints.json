@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "f8760cc46021e761298fc3b1f14327be7c33de55",
+  "gitCommitHash": "875a7053a7e272dd58fc9d0353d1543304b459d8",
   "generatedAt": "2026-10-28T20:03:38.022Z",
   "files": {
     ".agents/skills/frontend-design/LICENSE.txt": {
@@ -403,7 +403,7 @@
       "contentHash": "0fae986cd2dc34eae3beda117ae182989fed33e6752ba598d32eb95dd18ccb56"
     },
     "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb": {
-      "contentHash": "59c1280f9e764e735964ada36969aa48baf1933a48ebc09685c385ca358a3a6f"
+      "contentHash": "f3468acd6625b6f1b9fe0c7448090def6a922c10d2281627604bc754cdf3c93b"
     },
     "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb": {
       "contentHash": "23fcc1e63370d66c53d5cb009b0dac3bc34bedc4e997b348a39c5752e6d765a2"
@@ -542,6 +542,9 @@
     },
     "research/wiki/Kerr-Newman ADM.md": {
       "contentHash": "0e0ae733ea833b618f1ef233e8a4490e273b486c839cec7589a0a3d5694550a2"
+    },
+    "docs/GR_RESEARCH_TOOLS.md": {
+      "contentHash": "382e352e583505109d3cc6b778e4b535fb54ea29137c0e5fe8695c74215deab2"
     }
   }
 }
