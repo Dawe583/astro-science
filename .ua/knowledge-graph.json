@@ -9,9 +9,9 @@
       "tex"
     ],
     "frameworks": [],
-    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T21:04:04.674953+01:00",
-    "gitCommitHash": "dc5a404b5a90348aef4a12626c387094a77e776e"
+    "description": "Flagship research project: black holes, wormholes, and white holes \u2014 symbolic derived physics models, a GWTC/HEASARC/BlackCAT observational data pipeline, 24 analysis notebooks, premium theory documents, and dashboards. A separate git repo subdomain of astro-science. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project. | Exotic compact objects research project.",
+    "analyzedAt": "2026-10-28T21:46:23.462586+01:00",
+    "gitCommitHash": "159605944facc81de24111bd65ae75088badf1b4"
   },
   "nodes": [
     {
@@ -16334,6 +16334,42 @@
       "summary": "File at theory.tex (skipped by extractor).",
       "tags": [
         "tex"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/sliders.js",
+      "type": "file",
+      "name": "sliders.js",
+      "filePath": "premium/js/sliders.js",
+      "summary": "Source file sliders.js (javascript, 125 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/tables.js",
+      "type": "file",
+      "name": "tables.js",
+      "filePath": "premium/js/tables.js",
+      "summary": "Source file tables.js (javascript, 50 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/theme.js",
+      "type": "file",
+      "name": "theme.js",
+      "filePath": "premium/js/theme.js",
+      "summary": "Source file theme.js (javascript, 40 lines): no top-level symbols.",
+      "tags": [
+        "js",
+        "javascript"
       ],
       "complexity": "simple"
     }
