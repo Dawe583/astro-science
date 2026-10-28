@@ -28,6 +28,7 @@ from any entry below.
 - [[Christoffel Symbols]] — affine connection for Schwarzschild and Kerr
 - [[Raychaudhuri Equation]] — focusing, caustics, and singularity theorems
 - [[Hawking Radiation]] — black-hole temperature, entropy, and the information paradox
+- [[Black Hole Perturbation Theory]] — Regge-Wheeler, Zerilli, Teukolsky, QNMs, superradiance
 
 ## Exoplanets
 
