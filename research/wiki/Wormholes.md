@@ -30,6 +30,17 @@ $$\rho c^2 + p_r\big|_{r_0} = \frac{c^4}{8\pi G}\frac{b'(r_0)-1}{r_0^2}<0,$$
 so the NEC is violated and all stronger energy conditions fail. The violation
 is enormous: for $r_0=1$ m and $b'(r_0)=0$, $|\rho c^2+p_r|\approx4.8\times10^{42}$ J/m$^3$.
 
+## Research result (2026-10-28)
+
+For the simplest shape function $b(r)=b_0^2/r$ with throat $r_0=b_0=1$ km:
+- Flare-out: $b'(r_0)=-1<1$ ✓
+- NEC violation at throat: $\rho+p_r \approx -0.0796$ (geometric units) ✓
+- Exotic matter integral: $I = \int_{r_0}^{\infty}(\rho+p_r)\,4\pi r^2/\sqrt{1-b/r}\,dr \approx -9021$
+  (negative → exotic matter required)
+
+Figure: `figures/wormhole_flare_out.png` (shape function, NEC violation,
+exotic matter integrand, embedding diagram).
+
 ## Traversability, thin shells, and time travel
 
 Traversability requires no horizon ($\Phi$ finite) and tolerable tidal forces.
