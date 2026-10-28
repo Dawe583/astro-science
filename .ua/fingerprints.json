@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "f87ae65e7201d1b42dfd18d33f3ac8e0d9060ac2",
+  "gitCommitHash": "dc5a404b5a90348aef4a12626c387094a77e776e",
   "generatedAt": "2026-10-28T20:03:38.022Z",
   "files": {
     ".agents/skills/frontend-design/LICENSE.txt": {
@@ -2750,8 +2750,8 @@
       "totalLines": 47,
       "hasStructuralAnalysis": false
     },
-    "research/wiki/Reissner-Nordström Metric.md": {
-      "filePath": "research/wiki/Reissner-Nordström Metric.md",
+    "research/wiki/Reissner-Nordstr\u00f6m Metric.md": {
+      "filePath": "research/wiki/Reissner-Nordstr\u00f6m Metric.md",
       "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489",
       "functions": [],
       "classes": [],
@@ -2801,14 +2801,7 @@
       "hasStructuralAnalysis": false
     },
     "research/wiki/index.md": {
-      "filePath": "research/wiki/index.md",
-      "contentHash": "11fbf3ab4ccc15533414026f9f3a5c604c891e6d8dccaecdedb3100c00ffec3b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 54,
-      "hasStructuralAnalysis": false
+      "contentHash": "ed9a135491269220fca23d9eb35460f9bd86e773c071f99c7591147c17300684"
     },
     "simulations/gw_strain.fits": {
       "filePath": "simulations/gw_strain.fits",
@@ -2859,6 +2852,15 @@
       "exports": [],
       "totalLines": 45,
       "hasStructuralAnalysis": false
+    },
+    "research/wiki/Black Hole Perturbation Theory.md": {
+      "contentHash": "e22e659b94051da8c60d2dc4e061b3bfde9ce0f3b41308504f9c0a3c7660dbcd"
+    },
+    "research/wiki/Black Holes.md": {
+      "contentHash": "cf6ecce6d336f7e99400b3df34042ec1f2ad278c25808b00afa67b9355aa0394"
+    },
+    "research/wiki/Kerr-Newman ADM.md": {
+      "contentHash": "0e0ae733ea833b618f1ef233e8a4490e273b486c839cec7589a0a3d5694550a2"
     }
   }
 }
