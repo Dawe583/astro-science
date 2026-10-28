@@ -49,6 +49,7 @@ from any entry below.
 - [[Gravitational Wave Analysis]] — inspiral, merger, ringdown, shadows
 - [[Gravitational-Wave Catalogs]] — GWTC/GWOSC remnant sample
 - [[Early Supermassive Black Hole Growth]] — high-redshift quasars and seed channels
+- [[Black Hole Spectroscopy]] — no-hair theorem tests via QNM overtones
 
 ## Methods
 
