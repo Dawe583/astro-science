@@ -21,6 +21,13 @@ e-folding time is $\tau\sim 2r_s/c=4GM/c^3$, comparable to the free-fall time.
 Mass inflation drives the interior mass to diverge on the same timescale. For a
 solar-mass hole this is $\sim10^{-5}$ s; for a $10^9M_\odot$ hole, a few hours.
 
+**Hawking comparison.** A 1 M☉ white hole (time-reversed Schwarzschild) has
+Hawking temperature $T_H = \hbar c^3/(8\pi G M k_B) \approx 6.17\times10^{-8}$ K
+and evaporation time $t_{\rm evap} \sim 5120\pi G^2 M^3/(\hbar c^4) \approx
+2.1\times10^{67}$ yr. The ratio $t_{\rm evap}/\tau \sim 10^{80}$: classical
+instability destroys the white hole 80 orders of magnitude before Hawking
+evaporation could matter.
+
 ## Can they exist?
 
 Classically, white holes are forbidden by the second law and by cosmic
