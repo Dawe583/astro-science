@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "7d1850e5c9993ad509954f671a27f21f05bc6d09",
+  "gitCommitHash": "dc2c02dae6ea49d93845d180b43654293f9c9172",
   "generatedAt": "2026-10-28T20:03:38.022Z",
   "files": {
     ".agents/skills/frontend-design/LICENSE.txt": {
@@ -517,7 +517,7 @@
       "contentHash": "87819430992412e4d17fc31f0c432e87f8a12ea81385cd7948163695f7173feb"
     },
     "research/wiki/index.md": {
-      "contentHash": "ed9a135491269220fca23d9eb35460f9bd86e773c071f99c7591147c17300684"
+      "contentHash": "32b479fd24ce433a17e3c188d6e90a70dd6a6d5c0cfc953b6eaa6c5dad12eae6"
     },
     "simulations/gw_strain.fits": {
       "contentHash": "46b3258690d20fbef15caba647f0d6c6bd7b1ec5caabbf4a5773e613645706d6"
@@ -545,6 +545,9 @@
     },
     "docs/GR_RESEARCH_TOOLS.md": {
       "contentHash": "382e352e583505109d3cc6b778e4b535fb54ea29137c0e5fe8695c74215deab2"
+    },
+    "research/wiki/Black Hole Spectroscopy.md": {
+      "contentHash": "2c1153f2509ce9606e1512abb65ef82d554f56124009e5d08e0d4be02e300d45"
     }
   }
 }
