@@ -1,2857 +1,538 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "dc5a404b5a90348aef4a12626c387094a77e776e",
+  "gitCommitHash": "74998917da5c81b8eb2347c90df876175fac7252",
   "generatedAt": "2026-10-28T20:03:38.022Z",
   "files": {
     ".agents/skills/frontend-design/LICENSE.txt": {
-      "filePath": ".agents/skills/frontend-design/LICENSE.txt",
-      "contentHash": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 178,
-      "hasStructuralAnalysis": false
+      "contentHash": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
     },
     ".agents/skills/frontend-design/SKILL.md": {
-      "filePath": ".agents/skills/frontend-design/SKILL.md",
-      "contentHash": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 72,
-      "hasStructuralAnalysis": false
+      "contentHash": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
     },
     ".github/workflows/ci.yml": {
-      "filePath": ".github/workflows/ci.yml",
-      "contentHash": "fa0f3b72cf8d2f3124df1758e1d142c1de3458e4576c021afdaeeba4c10030cc",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 37,
-      "hasStructuralAnalysis": false
+      "contentHash": "fa0f3b72cf8d2f3124df1758e1d142c1de3458e4576c021afdaeeba4c10030cc"
     },
     ".opencode/agent/astro-data-engineer.md": {
-      "filePath": ".opencode/agent/astro-data-engineer.md",
-      "contentHash": "fd083f2a1bf07d7aec2dcf96045658eed0df60bc09f58b0ad5321ea462650f65",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 37,
-      "hasStructuralAnalysis": false
+      "contentHash": "fd083f2a1bf07d7aec2dcf96045658eed0df60bc09f58b0ad5321ea462650f65"
     },
     ".opencode/agent/astro-reviewer.md": {
-      "filePath": ".opencode/agent/astro-reviewer.md",
-      "contentHash": "aedd4d321653ff133e5502d42ecdcb18dbf0b81e64e2a4f9fd44cbabbf770b90",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 34,
-      "hasStructuralAnalysis": false
+      "contentHash": "aedd4d321653ff133e5502d42ecdcb18dbf0b81e64e2a4f9fd44cbabbf770b90"
     },
     ".opencode/agent/astro-theoretician.md": {
-      "filePath": ".opencode/agent/astro-theoretician.md",
-      "contentHash": "9da1b51892da8c51764c822264a258c0e75cfeaf487e6934bf4090d3369681fb",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 36,
-      "hasStructuralAnalysis": false
+      "contentHash": "9da1b51892da8c51764c822264a258c0e75cfeaf487e6934bf4090d3369681fb"
     },
     ".opencode/agent/astro-validator.md": {
-      "filePath": ".opencode/agent/astro-validator.md",
-      "contentHash": "fb93f12f2bdab27c5fb1cbfab644510347c6163810e2851b002954d9fe364646",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 37,
-      "hasStructuralAnalysis": false
+      "contentHash": "fb93f12f2bdab27c5fb1cbfab644510347c6163810e2851b002954d9fe364646"
     },
     ".opencode/command/astro-graphs.md": {
-      "filePath": ".opencode/command/astro-graphs.md",
-      "contentHash": "9d75c07e6bed71f26c82a3a68262451db19651cb6c5a9737ad48aa0bde4b490c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 20,
-      "hasStructuralAnalysis": false
+      "contentHash": "9d75c07e6bed71f26c82a3a68262451db19651cb6c5a9737ad48aa0bde4b490c"
     },
     ".opencode/command/astro-notebook-health.md": {
-      "filePath": ".opencode/command/astro-notebook-health.md",
-      "contentHash": "7d20c0ab92f1da3ddb5eb9b2fb65d2ce4afdaecb09aec22befe0d6cadae3f007",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 14,
-      "hasStructuralAnalysis": false
+      "contentHash": "7d20c0ab92f1da3ddb5eb9b2fb65d2ce4afdaecb09aec22befe0d6cadae3f007"
     },
     ".opencode/command/astro-refresh-data.md": {
-      "filePath": ".opencode/command/astro-refresh-data.md",
-      "contentHash": "99a0568d99fc32046b337142f15512bef6edd75d6256de16ec45cb5dad42c19d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 15,
-      "hasStructuralAnalysis": false
+      "contentHash": "99a0568d99fc32046b337142f15512bef6edd75d6256de16ec45cb5dad42c19d"
     },
     ".opencode/command/astro-refresh-graphs.md": {
-      "filePath": ".opencode/command/astro-refresh-graphs.md",
-      "contentHash": "d70a87d55becbeee9e2dee258262c2148672e8ae07c9da6f9726ca4c8b163827",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 45,
-      "hasStructuralAnalysis": false
+      "contentHash": "d70a87d55becbeee9e2dee258262c2148672e8ae07c9da6f9726ca4c8b163827"
     },
     ".opencode/command/astro-research.md": {
-      "filePath": ".opencode/command/astro-research.md",
-      "contentHash": "03eea424547056a89ce07cdf46ceb576ea78a9320244cccd5337fad1b6875c03",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 18,
-      "hasStructuralAnalysis": false
+      "contentHash": "03eea424547056a89ce07cdf46ceb576ea78a9320244cccd5337fad1b6875c03"
     },
     ".opencode/loops/README.md": {
-      "filePath": ".opencode/loops/README.md",
-      "contentHash": "a0c9ec7509431eedb7f0446c40a893a4c7f535e36bf43c63a3bc492d3c9acb1c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 57,
-      "hasStructuralAnalysis": false
+      "contentHash": "a0c9ec7509431eedb7f0446c40a893a4c7f535e36bf43c63a3bc492d3c9acb1c"
     },
     ".opencode/loops/notebook-health.sh": {
-      "filePath": ".opencode/loops/notebook-health.sh",
-      "contentHash": "7a8f8de725a6553f347cfcb5c8114093fdb07c3d07d1d11c1963b6c5e424e498",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 81,
-      "hasStructuralAnalysis": false
+      "contentHash": "7a8f8de725a6553f347cfcb5c8114093fdb07c3d07d1d11c1963b6c5e424e498"
     },
     ".opencode/loops/orchestrator.sh": {
-      "filePath": ".opencode/loops/orchestrator.sh",
-      "contentHash": "a87120ff26cfc64baae6095b1c8471cc6fe27d25ee3bb2759153e1b84e559474",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 72,
-      "hasStructuralAnalysis": false
+      "contentHash": "a87120ff26cfc64baae6095b1c8471cc6fe27d25ee3bb2759153e1b84e559474"
     },
     ".opencode/loops/publish-site.sh": {
-      "filePath": ".opencode/loops/publish-site.sh",
-      "contentHash": "76dd7f9eb928edd58f97f9df280bb7a4a5be818e4781956ce21cca49985c70ed",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 25,
-      "hasStructuralAnalysis": false
+      "contentHash": "76dd7f9eb928edd58f97f9df280bb7a4a5be818e4781956ce21cca49985c70ed"
     },
     ".opencode/loops/refresh-data.sh": {
-      "filePath": ".opencode/loops/refresh-data.sh",
-      "contentHash": "424ccd217bf9b17a38faf92f4e9b3df988d2833dc6f2beb48b1ef784cfe0d4c6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 105,
-      "hasStructuralAnalysis": false
+      "contentHash": "424ccd217bf9b17a38faf92f4e9b3df988d2833dc6f2beb48b1ef784cfe0d4c6"
     },
     ".opencode/loops/refresh-graphs.sh": {
-      "filePath": ".opencode/loops/refresh-graphs.sh",
-      "contentHash": "a105bb7397edb1e1bffba4d34c8c436965cbd042e2845ee116ef669b74397b1b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 157,
-      "hasStructuralAnalysis": false
+      "contentHash": "a105bb7397edb1e1bffba4d34c8c436965cbd042e2845ee116ef669b74397b1b"
     },
     ".opencode/loops/research-loop.sh": {
-      "filePath": ".opencode/loops/research-loop.sh",
-      "contentHash": "8bf57250602cab276cbab3716b2be643e8079662a1446644ca05239abacdfb9e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 60,
-      "hasStructuralAnalysis": false
+      "contentHash": "8bf57250602cab276cbab3716b2be643e8079662a1446644ca05239abacdfb9e"
     },
     ".opencode/skill/astro-graphs.md": {
-      "filePath": ".opencode/skill/astro-graphs.md",
-      "contentHash": "ea25e66611ba08d5e20615ea1f427ec83229a969776537ab5eae0370033c3929",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 94,
-      "hasStructuralAnalysis": false
+      "contentHash": "ea25e66611ba08d5e20615ea1f427ec83229a969776537ab5eae0370033c3929"
     },
     ".opencode/skill/astro-loops.md": {
-      "filePath": ".opencode/skill/astro-loops.md",
-      "contentHash": "25515bd8bb7b13ee34d7bf47c057104e20fe47e01199d0de5bd7dcd544373ad5",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 66,
-      "hasStructuralAnalysis": false
+      "contentHash": "25515bd8bb7b13ee34d7bf47c057104e20fe47e01199d0de5bd7dcd544373ad5"
     },
     ".opencode/skill/astro-science.md": {
-      "filePath": ".opencode/skill/astro-science.md",
-      "contentHash": "c383c408de5c049bb99e3c025c0e62ae28ea1bf0b4c1401f70cc987b1cbd4d76",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 66,
-      "hasStructuralAnalysis": false
+      "contentHash": "c383c408de5c049bb99e3c025c0e62ae28ea1bf0b4c1401f70cc987b1cbd4d76"
     },
     ".ua/batch-results-subdomain/batch-1-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-1-input.json",
-      "contentHash": "a00a3f6ecd3f15d1cdf8ff6a658161f59d7046974336ee55bd2cc8d48982cdca",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 14,
-      "hasStructuralAnalysis": false
+      "contentHash": "a00a3f6ecd3f15d1cdf8ff6a658161f59d7046974336ee55bd2cc8d48982cdca"
     },
     ".ua/batch-results-subdomain/batch-1-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-1-output.json",
-      "contentHash": "99d14d773aab661c6012062a89564c8e80c4d966e6dfc4946d67069c6cce13cc",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 55,
-      "hasStructuralAnalysis": false
+      "contentHash": "99d14d773aab661c6012062a89564c8e80c4d966e6dfc4946d67069c6cce13cc"
     },
     ".ua/batch-results-subdomain/batch-2-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-2-input.json",
-      "contentHash": "cc2aa6b24cf13eaebbc324198204575f2dd7e2ca6f8e03ee86f813a57a4696e5",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 98,
-      "hasStructuralAnalysis": false
+      "contentHash": "cc2aa6b24cf13eaebbc324198204575f2dd7e2ca6f8e03ee86f813a57a4696e5"
     },
     ".ua/batch-results-subdomain/batch-2-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-2-output.json",
-      "contentHash": "5200571a6701dc1018aa5539b948579605bca239d81cc2394a33efd51324980b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 2797,
-      "hasStructuralAnalysis": false
+      "contentHash": "5200571a6701dc1018aa5539b948579605bca239d81cc2394a33efd51324980b"
     },
     ".ua/batch-results-subdomain/batch-3-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-3-input.json",
-      "contentHash": "567b782fcdd508cb92043d459eea50f2551678c628f33e6d683be7f977cf56aa",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 147,
-      "hasStructuralAnalysis": false
+      "contentHash": "567b782fcdd508cb92043d459eea50f2551678c628f33e6d683be7f977cf56aa"
     },
     ".ua/batch-results-subdomain/batch-3-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-3-output.json",
-      "contentHash": "d5aa36ea6f1788f50d6d5b39cbbae87ee53c872546a83a27f48a1a9ca53b3bd9",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 634,
-      "hasStructuralAnalysis": false
+      "contentHash": "d5aa36ea6f1788f50d6d5b39cbbae87ee53c872546a83a27f48a1a9ca53b3bd9"
     },
     ".ua/batch-results-subdomain/batch-4-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-4-input.json",
-      "contentHash": "312c7fde2815627e91fad8924b5e75f176dd96a27136590e8b9fabb7882472e7",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 112,
-      "hasStructuralAnalysis": false
+      "contentHash": "312c7fde2815627e91fad8924b5e75f176dd96a27136590e8b9fabb7882472e7"
     },
     ".ua/batch-results-subdomain/batch-4-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-4-output.json",
-      "contentHash": "81cbc013e8e84db708d97cfc44e05dadb37c43b1a270f0a0a15545910d2cab27",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 384,
-      "hasStructuralAnalysis": false
+      "contentHash": "81cbc013e8e84db708d97cfc44e05dadb37c43b1a270f0a0a15545910d2cab27"
     },
     ".ua/batch-results-subdomain/batch-5-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-5-input.json",
-      "contentHash": "7f6a8d6b9aa6a9b48bed538e2c3626ee1cf5f005a832c448ae3fafdcf3f1371a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 182,
-      "hasStructuralAnalysis": false
+      "contentHash": "7f6a8d6b9aa6a9b48bed538e2c3626ee1cf5f005a832c448ae3fafdcf3f1371a"
     },
     ".ua/batch-results-subdomain/batch-5-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-5-output.json",
-      "contentHash": "3a850cbe5377ee8ea853013d1fae1331b94e72f7d78af6dbd0d73e7abd41c6f8",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 3713,
-      "hasStructuralAnalysis": false
+      "contentHash": "3a850cbe5377ee8ea853013d1fae1331b94e72f7d78af6dbd0d73e7abd41c6f8"
     },
     ".ua/batch-results-subdomain/batch-6-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-6-input.json",
-      "contentHash": "a75f91cbbb01b6e04a1f5e69efae69aff9894b3afb185c6a1f22c78c37f57375",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 182,
-      "hasStructuralAnalysis": false
+      "contentHash": "a75f91cbbb01b6e04a1f5e69efae69aff9894b3afb185c6a1f22c78c37f57375"
     },
     ".ua/batch-results-subdomain/batch-6-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-6-output.json",
-      "contentHash": "9220b55ee39702edfa4663e8025b8763f7ca4128d74abbbcd9370627c3481dfe",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 5899,
-      "hasStructuralAnalysis": false
+      "contentHash": "9220b55ee39702edfa4663e8025b8763f7ca4128d74abbbcd9370627c3481dfe"
     },
     ".ua/batch-results-subdomain/batch-7-input.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-7-input.json",
-      "contentHash": "4ef87c2d52ed7d57caefd5f6550a2eda5396c7c480347ff7d2b83a7325a2a470",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 168,
-      "hasStructuralAnalysis": false
+      "contentHash": "4ef87c2d52ed7d57caefd5f6550a2eda5396c7c480347ff7d2b83a7325a2a470"
     },
     ".ua/batch-results-subdomain/batch-7-output.json": {
-      "filePath": ".ua/batch-results-subdomain/batch-7-output.json",
-      "contentHash": "d7de55a625c9fbdb7b9697fa317a176de009c0009be48f67af35674ace69780d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4726,
-      "hasStructuralAnalysis": false
+      "contentHash": "d7de55a625c9fbdb7b9697fa317a176de009c0009be48f67af35674ace69780d"
     },
     ".ua/batch-results/batch-1-input.json": {
-      "filePath": ".ua/batch-results/batch-1-input.json",
-      "contentHash": "22ed33590324e116ee928dde8f674cdff23613da6f2406c3c768b5364475c289",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 14,
-      "hasStructuralAnalysis": false
+      "contentHash": "22ed33590324e116ee928dde8f674cdff23613da6f2406c3c768b5364475c289"
     },
     ".ua/batch-results/batch-1-output.json": {
-      "filePath": ".ua/batch-results/batch-1-output.json",
-      "contentHash": "fea510426a851dd456f19fe39b2ad18ac11ea98d0bdf9de36522fd58cda3e270",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 50,
-      "hasStructuralAnalysis": false
+      "contentHash": "fea510426a851dd456f19fe39b2ad18ac11ea98d0bdf9de36522fd58cda3e270"
     },
     ".ua/batch-results/batch-10-input.json": {
-      "filePath": ".ua/batch-results/batch-10-input.json",
-      "contentHash": "3f80b10774156447a466567646cff9df74037cd7a9cfb9bcfde63a245da05b6a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 147,
-      "hasStructuralAnalysis": false
+      "contentHash": "3f80b10774156447a466567646cff9df74037cd7a9cfb9bcfde63a245da05b6a"
     },
     ".ua/batch-results/batch-10-output.json": {
-      "filePath": ".ua/batch-results/batch-10-output.json",
-      "contentHash": "29a82115508fead22a0a7471f405e08e8a09778ee061efd6e839e6d601678c57",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 809,
-      "hasStructuralAnalysis": false
+      "contentHash": "29a82115508fead22a0a7471f405e08e8a09778ee061efd6e839e6d601678c57"
     },
     ".ua/batch-results/batch-11-input.json": {
-      "filePath": ".ua/batch-results/batch-11-input.json",
-      "contentHash": "18012a4e16e8b1f5fa39523393c9dfad71270f2d5e45caeaed16282f2413ca9e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 182,
-      "hasStructuralAnalysis": false
+      "contentHash": "18012a4e16e8b1f5fa39523393c9dfad71270f2d5e45caeaed16282f2413ca9e"
     },
     ".ua/batch-results/batch-11-output.json": {
-      "filePath": ".ua/batch-results/batch-11-output.json",
-      "contentHash": "8a03143a81dd30684713f80527d0d1a7fbaee58aa77f711699bb717d9d16aff4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 3035,
-      "hasStructuralAnalysis": false
+      "contentHash": "8a03143a81dd30684713f80527d0d1a7fbaee58aa77f711699bb717d9d16aff4"
     },
     ".ua/batch-results/batch-12-input.json": {
-      "filePath": ".ua/batch-results/batch-12-input.json",
-      "contentHash": "c8afb5802c9544da00e29464b42d198c1920d6d12b83c8d1797dd230af6829b8",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 182,
-      "hasStructuralAnalysis": false
+      "contentHash": "c8afb5802c9544da00e29464b42d198c1920d6d12b83c8d1797dd230af6829b8"
     },
     ".ua/batch-results/batch-12-output.json": {
-      "filePath": ".ua/batch-results/batch-12-output.json",
-      "contentHash": "a410415e212e1d205011aa32585494c4586799f5ee07e50203a8ef266449d978",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1400,
-      "hasStructuralAnalysis": false
+      "contentHash": "a410415e212e1d205011aa32585494c4586799f5ee07e50203a8ef266449d978"
     },
     ".ua/batch-results/batch-13-input.json": {
-      "filePath": ".ua/batch-results/batch-13-input.json",
-      "contentHash": "b2dc5dad1c09b425f7083b8a20c7d72e299143e5b47fe92b6233ffe2fe036212",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 35,
-      "hasStructuralAnalysis": false
+      "contentHash": "b2dc5dad1c09b425f7083b8a20c7d72e299143e5b47fe92b6233ffe2fe036212"
     },
     ".ua/batch-results/batch-13-output.json": {
-      "filePath": ".ua/batch-results/batch-13-output.json",
-      "contentHash": "e0ae8e323a8dc2d0c296c4c5fc1fd4065416a3a0a5933b4463ac88a6a70ba267",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 84,
-      "hasStructuralAnalysis": false
+      "contentHash": "e0ae8e323a8dc2d0c296c4c5fc1fd4065416a3a0a5933b4463ac88a6a70ba267"
     },
     ".ua/batch-results/batch-2-input.json": {
-      "filePath": ".ua/batch-results/batch-2-input.json",
-      "contentHash": "9d3ca2245f4eb03389006dd70f0242b4a9848e6672d7d151cff1a614d2cb26b5",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 35,
-      "hasStructuralAnalysis": false
+      "contentHash": "9d3ca2245f4eb03389006dd70f0242b4a9848e6672d7d151cff1a614d2cb26b5"
     },
     ".ua/batch-results/batch-2-output.json": {
-      "filePath": ".ua/batch-results/batch-2-output.json",
-      "contentHash": "e21dbd9cfc66ff89c96e37b90683a5a1a650925a3f140020852333391c7834f9",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 163,
-      "hasStructuralAnalysis": false
+      "contentHash": "e21dbd9cfc66ff89c96e37b90683a5a1a650925a3f140020852333391c7834f9"
     },
     ".ua/batch-results/batch-3-input.json": {
-      "filePath": ".ua/batch-results/batch-3-input.json",
-      "contentHash": "7c33acff385ba44c867c309931bd3461ff059c4ad8844d97a080f706089686df",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 42,
-      "hasStructuralAnalysis": false
+      "contentHash": "7c33acff385ba44c867c309931bd3461ff059c4ad8844d97a080f706089686df"
     },
     ".ua/batch-results/batch-3-output.json": {
-      "filePath": ".ua/batch-results/batch-3-output.json",
-      "contentHash": "c313956186848642fd20f805a67c22fba3e90186f0be782e2feed68138f41760",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 89,
-      "hasStructuralAnalysis": false
+      "contentHash": "c313956186848642fd20f805a67c22fba3e90186f0be782e2feed68138f41760"
     },
     ".ua/batch-results/batch-4-input.json": {
-      "filePath": ".ua/batch-results/batch-4-input.json",
-      "contentHash": "195dcec9321d1f6a68661ab90c9eb7552385ed47d054e73719ff5d58184058c4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 56,
-      "hasStructuralAnalysis": false
+      "contentHash": "195dcec9321d1f6a68661ab90c9eb7552385ed47d054e73719ff5d58184058c4"
     },
     ".ua/batch-results/batch-4-output.json": {
-      "filePath": ".ua/batch-results/batch-4-output.json",
-      "contentHash": "ff2a41c9f766d73241880d5203abd9db4a565ed9b3d97d082263d4fbaf7f2776",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 154,
-      "hasStructuralAnalysis": false
+      "contentHash": "ff2a41c9f766d73241880d5203abd9db4a565ed9b3d97d082263d4fbaf7f2776"
     },
     ".ua/batch-results/batch-5-input.json": {
-      "filePath": ".ua/batch-results/batch-5-input.json",
-      "contentHash": "84247af44afcb9f869b7e6433fbee82deaa949bbc1853e4a27259f3726f7fb1d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 28,
-      "hasStructuralAnalysis": false
+      "contentHash": "84247af44afcb9f869b7e6433fbee82deaa949bbc1853e4a27259f3726f7fb1d"
     },
     ".ua/batch-results/batch-5-output.json": {
-      "filePath": ".ua/batch-results/batch-5-output.json",
-      "contentHash": "722cf541666069c78cf75102a32c6c8cb0f485c5792afd5103ac5f6c822c1033",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 162,
-      "hasStructuralAnalysis": false
+      "contentHash": "722cf541666069c78cf75102a32c6c8cb0f485c5792afd5103ac5f6c822c1033"
     },
     ".ua/batch-results/batch-6-input.json": {
-      "filePath": ".ua/batch-results/batch-6-input.json",
-      "contentHash": "ee6165d6ec1bcf5a1c5fa37c88e96572a2a78404165374a96dd1073ada19f6e6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 70,
-      "hasStructuralAnalysis": false
+      "contentHash": "ee6165d6ec1bcf5a1c5fa37c88e96572a2a78404165374a96dd1073ada19f6e6"
     },
     ".ua/batch-results/batch-6-output.json": {
-      "filePath": ".ua/batch-results/batch-6-output.json",
-      "contentHash": "bcbe15538356ce5ff8b574afa17d587ffb8b8f2e3c31b7dd88502a09591e2eb1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 351,
-      "hasStructuralAnalysis": false
+      "contentHash": "bcbe15538356ce5ff8b574afa17d587ffb8b8f2e3c31b7dd88502a09591e2eb1"
     },
     ".ua/batch-results/batch-7-input.json": {
-      "filePath": ".ua/batch-results/batch-7-input.json",
-      "contentHash": "308eac7a5eceacefc0034f5a6bb25aa25cd5411bd82e0cbbdaf0420bb577bbf0",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 119,
-      "hasStructuralAnalysis": false
+      "contentHash": "308eac7a5eceacefc0034f5a6bb25aa25cd5411bd82e0cbbdaf0420bb577bbf0"
     },
     ".ua/batch-results/batch-7-output.json": {
-      "filePath": ".ua/batch-results/batch-7-output.json",
-      "contentHash": "f856f96f1c1ef94fccab3a8d21f55c2987e0c20226a5581af50e947f3dfb6b8d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1827,
-      "hasStructuralAnalysis": false
+      "contentHash": "f856f96f1c1ef94fccab3a8d21f55c2987e0c20226a5581af50e947f3dfb6b8d"
     },
     ".ua/batch-results/batch-8-input.json": {
-      "filePath": ".ua/batch-results/batch-8-input.json",
-      "contentHash": "2ab6da2f885b131adc95373bab1f0533fee6a1945112ce10097ea2e60617793c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 49,
-      "hasStructuralAnalysis": false
+      "contentHash": "2ab6da2f885b131adc95373bab1f0533fee6a1945112ce10097ea2e60617793c"
     },
     ".ua/batch-results/batch-8-output.json": {
-      "filePath": ".ua/batch-results/batch-8-output.json",
-      "contentHash": "2a82c01d8c4a2e97e8d5f17a90c36c125261fa0df50d534e6069e9c8bdd2d0fc",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 455,
-      "hasStructuralAnalysis": false
+      "contentHash": "2a82c01d8c4a2e97e8d5f17a90c36c125261fa0df50d534e6069e9c8bdd2d0fc"
     },
     ".ua/batch-results/batch-9-input.json": {
-      "filePath": ".ua/batch-results/batch-9-input.json",
-      "contentHash": "59a40e98e4024fda891a04d4ea315996fe5c65cb2a09d96a62fd0a158d69d40f",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 42,
-      "hasStructuralAnalysis": false
+      "contentHash": "59a40e98e4024fda891a04d4ea315996fe5c65cb2a09d96a62fd0a158d69d40f"
     },
     ".ua/batch-results/batch-9-output.json": {
-      "filePath": ".ua/batch-results/batch-9-output.json",
-      "contentHash": "01b33c62828637c7d4fc2a79e588f0e07ab15ce529dca707c7e9619ad7229ff4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 319,
-      "hasStructuralAnalysis": false
+      "contentHash": "01b33c62828637c7d4fc2a79e588f0e07ab15ce529dca707c7e9619ad7229ff4"
     },
     ".ua/batches-subdomain.json": {
-      "filePath": ".ua/batches-subdomain.json",
-      "contentHash": "4bf4b3e8096bf8676c287f44c7903422fa33e026ce8899760780b2348512e05a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1212,
-      "hasStructuralAnalysis": false
+      "contentHash": "4bf4b3e8096bf8676c287f44c7903422fa33e026ce8899760780b2348512e05a"
     },
     ".ua/batches.json": {
-      "filePath": ".ua/batches.json",
-      "contentHash": "b1cbe785c8b37533a096f5825378821f7a81bc2425c72e944c8e329133e89a30",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1125,
-      "hasStructuralAnalysis": false
+      "contentHash": "b1cbe785c8b37533a096f5825378821f7a81bc2425c72e944c8e329133e89a30"
     },
     ".ua/cohesion-edges.json": {
-      "filePath": ".ua/cohesion-edges.json",
-      "contentHash": "0f1651aab2594ca222679e8a844b632758308b58885a13050d0f6e96ba53c91c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 409,
-      "hasStructuralAnalysis": false
+      "contentHash": "0f1651aab2594ca222679e8a844b632758308b58885a13050d0f6e96ba53c91c"
     },
     ".ua/config.json": {
-      "filePath": ".ua/config.json",
-      "contentHash": "7af678ccca572447ab52d66005c3253f496450b954a15d4a2852ebbf56fc6747",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4,
-      "hasStructuralAnalysis": false
+      "contentHash": "7af678ccca572447ab52d66005c3253f496450b954a15d4a2852ebbf56fc6747"
     },
     ".ua/convert-batches.py": {
-      "filePath": ".ua/convert-batches.py",
-      "contentHash": "b032680e99de83d65b55a24a8a15a1fce0750de303883938f934d6ad157679ad",
-      "functions": [
-        {
-          "name": "convert_batch",
-          "params": [
-            "input_path",
-            "output_path"
-          ],
-          "exported": true,
-          "lineCount": 115
-        },
-        {
-          "name": "main",
-          "params": [],
-          "exported": true,
-          "lineCount": 10
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "json",
-          "specifiers": [
-            "json"
-          ]
-        },
-        {
-          "source": "sys",
-          "specifiers": [
-            "sys"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        }
-      ],
-      "exports": [
-        "convert_batch",
-        "main"
-      ],
-      "totalLines": 145,
-      "hasStructuralAnalysis": true
+      "contentHash": "b032680e99de83d65b55a24a8a15a1fce0750de303883938f934d6ad157679ad"
     },
     ".ua/domain-graph.json": {
-      "filePath": ".ua/domain-graph.json",
-      "contentHash": "d8d815553cea3e0fa79e221e02173ac35e6077483b35b105f8fe37404ea92c13",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1276,
-      "hasStructuralAnalysis": false
+      "contentHash": "d8d815553cea3e0fa79e221e02173ac35e6077483b35b105f8fe37404ea92c13"
     },
     ".ua/exotic-compact-objects-knowledge-graph.json": {
-      "filePath": ".ua/exotic-compact-objects-knowledge-graph.json",
-      "contentHash": "8364f6ce2a95eba71032902bd6a4c35b170afd842fd265155b04672a511cede6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 5608,
-      "hasStructuralAnalysis": false
+      "contentHash": "1da9b6f0fd0463712b53d47f10ec93896b8840381dde9b62435f9a64c272a940"
     },
     ".ua/fingerprints.json": {
-      "filePath": ".ua/fingerprints.json",
-      "contentHash": "9b006e12b00542da780242ed1c50a894e8bf0c666a78dfb3d16f772be0a8b64e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 613,
-      "hasStructuralAnalysis": false
+      "contentHash": "831816633421975126eeb9a1ac2de0a8c8feb5b52b79bc3ff4c833b87d32d83b"
     },
     ".ua/knowledge-graph.json": {
-      "filePath": ".ua/knowledge-graph.json",
-      "contentHash": "c209b5d07215153a137870a9ffd45b182ee6530e18e9473f212261bd4ad7da8d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 23479,
-      "hasStructuralAnalysis": false
+      "contentHash": "3abd9059081fcbd5fe27cb9d493c7d9b0aa230121ad525d752ad3bb2c39d2a58"
     },
     ".ua/merge-report.json": {
-      "filePath": ".ua/merge-report.json",
-      "contentHash": "20de18a3c4d0133cd9cdae139ca39bf24c08b7b94eba69a5b45d2e1d428d764a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 11,
-      "hasStructuralAnalysis": false
+      "contentHash": "8f7ddb2c0b60e3fd8ca7332f14f960e894f1e21838394515c405dff8a6724956"
     },
     ".ua/meta.json": {
-      "filePath": ".ua/meta.json",
-      "contentHash": "0741d8c6759348b55aaec0e4f48a73578adc083dbc6f219e70e421c8426281b5",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 6,
-      "hasStructuralAnalysis": false
+      "contentHash": "8e9f3d1d7d14b9b0969ef1f41760b420fc9f977106ba5bf58ff11824e07f5727"
     },
     ".ua/scan-result.json": {
-      "filePath": ".ua/scan-result.json",
-      "contentHash": "8223784074beaac4cb96acc34d126dd72f1c63b70dde2d167f96f3c61153484c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 815,
-      "hasStructuralAnalysis": false
+      "contentHash": "8223784074beaac4cb96acc34d126dd72f1c63b70dde2d167f96f3c61153484c"
     },
     ".ua/tools/add-cohesion-edges.py": {
-      "filePath": ".ua/tools/add-cohesion-edges.py",
-      "contentHash": "0c42ac1d932054da6eeebdc91584de583b7357e6c88f2384243644a260b14ba5",
-      "functions": [
-        {
-          "name": "union_find_components",
-          "params": [
-            "node_ids",
-            "edges"
-          ],
-          "exported": true,
-          "lineCount": 19
-        },
-        {
-          "name": "isolated_nodes",
-          "params": [
-            "node_ids",
-            "edges"
-          ],
-          "exported": true,
-          "lineCount": 6
-        },
-        {
-          "name": "graph_stats",
-          "params": [
-            "nodes",
-            "edges"
-          ],
-          "exported": true,
-          "lineCount": 18
-        },
-        {
-          "name": "node_raw_path",
-          "params": [
-            "node_id"
-          ],
-          "exported": true,
-          "lineCount": 2
-        },
-        {
-          "name": "resolve_node_fs",
-          "params": [
-            "node"
-          ],
-          "exported": true,
-          "lineCount": 16
-        },
-        {
-          "name": "readable_source",
-          "params": [
-            "path"
-          ],
-          "exported": true,
-          "lineCount": 21
-        },
-        {
-          "name": "add_candidate",
-          "params": [
-            "cands",
-            "source_id",
-            "target_id",
-            "etype",
-            "description",
-            "groups"
-          ],
-          "exported": true,
-          "lineCount": 13
-        },
-        {
-          "name": "generate_candidates",
-          "params": [
-            "kg",
-            "dg",
-            "fragment_index",
-            "node_by_id",
-            "comps_before",
-            "comp_of",
-            "iso_before"
-          ],
-          "exported": true,
-          "lineCount": 640
-        },
-        {
-          "name": "structural_value",
-          "params": [
-            "c",
-            "iso_before",
-            "comp_of"
-          ],
-          "exported": true,
-          "lineCount": 5
-        },
-        {
-          "name": "main",
-          "params": [
-            "argv"
-          ],
-          "exported": true,
-          "lineCount": 122
-        }
-      ],
-      "classes": [
-        {
-          "name": "FragmentIndex",
-          "methods": [
-            "__init__"
-          ],
-          "properties": [],
-          "exported": true,
-          "lineCount": 17
-        }
-      ],
-      "imports": [
-        {
-          "source": "copy",
-          "specifiers": [
-            "copy"
-          ]
-        },
-        {
-          "source": "json",
-          "specifiers": [
-            "json"
-          ]
-        },
-        {
-          "source": "re",
-          "specifiers": [
-            "re"
-          ]
-        },
-        {
-          "source": "sys",
-          "specifiers": [
-            "sys"
-          ]
-        },
-        {
-          "source": "collections",
-          "specifiers": [
-            "Counter",
-            "defaultdict"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        }
-      ],
-      "exports": [
-        "union_find_components",
-        "isolated_nodes",
-        "graph_stats",
-        "node_raw_path",
-        "resolve_node_fs",
-        "readable_source",
-        "FragmentIndex",
-        "add_candidate",
-        "generate_candidates",
-        "structural_value",
-        "main"
-      ],
-      "totalLines": 1001,
-      "hasStructuralAnalysis": true
+      "contentHash": "0c42ac1d932054da6eeebdc91584de583b7357e6c88f2384243644a260b14ba5"
     },
     ".ua/wiki-graph.json": {
-      "filePath": ".ua/wiki-graph.json",
-      "contentHash": "e2d088d85817e9b8a0aa98a00b30e2f1ec9daf8deee84b5608f83736c32378a2",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 2796,
-      "hasStructuralAnalysis": false
+      "contentHash": "e2d088d85817e9b8a0aa98a00b30e2f1ec9daf8deee84b5608f83736c32378a2"
     },
     "CONTEXT.md": {
-      "filePath": "CONTEXT.md",
-      "contentHash": "fe08fed98d618d78a653212ba9180dc9b95c40d0eaed30a4ee6d4cabb3e0a0b2",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 327,
-      "hasStructuralAnalysis": false
+      "contentHash": "fe08fed98d618d78a653212ba9180dc9b95c40d0eaed30a4ee6d4cabb3e0a0b2"
     },
     "FINAL_REPORT.md": {
-      "filePath": "FINAL_REPORT.md",
-      "contentHash": "184691bd769a743c20b273d9a146b9763481c40973aae3d486f0690c07fc8e4b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 427,
-      "hasStructuralAnalysis": false
+      "contentHash": "184691bd769a743c20b273d9a146b9763481c40973aae3d486f0690c07fc8e4b"
     },
     "GOAL.md": {
-      "filePath": "GOAL.md",
-      "contentHash": "a90f05d8d4205012ac3929da27941cf7265af93ba256e049b72257f09e5a48d4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 22,
-      "hasStructuralAnalysis": false
+      "contentHash": "a90f05d8d4205012ac3929da27941cf7265af93ba256e049b72257f09e5a48d4"
     },
     "Home.md": {
-      "filePath": "Home.md",
-      "contentHash": "d6608828299555529f4cefd535cc13e0578a0b3d9ec790eef96d11e20ae8a63b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 62,
-      "hasStructuralAnalysis": false
+      "contentHash": "d6608828299555529f4cefd535cc13e0578a0b3d9ec790eef96d11e20ae8a63b"
     },
     "INSTALLATION_SUMMARY.md": {
-      "filePath": "INSTALLATION_SUMMARY.md",
-      "contentHash": "9a628ebfb101ef0c087c0dada95ccc48a78d9bb6e89e6a12da452625672c3e35",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 311,
-      "hasStructuralAnalysis": false
+      "contentHash": "9a628ebfb101ef0c087c0dada95ccc48a78d9bb6e89e6a12da452625672c3e35"
     },
     "NEW_TOOLS_SUMMARY.md": {
-      "filePath": "NEW_TOOLS_SUMMARY.md",
-      "contentHash": "c26d3a76a57cd078b5b5a7518fffc88874bcb594cb5defacf7696ea937b1fa9e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 672,
-      "hasStructuralAnalysis": false
+      "contentHash": "c26d3a76a57cd078b5b5a7518fffc88874bcb594cb5defacf7696ea937b1fa9e"
     },
     "README.md": {
-      "filePath": "README.md",
-      "contentHash": "b9ac48a78be3333fef9323353c3f435b1fe341857f43e4c4226ee8f50607be3b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 434,
-      "hasStructuralAnalysis": false
+      "contentHash": "b9ac48a78be3333fef9323353c3f435b1fe341857f43e4c4226ee8f50607be3b"
     },
     "SETUP_GUIDE.md": {
-      "filePath": "SETUP_GUIDE.md",
-      "contentHash": "43b8b0fa22a8444f1302022bad6821f475cb126d2feaa11dd2374b1a4c8628ac",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 353,
-      "hasStructuralAnalysis": false
+      "contentHash": "43b8b0fa22a8444f1302022bad6821f475cb126d2feaa11dd2374b1a4c8628ac"
     },
     "SPECIALIZED_TOOLS.md": {
-      "filePath": "SPECIALIZED_TOOLS.md",
-      "contentHash": "3f2ae2629c1b7173fa7ba7cb8332f3c4c7145a4483955f7d7dcb7be0e403c92e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 326,
-      "hasStructuralAnalysis": false
+      "contentHash": "3f2ae2629c1b7173fa7ba7cb8332f3c4c7145a4483955f7d7dcb7be0e403c92e"
     },
     "TOOLS_LIST.md": {
-      "filePath": "TOOLS_LIST.md",
-      "contentHash": "1f9c693e277f8391fab836f78bac2d71aa8c451e49000281675cbae4b0907dbe",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 343,
-      "hasStructuralAnalysis": false
+      "contentHash": "1f9c693e277f8391fab836f78bac2d71aa8c451e49000281675cbae4b0907dbe"
     },
     "Untitled.ipynb": {
-      "filePath": "Untitled.ipynb",
-      "contentHash": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 7,
-      "hasStructuralAnalysis": false
+      "contentHash": "4a62b68a633d79c53a6fd8893e8ea42dcf2b9a8a3e907b1b9861661f04f21517"
     },
     "WATCHDOG.yml": {
-      "filePath": "WATCHDOG.yml",
-      "contentHash": "0e57f2cf47ca2db0da4f8afefcf68cd83d7a8334a6a070dee74364ec3780a40a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4,
-      "hasStructuralAnalysis": false
+      "contentHash": "0e57f2cf47ca2db0da4f8afefcf68cd83d7a8334a6a070dee74364ec3780a40a"
     },
     "catalogs/galaxy_catalog.fits": {
-      "filePath": "catalogs/galaxy_catalog.fits",
-      "contentHash": "e9697be233c90073aa689836c564c13bd6321c1b225776f44c350641fc9ac3d1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 892,
-      "hasStructuralAnalysis": false
+      "contentHash": "e9697be233c90073aa689836c564c13bd6321c1b225776f44c350641fc9ac3d1"
     },
     "catalogs/sample_galaxies.fits": {
-      "filePath": "catalogs/sample_galaxies.fits",
-      "contentHash": "2d43f38b0ab7ea63fb44aa0dca3d0486cf32c1259163e83487fbdd5dd8fc5847",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 84,
-      "hasStructuralAnalysis": false
+      "contentHash": "2d43f38b0ab7ea63fb44aa0dca3d0486cf32c1259163e83487fbdd5dd8fc5847"
     },
     "catalogs/star_catalog.fits": {
-      "filePath": "catalogs/star_catalog.fits",
-      "contentHash": "412a7f059addcb09a802c0071f244bac3354c7c5c21b16c0eef06de3e96abd51",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 2170,
-      "hasStructuralAnalysis": false
+      "contentHash": "412a7f059addcb09a802c0071f244bac3354c7c5c21b16c0eef06de3e96abd51"
     },
     "check-environment.sh": {
-      "filePath": "check-environment.sh",
-      "contentHash": "d941c49a8e9f79d5583448ab0541c9132fbfeed3c8a03f97d2cb99fb6bfbcc23",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 5,
-      "hasStructuralAnalysis": false
+      "contentHash": "d941c49a8e9f79d5583448ab0541c9132fbfeed3c8a03f97d2cb99fb6bfbcc23"
     },
     "cmb/cmb_map.fits": {
-      "filePath": "cmb/cmb_map.fits",
-      "contentHash": "2c4a4d3121bd7d2edc19ce496b3187d1c53177d479d0ee252f76a7bb3cd4d2b0",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 5451,
-      "hasStructuralAnalysis": false
+      "contentHash": "2c4a4d3121bd7d2edc19ce496b3187d1c53177d479d0ee252f76a7bb3cd4d2b0"
     },
     "cmb/cmb_power_spectrum.fits": {
-      "filePath": "cmb/cmb_power_spectrum.fits",
-      "contentHash": "0803f1926b1d441c9e139efff8aa5835fe575f44397216479d94b4f485e7f127",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 12,
-      "hasStructuralAnalysis": false
+      "contentHash": "0803f1926b1d441c9e139efff8aa5835fe575f44397216479d94b4f485e7f127"
     },
     "cmb/synthetic_cmb_map.fits": {
-      "filePath": "cmb/synthetic_cmb_map.fits",
-      "contentHash": "043db8020b8c13f8524696519af2124b59ff1c39e6466fea8c28f7eb1a77fb6d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1189,
-      "hasStructuralAnalysis": false
+      "contentHash": "043db8020b8c13f8524696519af2124b59ff1c39e6466fea8c28f7eb1a77fb6d"
     },
     "data/README.md": {
-      "filePath": "data/README.md",
-      "contentHash": "1e862f6e60615910ed392a78c8e41fe15fa776c6ed06050283e79027bc009ab3",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 8,
-      "hasStructuralAnalysis": false
+      "contentHash": "1e862f6e60615910ed392a78c8e41fe15fa776c6ed06050283e79027bc009ab3"
     },
     "data/download_direct_data.py": {
-      "filePath": "data/download_direct_data.py",
-      "contentHash": "27c0578dffbb492525c499632cf095ad09a6704422e01986169d3bb387c37ba3",
-      "functions": [],
-      "classes": [],
-      "imports": [
-        {
-          "source": "os",
-          "specifiers": [
-            "os"
-          ]
-        },
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        },
-        {
-          "source": "astropy.table",
-          "specifiers": [
-            "Table"
-          ]
-        },
-        {
-          "source": "astropy.io",
-          "specifiers": [
-            "fits"
-          ]
-        },
-        {
-          "source": "astropy.coordinates",
-          "specifiers": [
-            "SkyCoord"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "u"
-          ]
-        },
-        {
-          "source": "matplotlib.pyplot",
-          "specifiers": [
-            "plt"
-          ]
-        }
-      ],
-      "exports": [],
-      "totalLines": 187,
-      "hasStructuralAnalysis": true
+      "contentHash": "27c0578dffbb492525c499632cf095ad09a6704422e01986169d3bb387c37ba3"
     },
     "data/download_sample_data.py": {
-      "filePath": "data/download_sample_data.py",
-      "contentHash": "d32d4f867b470d4d8ec1bf6c1a74a930912f3d8b69bd5770bbdf925cbbc1a581",
-      "functions": [],
-      "classes": [],
-      "imports": [
-        {
-          "source": "os",
-          "specifiers": [
-            "os"
-          ]
-        },
-        {
-          "source": "astropy.coordinates",
-          "specifiers": [
-            "SkyCoord"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "u"
-          ]
-        },
-        {
-          "source": "astroquery.sdss",
-          "specifiers": [
-            "SDSS"
-          ]
-        },
-        {
-          "source": "astroquery.gaia",
-          "specifiers": [
-            "Gaia"
-          ]
-        },
-        {
-          "source": "astroquery.simbad",
-          "specifiers": [
-            "Simbad"
-          ]
-        },
-        {
-          "source": "astropy.io",
-          "specifiers": [
-            "fits"
-          ]
-        },
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        }
-      ],
-      "exports": [],
-      "totalLines": 103,
-      "hasStructuralAnalysis": true
+      "contentHash": "d32d4f867b470d4d8ec1bf6c1a74a930912f3d8b69bd5770bbdf925cbbc1a581"
     },
     "data/raw/exoplanets_confirmed.csv": {
-      "filePath": "data/raw/exoplanets_confirmed.csv",
-      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 6453,
-      "hasStructuralAnalysis": false
+      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1"
     },
     "docs/ASTRONOMICAL.md": {
-      "filePath": "docs/ASTRONOMICAL.md",
-      "contentHash": "0e873ff28aed05d8e4891b6056d86e9f4f1083d9b5baab1e471ae8ab27c8e38a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 336,
-      "hasStructuralAnalysis": false
+      "contentHash": "0e873ff28aed05d8e4891b6056d86e9f4f1083d9b5baab1e471ae8ab27c8e38a"
     },
     "docs/AUTOMATION.md": {
-      "filePath": "docs/AUTOMATION.md",
-      "contentHash": "bf085a4ec999278a563528c5735d991e6e10d7e089a303ec73b01fd65d1baab3",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 152,
-      "hasStructuralAnalysis": false
+      "contentHash": "bf085a4ec999278a563528c5735d991e6e10d7e089a303ec73b01fd65d1baab3"
     },
     "docs/DATA_PROVENANCE.md": {
-      "filePath": "docs/DATA_PROVENANCE.md",
-      "contentHash": "1c5d9f4df960428fa172dfe22d77204006625fe15cc8ed41c03202303b3012cb",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 66,
-      "hasStructuralAnalysis": false
+      "contentHash": "1c5d9f4df960428fa172dfe22d77204006625fe15cc8ed41c03202303b3012cb"
     },
     "docs/GITHUB_TOOLS.md": {
-      "filePath": "docs/GITHUB_TOOLS.md",
-      "contentHash": "8fcdc52754dbbc59ee3287bdac884e784819db63bdcd73906aa8e60963e5f8cd",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 106,
-      "hasStructuralAnalysis": false
+      "contentHash": "8fcdc52754dbbc59ee3287bdac884e784819db63bdcd73906aa8e60963e5f8cd"
     },
     "docs/GRAPHS.md": {
-      "filePath": "docs/GRAPHS.md",
-      "contentHash": "bb5dd674f862879fb770547adcc67b4d313ac811919a992a7c56947b2abe4d54",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 117,
-      "hasStructuralAnalysis": false
+      "contentHash": "bb5dd674f862879fb770547adcc67b4d313ac811919a992a7c56947b2abe4d54"
     },
     "docs/ROADMAP.md": {
-      "filePath": "docs/ROADMAP.md",
-      "contentHash": "9ef5e5ba5655561b82bbe898f01714ba32f1db438d9572709bb6e16e25454684",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 183,
-      "hasStructuralAnalysis": false
+      "contentHash": "9ef5e5ba5655561b82bbe898f01714ba32f1db438d9572709bb6e16e25454684"
     },
     "fits/synthetic_galaxy.fits": {
-      "filePath": "fits/synthetic_galaxy.fits",
-      "contentHash": "713f060f7e8b2c868579cc4103cff6e4f61bdadf7124d894fa0c5379a75eca5c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 10500,
-      "hasStructuralAnalysis": false
+      "contentHash": "713f060f7e8b2c868579cc4103cff6e4f61bdadf7124d894fa0c5379a75eca5c"
     },
     "requirements-lock.txt": {
-      "filePath": "requirements-lock.txt",
-      "contentHash": "782f4ef8dc4ce126e934e36f70e04c959023008701482688ba2b6b6976c8083a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 438,
-      "hasStructuralAnalysis": false
+      "contentHash": "782f4ef8dc4ce126e934e36f70e04c959023008701482688ba2b6b6976c8083a"
     },
     "requirements.txt": {
-      "filePath": "requirements.txt",
-      "contentHash": "b9b438e691e3a4f60e769f29fda287a7afb0ff1e3508cce20ec872f9048481c2",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 171,
-      "hasStructuralAnalysis": false
+      "contentHash": "b9b438e691e3a4f60e769f29fda287a7afb0ff1e3508cce20ec872f9048481c2"
     },
     "research/notes/README.md": {
-      "filePath": "research/notes/README.md",
-      "contentHash": "a5e62ca8db8826b62116d318aabf455a89bcec419a315ae96a779b3770b705c9",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4,
-      "hasStructuralAnalysis": false
+      "contentHash": "a5e62ca8db8826b62116d318aabf455a89bcec419a315ae96a779b3770b705c9"
     },
     "research/projects/README.md": {
-      "filePath": "research/projects/README.md",
-      "contentHash": "5605b3499887d79599c418c76ef6c06f9bc7915bc9597f7db85386398e0fd2a6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4,
-      "hasStructuralAnalysis": false
+      "contentHash": "5605b3499887d79599c418c76ef6c06f9bc7915bc9597f7db85386398e0fd2a6"
     },
     "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb": {
-      "filePath": "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
-      "contentHash": "f3c449ac13c6d3e40f23a6ea012618ea7817f2a9de1201bcc650f88391097731",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 294,
-      "hasStructuralAnalysis": false
+      "contentHash": "772a446e5806d26ab01c5111e5dc5292fd1657c09b2085ffcb7c48aa44a1ea4c"
     },
     "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb": {
-      "filePath": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
-      "contentHash": "5c3687799d7c74dfd33aee99867f2a20ed5a9e31584d49ae345fd842ad714ac7",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 268,
-      "hasStructuralAnalysis": false
+      "contentHash": "87872ad7af48ff14e9d03a8c50226422f04f78c74d41900fd1b258d1f349f472"
     },
     "research/projects/black-holes-wormholes/reports/isco_validation.md": {
-      "filePath": "research/projects/black-holes-wormholes/reports/isco_validation.md",
-      "contentHash": "dee0ef3908469448c6051c38a30299be4c64e9d437139a227f40a76aebe9670a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 213,
-      "hasStructuralAnalysis": false
+      "contentHash": "dee0ef3908469448c6051c38a30299be4c64e9d437139a227f40a76aebe9670a"
     },
     "research/projects/black-holes-wormholes/results/isco_error_table.csv": {
-      "filePath": "research/projects/black-holes-wormholes/results/isco_error_table.csv",
-      "contentHash": "f97ec2599cf84a2da48bae40a622ba96fe83ff402355c0717b1b614bc3113c40",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 6,
-      "hasStructuralAnalysis": false
+      "contentHash": "f97ec2599cf84a2da48bae40a622ba96fe83ff402355c0717b1b614bc3113c40"
     },
     "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py": {
-      "filePath": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
-      "contentHash": "0a0da30223ef5118ae7dfa70430245f7134b93423678ec4b97ef407900ba9f14",
-      "functions": [
-        {
-          "name": "_check_spin",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 5
-        },
-        {
-          "name": "z1",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 6
-        },
-        {
-          "name": "z2",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 4
-        },
-        {
-          "name": "isco_radius_over_M",
-          "params": [
-            "a",
-            "prograde"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 19
-        },
-        {
-          "name": "isco_radius_over_M_array",
-          "params": [
-            "a",
-            "prograde"
-          ],
-          "exported": true,
-          "lineCount": 9
-        },
-        {
-          "name": "isco_radius_si",
-          "params": [
-            "mass",
-            "a",
-            "prograde"
-          ],
-          "exported": true,
-          "lineCount": 19
-        },
-        {
-          "name": "horizon_radius_over_M",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 4
-        },
-        {
-          "name": "notebook_isco_radius_over_M",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 8
-        },
-        {
-          "name": "notebook_isco_radius_si",
-          "params": [
-            "mass",
-            "a"
-          ],
-          "exported": true,
-          "lineCount": 4
-        },
-        {
-          "name": "chord_isco_radius_over_M",
-          "params": [
-            "a"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 4
-        },
-        {
-          "name": "percent_error",
-          "params": [
-            "approx",
-            "exact"
-          ],
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "validate",
-          "params": [
-            "verbose"
-          ],
-          "returnType": "dict",
-          "exported": true,
-          "lineCount": 76
-        },
-        {
-          "name": "error_budget",
-          "params": [
-            "a_max",
-            "n"
-          ],
-          "returnType": "dict",
-          "exported": true,
-          "lineCount": 34
-        },
-        {
-          "name": "print_table",
-          "params": [
-            "mass_msun"
-          ],
-          "returnType": "None",
-          "exported": true,
-          "lineCount": 47
-        },
-        {
-          "name": "make_figure",
-          "params": [
-            "budget",
-            "output_png"
-          ],
-          "returnType": "None",
-          "exported": true,
-          "lineCount": 135
-        },
-        {
-          "name": "write_csv",
-          "params": [
-            "rows",
-            "path"
-          ],
-          "returnType": "None",
-          "exported": true,
-          "lineCount": 6
-        },
-        {
-          "name": "main",
-          "params": [],
-          "returnType": "None",
-          "exported": true,
-          "lineCount": 65
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "argparse",
-          "specifiers": [
-            "argparse"
-          ]
-        },
-        {
-          "source": "csv",
-          "specifiers": [
-            "csv"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "const"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "u"
-          ]
-        }
-      ],
-      "exports": [
-        "_check_spin",
-        "z1",
-        "z2",
-        "isco_radius_over_M",
-        "isco_radius_over_M_array",
-        "isco_radius_si",
-        "horizon_radius_over_M",
-        "notebook_isco_radius_over_M",
-        "notebook_isco_radius_si",
-        "chord_isco_radius_over_M",
-        "percent_error",
-        "validate",
-        "error_budget",
-        "print_table",
-        "make_figure",
-        "write_csv",
-        "main"
-      ],
-      "totalLines": 571,
-      "hasStructuralAnalysis": true
+      "contentHash": "0a0da30223ef5118ae7dfa70430245f7134b93423678ec4b97ef407900ba9f14"
     },
     "research/projects/black-holes/README.md": {
-      "filePath": "research/projects/black-holes/README.md",
-      "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 31,
-      "hasStructuralAnalysis": false
+      "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208"
     },
     "research/projects/black-holes/data/black_holes.sqlite": {
-      "filePath": "research/projects/black-holes/data/black_holes.sqlite",
-      "contentHash": "7484ce055e81abd6ee291ea26d5892743cf947453ba9d61927b506aa305224d4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 20463,
-      "hasStructuralAnalysis": false
+      "contentHash": "7484ce055e81abd6ee291ea26d5892743cf947453ba9d61927b506aa305224d4"
     },
     "research/projects/black-holes/reports/latest.md": {
-      "filePath": "research/projects/black-holes/reports/latest.md",
-      "contentHash": "3177f780f6d3f455a3bb2b4a686d5202636a7ff4a7e5e12eb18fe6fa98a7b706",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 19,
-      "hasStructuralAnalysis": false
+      "contentHash": "3177f780f6d3f455a3bb2b4a686d5202636a7ff4a7e5e12eb18fe6fa98a7b706"
     },
     "research/projects/black-holes/scripts/update_gwosc.py": {
-      "filePath": "research/projects/black-holes/scripts/update_gwosc.py",
-      "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02",
-      "functions": [
-        {
-          "name": "main",
-          "params": [],
-          "exported": true,
-          "lineCount": 51
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "datetime",
-          "specifiers": [
-            "datetime",
-            "timezone"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "json",
-          "specifiers": [
-            "json"
-          ]
-        },
-        {
-          "source": "sqlite3",
-          "specifiers": [
-            "sqlite3"
-          ]
-        },
-        {
-          "source": "requests",
-          "specifiers": [
-            "requests"
-          ]
-        },
-        {
-          "source": "pandas",
-          "specifiers": [
-            "pd"
-          ]
-        },
-        {
-          "source": "matplotlib",
-          "specifiers": [
-            "matplotlib"
-          ]
-        },
-        {
-          "source": "matplotlib.pyplot",
-          "specifiers": [
-            "plt"
-          ]
-        }
-      ],
-      "exports": [
-        "main"
-      ],
-      "totalLines": 70,
-      "hasStructuralAnalysis": true
+      "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02"
     },
     "research/projects/black-holes/scripts/update_heasarc_candidates.py": {
-      "filePath": "research/projects/black-holes/scripts/update_heasarc_candidates.py",
-      "contentHash": "fc41918b2bb0058b03d3cf7db045ede397be2018f643e54340b04ebd9bf2dfc6",
-      "functions": [
-        {
-          "name": "tap",
-          "params": [
-            "query"
-          ],
-          "exported": true,
-          "lineCount": 4
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "io",
-          "specifiers": [
-            "BytesIO"
-          ]
-        },
-        {
-          "source": "requests",
-          "specifiers": [
-            "requests"
-          ]
-        },
-        {
-          "source": "astropy.table",
-          "specifiers": [
-            "Table"
-          ]
-        }
-      ],
-      "exports": [
-        "tap"
-      ],
-      "totalLines": 16,
-      "hasStructuralAnalysis": true
+      "contentHash": "fc41918b2bb0058b03d3cf7db045ede397be2018f643e54340b04ebd9bf2dfc6"
     },
     "research/projects/exoplanets/data/processed/exoplanets.csv": {
-      "filePath": "research/projects/exoplanets/data/processed/exoplanets.csv",
-      "contentHash": "3ef73896cbbc1aa95926c2ef6dae269349ec6faa569e861d8336be17c752ab73",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 6453,
-      "hasStructuralAnalysis": false
+      "contentHash": "3ef73896cbbc1aa95926c2ef6dae269349ec6faa569e861d8336be17c752ab73"
     },
     "research/projects/exoplanets/data/processed/hz_scale_heights.csv": {
-      "filePath": "research/projects/exoplanets/data/processed/hz_scale_heights.csv",
-      "contentHash": "9d88550483f6ed628e77b5059ea46b0438aff2a1d582a7041808e7529745cdee",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 23,
-      "hasStructuralAnalysis": false
+      "contentHash": "9d88550483f6ed628e77b5059ea46b0438aff2a1d582a7041808e7529745cdee"
     },
     "research/projects/exoplanets/data/raw/exoplanets_confirmed.csv": {
-      "filePath": "research/projects/exoplanets/data/raw/exoplanets_confirmed.csv",
-      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 6453,
-      "hasStructuralAnalysis": false
+      "contentHash": "29fb364fbc0d7f80620d190c167809a7e40d64105d10f8160d23adb278869bf1"
     },
     "research/projects/exoplanets/models/derivations.py": {
-      "filePath": "research/projects/exoplanets/models/derivations.py",
-      "contentHash": "abecf07912d3d4f294c47b48434e341784c56d78852a273a0153d2c385a5feae",
-      "functions": [
-        {
-          "name": "derive_kepler_third_law",
-          "params": [],
-          "exported": true,
-          "lineCount": 37
-        },
-        {
-          "name": "derive_atmospheric_escape",
-          "params": [],
-          "exported": true,
-          "lineCount": 61
-        },
-        {
-          "name": "derive_stellar_density_from_transit",
-          "params": [],
-          "exported": true,
-          "lineCount": 32
-        },
-        {
-          "name": "derive_rv_semi_amplitude",
-          "params": [],
-          "exported": true,
-          "lineCount": 30
-        },
-        {
-          "name": "derive_kopparapu_hz",
-          "params": [],
-          "exported": true,
-          "lineCount": 26
-        },
-        {
-          "name": "derive_scale_height",
-          "params": [],
-          "exported": true,
-          "lineCount": 25
-        },
-        {
-          "name": "run_all",
-          "params": [],
-          "exported": true,
-          "lineCount": 2
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "sympy",
-          "specifiers": [
-            "sp"
-          ]
-        }
-      ],
-      "exports": [
-        "derive_kepler_third_law",
-        "derive_atmospheric_escape",
-        "derive_stellar_density_from_transit",
-        "derive_rv_semi_amplitude",
-        "derive_kopparapu_hz",
-        "derive_scale_height",
-        "run_all"
-      ],
-      "totalLines": 267,
-      "hasStructuralAnalysis": true
+      "contentHash": "abecf07912d3d4f294c47b48434e341784c56d78852a273a0153d2c385a5feae"
     },
     "research/projects/exoplanets/models/equations.py": {
-      "filePath": "research/projects/exoplanets/models/equations.py",
-      "contentHash": "7d4465195ebbc9cb242a0f01781192e3f42d8538422e01d732d81b653e8ff6ca",
-      "functions": [
-        {
-          "name": "kepler_period",
-          "params": [
-            "a_m",
-            "M_star_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "kepler_semi_major_axis",
-          "params": [
-            "P_s",
-            "M_star_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "transit_depth",
-          "params": [
-            "R_p_m",
-            "R_star_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "transit_duration",
-          "params": [
-            "P_s",
-            "R_star_m",
-            "a_m",
-            "b"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "habitable_zone_distances",
-          "params": [
-            "L_star_W",
-            "T_eff_K"
-          ],
-          "returnType": "dict",
-          "exported": true,
-          "lineCount": 22
-        },
-        {
-          "name": "tidal_heating_power",
-          "params": [
-            "M_p_kg",
-            "R_p_m",
-            "a_m",
-            "e",
-            "k2",
-            "Q",
-            "M_star_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 17
-        },
-        {
-          "name": "jeans_escape_parameter",
-          "params": [
-            "v_esc_ms",
-            "v_th_ms"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "thermal_velocity",
-          "params": [
-            "T_K",
-            "m_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "escape_velocity",
-          "params": [
-            "M_kg",
-            "R_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "scale_height",
-          "params": [
-            "T_K",
-            "mu",
-            "g_ms2"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "transmission_depth",
-          "params": [
-            "R_p_m",
-            "H_m",
-            "R_star_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "mass_radius_rocky",
-          "params": [
-            "M_earth"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "equilibrium_temperature",
-          "params": [
-            "T_star_K",
-            "R_star_m",
-            "a_m",
-            "albedo"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 5
-        },
-        {
-          "name": "roche_limit",
-          "params": [
-            "M_star_kg",
-            "rho_planet_kgm3"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "hill_radius",
-          "params": [
-            "a_m",
-            "M_p_kg",
-            "M_star_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "orbital_velocity",
-          "params": [
-            "a_m",
-            "M_star_kg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "density",
-          "params": [
-            "M_kg",
-            "R_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "surface_gravity",
-          "params": [
-            "M_kg",
-            "R_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 3
-        },
-        {
-          "name": "energy_limited_escape_rate",
-          "params": [
-            "R_p_m",
-            "M_p_kg",
-            "F_XUV_Wm2",
-            "epsilon",
-            "K"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 22
-        },
-        {
-          "name": "roche_lobe_factor",
-          "params": [
-            "M_p_kg",
-            "M_star_kg",
-            "a_m",
-            "R_p_m"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 11
-        },
-        {
-          "name": "stellar_density_from_transit",
-          "params": [
-            "P_s",
-            "T_s"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 12
-        },
-        {
-          "name": "rv_semi_amplitude",
-          "params": [
-            "M_p_kg",
-            "M_star_kg",
-            "P_s",
-            "e",
-            "i_deg"
-          ],
-          "returnType": "float",
-          "exported": true,
-          "lineCount": 16
-        },
-        {
-          "name": "kopparapu_hz_flag",
-          "params": [
-            "pl_insol",
-            "st_teff"
-          ],
-          "returnType": "bool",
-          "exported": true,
-          "lineCount": 20
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        }
-      ],
-      "exports": [
-        "kepler_period",
-        "kepler_semi_major_axis",
-        "transit_depth",
-        "transit_duration",
-        "habitable_zone_distances",
-        "tidal_heating_power",
-        "jeans_escape_parameter",
-        "thermal_velocity",
-        "escape_velocity",
-        "scale_height",
-        "transmission_depth",
-        "mass_radius_rocky",
-        "equilibrium_temperature",
-        "roche_limit",
-        "hill_radius",
-        "orbital_velocity",
-        "density",
-        "surface_gravity",
-        "energy_limited_escape_rate",
-        "roche_lobe_factor",
-        "stellar_density_from_transit",
-        "rv_semi_amplitude",
-        "kopparapu_hz_flag"
-      ],
-      "totalLines": 261,
-      "hasStructuralAnalysis": true
+      "contentHash": "7d4465195ebbc9cb242a0f01781192e3f42d8538422e01d732d81b653e8ff6ca"
     },
     "research/projects/exoplanets/notebooks/01_exoplanet_catalog.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/01_exoplanet_catalog.ipynb",
-      "contentHash": "d7fd4ceb0a6607568cdfb608f180acff15679305516f5d67b9e5db0c675f6042",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 8857,
-      "hasStructuralAnalysis": false
+      "contentHash": "4c520ff2ca00bf1e08aeaf327dfa3bd3e6731ed05190ac91cc6f992bad334ef4"
     },
     "research/projects/exoplanets/notebooks/02_detection_methods.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/02_detection_methods.ipynb",
-      "contentHash": "56f90386f2e6cd3c00d2c98c966e21311c3a544711b1b091f5983be68b73441d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 8837,
-      "hasStructuralAnalysis": false
+      "contentHash": "f02ce674e92ecaf2fd6539339b4ccaf8e5b18922785614dff182c7743714273c"
     },
     "research/projects/exoplanets/notebooks/03_habitable_zone.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/03_habitable_zone.ipynb",
-      "contentHash": "bbcdd2c3fa1367323c4e5667bff6dcdebda3f1d8803aa8580599168749782ff9",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 11755,
-      "hasStructuralAnalysis": false
+      "contentHash": "9ccfb23c6287a231781d211ba2cd3a18d20a4ada6e366436b3184e3bfa431872"
     },
     "research/projects/exoplanets/notebooks/04_orbital_dynamics.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/04_orbital_dynamics.ipynb",
-      "contentHash": "ebff5d63b4564550c8c4dace16c1652de89e7b50929074fa696eb308bb5e2f75",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 1822,
-      "hasStructuralAnalysis": false
+      "contentHash": "1c3ee0d0298f98d665c5aa9871f828e6a63d76bcc25642a9266807ec7aac9966"
     },
     "research/projects/exoplanets/notebooks/05_atmospheric_escape.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/05_atmospheric_escape.ipynb",
-      "contentHash": "d3efd030bcf3aa2c4e52253e0bd0d1dd0f602c5059d21b99ed2e145e822824e8",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 76,
-      "hasStructuralAnalysis": false
+      "contentHash": "aed2d89b1fe6f16693f5cffa90b18b9c03bbb2819fd341f0051757c7d5fc0870"
     },
     "research/projects/exoplanets/notebooks/06_atmospheric_characterization.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/06_atmospheric_characterization.ipynb",
-      "contentHash": "a74fc2cdccc592d381753e936337c5a779a25782f8130df0dd29e62d2c37bb8f",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 941,
-      "hasStructuralAnalysis": false
+      "contentHash": "e9d417f63c524a4cf479bfc1332e831b67a49bc88e75d57b73f946f03314fd4d"
     },
     "research/projects/exoplanets/notebooks/07_demographics.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/07_demographics.ipynb",
-      "contentHash": "479f94ea9d86300d8fb578ebf253c2954a54ec356706f29603d9b09f184a688d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 4491,
-      "hasStructuralAnalysis": false
+      "contentHash": "256ad0443e25f971e9881332a31d30445bf823ca2afc2646c4125f10901d5d5a"
     },
     "research/projects/exoplanets/notebooks/08_orbital_stability.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/08_orbital_stability.ipynb",
-      "contentHash": "9a93cb02bbf8bc622849aa852470fe341c5de122c4b79d995aab01175afeff73",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 988,
-      "hasStructuralAnalysis": false
+      "contentHash": "0fae986cd2dc34eae3beda117ae182989fed33e6752ba598d32eb95dd18ccb56"
     },
     "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb",
-      "contentHash": "8a4d10d5e1b16b404dd2be043028b7d1ccd5c96aee5afbbadf9a22441c75421a",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 946,
-      "hasStructuralAnalysis": false
+      "contentHash": "59c1280f9e764e735964ada36969aa48baf1933a48ebc09685c385ca358a3a6f"
     },
     "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb",
-      "contentHash": "257f6bf5f843afce9844790d07ecfa9460a706683d4fd99fbbf50bcde2320520",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 2863,
-      "hasStructuralAnalysis": false
+      "contentHash": "23fcc1e63370d66c53d5cb009b0dac3bc34bedc4e997b348a39c5752e6d765a2"
     },
     "research/projects/exoplanets/notebooks/11_atmospheric_retrieval.ipynb": {
-      "filePath": "research/projects/exoplanets/notebooks/11_atmospheric_retrieval.ipynb",
-      "contentHash": "1baa4be15967e4d4eaf74fed2326865422e074deadaee12dfec2114df9e6188c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 942,
-      "hasStructuralAnalysis": false
+      "contentHash": "a89a29f1c1c3adb9ebb28198fa6f4d867c6ca3320fe6f71cee0ebd81ebdcd262"
     },
     "research/projects/exoplanets/premium/figures/exoplanet_hz.html": {
-      "filePath": "research/projects/exoplanets/premium/figures/exoplanet_hz.html",
-      "contentHash": "931d71d2aa27a49a5e95ea686b3aaf53b60f9cbbe4473a23efd66694407cde1f",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 11,
-      "hasStructuralAnalysis": false
+      "contentHash": "931d71d2aa27a49a5e95ea686b3aaf53b60f9cbbe4473a23efd66694407cde1f"
     },
     "research/projects/exoplanets/premium/figures/exoplanet_mass_radius.html": {
-      "filePath": "research/projects/exoplanets/premium/figures/exoplanet_mass_radius.html",
-      "contentHash": "c9efbd3157c5c3bf5e1af2f750777406fd409221bd48a666b9ff606ab8416444",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 11,
-      "hasStructuralAnalysis": false
+      "contentHash": "c9efbd3157c5c3bf5e1af2f750777406fd409221bd48a666b9ff606ab8416444"
     },
     "research/projects/exoplanets/premium/theory_atmospheric_escape.md": {
-      "filePath": "research/projects/exoplanets/premium/theory_atmospheric_escape.md",
-      "contentHash": "b09640b7f4f5055820d08c42d0d18e35cba698b851d02ee6e81656f9480aa966",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 104,
-      "hasStructuralAnalysis": false
+      "contentHash": "b09640b7f4f5055820d08c42d0d18e35cba698b851d02ee6e81656f9480aa966"
     },
     "research/projects/exoplanets/premium/theory_demographics.md": {
-      "filePath": "research/projects/exoplanets/premium/theory_demographics.md",
-      "contentHash": "e2a7016c0d24f1848d392114d0259962a9f37a1c1a00b0f4fb1643f51fd4973d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 34,
-      "hasStructuralAnalysis": false
+      "contentHash": "e2a7016c0d24f1848d392114d0259962a9f37a1c1a00b0f4fb1643f51fd4973d"
     },
     "research/projects/exoplanets/premium/theory_detection_methods.md": {
-      "filePath": "research/projects/exoplanets/premium/theory_detection_methods.md",
-      "contentHash": "2fefd7861b9948854b5a897e317b5b1e629c3e917174e9807e2a8c085696f7e6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 39,
-      "hasStructuralAnalysis": false
+      "contentHash": "2fefd7861b9948854b5a897e317b5b1e629c3e917174e9807e2a8c085696f7e6"
     },
     "research/projects/exoplanets/premium/theory_habitability.md": {
-      "filePath": "research/projects/exoplanets/premium/theory_habitability.md",
-      "contentHash": "f6d06539fb748146702b76f6a3df1323bd9a6c77dd888bd3e554d41354ef39ff",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 93,
-      "hasStructuralAnalysis": false
+      "contentHash": "f6d06539fb748146702b76f6a3df1323bd9a6c77dd888bd3e554d41354ef39ff"
     },
     "research/projects/exoplanets/premium/theory_orbital_dynamics.md": {
-      "filePath": "research/projects/exoplanets/premium/theory_orbital_dynamics.md",
-      "contentHash": "c32cae3e04ee40c7788e0b60e192680aa0f36081edb30996c4a8364984095895",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 88,
-      "hasStructuralAnalysis": false
+      "contentHash": "c32cae3e04ee40c7788e0b60e192680aa0f36081edb30996c4a8364984095895"
     },
     "research/projects/exoplanets/reports/demographics.md": {
-      "filePath": "research/projects/exoplanets/reports/demographics.md",
-      "contentHash": "f5475de650245653abfba226f8902a986fbbb22fb7933a09444335df95e3b630",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 34,
-      "hasStructuralAnalysis": false
+      "contentHash": "f5475de650245653abfba226f8902a986fbbb22fb7933a09444335df95e3b630"
     },
     "research/projects/exoplanets/reports/exoplanet_derivations_report.md": {
-      "filePath": "research/projects/exoplanets/reports/exoplanet_derivations_report.md",
-      "contentHash": "084675e729218b8c1e8f60a0229506816e33b4ac9e69440cab4b4f46782fbc41",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 177,
-      "hasStructuralAnalysis": false
+      "contentHash": "084675e729218b8c1e8f60a0229506816e33b4ac9e69440cab4b4f46782fbc41"
     },
     "research/projects/exoplanets/results/exoplanet_derivation_checks.json": {
-      "filePath": "research/projects/exoplanets/results/exoplanet_derivation_checks.json",
-      "contentHash": "8b781ce7cd14b3bb909d5287739f1a6a5e8cbb7ffeae3fa4636f85ff5836d70e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 298,
-      "hasStructuralAnalysis": false
+      "contentHash": "8b781ce7cd14b3bb909d5287739f1a6a5e8cbb7ffeae3fa4636f85ff5836d70e"
     },
     "research/projects/exoplanets/scripts/download_exoplanets.py": {
-      "filePath": "research/projects/exoplanets/scripts/download_exoplanets.py",
-      "contentHash": "1ba3af44ec8eb7591fbbf7f93f56791d43a2ca4f1fe5ad43484f5774bd692d56",
-      "functions": [],
-      "classes": [],
-      "imports": [
-        {
-          "source": "urllib.request",
-          "specifiers": [
-            "urllib.request"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "urllib.parse",
-          "specifiers": [
-            "urllib.parse"
-          ]
-        },
-        {
-          "source": "csv",
-          "specifiers": [
-            "csv"
-          ]
-        }
-      ],
-      "exports": [],
-      "totalLines": 36,
-      "hasStructuralAnalysis": true
+      "contentHash": "1ba3af44ec8eb7591fbbf7f93f56791d43a2ca4f1fe5ad43484f5774bd692d56"
     },
     "research/projects/exoplanets/scripts/process_exoplanets.py": {
-      "filePath": "research/projects/exoplanets/scripts/process_exoplanets.py",
-      "contentHash": "279fc6c559952b12c84c4f35d4d5e0bcf8e638d4e027f9ea06db2614414c2002",
-      "functions": [
-        {
-          "name": "in_hz",
-          "params": [
-            "row"
-          ],
-          "exported": true,
-          "lineCount": 10
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "pandas",
-          "specifiers": [
-            "pd"
-          ]
-        },
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        }
-      ],
-      "exports": [
-        "in_hz"
-      ],
-      "totalLines": 56,
-      "hasStructuralAnalysis": true
+      "contentHash": "279fc6c559952b12c84c4f35d4d5e0bcf8e638d4e027f9ea06db2614414c2002"
     },
     "research/projects/exoplanets/scripts/verify_formulas.py": {
-      "filePath": "research/projects/exoplanets/scripts/verify_formulas.py",
-      "contentHash": "d14ff71e8f70f3973d62818833cad81f8d45c25fa19209f3ee2730ce028bb364",
-      "functions": [
-        {
-          "name": "numeric_checks",
-          "params": [],
-          "exported": true,
-          "lineCount": 189
-        },
-        {
-          "name": "real_data_checks",
-          "params": [],
-          "exported": true,
-          "lineCount": 145
-        },
-        {
-          "name": "main",
-          "params": [],
-          "exported": true,
-          "lineCount": 111
-        }
-      ],
-      "classes": [],
-      "imports": [
-        {
-          "source": "json",
-          "specifiers": [
-            "json"
-          ]
-        },
-        {
-          "source": "sys",
-          "specifiers": [
-            "sys"
-          ]
-        },
-        {
-          "source": "time",
-          "specifiers": [
-            "time"
-          ]
-        },
-        {
-          "source": "datetime",
-          "specifiers": [
-            "datetime",
-            "timezone"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "numpy",
-          "specifiers": [
-            "np"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "const"
-          ]
-        },
-        {
-          "source": "astropy",
-          "specifiers": [
-            "u"
-          ]
-        },
-        {
-          "source": "equations",
-          "specifiers": [
-            "E"
-          ]
-        },
-        {
-          "source": "derivations",
-          "specifiers": [
-            "D"
-          ]
-        }
-      ],
-      "exports": [
-        "numeric_checks",
-        "real_data_checks",
-        "main"
-      ],
-      "totalLines": 493,
-      "hasStructuralAnalysis": true
+      "contentHash": "d14ff71e8f70f3973d62818833cad81f8d45c25fa19209f3ee2730ce028bb364"
     },
     "research/scripts/check_environment.py": {
-      "filePath": "research/scripts/check_environment.py",
-      "contentHash": "abed81860b4de83685671c1468d73e6d344143d517b5e68d86a263f7cc5cf050",
-      "functions": [],
-      "classes": [],
-      "imports": [
-        {
-          "source": "importlib.metadata",
-          "specifiers": [
-            "PackageNotFoundError",
-            "version"
-          ]
-        },
-        {
-          "source": "pathlib",
-          "specifiers": [
-            "Path"
-          ]
-        },
-        {
-          "source": "sys",
-          "specifiers": [
-            "sys"
-          ]
-        }
-      ],
-      "exports": [],
-      "totalLines": 15,
-      "hasStructuralAnalysis": true
+      "contentHash": "abed81860b4de83685671c1468d73e6d344143d517b5e68d86a263f7cc5cf050"
     },
     "research/wiki/Atmospheric Characterization.md": {
-      "filePath": "research/wiki/Atmospheric Characterization.md",
-      "contentHash": "91c5be402790ae521fae4b71f3829e8f9fe10354680d0cd7c5f94a945c79320c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 49,
-      "hasStructuralAnalysis": false
+      "contentHash": "91c5be402790ae521fae4b71f3829e8f9fe10354680d0cd7c5f94a945c79320c"
     },
     "research/wiki/Black Hole Accretion.md": {
-      "filePath": "research/wiki/Black Hole Accretion.md",
-      "contentHash": "1091f8bd22cdea6dfa4533abb8e91253e0a54409e3890c02e739a3ea0b7c515b",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 35,
-      "hasStructuralAnalysis": false
+      "contentHash": "1091f8bd22cdea6dfa4533abb8e91253e0a54409e3890c02e739a3ea0b7c515b"
     },
     "research/wiki/Christoffel Symbols.md": {
-      "filePath": "research/wiki/Christoffel Symbols.md",
-      "contentHash": "948e2ac024e67b6bb7faadaa2b255f007be3577131e8e41edd5d0f5e29bbd2c1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 46,
-      "hasStructuralAnalysis": false
+      "contentHash": "948e2ac024e67b6bb7faadaa2b255f007be3577131e8e41edd5d0f5e29bbd2c1"
     },
     "research/wiki/Detection Methods.md": {
-      "filePath": "research/wiki/Detection Methods.md",
-      "contentHash": "588178fb3b872436a07ea33f1bc6511c62e6a1c9caf122a39fc77281765fde74",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 48,
-      "hasStructuralAnalysis": false
+      "contentHash": "588178fb3b872436a07ea33f1bc6511c62e6a1c9caf122a39fc77281765fde74"
     },
     "research/wiki/Early Supermassive Black Hole Growth.md": {
-      "filePath": "research/wiki/Early Supermassive Black Hole Growth.md",
-      "contentHash": "fed18137c6ec2e51b4626e85163e1b279e0c0bf5ce4e7445cf0dd2086e0a30db",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 44,
-      "hasStructuralAnalysis": false
+      "contentHash": "fed18137c6ec2e51b4626e85163e1b279e0c0bf5ce4e7445cf0dd2086e0a30db"
     },
     "research/wiki/Exoplanets.md": {
-      "filePath": "research/wiki/Exoplanets.md",
-      "contentHash": "dc0b216b7431214932e43c984cf23747747993b7781b44271be25ba3c3cb63a7",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 52,
-      "hasStructuralAnalysis": false
+      "contentHash": "dc0b216b7431214932e43c984cf23747747993b7781b44271be25ba3c3cb63a7"
     },
     "research/wiki/Fisher Information Matrix.md": {
-      "filePath": "research/wiki/Fisher Information Matrix.md",
-      "contentHash": "08de024f8a141f3593a4bfd6a44ba94bbdd0de66f1778911d85374d3ddacea71",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 41,
-      "hasStructuralAnalysis": false
+      "contentHash": "08de024f8a141f3593a4bfd6a44ba94bbdd0de66f1778911d85374d3ddacea71"
     },
     "research/wiki/Geodesic Equations.md": {
-      "filePath": "research/wiki/Geodesic Equations.md",
-      "contentHash": "a79a99b2947654a0ab1fc4774a201c5204cdda1f4a1aed09f48840c04450ae43",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 46,
-      "hasStructuralAnalysis": false
+      "contentHash": "a79a99b2947654a0ab1fc4774a201c5204cdda1f4a1aed09f48840c04450ae43"
     },
     "research/wiki/Gravitational Wave Analysis.md": {
-      "filePath": "research/wiki/Gravitational Wave Analysis.md",
-      "contentHash": "8beb227e2b930752b7b645a53487454ed8ee3c5ce534330ada31634491ca819e",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 36,
-      "hasStructuralAnalysis": false
+      "contentHash": "8beb227e2b930752b7b645a53487454ed8ee3c5ce534330ada31634491ca819e"
     },
     "research/wiki/Gravitational-Wave Catalogs.md": {
-      "filePath": "research/wiki/Gravitational-Wave Catalogs.md",
-      "contentHash": "6164b37bd93c15509faa489d459f4822eed0e086570c2f240a360a55a8fa834d",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 37,
-      "hasStructuralAnalysis": false
+      "contentHash": "6164b37bd93c15509faa489d459f4822eed0e086570c2f240a360a55a8fa834d"
     },
     "research/wiki/Habitability.md": {
-      "filePath": "research/wiki/Habitability.md",
-      "contentHash": "ff69e1b66007e44dd257c2050e81e02aad38b63ebd3bd5124276ea99fe41ddd6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 51,
-      "hasStructuralAnalysis": false
+      "contentHash": "ff69e1b66007e44dd257c2050e81e02aad38b63ebd3bd5124276ea99fe41ddd6"
     },
     "research/wiki/Hawking Radiation.md": {
-      "filePath": "research/wiki/Hawking Radiation.md",
-      "contentHash": "059a857060da5f00e51033266a4552f935810fe12a577f61f6d9d62288367aa8",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 44,
-      "hasStructuralAnalysis": false
+      "contentHash": "059a857060da5f00e51033266a4552f935810fe12a577f61f6d9d62288367aa8"
     },
     "research/wiki/Kerr Metric.md": {
-      "filePath": "research/wiki/Kerr Metric.md",
-      "contentHash": "b67df4dcd8cd02f1bc9f7919dcc7851e37089b80c44e15047be69281293c27b1",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 59,
-      "hasStructuralAnalysis": false
+      "contentHash": "b67df4dcd8cd02f1bc9f7919dcc7851e37089b80c44e15047be69281293c27b1"
     },
     "research/wiki/Kerr-Newman Metric.md": {
-      "filePath": "research/wiki/Kerr-Newman Metric.md",
-      "contentHash": "0b20b13f079340ee74d3104119e223b3a01096c25f4cc19f4e49f58f19bde49c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 50,
-      "hasStructuralAnalysis": false
+      "contentHash": "0b20b13f079340ee74d3104119e223b3a01096c25f4cc19f4e49f58f19bde49c"
     },
     "research/wiki/Quantum Gravity.md": {
-      "filePath": "research/wiki/Quantum Gravity.md",
-      "contentHash": "a59642c4f9b4fcc91022982f8306db8edddef98ca6b3e8bb3884e63c936fb1b4",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 40,
-      "hasStructuralAnalysis": false
+      "contentHash": "a59642c4f9b4fcc91022982f8306db8edddef98ca6b3e8bb3884e63c936fb1b4"
     },
     "research/wiki/Raychaudhuri Equation.md": {
-      "filePath": "research/wiki/Raychaudhuri Equation.md",
-      "contentHash": "7cb6dc20f443246d126d80988cebd0ec1422c7ab8431016db17c564f84a94133",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 47,
-      "hasStructuralAnalysis": false
+      "contentHash": "7cb6dc20f443246d126d80988cebd0ec1422c7ab8431016db17c564f84a94133"
     },
     "research/wiki/Reissner-Nordstr\u00f6m Metric.md": {
-      "filePath": "research/wiki/Reissner-Nordstr\u00f6m Metric.md",
-      "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 51,
-      "hasStructuralAnalysis": false
+      "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489"
     },
     "research/wiki/Remnant Energetics.md": {
-      "filePath": "research/wiki/Remnant Energetics.md",
-      "contentHash": "d6ace6a98ba7995f9f6ac0a639b932239f519f2c171145e741a60bef083291a2",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 96,
-      "hasStructuralAnalysis": false
+      "contentHash": "d6ace6a98ba7995f9f6ac0a639b932239f519f2c171145e741a60bef083291a2"
     },
     "research/wiki/Schwarzschild Metric.md": {
-      "filePath": "research/wiki/Schwarzschild Metric.md",
-      "contentHash": "9d61c468a5408f140f429641e12549cf7fa830c140ca3c8017ec023922694d99",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 58,
-      "hasStructuralAnalysis": false
+      "contentHash": "9d61c468a5408f140f429641e12549cf7fa830c140ca3c8017ec023922694d99"
     },
     "research/wiki/White Holes.md": {
-      "filePath": "research/wiki/White Holes.md",
-      "contentHash": "31b1f80c60a968167320d24e8c9b4a98c791f67c94bf369294416926a66689c7",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 43,
-      "hasStructuralAnalysis": false
+      "contentHash": "31b1f80c60a968167320d24e8c9b4a98c791f67c94bf369294416926a66689c7"
     },
     "research/wiki/Wormholes.md": {
-      "filePath": "research/wiki/Wormholes.md",
-      "contentHash": "0dac8ad50911a8cdc2edc5338014da5a5888c058c07fcba595df62a4a7684dc0",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 55,
-      "hasStructuralAnalysis": false
+      "contentHash": "0dac8ad50911a8cdc2edc5338014da5a5888c058c07fcba595df62a4a7684dc0"
     },
     "research/wiki/index.md": {
       "contentHash": "ed9a135491269220fca23d9eb35460f9bd86e773c071f99c7591147c17300684"
     },
     "simulations/gw_strain.fits": {
-      "filePath": "simulations/gw_strain.fits",
-      "contentHash": "46b3258690d20fbef15caba647f0d6c6bd7b1ec5caabbf4a5773e613645706d6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 649,
-      "hasStructuralAnalysis": false
+      "contentHash": "46b3258690d20fbef15caba647f0d6c6bd7b1ec5caabbf4a5773e613645706d6"
     },
     "simulations/nbody_snapshot.fits": {
-      "filePath": "simulations/nbody_snapshot.fits",
-      "contentHash": "af5ce56ef7129f4881514f1cf481ba2651b2f1a5bf7d631bbb516c4ea0781e5c",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 223,
-      "hasStructuralAnalysis": false
+      "contentHash": "af5ce56ef7129f4881514f1cf481ba2651b2f1a5bf7d631bbb516c4ea0781e5c"
     },
     "simulations/xray_spectrum.fits": {
-      "filePath": "simulations/xray_spectrum.fits",
-      "contentHash": "9e2fea4c8e46948b6efdb2652cc0d037c7248928a4c4bbc07b49ed4a31eef025",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 77,
-      "hasStructuralAnalysis": false
+      "contentHash": "9e2fea4c8e46948b6efdb2652cc0d037c7248928a4c4bbc07b49ed4a31eef025"
     },
     "start-research.sh": {
-      "filePath": "start-research.sh",
-      "contentHash": "74fb6b0280c455e37b00e7e0fdea2f853dae09debd0f1cf63a01c83e3c7399c6",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 5,
-      "hasStructuralAnalysis": false
+      "contentHash": "74fb6b0280c455e37b00e7e0fdea2f853dae09debd0f1cf63a01c83e3c7399c6"
     },
     "start.sh": {
-      "filePath": "start.sh",
-      "contentHash": "ad41f2c8bf9ca68fdca65f3dd4c194ab22c9fc560a65e590ea3f008de94e65c0",
-      "functions": [],
-      "classes": [],
-      "imports": [],
-      "exports": [],
-      "totalLines": 45,
-      "hasStructuralAnalysis": false
+      "contentHash": "ad41f2c8bf9ca68fdca65f3dd4c194ab22c9fc560a65e590ea3f008de94e65c0"
     },
     "research/wiki/Black Hole Perturbation Theory.md": {
       "contentHash": "e22e659b94051da8c60d2dc4e061b3bfde9ce0f3b41308504f9c0a3c7660dbcd"
