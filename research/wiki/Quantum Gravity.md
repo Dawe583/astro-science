@@ -21,6 +21,18 @@ m_P=\sqrt{\frac{\hbar c}{G}}, \quad T_P=\frac{m_Pc^2}{k_B}.$$
 The Schwarzschild radius and the Compton wavelength cross near $m\approx m_P/\sqrt2$,
 which is the order-of-magnitude motivation for the Planck scale.
 
+## Research result (2026-10-28)
+
+**Observational constraints.** LQG predicts discrete area spectra
+($A_{\min} \approx 5.17\,\ell_P^2$ for $j=1/2$). String theory predicts extra
+dimensions and supersymmetry. Current observations constrain but do not confirm
+either: EHT shadow (M87*) deviation < 10%, GW ringdown (GW150914) QNM
+deviation < 20%, GRB time-of-flight $E_{QG} > 10^{17}$ GeV. The LHC reaches
+$10^{-15}$ of the Planck energy; cosmic rays reach $10^{-8}$. No terrestrial
+or astrophysical experiment approaches the Planck scale.
+
+Figure: `figures/quantum_gravity_planck.png` (scale comparison + LQG area spectrum).
+
 ## Approaches
 
 Gravitational effective field theory is predictive order by order below its
