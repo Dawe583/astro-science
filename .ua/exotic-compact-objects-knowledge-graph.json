@@ -5,7 +5,7 @@
     "languages": [],
     "frameworks": [],
     "description": "Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T21:03:04.631464+01:00",
+    "analyzedAt": "2026-10-28T21:03:58.876034+01:00",
     "gitCommitHash": "5ac35b7"
   },
   "nodes": [
@@ -190,17 +190,6 @@
         "docs"
       ],
       "complexity": "complex"
-    },
-    {
-      "id": "file:premium/style.css",
-      "type": "file",
-      "name": "style.css",
-      "filePath": "premium/style.css",
-      "summary": "File at premium/style.css (skipped by extractor).",
-      "tags": [
-        "css"
-      ],
-      "complexity": "simple"
     },
     {
       "id": "document:reports/agn_demographics.md",
