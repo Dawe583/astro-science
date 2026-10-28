@@ -44,6 +44,23 @@ $J_{\rm ADM}=Ma$, $Q_{\rm ADM}=Q$. The Christodoulou–Ruffini mass formula
 splits the mass into irreducible, Coulomb, and rotational parts. The uncharged
 limit is [[Kerr Metric]]; setting $a=0$ gives [[Reissner-Nordström Metric]].
 
-See also: [[Kerr Metric]], [[Reissner-Nordström Metric]], [[Schwarzschild Metric]], [[Geodesic Equations]], [[Black Hole Accretion]]
+## Extremal limit and parameter space
 
-Categories: Black Holes, Gravity & Spacetime
+Cosmic censorship requires $M^2 \ge Q^2 + a^2$ (geometric units). The extremal
+boundary $M^2 = Q^2 + a^2$ is a quarter-circle in $(Q/M, a/M)$ space. The
+irreducible mass at extremality is $M_{\rm irr}/M = \frac{1}{2}\sqrt{2 - (Q/M)^2}$,
+giving extractable energy fractions:
+
+| Configuration | Q/M | a/M | Extractable |
+|---|---|---|---|
+| Schwarzschild | 0 | 0 | 0% |
+| Kerr extremal | 0 | 1 | 29.3% |
+| Reissner-Nordström extremal | 1 | 0 | 50.0% |
+
+Figure: `figures/kerr_newman_extremal.png` (parameter space + extractable energy contour).
+
+See also: [[Kerr-Newman ADM]], [[Black Holes]], [[Kerr Metric]], [[Reissner-Nordström Metric]]
+
+Categories: Black Holes
+
+
