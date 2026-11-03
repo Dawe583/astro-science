@@ -5,8 +5,8 @@
     "languages": [],
     "frameworks": [],
     "description": "Exotic compact objects research project.",
-    "analyzedAt": "2026-10-28T23:01:20.749688+01:00",
-    "gitCommitHash": "e6aaf54"
+    "analyzedAt": "2026-11-03T23:49:58.571536+01:00",
+    "gitCommitHash": "f7680184df6ebf6c2f761792fc1be333312b75c2"
   },
   "nodes": [
     {
@@ -21,19 +21,6 @@
         "infra"
       ],
       "complexity": "moderate"
-    },
-    {
-      "id": "document:premium/early_smbh_growth.md",
-      "type": "document",
-      "name": "early_smbh_growth.md",
-      "filePath": "premium/early_smbh_growth.md",
-      "summary": "Documentation at premium/early_smbh_growth.md (34 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "simple"
     },
     {
       "id": "document:premium/quantum_gravity.md",
@@ -179,76 +166,11 @@
       "complexity": "complex"
     },
     {
-      "id": "document:premium/theory_wormholes.md",
-      "type": "document",
-      "name": "theory_wormholes.md",
-      "filePath": "premium/theory_wormholes.md",
-      "summary": "Documentation at premium/theory_wormholes.md (571 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "document:reports/agn_demographics.md",
-      "type": "document",
-      "name": "agn_demographics.md",
-      "filePath": "reports/agn_demographics.md",
-      "summary": "Documentation at reports/agn_demographics.md (30 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "document:reports/compute_data_report.md",
       "type": "document",
       "name": "compute_data_report.md",
       "filePath": "reports/compute_data_report.md",
       "summary": "Documentation at reports/compute_data_report.md (34 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "document:reports/derivations_report.md",
-      "type": "document",
-      "name": "derivations_report.md",
-      "filePath": "reports/derivations_report.md",
-      "summary": "Documentation at reports/derivations_report.md (139 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "document:reports/exotic_discrimination.md",
-      "type": "document",
-      "name": "exotic_discrimination.md",
-      "filePath": "reports/exotic_discrimination.md",
-      "summary": "Documentation at reports/exotic_discrimination.md (58 lines).",
-      "tags": [
-        "md",
-        "markdown",
-        "docs"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "document:reports/gwosc_latest.md",
-      "type": "document",
-      "name": "gwosc_latest.md",
-      "filePath": "reports/gwosc_latest.md",
-      "summary": "Documentation at reports/gwosc_latest.md (5 lines).",
       "tags": [
         "md",
         "markdown",
@@ -342,306 +264,6 @@
       "tags": [
         "py",
         "python"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:models/derivations.py",
-      "type": "file",
-      "name": "derivations.py",
-      "filePath": "models/derivations.py",
-      "summary": "Source file derivations.py (python, 669 lines): 19 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "function:models/derivations.py:_christoffel",
-      "type": "function",
-      "name": "_christoffel",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        42,
-        62
-      ],
-      "summary": "Function _christoffel in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:_ricci",
-      "type": "function",
-      "name": "_ricci",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        65,
-        85
-      ],
-      "summary": "Function _ricci in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_schwarzschild_ricci_flatness",
-      "type": "function",
-      "name": "derive_schwarzschild_ricci_flatness",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        92,
-        118
-      ],
-      "summary": "Function derive_schwarzschild_ricci_flatness in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_photon_sphere",
-      "type": "function",
-      "name": "derive_photon_sphere",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        125,
-        157
-      ],
-      "summary": "Function derive_photon_sphere in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_isco",
-      "type": "function",
-      "name": "derive_isco",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        164,
-        193
-      ],
-      "summary": "Function derive_isco in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_kerr_horizons_ergosphere",
-      "type": "function",
-      "name": "derive_kerr_horizons_ergosphere",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        200,
-        242
-      ],
-      "summary": "Function derive_kerr_horizons_ergosphere in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_morris_thorne_exotic_density",
-      "type": "function",
-      "name": "derive_morris_thorne_exotic_density",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        249,
-        271
-      ],
-      "summary": "Function derive_morris_thorne_exotic_density in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_eddington_luminosity",
-      "type": "function",
-      "name": "derive_eddington_luminosity",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        278,
-        302
-      ],
-      "summary": "Function derive_eddington_luminosity in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_hawking_temperature",
-      "type": "function",
-      "name": "derive_hawking_temperature",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        309,
-        329
-      ],
-      "summary": "Function derive_hawking_temperature in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_friedmann_continuity",
-      "type": "function",
-      "name": "derive_friedmann_continuity",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        336,
-        405
-      ],
-      "summary": "Function derive_friedmann_continuity in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_light_deflection",
-      "type": "function",
-      "name": "derive_light_deflection",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        412,
-        427
-      ],
-      "summary": "Function derive_light_deflection in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_gw_time_to_coalescence",
-      "type": "function",
-      "name": "derive_gw_time_to_coalescence",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        434,
-        498
-      ],
-      "summary": "Function derive_gw_time_to_coalescence in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_kerr_isco_spin",
-      "type": "function",
-      "name": "derive_kerr_isco_spin",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        505,
-        529
-      ],
-      "summary": "Function derive_kerr_isco_spin in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_penrose_efficiency",
-      "type": "function",
-      "name": "derive_penrose_efficiency",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        536,
-        590
-      ],
-      "summary": "Function derive_penrose_efficiency in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_shadow_diameter",
-      "type": "function",
-      "name": "derive_shadow_diameter",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        597,
-        622
-      ],
-      "summary": "Function derive_shadow_diameter in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_kepler_third_law",
-      "type": "function",
-      "name": "derive_kepler_third_law",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        660,
-        685
-      ],
-      "summary": "Function derive_kepler_third_law in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:derive_smbh_growth",
-      "type": "function",
-      "name": "derive_smbh_growth",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        690,
-        731
-      ],
-      "summary": "Function derive_smbh_growth in derivations.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:models/derivations.py:run_all",
-      "type": "function",
-      "name": "run_all",
-      "filePath": "models/derivations.py",
-      "lineRange": [
-        752,
-        753
-      ],
-      "summary": "Function run_all in derivations.py.",
-      "tags": [
-        "python",
-        "function"
       ],
       "complexity": "simple"
     },
@@ -1560,126 +1182,6 @@
       "complexity": "simple"
     },
     {
-      "id": "file:scripts/agn_demographics.py",
-      "type": "file",
-      "name": "agn_demographics.py",
-      "filePath": "scripts/agn_demographics.py",
-      "summary": "Source file agn_demographics.py (python, 167 lines): 6 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:build",
-      "type": "function",
-      "name": "build",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        18,
-        24
-      ],
-      "summary": "Function build in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:summarise",
-      "type": "function",
-      "name": "summarise",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        27,
-        40
-      ],
-      "summary": "Function summarise in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:plot",
-      "type": "function",
-      "name": "plot",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        43,
-        86
-      ],
-      "summary": "Function plot in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:plotly_html",
-      "type": "function",
-      "name": "plotly_html",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        89,
-        135
-      ],
-      "summary": "Function plotly_html in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:report",
-      "type": "function",
-      "name": "report",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        138,
-        184
-      ],
-      "summary": "Function report in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/agn_demographics.py:main",
-      "type": "function",
-      "name": "main",
-      "filePath": "scripts/agn_demographics.py",
-      "lineRange": [
-        187,
-        197
-      ],
-      "summary": "Function main in agn_demographics.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:scripts/build_agn_mass_figure.py",
-      "type": "file",
-      "name": "build_agn_mass_figure.py",
-      "filePath": "scripts/build_agn_mass_figure.py",
-      "summary": "Source file build_agn_mass_figure.py (python, 36 lines): no top-level symbols.",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "file:scripts/build_agn_reverberation_dashboard.py",
       "type": "file",
       "name": "build_agn_reverberation_dashboard.py",
@@ -1704,63 +1206,11 @@
       "complexity": "simple"
     },
     {
-      "id": "file:scripts/build_corbet_dashboard.py",
-      "type": "file",
-      "name": "build_corbet_dashboard.py",
-      "filePath": "scripts/build_corbet_dashboard.py",
-      "summary": "Source file build_corbet_dashboard.py (python, 67 lines): no top-level symbols.",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "file:scripts/build_eht_shadow_figure.py",
-      "type": "file",
-      "name": "build_eht_shadow_figure.py",
-      "filePath": "scripts/build_eht_shadow_figure.py",
-      "summary": "Source file build_eht_shadow_figure.py (python, 40 lines): 1 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/build_eht_shadow_figure.py:shadow_diam",
-      "type": "function",
-      "name": "shadow_diam",
-      "filePath": "scripts/build_eht_shadow_figure.py",
-      "lineRange": [
-        14,
-        17
-      ],
-      "summary": "Function shadow_diam in build_eht_shadow_figure.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "file:scripts/build_gwtc_remnant_dashboard.py",
       "type": "file",
       "name": "build_gwtc_remnant_dashboard.py",
       "filePath": "scripts/build_gwtc_remnant_dashboard.py",
       "summary": "Source file build_gwtc_remnant_dashboard.py (python, 27 lines): no top-level symbols.",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:scripts/build_pta_figure.py",
-      "type": "file",
-      "name": "build_pta_figure.py",
-      "filePath": "scripts/build_pta_figure.py",
-      "summary": "Source file build_pta_figure.py (python, 44 lines): no top-level symbols.",
       "tags": [
         "py",
         "python"
@@ -2142,17 +1592,6 @@
       "complexity": "simple"
     },
     {
-      "id": "file:notebooks/25_gw_real_analysis.ipynb",
-      "type": "file",
-      "name": "25_gw_real_analysis.ipynb",
-      "filePath": "notebooks/25_gw_real_analysis.ipynb",
-      "summary": "File at notebooks/25_gw_real_analysis.ipynb (skipped by extractor).",
-      "tags": [
-        "ipynb"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "file:scripts/download_blackcat.py",
       "type": "file",
       "name": "download_blackcat.py",
@@ -2482,34 +1921,6 @@
         486
       ],
       "summary": "Function main in download_gwb.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:scripts/download_gwosc.py",
-      "type": "file",
-      "name": "download_gwosc.py",
-      "filePath": "scripts/download_gwosc.py",
-      "summary": "Source file download_gwosc.py (python, 86 lines): 1 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "function:scripts/download_gwosc.py:main",
-      "type": "function",
-      "name": "main",
-      "filePath": "scripts/download_gwosc.py",
-      "lineRange": [
-        17,
-        86
-      ],
-      "summary": "Function main in download_gwosc.py.",
       "tags": [
         "python",
         "function"
@@ -3074,130 +2485,6 @@
         597
       ],
       "summary": "Function main in download_xray_binaries.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "file:scripts/exotic_discrimination.py",
-      "type": "file",
-      "name": "exotic_discrimination.py",
-      "filePath": "scripts/exotic_discrimination.py",
-      "summary": "Source file exotic_discrimination.py (python, 238 lines): 7 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:a_for_eta",
-      "type": "function",
-      "name": "a_for_eta",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        24,
-        32
-      ],
-      "summary": "Function a_for_eta in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:build",
-      "type": "function",
-      "name": "build",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        35,
-        41
-      ],
-      "summary": "Function build in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:summarise",
-      "type": "function",
-      "name": "summarise",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        44,
-        62
-      ],
-      "summary": "Function summarise in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:plot",
-      "type": "function",
-      "name": "plot",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        65,
-        120
-      ],
-      "summary": "Function plot in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:plotly_html",
-      "type": "function",
-      "name": "plotly_html",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        123,
-        177
-      ],
-      "summary": "Function plotly_html in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:report",
-      "type": "function",
-      "name": "report",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        180,
-        262
-      ],
-      "summary": "Function report in exotic_discrimination.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/exotic_discrimination.py:main",
-      "type": "function",
-      "name": "main",
-      "filePath": "scripts/exotic_discrimination.py",
-      "lineRange": [
-        265,
-        277
-      ],
-      "summary": "Function main in exotic_discrimination.py.",
       "tags": [
         "python",
         "function"
@@ -4265,50 +3552,6 @@
       "complexity": "simple"
     },
     {
-      "id": "file:scripts/verify_formulas.py",
-      "type": "file",
-      "name": "verify_formulas.py",
-      "filePath": "scripts/verify_formulas.py",
-      "summary": "Source file verify_formulas.py (python, 404 lines): 2 function(s).",
-      "tags": [
-        "py",
-        "python"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "function:scripts/verify_formulas.py:numerical_checks",
-      "type": "function",
-      "name": "numerical_checks",
-      "filePath": "scripts/verify_formulas.py",
-      "lineRange": [
-        35,
-        346
-      ],
-      "summary": "Function numerical_checks in verify_formulas.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "function:scripts/verify_formulas.py:main",
-      "type": "function",
-      "name": "main",
-      "filePath": "scripts/verify_formulas.py",
-      "lineRange": [
-        352,
-        440
-      ],
-      "summary": "Function main in verify_formulas.py.",
-      "tags": [
-        "python",
-        "function"
-      ],
-      "complexity": "simple"
-    },
-    {
       "id": "file:tests/test_analyses.py",
       "type": "file",
       "name": "test_analyses.py",
@@ -4410,135 +3653,1381 @@
         "tex"
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/make_wormhole_figures.py",
+      "type": "file",
+      "name": "make_wormhole_figures.py",
+      "filePath": "scripts/make_wormhole_figures.py",
+      "summary": "Source file make_wormhole_figures.py (python, 374 lines): 2 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/make_wormhole_figures.py:embedding_profile",
+      "type": "function",
+      "name": "embedding_profile",
+      "filePath": "scripts/make_wormhole_figures.py",
+      "lineRange": [
+        60,
+        72
+      ],
+      "summary": "Function embedding_profile in make_wormhole_figures.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/make_wormhole_figures.py:traversal_ratio",
+      "type": "function",
+      "name": "traversal_ratio",
+      "filePath": "scripts/make_wormhole_figures.py",
+      "lineRange": [
+        75,
+        88
+      ],
+      "summary": "Function traversal_ratio in make_wormhole_figures.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/verify_formulas.py",
+      "type": "file",
+      "name": "verify_formulas.py",
+      "filePath": "scripts/verify_formulas.py",
+      "summary": "Source file verify_formulas.py (python, 565 lines): 2 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:scripts/verify_formulas.py:numerical_checks",
+      "type": "function",
+      "name": "numerical_checks",
+      "filePath": "scripts/verify_formulas.py",
+      "lineRange": [
+        35,
+        467
+      ],
+      "summary": "Function numerical_checks in verify_formulas.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/verify_formulas.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/verify_formulas.py",
+      "lineRange": [
+        473,
+        561
+      ],
+      "summary": "Function main in verify_formulas.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/early_smbh_growth.md",
+      "type": "document",
+      "name": "early_smbh_growth.md",
+      "filePath": "premium/early_smbh_growth.md",
+      "summary": "Documentation at premium/early_smbh_growth.md (61 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:premium/theory_wormhole_traversal.md",
+      "type": "document",
+      "name": "theory_wormhole_traversal.md",
+      "filePath": "premium/theory_wormhole_traversal.md",
+      "summary": "Documentation at premium/theory_wormhole_traversal.md (238 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:premium/theory_wormholes.md",
+      "type": "document",
+      "name": "theory_wormholes.md",
+      "filePath": "premium/theory_wormholes.md",
+      "summary": "Documentation at premium/theory_wormholes.md (825 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "document:reports/agn_demographics.md",
+      "type": "document",
+      "name": "agn_demographics.md",
+      "filePath": "reports/agn_demographics.md",
+      "summary": "Documentation at reports/agn_demographics.md (77 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/derivations_report.md",
+      "type": "document",
+      "name": "derivations_report.md",
+      "filePath": "reports/derivations_report.md",
+      "summary": "Documentation at reports/derivations_report.md (279 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:reports/exotic_discrimination.md",
+      "type": "document",
+      "name": "exotic_discrimination.md",
+      "filePath": "reports/exotic_discrimination.md",
+      "summary": "Documentation at reports/exotic_discrimination.md (100 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:reports/gwosc_latest.md",
+      "type": "document",
+      "name": "gwosc_latest.md",
+      "filePath": "reports/gwosc_latest.md",
+      "summary": "Documentation at reports/gwosc_latest.md (42 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:reports/wormhole_traversal.md",
+      "type": "document",
+      "name": "wormhole_traversal.md",
+      "filePath": "reports/wormhole_traversal.md",
+      "summary": "Documentation at reports/wormhole_traversal.md (141 lines).",
+      "tags": [
+        "md",
+        "markdown",
+        "docs"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:models/derivations.py",
+      "type": "file",
+      "name": "derivations.py",
+      "filePath": "models/derivations.py",
+      "summary": "Source file derivations.py (python, 1773 lines): 43 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:models/derivations.py:_christoffel",
+      "type": "function",
+      "name": "_christoffel",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        42,
+        62
+      ],
+      "summary": "Function _christoffel in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:_ricci",
+      "type": "function",
+      "name": "_ricci",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        65,
+        85
+      ],
+      "summary": "Function _ricci in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_schwarzschild_ricci_flatness",
+      "type": "function",
+      "name": "derive_schwarzschild_ricci_flatness",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        92,
+        118
+      ],
+      "summary": "Function derive_schwarzschild_ricci_flatness in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_photon_sphere",
+      "type": "function",
+      "name": "derive_photon_sphere",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        125,
+        157
+      ],
+      "summary": "Function derive_photon_sphere in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_isco",
+      "type": "function",
+      "name": "derive_isco",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        164,
+        193
+      ],
+      "summary": "Function derive_isco in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_kerr_horizons_ergosphere",
+      "type": "function",
+      "name": "derive_kerr_horizons_ergosphere",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        200,
+        242
+      ],
+      "summary": "Function derive_kerr_horizons_ergosphere in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_morris_thorne_exotic_density",
+      "type": "function",
+      "name": "derive_morris_thorne_exotic_density",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        249,
+        271
+      ],
+      "summary": "Function derive_morris_thorne_exotic_density in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_eddington_luminosity",
+      "type": "function",
+      "name": "derive_eddington_luminosity",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        278,
+        302
+      ],
+      "summary": "Function derive_eddington_luminosity in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_hawking_temperature",
+      "type": "function",
+      "name": "derive_hawking_temperature",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        309,
+        329
+      ],
+      "summary": "Function derive_hawking_temperature in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_friedmann_continuity",
+      "type": "function",
+      "name": "derive_friedmann_continuity",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        336,
+        405
+      ],
+      "summary": "Function derive_friedmann_continuity in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_light_deflection",
+      "type": "function",
+      "name": "derive_light_deflection",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        412,
+        427
+      ],
+      "summary": "Function derive_light_deflection in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_gw_time_to_coalescence",
+      "type": "function",
+      "name": "derive_gw_time_to_coalescence",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        434,
+        498
+      ],
+      "summary": "Function derive_gw_time_to_coalescence in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_kerr_isco_spin",
+      "type": "function",
+      "name": "derive_kerr_isco_spin",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        505,
+        529
+      ],
+      "summary": "Function derive_kerr_isco_spin in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_penrose_efficiency",
+      "type": "function",
+      "name": "derive_penrose_efficiency",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        536,
+        590
+      ],
+      "summary": "Function derive_penrose_efficiency in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_shadow_diameter",
+      "type": "function",
+      "name": "derive_shadow_diameter",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        597,
+        622
+      ],
+      "summary": "Function derive_shadow_diameter in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_kepler_third_law",
+      "type": "function",
+      "name": "derive_kepler_third_law",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        660,
+        685
+      ],
+      "summary": "Function derive_kepler_third_law in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_smbh_growth",
+      "type": "function",
+      "name": "derive_smbh_growth",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        690,
+        731
+      ],
+      "summary": "Function derive_smbh_growth in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:_riemann_down",
+      "type": "function",
+      "name": "_riemann_down",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        756,
+        772
+      ],
+      "summary": "Function _riemann_down in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_flare_out_embedding",
+      "type": "function",
+      "name": "derive_wormhole_flare_out_embedding",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        775,
+        845
+      ],
+      "summary": "Function derive_wormhole_flare_out_embedding in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_proper_distance_ellis",
+      "type": "function",
+      "name": "derive_wormhole_proper_distance_ellis",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        848,
+        886
+      ],
+      "summary": "Function derive_wormhole_proper_distance_ellis in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_geodesic_traversal",
+      "type": "function",
+      "name": "derive_wormhole_geodesic_traversal",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        889,
+        964
+      ],
+      "summary": "Function derive_wormhole_geodesic_traversal in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_tidal_components",
+      "type": "function",
+      "name": "derive_wormhole_tidal_components",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        967,
+        1090
+      ],
+      "summary": "Function derive_wormhole_tidal_components in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_exotic_volume_integral_ellis",
+      "type": "function",
+      "name": "derive_wormhole_exotic_volume_integral_ellis",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1093,
+        1145
+      ],
+      "summary": "Function derive_wormhole_exotic_volume_integral_ellis in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_exotic_volume_integral_phi0",
+      "type": "function",
+      "name": "derive_wormhole_exotic_volume_integral_phi0",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1148,
+        1210
+      ],
+      "summary": "Function derive_wormhole_exotic_volume_integral_phi0 in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_anec_radial_null_ellis",
+      "type": "function",
+      "name": "derive_wormhole_anec_radial_null_ellis",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1213,
+        1265
+      ],
+      "summary": "Function derive_wormhole_anec_radial_null_ellis in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:derive_wormhole_qi_throat_scale",
+      "type": "function",
+      "name": "derive_wormhole_qi_throat_scale",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1268,
+        1321
+      ],
+      "summary": "Function derive_wormhole_qi_throat_scale in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_shape_function",
+      "type": "function",
+      "name": "wormhole_shape_function",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1335,
+        1337
+      ],
+      "summary": "Function wormhole_shape_function in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_redshift_function",
+      "type": "function",
+      "name": "wormhole_redshift_function",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1340,
+        1348
+      ],
+      "summary": "Function wormhole_redshift_function in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_metric_components",
+      "type": "function",
+      "name": "wormhole_metric_components",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1351,
+        1364
+      ],
+      "summary": "Function wormhole_metric_components in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_flare_out_parameter",
+      "type": "function",
+      "name": "wormhole_flare_out_parameter",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1367,
+        1370
+      ],
+      "summary": "Function wormhole_flare_out_parameter in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_proper_distance",
+      "type": "function",
+      "name": "wormhole_proper_distance",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1373,
+        1377
+      ],
+      "summary": "Function wormhole_proper_distance in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:_traversal_integrands",
+      "type": "function",
+      "name": "_traversal_integrands",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1380,
+        1390
+      ],
+      "summary": "Function _traversal_integrands in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_traversal_proper_time",
+      "type": "function",
+      "name": "wormhole_traversal_proper_time",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1393,
+        1423
+      ],
+      "summary": "Function wormhole_traversal_proper_time in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_traversal_coordinate_time",
+      "type": "function",
+      "name": "wormhole_traversal_coordinate_time",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1426,
+        1450
+      ],
+      "summary": "Function wormhole_traversal_coordinate_time in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_tidal_acceleration",
+      "type": "function",
+      "name": "wormhole_tidal_acceleration",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1453,
+        1490
+      ],
+      "summary": "Function wormhole_tidal_acceleration in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_exotic_volume_integral_ellis",
+      "type": "function",
+      "name": "wormhole_exotic_volume_integral_ellis",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1493,
+        1496
+      ],
+      "summary": "Function wormhole_exotic_volume_integral_ellis in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_nec_zone_radius",
+      "type": "function",
+      "name": "wormhole_nec_zone_radius",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1499,
+        1506
+      ],
+      "summary": "Function wormhole_nec_zone_radius in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_exotic_volume_integral_phi0",
+      "type": "function",
+      "name": "wormhole_exotic_volume_integral_phi0",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1509,
+        1525
+      ],
+      "summary": "Function wormhole_exotic_volume_integral_phi0 in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_traversal_energy",
+      "type": "function",
+      "name": "wormhole_traversal_energy",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1528,
+        1538
+      ],
+      "summary": "Function wormhole_traversal_energy in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_qi_max_throat_radius",
+      "type": "function",
+      "name": "wormhole_qi_max_throat_radius",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1541,
+        1546
+      ],
+      "summary": "Function wormhole_qi_max_throat_radius in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:wormhole_self_checks",
+      "type": "function",
+      "name": "wormhole_self_checks",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1549,
+        1743
+      ],
+      "summary": "Function wormhole_self_checks in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:models/derivations.py:run_all",
+      "type": "function",
+      "name": "run_all",
+      "filePath": "models/derivations.py",
+      "lineRange": [
+        1772,
+        1773
+      ],
+      "summary": "Function run_all in derivations.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/chips.js",
+      "type": "file",
+      "name": "chips.js",
+      "filePath": "premium/js/chips.js",
+      "summary": "Source file chips.js (javascript, 34 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/chirp.js",
+      "type": "file",
+      "name": "chirp.js",
+      "filePath": "premium/js/chirp.js",
+      "summary": "Source file chirp.js (javascript, 237 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/counters.js",
+      "type": "file",
+      "name": "counters.js",
+      "filePath": "premium/js/counters.js",
+      "summary": "Source file counters.js (javascript, 67 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/emission.js",
+      "type": "file",
+      "name": "emission.js",
+      "filePath": "premium/js/emission.js",
+      "summary": "Source file emission.js (javascript, 69 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:premium/js/gwtc-explorer.js",
+      "type": "file",
+      "name": "gwtc-explorer.js",
+      "filePath": "premium/js/gwtc-explorer.js",
+      "summary": "Source file gwtc-explorer.js (javascript, 313 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/hero-canvas.js",
+      "type": "file",
+      "name": "hero-canvas.js",
+      "filePath": "premium/js/hero-canvas.js",
+      "summary": "Source file hero-canvas.js (javascript, 259 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/metric-lab.js",
+      "type": "file",
+      "name": "metric-lab.js",
+      "filePath": "premium/js/metric-lab.js",
+      "summary": "Source file metric-lab.js (javascript, 160 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/palette.js",
+      "type": "file",
+      "name": "palette.js",
+      "filePath": "premium/js/palette.js",
+      "summary": "Source file palette.js (javascript, 197 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/provenance.js",
+      "type": "file",
+      "name": "provenance.js",
+      "filePath": "premium/js/provenance.js",
+      "summary": "Source file provenance.js (javascript, 140 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/sandbox.js",
+      "type": "file",
+      "name": "sandbox.js",
+      "filePath": "premium/js/sandbox.js",
+      "summary": "Source file sandbox.js (javascript, 212 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:premium/js/wormhole-explorer.js",
+      "type": "file",
+      "name": "wormhole-explorer.js",
+      "filePath": "premium/js/wormhole-explorer.js",
+      "summary": "Source file wormhole-explorer.js (javascript, 306 lines): 0 function(s).",
+      "tags": [
+        "javascript",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/25_gw_real_analysis.ipynb",
+      "type": "file",
+      "name": "25_gw_real_analysis.ipynb",
+      "filePath": "notebooks/25_gw_real_analysis.ipynb",
+      "summary": "Notebook 25_gw_real_analysis.ipynb.",
+      "tags": [
+        "jupyter",
+        "notebook"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:notebooks/28_wormhole_traversal.ipynb",
+      "type": "file",
+      "name": "28_wormhole_traversal.ipynb",
+      "filePath": "notebooks/28_wormhole_traversal.ipynb",
+      "summary": "Notebook 28_wormhole_traversal.ipynb.",
+      "tags": [
+        "jupyter",
+        "notebook"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:scripts/agn_demographics.py",
+      "type": "file",
+      "name": "agn_demographics.py",
+      "filePath": "scripts/agn_demographics.py",
+      "summary": "Source file agn_demographics.py (python, 337 lines): 6 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        23,
+        42
+      ],
+      "summary": "Function build in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:summarise",
+      "type": "function",
+      "name": "summarise",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        45,
+        73
+      ],
+      "summary": "Function summarise in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:plot",
+      "type": "function",
+      "name": "plot",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        76,
+        137
+      ],
+      "summary": "Function plot in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:plotly_html",
+      "type": "function",
+      "name": "plotly_html",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        140,
+        221
+      ],
+      "summary": "Function plotly_html in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:report",
+      "type": "function",
+      "name": "report",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        224,
+        302
+      ],
+      "summary": "Function report in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/agn_demographics.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/agn_demographics.py",
+      "lineRange": [
+        305,
+        333
+      ],
+      "summary": "Function main in agn_demographics.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_agn_mass_figure.py",
+      "type": "file",
+      "name": "build_agn_mass_figure.py",
+      "filePath": "scripts/build_agn_mass_figure.py",
+      "summary": "Source file build_agn_mass_figure.py (python, 38 lines): 0 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_corbet_dashboard.py",
+      "type": "file",
+      "name": "build_corbet_dashboard.py",
+      "filePath": "scripts/build_corbet_dashboard.py",
+      "summary": "Source file build_corbet_dashboard.py (python, 72 lines): 0 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_eht_shadow_figure.py",
+      "type": "file",
+      "name": "build_eht_shadow_figure.py",
+      "filePath": "scripts/build_eht_shadow_figure.py",
+      "summary": "Source file build_eht_shadow_figure.py (python, 45 lines): 1 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/build_eht_shadow_figure.py:shadow_diam",
+      "type": "function",
+      "name": "shadow_diam",
+      "filePath": "scripts/build_eht_shadow_figure.py",
+      "lineRange": [
+        14,
+        17
+      ],
+      "summary": "Function shadow_diam in build_eht_shadow_figure.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/build_pta_figure.py",
+      "type": "file",
+      "name": "build_pta_figure.py",
+      "filePath": "scripts/build_pta_figure.py",
+      "summary": "Source file build_pta_figure.py (python, 47 lines): 0 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/download_gwosc.py",
+      "type": "file",
+      "name": "download_gwosc.py",
+      "filePath": "scripts/download_gwosc.py",
+      "summary": "Source file download_gwosc.py (python, 178 lines): 2 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/download_gwosc.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/download_gwosc.py",
+      "lineRange": [
+        20,
+        108
+      ],
+      "summary": "Function main in download_gwosc.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/download_gwosc.py:build_addendum",
+      "type": "function",
+      "name": "build_addendum",
+      "filePath": "scripts/download_gwosc.py",
+      "lineRange": [
+        111,
+        174
+      ],
+      "summary": "Function build_addendum in download_gwosc.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/exotic_discrimination.py",
+      "type": "file",
+      "name": "exotic_discrimination.py",
+      "filePath": "scripts/exotic_discrimination.py",
+      "summary": "Source file exotic_discrimination.py (python, 409 lines): 7 function(s).",
+      "tags": [
+        "python",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:a_for_eta",
+      "type": "function",
+      "name": "a_for_eta",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        24,
+        43
+      ],
+      "summary": "Function a_for_eta in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:build",
+      "type": "function",
+      "name": "build",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        46,
+        52
+      ],
+      "summary": "Function build in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:summarise",
+      "type": "function",
+      "name": "summarise",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        55,
+        74
+      ],
+      "summary": "Function summarise in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:plot",
+      "type": "function",
+      "name": "plot",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        77,
+        160
+      ],
+      "summary": "Function plot in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:plotly_html",
+      "type": "function",
+      "name": "plotly_html",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        163,
+        275
+      ],
+      "summary": "Function plotly_html in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:report",
+      "type": "function",
+      "name": "report",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        278,
+        379
+      ],
+      "summary": "Function report in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/exotic_discrimination.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/exotic_discrimination.py",
+      "lineRange": [
+        382,
+        405
+      ],
+      "summary": "Function main in exotic_discrimination.py.",
+      "tags": [
+        "python",
+        "function"
+      ],
+      "complexity": "simple"
     }
   ],
   "edges": [
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:_christoffel",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:_ricci",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_schwarzschild_ricci_flatness",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_photon_sphere",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_isco",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_kerr_horizons_ergosphere",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_morris_thorne_exotic_density",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_eddington_luminosity",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_hawking_temperature",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_friedmann_continuity",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_light_deflection",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_gw_time_to_coalescence",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_kerr_isco_spin",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_penrose_efficiency",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_shadow_diameter",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_kepler_third_law",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:derive_smbh_growth",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:models/derivations.py",
-      "target": "function:models/derivations.py:run_all",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
     {
       "source": "file:models/equations.py",
       "target": "function:models/equations.py:schwarzschild_radius",
@@ -4806,55 +5295,6 @@
       "weight": 1.0
     },
     {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:build",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:summarise",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:plot",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:plotly_html",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:report",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/agn_demographics.py",
-      "target": "function:scripts/agn_demographics.py:main",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/build_eht_shadow_figure.py",
-      "target": "function:scripts/build_eht_shadow_figure.py:shadow_diam",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
       "source": "file:scripts/compute_with_data.py",
       "target": "function:scripts/compute_with_data.py:gwtc_analysis",
       "type": "contains",
@@ -5100,13 +5540,6 @@
       "weight": 1.0
     },
     {
-      "source": "file:scripts/download_gwosc.py",
-      "target": "function:scripts/download_gwosc.py:main",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
       "source": "file:scripts/download_gwosc_o4.py",
       "target": "function:scripts/download_gwosc_o4.py:fetch_event_catalog",
       "type": "contains",
@@ -5312,55 +5745,6 @@
     {
       "source": "file:scripts/download_xray_binaries.py",
       "target": "function:scripts/download_xray_binaries.py:main",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:a_for_eta",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:build",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:summarise",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:plot",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:plotly_html",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:report",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/exotic_discrimination.py",
-      "target": "function:scripts/exotic_discrimination.py:main",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
@@ -5730,20 +6114,6 @@
       "weight": 1.0
     },
     {
-      "source": "file:scripts/verify_formulas.py",
-      "target": "function:scripts/verify_formulas.py:numerical_checks",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
-      "source": "file:scripts/verify_formulas.py",
-      "target": "function:scripts/verify_formulas.py:main",
-      "type": "contains",
-      "direction": "forward",
-      "weight": 1.0
-    },
-    {
       "source": "file:tests/test_analyses.py",
       "target": "function:tests/test_analyses.py:test_remnant_energetics_output",
       "type": "contains",
@@ -5777,6 +6147,480 @@
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
+    },
+    {
+      "source": "file:scripts/make_wormhole_figures.py",
+      "target": "function:scripts/make_wormhole_figures.py:embedding_profile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/make_wormhole_figures.py",
+      "target": "function:scripts/make_wormhole_figures.py:traversal_ratio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "function:scripts/verify_formulas.py:numerical_checks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "function:scripts/verify_formulas.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:_christoffel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:_ricci",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_schwarzschild_ricci_flatness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_photon_sphere",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_isco",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_kerr_horizons_ergosphere",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_morris_thorne_exotic_density",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_eddington_luminosity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_hawking_temperature",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_friedmann_continuity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_light_deflection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_gw_time_to_coalescence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_kerr_isco_spin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_penrose_efficiency",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_shadow_diameter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_kepler_third_law",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_smbh_growth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:_riemann_down",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_flare_out_embedding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_proper_distance_ellis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_geodesic_traversal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_tidal_components",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_exotic_volume_integral_ellis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_exotic_volume_integral_phi0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_anec_radial_null_ellis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:derive_wormhole_qi_throat_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_shape_function",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_redshift_function",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_metric_components",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_flare_out_parameter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_proper_distance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:_traversal_integrands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_traversal_proper_time",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_traversal_coordinate_time",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_tidal_acceleration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_exotic_volume_integral_ellis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_nec_zone_radius",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_exotic_volume_integral_phi0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_traversal_energy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_qi_max_throat_radius",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:wormhole_self_checks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/derivations.py",
+      "target": "function:models/derivations.py:run_all",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:summarise",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:plot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:plotly_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/agn_demographics.py",
+      "target": "function:scripts/agn_demographics.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/build_eht_shadow_figure.py",
+      "target": "function:scripts/build_eht_shadow_figure.py:shadow_diam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/download_gwosc.py",
+      "target": "function:scripts/download_gwosc.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/download_gwosc.py",
+      "target": "function:scripts/download_gwosc.py:build_addendum",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:a_for_eta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:build",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:summarise",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:plot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:plotly_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:report",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/exotic_discrimination.py",
+      "target": "function:scripts/exotic_discrimination.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:models/__init__.py",
+      "target": "file:models/equations.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7,
+      "recoveredFromImportMap": true
+    },
+    {
+      "source": "file:scripts/compute_with_data.py",
+      "target": "file:models/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7,
+      "recoveredFromImportMap": true
+    },
+    {
+      "source": "file:scripts/make_premium_figures.py",
+      "target": "file:models/equations.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7,
+      "recoveredFromImportMap": true
+    },
+    {
+      "source": "file:scripts/make_wormhole_figures.py",
+      "target": "file:models/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7,
+      "recoveredFromImportMap": true
+    },
+    {
+      "source": "file:scripts/verify_formulas.py",
+      "target": "file:models/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7,
+      "recoveredFromImportMap": true
     }
   ],
   "layers": [],

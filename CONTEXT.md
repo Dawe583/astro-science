@@ -142,6 +142,22 @@ cd /home/dawe/Projects/astro-science
 Pedagogical BH/WH fundamentals notebooks (`notebooks/01_black_hole_fundamentals.ipynb`,
 `02_geodesics_orbits.ipynb`). Contains a large `GW150914_28.zip` (~438 MB, gitignored).
 
+### 4.5 `local-volume`
+
+Complete census of all objects within 150 ly (46 pc) of the Sun: stars, exoplanets,
+and a documented null result for compact objects (no known BHs/neutron stars within
+150 ly; no galaxies or quasars — all extragalactic).
+
+- **Scripts** (`scripts/`): `download_local_volume_gaia.py` (Gaia DR3, 38,847 sources),
+  `download_local_volume_aps.py` (astrophysical params, 12,265), `download_local_volume_exoplanets.py`
+  (NASA Exoplanet Archive, 877 planets)
+- **Notebooks** (`notebooks/`): `01_local_volume_overview.ipynb`, `02_stellar_population.ipynb`
+- **Reports** (`reports/`): `local_volume_inventory.md`
+- **Data** (`data/processed/`): `local_volume_gaia.csv`, `local_volume_gaia_full.csv`,
+  `local_volume_aps.csv`, `local_volume_exoplanets.csv`
+
+**Status:** Data downloaded, notebooks execute. FITS (Gaia XP spectra, 2MASS/WISE) to follow.
+
 ### 4.4 `exoplanets`
 
 Exoplanet demographics, detection, and habitability project (NEW — previously undocumented).

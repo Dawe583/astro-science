@@ -16,6 +16,7 @@ Start with `CONTEXT.md` at the root — it is the authoritative index.
 | black-holes | `research/projects/black-holes/` | GWOSC/GWTC snapshot |
 | black-holes-wormholes | `research/projects/black-holes-wormholes/` | BH/WH fundamentals |
 | exoplanets | `research/projects/exoplanets/` | Exoplanet demographics/detection/habitability (NEW) |
+| local-volume | `research/projects/local-volume/` | Complete census within 150 ly of the Sun (stars, exoplanets, compact-object null result) |
 
 Always `cd` into the target project before running its scripts, and use the absolute
 venv python: `/home/dawe/Projects/astro-science/.venv/bin/python`.

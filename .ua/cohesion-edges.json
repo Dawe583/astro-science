@@ -1,7 +1,7 @@
 [
   {
     "source": "file:.opencode/loops/notebook-health.sh",
-    "target": "file:notebooks/25_gw_real_analysis.ipynb",
+    "target": "file:notebooks/28_wormhole_traversal.ipynb",
     "type": "depends_on",
     "description": "notebook-health.sh enumerates and executes every notebook under the two project notebook directories.",
     "weight": 0.6

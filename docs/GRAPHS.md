@@ -30,7 +30,7 @@ The code graph is split into two parts that are **merged**:
 ```
 .ua/
 ├── config.json                            # outputLanguage: en (committed)
-├── knowledge-graph.json                   # MERGED code graph — 1188 nodes / 1105 edges
+├── knowledge-graph.json                   # MERGED code graph — 1231 nodes / 1134 edges
 ├── meta.json                              # git hash + scan metadata (committed)
 ├── fingerprints.json                      # change detection (committed)
 ├── merge-report.json                      # subdomain merge report (committed)
@@ -49,7 +49,7 @@ committed graph files plus `config.json`, `meta.json`, `fingerprints.json`, and
 
 | Graph file | Nodes | Edges | Notes |
 |---|---|---|---|
-| `knowledge-graph.json` | 1188 | 1105 | 6 layers, 8 tour steps; root + subdomain merge + cohesion (root scope re-analyzed 2026-11-03; subdomain re-merge pending — subdomain was being written concurrently) |
+| `knowledge-graph.json` | 1231 | 1134 | 6 layers, 8 tour steps; root + subdomain merge + cohesion (subdomain refresh completed 2026-11-03) |
 | `domain-graph.json` | 58 | 59 | 4 domains, 10 flows, 44 steps, 5 cross-domain links |
 | `wiki-graph.json` | 82 | 176 | 17 articles, 24 entities, 34 claims, 128 wikilinks — 0 broken, 7 layers |
 
