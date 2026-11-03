@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "gitCommitHash": "dc2c02dae6ea49d93845d180b43654293f9c9172",
-  "generatedAt": "2026-10-28T20:03:38.022Z",
+  "gitCommitHash": "8b0121065ba08d0775fcefd32a0ed1d53ff36fbe",
+  "generatedAt": "2026-11-03T22:12:07.575Z",
   "files": {
     ".agents/skills/frontend-design/LICENSE.txt": {
       "contentHash": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
@@ -352,10 +352,24 @@
       "contentHash": "01c23c736c0ba7b42d66a9ee663ef0f2026eec2f722c9dd30c09a217f09c1208"
     },
     "research/projects/black-holes/data/black_holes.sqlite": {
-      "contentHash": "7484ce055e81abd6ee291ea26d5892743cf947453ba9d61927b506aa305224d4"
+      "filePath": "research/projects/black-holes/data/black_holes.sqlite",
+      "contentHash": "8d33382b584dba7d0929674427ece7876adf0ad6f2a1f9738a423feaf7a32960",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 22034,
+      "hasStructuralAnalysis": false
     },
     "research/projects/black-holes/reports/latest.md": {
-      "contentHash": "3177f780f6d3f455a3bb2b4a686d5202636a7ff4a7e5e12eb18fe6fa98a7b706"
+      "filePath": "research/projects/black-holes/reports/latest.md",
+      "contentHash": "ad382587fb9eb2c1b8ca471db22a8de337a953e5f81485936adf18ef3271185a",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 19,
+      "hasStructuralAnalysis": false
     },
     "research/projects/black-holes/scripts/update_gwosc.py": {
       "contentHash": "3edeec56204d1f72b15b18909892e4562331a3d68f624a27b2fe16d4fe222b02"
@@ -501,7 +515,7 @@
     "research/wiki/Raychaudhuri Equation.md": {
       "contentHash": "7cb6dc20f443246d126d80988cebd0ec1422c7ab8431016db17c564f84a94133"
     },
-    "research/wiki/Reissner-Nordstr\u00f6m Metric.md": {
+    "research/wiki/Reissner-Nordström Metric.md": {
       "contentHash": "ecbc279120cd2c447f52e79e199ff25fc110d6ef602921f084adfd7e01f4a489"
     },
     "research/wiki/Remnant Energetics.md": {

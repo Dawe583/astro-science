@@ -1,0 +1,815 @@
+{
+  "scriptCompleted": true,
+  "contentDigest": "b4d7fb64a309da8d405bb0bd93b677f005497b38b624f3e9b60b658a567ae132",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "infra"
+    },
+    {
+      "path": ".opencode/agent/astro-data-engineer.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/agent/astro-reviewer.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/agent/astro-theoretician.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/agent/astro-validator.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/command/astro-graphs.md",
+      "language": "markdown",
+      "sizeLines": 19,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/command/astro-notebook-health.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/command/astro-refresh-data.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/command/astro-refresh-graphs.md",
+      "language": "markdown",
+      "sizeLines": 44,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/command/astro-research.md",
+      "language": "markdown",
+      "sizeLines": 17,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/loops/README.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/loops/notebook-health.sh",
+      "language": "shell",
+      "sizeLines": 80,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/loops/orchestrator.sh",
+      "language": "shell",
+      "sizeLines": 71,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/loops/publish-site.sh",
+      "language": "shell",
+      "sizeLines": 24,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/loops/refresh-data.sh",
+      "language": "shell",
+      "sizeLines": 69,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/loops/refresh-graphs.sh",
+      "language": "shell",
+      "sizeLines": 156,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/loops/research-loop.sh",
+      "language": "shell",
+      "sizeLines": 59,
+      "fileCategory": "script"
+    },
+    {
+      "path": ".opencode/skill/astro-graphs.md",
+      "language": "markdown",
+      "sizeLines": 93,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/skill/astro-loops.md",
+      "language": "markdown",
+      "sizeLines": 65,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".opencode/skill/astro-science.md",
+      "language": "markdown",
+      "sizeLines": 65,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".ua/cohesion-edges.json",
+      "language": "json",
+      "sizeLines": 835,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/domain-graph.json",
+      "language": "json",
+      "sizeLines": 1275,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/exotic-compact-objects-knowledge-graph.json",
+      "language": "json",
+      "sizeLines": 1782,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/fingerprints.json",
+      "language": "json",
+      "sizeLines": 651,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/knowledge-graph.json",
+      "language": "json",
+      "sizeLines": 1579,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/merge-report.json",
+      "language": "json",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/meta.json",
+      "language": "json",
+      "sizeLines": 5,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".ua/tools/add-cohesion-edges.py",
+      "language": "python",
+      "sizeLines": 1000,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".ua/wiki-graph.json",
+      "language": "json",
+      "sizeLines": 2795,
+      "fileCategory": "config"
+    },
+    {
+      "path": "CONTEXT.md",
+      "language": "markdown",
+      "sizeLines": 326,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "FINAL_REPORT.md",
+      "language": "markdown",
+      "sizeLines": 426,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "GOAL.md",
+      "language": "markdown",
+      "sizeLines": 21,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Home.md",
+      "language": "markdown",
+      "sizeLines": 61,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "INSTALLATION_SUMMARY.md",
+      "language": "markdown",
+      "sizeLines": 310,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "NEW_TOOLS_SUMMARY.md",
+      "language": "markdown",
+      "sizeLines": 671,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 433,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "language": "markdown",
+      "sizeLines": 352,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "SPECIALIZED_TOOLS.md",
+      "language": "markdown",
+      "sizeLines": 325,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "TOOLS_LIST.md",
+      "language": "markdown",
+      "sizeLines": 342,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "Untitled.ipynb",
+      "language": "ipynb",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "WATCHDOG.yml",
+      "language": "yaml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "catalogs/galaxy_catalog.fits",
+      "language": "fits",
+      "sizeLines": 891,
+      "fileCategory": "code"
+    },
+    {
+      "path": "catalogs/sample_galaxies.fits",
+      "language": "fits",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "catalogs/star_catalog.fits",
+      "language": "fits",
+      "sizeLines": 2169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "check-environment.sh",
+      "language": "shell",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "cmb/cmb_map.fits",
+      "language": "fits",
+      "sizeLines": 5450,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmb/cmb_power_spectrum.fits",
+      "language": "fits",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "cmb/synthetic_cmb_map.fits",
+      "language": "fits",
+      "sizeLines": 1188,
+      "fileCategory": "code"
+    },
+    {
+      "path": "data/README.md",
+      "language": "markdown",
+      "sizeLines": 7,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "data/download_direct_data.py",
+      "language": "python",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "data/download_sample_data.py",
+      "language": "python",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "data/raw/exoplanets_confirmed.csv",
+      "language": "csv",
+      "sizeLines": 6452,
+      "fileCategory": "data"
+    },
+    {
+      "path": "docs/ASTRONOMICAL.md",
+      "language": "markdown",
+      "sizeLines": 335,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/AUTOMATION.md",
+      "language": "markdown",
+      "sizeLines": 151,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/DATA_PROVENANCE.md",
+      "language": "markdown",
+      "sizeLines": 65,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/GITHUB_TOOLS.md",
+      "language": "markdown",
+      "sizeLines": 105,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/GRAPHS.md",
+      "language": "markdown",
+      "sizeLines": 116,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "language": "markdown",
+      "sizeLines": 182,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "fits/synthetic_galaxy.fits",
+      "language": "fits",
+      "sizeLines": 10499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "language": "txt",
+      "sizeLines": 437,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "requirements.txt",
+      "language": "txt",
+      "sizeLines": 170,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/notes/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/README.md",
+      "language": "markdown",
+      "sizeLines": 3,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/black-holes-wormholes/notebooks/01_black_hole_fundamentals.ipynb",
+      "language": "ipynb",
+      "sizeLines": 293,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/black-holes-wormholes/notebooks/02_geodesics_orbits.ipynb",
+      "language": "ipynb",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/black-holes-wormholes/reports/isco_validation.md",
+      "language": "markdown",
+      "sizeLines": 212,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/black-holes-wormholes/results/isco_error_table.csv",
+      "language": "csv",
+      "sizeLines": 5,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/projects/black-holes-wormholes/scripts/kerr_isco_exact.py",
+      "language": "python",
+      "sizeLines": 570,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/black-holes/README.md",
+      "language": "markdown",
+      "sizeLines": 30,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/black-holes/data/black_holes.sqlite",
+      "language": "sqlite",
+      "sizeLines": 7670,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/black-holes/reports/latest.md",
+      "language": "markdown",
+      "sizeLines": 18,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/black-holes/scripts/update_gwosc.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/black-holes/scripts/update_heasarc_candidates.py",
+      "language": "python",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/data/processed/exoplanets.csv",
+      "language": "csv",
+      "sizeLines": 6452,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/projects/exoplanets/data/raw/exoplanets_confirmed.csv",
+      "language": "csv",
+      "sizeLines": 6452,
+      "fileCategory": "data"
+    },
+    {
+      "path": "research/projects/exoplanets/models/derivations.py",
+      "language": "python",
+      "sizeLines": 133,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/models/equations.py",
+      "language": "python",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/01_exoplanet_catalog.ipynb",
+      "language": "ipynb",
+      "sizeLines": 8856,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/02_detection_methods.ipynb",
+      "language": "ipynb",
+      "sizeLines": 8836,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/03_habitable_zone.ipynb",
+      "language": "ipynb",
+      "sizeLines": 11754,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/04_orbital_dynamics.ipynb",
+      "language": "ipynb",
+      "sizeLines": 1821,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/05_atmospheric_escape.ipynb",
+      "language": "ipynb",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/06_atmospheric_characterization.ipynb",
+      "language": "ipynb",
+      "sizeLines": 940,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/07_demographics.ipynb",
+      "language": "ipynb",
+      "sizeLines": 4490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/08_orbital_stability.ipynb",
+      "language": "ipynb",
+      "sizeLines": 987,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/09_atmospheric_retrieval.ipynb",
+      "language": "ipynb",
+      "sizeLines": 945,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/10_occurrence_rates.ipynb",
+      "language": "ipynb",
+      "sizeLines": 2862,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/notebooks/11_atmospheric_retrieval.ipynb",
+      "language": "ipynb",
+      "sizeLines": 941,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/figures/exoplanet_hz.html",
+      "language": "html",
+      "sizeLines": 10,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/figures/exoplanet_mass_radius.html",
+      "language": "html",
+      "sizeLines": 10,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/theory_atmospheric_escape.md",
+      "language": "markdown",
+      "sizeLines": 103,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/theory_demographics.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/theory_detection_methods.md",
+      "language": "markdown",
+      "sizeLines": 38,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/theory_habitability.md",
+      "language": "markdown",
+      "sizeLines": 92,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/premium/theory_orbital_dynamics.md",
+      "language": "markdown",
+      "sizeLines": 87,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/reports/demographics.md",
+      "language": "markdown",
+      "sizeLines": 33,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/reports/exoplanet_derivations_report.md",
+      "language": "markdown",
+      "sizeLines": 86,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/projects/exoplanets/results/exoplanet_derivation_checks.json",
+      "language": "json",
+      "sizeLines": 130,
+      "fileCategory": "config"
+    },
+    {
+      "path": "research/projects/exoplanets/scripts/download_exoplanets.py",
+      "language": "python",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/scripts/process_exoplanets.py",
+      "language": "python",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/projects/exoplanets/scripts/verify_formulas.py",
+      "language": "python",
+      "sizeLines": 292,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/scripts/check_environment.py",
+      "language": "python",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "research/wiki/Atmospheric Characterization.md",
+      "language": "markdown",
+      "sizeLines": 48,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Black Hole Accretion.md",
+      "language": "markdown",
+      "sizeLines": 34,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Christoffel Symbols.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Detection Methods.md",
+      "language": "markdown",
+      "sizeLines": 47,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Early Supermassive Black Hole Growth.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Exoplanets.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Fisher Information Matrix.md",
+      "language": "markdown",
+      "sizeLines": 40,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Geodesic Equations.md",
+      "language": "markdown",
+      "sizeLines": 45,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Gravitational Wave Analysis.md",
+      "language": "markdown",
+      "sizeLines": 35,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Gravitational-Wave Catalogs.md",
+      "language": "markdown",
+      "sizeLines": 36,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Habitability.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Hawking Radiation.md",
+      "language": "markdown",
+      "sizeLines": 43,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Kerr Metric.md",
+      "language": "markdown",
+      "sizeLines": 58,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Kerr-Newman Metric.md",
+      "language": "markdown",
+      "sizeLines": 49,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Quantum Gravity.md",
+      "language": "markdown",
+      "sizeLines": 39,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Raychaudhuri Equation.md",
+      "language": "markdown",
+      "sizeLines": 46,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Reissner-Nordström Metric.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Remnant Energetics.md",
+      "language": "markdown",
+      "sizeLines": 95,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Schwarzschild Metric.md",
+      "language": "markdown",
+      "sizeLines": 57,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/White Holes.md",
+      "language": "markdown",
+      "sizeLines": 42,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/Wormholes.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "research/wiki/index.md",
+      "language": "markdown",
+      "sizeLines": 53,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "simulations/gw_strain.fits",
+      "language": "fits",
+      "sizeLines": 648,
+      "fileCategory": "code"
+    },
+    {
+      "path": "simulations/nbody_snapshot.fits",
+      "language": "fits",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "simulations/xray_spectrum.fits",
+      "language": "fits",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "start-research.sh",
+      "language": "shell",
+      "sizeLines": 4,
+      "fileCategory": "script"
+    },
+    {
+      "path": "start.sh",
+      "language": "shell",
+      "sizeLines": 44,
+      "fileCategory": "script"
+    }
+  ],
+  "totalFiles": 130,
+  "filteredByIgnore": 0,
+  "estimatedComplexity": "moderate",
+  "failures": [],
+  "stats": {
+    "filesScanned": 130,
+    "byCategory": {
+      "infra": 1,
+      "docs": 66,
+      "script": 9,
+      "config": 11,
+      "code": 37,
+      "data": 4,
+      "markup": 2
+    },
+    "byLanguage": {
+      "yaml": 2,
+      "markdown": 64,
+      "shell": 9,
+      "json": 10,
+      "python": 12,
+      "ipynb": 14,
+      "fits": 10,
+      "csv": 4,
+      "txt": 2,
+      "sqlite": 1,
+      "html": 2
+    }
+  }
+}

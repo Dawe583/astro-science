@@ -1,6 +1,6 @@
 ---
 title: Data Provenance
-date: 2026-10-24
+date: 2026-11-03
 tags:
   - data
   - provenance
@@ -18,7 +18,7 @@ tags:
 
 | Dataset | Source | Script | Notes |
 |---|---|---|---|
-| GWTC events (391) | GWOSC eventapi | `download_gwosc.py`, `update_gwosc.py` | Real GW events, refreshed 2026-10-24 |
+| GWTC events (391) | GWOSC eventapi | `download_gwosc.py`, `update_gwosc.py` | Real GW events, refreshed 2026-11-03 |
 | HEASARC catalogs (xrbcat, ulxrbcat, m87cxo, sgraregcsc, …) | HEASARC TAP | `download_heasarc.py` | Real X-ray binary / source catalogs (SSL cert issue as of 2026-10-24; cached CSVs from earlier successful run are real) |
 | BlackCAT (tables A1–A4) | VizieR J/A+A/587/A61 | `download_blackcat.py` | Real dynamical BH measurements |
 | SDSS DR17/DR18 quasars | SDSS SkyServer | `download_sdss.py` | Real spectra/photometry |
@@ -62,5 +62,3 @@ These exist for pipeline validation only and **must not** be cited as measuremen
 Per `CONTEXT.md` §11: catalog values reported with confidence intervals; model-derived
 quantities (e.g. Hawking temperature) labeled as derived; never treat synthetic data
 as a population-unbiased sample.
-EOF
-echo "written"

@@ -62,4 +62,16 @@ both are time-related curiosities.
 
 See also: [[Schwarzschild Metric]], [[White Holes]], [[Raychaudhuri Equation]], [[Gravitational Wave Analysis]], [[Quantum Gravity]]
 
+## Traversal physics (2026-11-03)
+
+Phase F research thread: traversal proper time, tidal constraints, exotic-matter
+budget, and quantum-inequality position. Full derivation in
+`premium/theory_wormhole_traversal.md`; report in `reports/wormhole_traversal.md`.
+
+- Traversal time (Ellis, $L=10b_0$): $\Delta\tau \approx 6.64\times10^{-7}\,b_0/{\rm m}$ s at $0.1c$.
+- Tidal safety requires $b_0 \gtrsim 10^7$–$10^8$ m for a 2 m traveler.
+- Exotic budget: $M_{\rm eq}/M_\odot = 1.063775\times10^{-3}\,b_0/{\rm m}$ (Ellis).
+- QI ceiling $b_{0,{\rm QI}}\approx 0.49\,l_P$; ANEC integral $-5/(64b_0)<0$.
+- EHT anchors: Sgr A* / M87* shadow predictions 17.8 / 13.2 μas (predictions, not detections).
+
 Categories: Wormholes

@@ -1,0 +1,1212 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "louvain",
+  "totalFiles": 122,
+  "totalBatches": 7,
+  "exportsByPath": {
+    "models/__init__.py": [],
+    "models/derivations.py": [
+      "_christoffel",
+      "_ricci",
+      "derive_schwarzschild_ricci_flatness",
+      "derive_photon_sphere",
+      "derive_isco",
+      "derive_kerr_horizons_ergosphere",
+      "derive_morris_thorne_exotic_density",
+      "derive_eddington_luminosity",
+      "derive_hawking_temperature",
+      "derive_friedmann_continuity",
+      "derive_light_deflection",
+      "derive_gw_time_to_coalescence",
+      "derive_kerr_isco_spin",
+      "derive_penrose_efficiency",
+      "derive_shadow_diameter",
+      "derive_kepler_third_law",
+      "derive_kepler_third_law",
+      "run_all"
+    ],
+    "models/equations.py": [
+      "schwarzschild_radius",
+      "hawking_temperature",
+      "isco_radius_schwarzschild",
+      "photon_sphere_radius_schwarzschild",
+      "kerr_horizon_radius",
+      "ergosphere_radius_equatorial",
+      "morris_thorne_shape_function",
+      "morris_thorne_redshift_function",
+      "wormhole_throat_radius",
+      "morris_thorne_metric_components",
+      "white_hole_time_reversed_schwarzschild",
+      "white_hole_negative_mass_radius",
+      "isco_radius_kerr",
+      "effective_potential_schwarzschild",
+      "flare_out_condition",
+      "morris_thorne_embedding_z",
+      "hawking_power",
+      "hawking_lifetime",
+      "white_hole_hawking_analog",
+      "white_hole_instability_timescale",
+      "white_hole_perturbation_growth",
+      "compactness"
+    ],
+    "models/formulas.py": [
+      "kerr_isco_radius",
+      "isco_frequency",
+      "eddington_luminosity",
+      "eddington_mass_accretion_rate",
+      "gw_chirp_mass",
+      "gw_symmetric_mass_ratio",
+      "gw_delta",
+      "gw_time_to_coalescence",
+      "gw_peak_strain_leading_order",
+      "shadow_diameter_schwarzschild",
+      "shadow_angular_diameter",
+      "tidal_deformability",
+      "penrose_max_extraction_efficiency",
+      "penrose_max_specific_energy_spin",
+      "friedmann_H"
+    ],
+    "notebooks/01_exotic_compact_objects_fundamentals.ipynb": [],
+    "notebooks/02_extended_models.ipynb": [],
+    "notebooks/03_data_exploration.ipynb": [],
+    "notebooks/04_white_hole_instability.ipynb": [],
+    "notebooks/05_equation_derivations.ipynb": [],
+    "notebooks/06_visual_models.ipynb": [],
+    "notebooks/07_geodesics.ipynb": [],
+    "notebooks/08_sympy_christoffel.ipynb": [],
+    "notebooks/09_white_hole_extended.ipynb": [],
+    "notebooks/10_complete_theory.ipynb": [],
+    "notebooks/11_data_synthesis.ipynb": [],
+    "notebooks/12_advanced_models.ipynb": [],
+    "notebooks/13_white_hole_deep_dive.ipynb": [],
+    "notebooks/14_rebound_nbody.ipynb": [],
+    "notebooks/15_einsteinpy_geodesics.ipynb": [],
+    "notebooks/16_yt_cosmology.ipynb": [],
+    "notebooks/17_gw_analysis.ipynb": [],
+    "notebooks/18_ml_astronomy.ipynb": [],
+    "notebooks/19_gw_strain_analysis.ipynb": [],
+    "notebooks/20_gwtc_remnant_catalog.ipynb": [],
+    "notebooks/21_agn_mass_catalog.ipynb": [],
+    "notebooks/22_blackcat_dynamical_catalog.ipynb": [],
+    "notebooks/23_early_smbh_growth.ipynb": [],
+    "notebooks/24_quantum_gravity.ipynb": [],
+    "scripts/add_bh_derived_quantities.py": [],
+    "scripts/agn_demographics.py": [
+      "build",
+      "summarise",
+      "plot",
+      "plotly_html",
+      "report",
+      "main"
+    ],
+    "scripts/build_agn_reverberation_dashboard.py": [],
+    "scripts/build_blackcat_dashboard.py": [],
+    "scripts/build_gwtc_remnant_dashboard.py": [],
+    "scripts/build_theoretical_data.py": [],
+    "scripts/compute_with_data.py": [
+      "gwtc_analysis",
+      "strain_quicklook",
+      "sxs_characterisation",
+      "main"
+    ],
+    "scripts/create_animations.py": [
+      "update_bh",
+      "particle_orbit",
+      "update_kerr",
+      "wormhole_embedding",
+      "update_wh",
+      "update_wh_exp",
+      "cmb_spectrum",
+      "update_cmb",
+      "update_mem",
+      "incoming_particle",
+      "escaping_particle",
+      "captured_particle",
+      "update_pen"
+    ],
+    "scripts/download_blackcat.py": [],
+    "scripts/download_eht.py": [
+      "main"
+    ],
+    "scripts/download_gaia_dr3.py": [
+      "configure_gaia",
+      "query_bh_candidates",
+      "query_known_bh_systems",
+      "query_wide_binaries",
+      "save_data",
+      "main"
+    ],
+    "scripts/download_gwb.py": [
+      "download_nanograv_15yr",
+      "download_epta_dr2",
+      "download_ppta_dr2",
+      "download_ipta_dr2",
+      "download_gwb_spectra",
+      "create_gwb_summary",
+      "main"
+    ],
+    "scripts/download_gwosc.py": [
+      "main"
+    ],
+    "scripts/download_gwosc_o4.py": [
+      "fetch_event_catalog",
+      "filter_o4_events",
+      "download_strain_data",
+      "download_file",
+      "save_event_metadata",
+      "main"
+    ],
+    "scripts/download_heasarc.py": [
+      "tap",
+      "main"
+    ],
+    "scripts/download_planck.py": [
+      "download_planck_power_spectra",
+      "generate_camb_power_spectra",
+      "download_planck_lensing_map",
+      "generate_planck_likelihood_data",
+      "main"
+    ],
+    "scripts/download_sdss.py": [
+      "configure_sdss",
+      "query_sdss_dr17_quasars",
+      "query_sdss_dr18_quasars",
+      "query_sdss_bh_masses",
+      "query_sdss_xray_agn",
+      "save_data",
+      "main"
+    ],
+    "scripts/download_strain_marquee.py": [
+      "sha_short",
+      "download",
+      "main"
+    ],
+    "scripts/download_sxs.py": [
+      "main"
+    ],
+    "scripts/download_xray_binaries.py": [
+      "create_maxi_catalog",
+      "create_swift_bat_catalog",
+      "create_nicer_catalog",
+      "create_xray_binary_catalogs",
+      "create_major_surveys_summary",
+      "main"
+    ],
+    "scripts/exotic_discrimination.py": [
+      "a_for_eta",
+      "build",
+      "summarise",
+      "plot",
+      "plotly_html",
+      "report",
+      "main"
+    ],
+    "scripts/make_notebook.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook10.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook11.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook12.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook13.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook2.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook3.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook4.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook5.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook6.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook7.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook8.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_notebook9.py": [
+      "md",
+      "code"
+    ],
+    "scripts/make_premium_figures.py": [],
+    "scripts/process_blackcat.py": [
+      "read_table"
+    ],
+    "scripts/qnm_kerr.py": [
+      "isco_radius",
+      "photon_sphere_radius",
+      "qnm_eikonal",
+      "q_factor",
+      "build_table",
+      "summarise",
+      "plot",
+      "plotly_html",
+      "report",
+      "main"
+    ],
+    "scripts/sxs_waveform_analysis.py": [
+      "remnant_spin",
+      "isco_radius",
+      "isco_frequency",
+      "qnm_frequency",
+      "build",
+      "summarise",
+      "plot",
+      "plotly_html",
+      "report",
+      "main"
+    ],
+    "scripts/update_gwosc_gwtc5.py": [
+      "main"
+    ],
+    "scripts/verify_formulas.py": [
+      "numerical_checks",
+      "main"
+    ],
+    "tests/test_analyses.py": [
+      "test_remnant_energetics_output",
+      "test_exotic_discrimination_output",
+      "test_agn_demographics_output",
+      "test_figures_exist",
+      "test_site_pages_exist"
+    ],
+    "theory.tex": []
+  },
+  "batches": [
+    {
+      "batchIndex": 1,
+      "files": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "language": "yaml",
+          "sizeLines": 99,
+          "fileCategory": "infra"
+        }
+      ],
+      "batchImportData": {
+        ".github/workflows/ci.yml": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 2,
+      "files": [
+        {
+          "path": "premium/early_smbh_growth.md",
+          "language": "markdown",
+          "sizeLines": 61,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/quantum_gravity.md",
+          "language": "markdown",
+          "sizeLines": 180,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_bh_perturbation.md",
+          "language": "markdown",
+          "sizeLines": 579,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_black_holes.md",
+          "language": "markdown",
+          "sizeLines": 792,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_christoffel_kerr.md",
+          "language": "markdown",
+          "sizeLines": 968,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_fisher_matrix.md",
+          "language": "markdown",
+          "sizeLines": 688,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_geodesic_equations.md",
+          "language": "markdown",
+          "sizeLines": 707,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_kerr_newman.md",
+          "language": "markdown",
+          "sizeLines": 601,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_kerr_newman_adm.md",
+          "language": "markdown",
+          "sizeLines": 868,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_raychaudhuri.md",
+          "language": "markdown",
+          "sizeLines": 565,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_reissner_nordstrom.md",
+          "language": "markdown",
+          "sizeLines": 518,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_white_holes.md",
+          "language": "markdown",
+          "sizeLines": 692,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "premium/theory_wormholes.md",
+          "language": "markdown",
+          "sizeLines": 812,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "premium/early_smbh_growth.md": [],
+        "premium/quantum_gravity.md": [],
+        "premium/theory_bh_perturbation.md": [],
+        "premium/theory_black_holes.md": [],
+        "premium/theory_christoffel_kerr.md": [],
+        "premium/theory_fisher_matrix.md": [],
+        "premium/theory_geodesic_equations.md": [],
+        "premium/theory_kerr_newman.md": [],
+        "premium/theory_kerr_newman_adm.md": [],
+        "premium/theory_raychaudhuri.md": [],
+        "premium/theory_reissner_nordstrom.md": [],
+        "premium/theory_white_holes.md": [],
+        "premium/theory_wormholes.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 3,
+      "files": [
+        {
+          "path": "reports/agn_demographics.md",
+          "language": "markdown",
+          "sizeLines": 40,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/compute_data_report.md",
+          "language": "markdown",
+          "sizeLines": 45,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/derivations_report.md",
+          "language": "markdown",
+          "sizeLines": 131,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/exotic_discrimination.md",
+          "language": "markdown",
+          "sizeLines": 72,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/gwosc_latest.md",
+          "language": "markdown",
+          "sizeLines": 6,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/qnm_kerr.md",
+          "language": "markdown",
+          "sizeLines": 34,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-214548.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-221453.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-221955.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-230050.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-230545.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-230615.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-230638.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-230651.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231017.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231400.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231419.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231449.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231647.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-231750.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "reports/agn_demographics.md": [],
+        "reports/compute_data_report.md": [],
+        "reports/derivations_report.md": [],
+        "reports/exotic_discrimination.md": [],
+        "reports/gwosc_latest.md": [],
+        "reports/qnm_kerr.md": [],
+        "reports/refresh-20261024-214548.md": [],
+        "reports/refresh-20261024-221453.md": [],
+        "reports/refresh-20261024-221955.md": [],
+        "reports/refresh-20261024-230050.md": [],
+        "reports/refresh-20261024-230545.md": [],
+        "reports/refresh-20261024-230615.md": [],
+        "reports/refresh-20261024-230638.md": [],
+        "reports/refresh-20261024-230651.md": [],
+        "reports/refresh-20261024-231017.md": [],
+        "reports/refresh-20261024-231400.md": [],
+        "reports/refresh-20261024-231419.md": [],
+        "reports/refresh-20261024-231449.md": [],
+        "reports/refresh-20261024-231647.md": [],
+        "reports/refresh-20261024-231750.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 4,
+      "files": [
+        {
+          "path": "reports/refresh-20261024-232428.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-232452.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-232533.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-232827.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-233835.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-235120.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261024-235840.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-000519.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-000959.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-001502.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-001901.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-002309.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/refresh-20261025-002603.md",
+          "language": "markdown",
+          "sizeLines": 5,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/summary.md",
+          "language": "markdown",
+          "sizeLines": 23,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "reports/sxs_waveform_analysis.md",
+          "language": "markdown",
+          "sizeLines": 50,
+          "fileCategory": "docs"
+        }
+      ],
+      "batchImportData": {
+        "reports/refresh-20261024-232428.md": [],
+        "reports/refresh-20261024-232452.md": [],
+        "reports/refresh-20261024-232533.md": [],
+        "reports/refresh-20261024-232827.md": [],
+        "reports/refresh-20261024-233835.md": [],
+        "reports/refresh-20261024-235120.md": [],
+        "reports/refresh-20261024-235840.md": [],
+        "reports/refresh-20261025-000519.md": [],
+        "reports/refresh-20261025-000959.md": [],
+        "reports/refresh-20261025-001502.md": [],
+        "reports/refresh-20261025-001901.md": [],
+        "reports/refresh-20261025-002309.md": [],
+        "reports/refresh-20261025-002603.md": [],
+        "reports/summary.md": [],
+        "reports/sxs_waveform_analysis.md": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 5,
+      "files": [
+        {
+          "path": "README.md",
+          "language": "markdown",
+          "sizeLines": 122,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "THEORY.md",
+          "language": "markdown",
+          "sizeLines": 96,
+          "fileCategory": "docs"
+        },
+        {
+          "path": "graphify-out/cache/stat-index.json",
+          "language": "json",
+          "sizeLines": 0,
+          "fileCategory": "config"
+        },
+        {
+          "path": "models/__init__.py",
+          "language": "python",
+          "sizeLines": 2,
+          "fileCategory": "code"
+        },
+        {
+          "path": "models/derivations.py",
+          "language": "python",
+          "sizeLines": 690,
+          "fileCategory": "code"
+        },
+        {
+          "path": "models/equations.py",
+          "language": "python",
+          "sizeLines": 152,
+          "fileCategory": "code"
+        },
+        {
+          "path": "models/formulas.py",
+          "language": "python",
+          "sizeLines": 170,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/01_exotic_compact_objects_fundamentals.ipynb",
+          "language": "ipynb",
+          "sizeLines": 216,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/02_extended_models.ipynb",
+          "language": "ipynb",
+          "sizeLines": 203,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/03_data_exploration.ipynb",
+          "language": "ipynb",
+          "sizeLines": 105,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/04_white_hole_instability.ipynb",
+          "language": "ipynb",
+          "sizeLines": 125,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/05_equation_derivations.ipynb",
+          "language": "ipynb",
+          "sizeLines": 300,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/06_visual_models.ipynb",
+          "language": "ipynb",
+          "sizeLines": 129,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/07_geodesics.ipynb",
+          "language": "ipynb",
+          "sizeLines": 127,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/08_sympy_christoffel.ipynb",
+          "language": "ipynb",
+          "sizeLines": 142,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/09_white_hole_extended.ipynb",
+          "language": "ipynb",
+          "sizeLines": 101,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/10_complete_theory.ipynb",
+          "language": "ipynb",
+          "sizeLines": 220,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/11_data_synthesis.ipynb",
+          "language": "ipynb",
+          "sizeLines": 96,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/12_advanced_models.ipynb",
+          "language": "ipynb",
+          "sizeLines": 130,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/13_white_hole_deep_dive.ipynb",
+          "language": "ipynb",
+          "sizeLines": 126,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/14_rebound_nbody.ipynb",
+          "language": "ipynb",
+          "sizeLines": 110,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/15_einsteinpy_geodesics.ipynb",
+          "language": "ipynb",
+          "sizeLines": 105,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/16_yt_cosmology.ipynb",
+          "language": "ipynb",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/17_gw_analysis.ipynb",
+          "language": "ipynb",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/18_ml_astronomy.ipynb",
+          "language": "ipynb",
+          "sizeLines": 98,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "README.md": [],
+        "THEORY.md": [],
+        "graphify-out/cache/stat-index.json": [],
+        "models/__init__.py": [],
+        "models/derivations.py": [],
+        "models/equations.py": [],
+        "models/formulas.py": [],
+        "notebooks/01_exotic_compact_objects_fundamentals.ipynb": [],
+        "notebooks/02_extended_models.ipynb": [],
+        "notebooks/03_data_exploration.ipynb": [],
+        "notebooks/04_white_hole_instability.ipynb": [],
+        "notebooks/05_equation_derivations.ipynb": [],
+        "notebooks/06_visual_models.ipynb": [],
+        "notebooks/07_geodesics.ipynb": [],
+        "notebooks/08_sympy_christoffel.ipynb": [],
+        "notebooks/09_white_hole_extended.ipynb": [],
+        "notebooks/10_complete_theory.ipynb": [],
+        "notebooks/11_data_synthesis.ipynb": [],
+        "notebooks/12_advanced_models.ipynb": [],
+        "notebooks/13_white_hole_deep_dive.ipynb": [],
+        "notebooks/14_rebound_nbody.ipynb": [],
+        "notebooks/15_einsteinpy_geodesics.ipynb": [],
+        "notebooks/16_yt_cosmology.ipynb": [],
+        "notebooks/17_gw_analysis.ipynb": [],
+        "notebooks/18_ml_astronomy.ipynb": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 6,
+      "files": [
+        {
+          "path": "notebooks/19_gw_strain_analysis.ipynb",
+          "language": "ipynb",
+          "sizeLines": 164,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/20_gwtc_remnant_catalog.ipynb",
+          "language": "ipynb",
+          "sizeLines": 66,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/21_agn_mass_catalog.ipynb",
+          "language": "ipynb",
+          "sizeLines": 65,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/22_blackcat_dynamical_catalog.ipynb",
+          "language": "ipynb",
+          "sizeLines": 83,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/23_early_smbh_growth.ipynb",
+          "language": "ipynb",
+          "sizeLines": 782,
+          "fileCategory": "code"
+        },
+        {
+          "path": "notebooks/24_quantum_gravity.ipynb",
+          "language": "ipynb",
+          "sizeLines": 787,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/add_bh_derived_quantities.py",
+          "language": "python",
+          "sizeLines": 15,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/agn_demographics.py",
+          "language": "python",
+          "sizeLines": 201,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/build_agn_reverberation_dashboard.py",
+          "language": "python",
+          "sizeLines": 23,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/build_blackcat_dashboard.py",
+          "language": "python",
+          "sizeLines": 24,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/build_gwtc_remnant_dashboard.py",
+          "language": "python",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/build_theoretical_data.py",
+          "language": "python",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/compute_with_data.py",
+          "language": "python",
+          "sizeLines": 509,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/create_animations.py",
+          "language": "python",
+          "sizeLines": 1014,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_blackcat.py",
+          "language": "python",
+          "sizeLines": 24,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_eht.py",
+          "language": "python",
+          "sizeLines": 79,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_gaia_dr3.py",
+          "language": "python",
+          "sizeLines": 176,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_gwb.py",
+          "language": "python",
+          "sizeLines": 489,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_gwosc.py",
+          "language": "python",
+          "sizeLines": 89,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_gwosc_o4.py",
+          "language": "python",
+          "sizeLines": 167,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_heasarc.py",
+          "language": "python",
+          "sizeLines": 58,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_planck.py",
+          "language": "python",
+          "sizeLines": 220,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_sdss.py",
+          "language": "python",
+          "sizeLines": 170,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_strain_marquee.py",
+          "language": "python",
+          "sizeLines": 119,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/download_sxs.py",
+          "language": "python",
+          "sizeLines": 82,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "notebooks/19_gw_strain_analysis.ipynb": [],
+        "notebooks/20_gwtc_remnant_catalog.ipynb": [],
+        "notebooks/21_agn_mass_catalog.ipynb": [],
+        "notebooks/22_blackcat_dynamical_catalog.ipynb": [],
+        "notebooks/23_early_smbh_growth.ipynb": [],
+        "notebooks/24_quantum_gravity.ipynb": [],
+        "scripts/add_bh_derived_quantities.py": [],
+        "scripts/agn_demographics.py": [],
+        "scripts/build_agn_reverberation_dashboard.py": [],
+        "scripts/build_blackcat_dashboard.py": [],
+        "scripts/build_gwtc_remnant_dashboard.py": [],
+        "scripts/build_theoretical_data.py": [],
+        "scripts/compute_with_data.py": [],
+        "scripts/create_animations.py": [],
+        "scripts/download_blackcat.py": [],
+        "scripts/download_eht.py": [],
+        "scripts/download_gaia_dr3.py": [],
+        "scripts/download_gwb.py": [],
+        "scripts/download_gwosc.py": [],
+        "scripts/download_gwosc_o4.py": [],
+        "scripts/download_heasarc.py": [],
+        "scripts/download_planck.py": [],
+        "scripts/download_sdss.py": [],
+        "scripts/download_strain_marquee.py": [],
+        "scripts/download_sxs.py": []
+      },
+      "neighborMap": {}
+    },
+    {
+      "batchIndex": 7,
+      "files": [
+        {
+          "path": "scripts/download_xray_binaries.py",
+          "language": "python",
+          "sizeLines": 601,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/exotic_discrimination.py",
+          "language": "python",
+          "sizeLines": 281,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook.py",
+          "language": "python",
+          "sizeLines": 108,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook10.py",
+          "language": "python",
+          "sizeLines": 149,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook11.py",
+          "language": "python",
+          "sizeLines": 60,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook12.py",
+          "language": "python",
+          "sizeLines": 68,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook13.py",
+          "language": "python",
+          "sizeLines": 67,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook2.py",
+          "language": "python",
+          "sizeLines": 100,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook3.py",
+          "language": "python",
+          "sizeLines": 55,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook4.py",
+          "language": "python",
+          "sizeLines": 66,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook5.py",
+          "language": "python",
+          "sizeLines": 139,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook6.py",
+          "language": "python",
+          "sizeLines": 79,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook7.py",
+          "language": "python",
+          "sizeLines": 77,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook8.py",
+          "language": "python",
+          "sizeLines": 85,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_notebook9.py",
+          "language": "python",
+          "sizeLines": 54,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/make_premium_figures.py",
+          "language": "python",
+          "sizeLines": 80,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/process_blackcat.py",
+          "language": "python",
+          "sizeLines": 27,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/qnm_kerr.py",
+          "language": "python",
+          "sizeLines": 219,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/sxs_waveform_analysis.py",
+          "language": "python",
+          "sizeLines": 375,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/update_gwosc_gwtc5.py",
+          "language": "python",
+          "sizeLines": 113,
+          "fileCategory": "code"
+        },
+        {
+          "path": "scripts/verify_formulas.py",
+          "language": "python",
+          "sizeLines": 301,
+          "fileCategory": "code"
+        },
+        {
+          "path": "tests/test_analyses.py",
+          "language": "python",
+          "sizeLines": 44,
+          "fileCategory": "code"
+        },
+        {
+          "path": "theory.tex",
+          "language": "tex",
+          "sizeLines": 32,
+          "fileCategory": "code"
+        }
+      ],
+      "batchImportData": {
+        "scripts/download_xray_binaries.py": [],
+        "scripts/exotic_discrimination.py": [],
+        "scripts/make_notebook.py": [],
+        "scripts/make_notebook10.py": [],
+        "scripts/make_notebook11.py": [],
+        "scripts/make_notebook12.py": [],
+        "scripts/make_notebook13.py": [],
+        "scripts/make_notebook2.py": [],
+        "scripts/make_notebook3.py": [],
+        "scripts/make_notebook4.py": [],
+        "scripts/make_notebook5.py": [],
+        "scripts/make_notebook6.py": [],
+        "scripts/make_notebook7.py": [],
+        "scripts/make_notebook8.py": [],
+        "scripts/make_notebook9.py": [],
+        "scripts/make_premium_figures.py": [],
+        "scripts/process_blackcat.py": [],
+        "scripts/qnm_kerr.py": [],
+        "scripts/sxs_waveform_analysis.py": [],
+        "scripts/update_gwosc_gwtc5.py": [],
+        "scripts/verify_formulas.py": [],
+        "tests/test_analyses.py": [],
+        "theory.tex": []
+      },
+      "neighborMap": {}
+    }
+  ]
+}
